@@ -49,7 +49,7 @@
     </div>
 </div>
 <div class="about-container  ">
-    <div class="left-part-about ">
+    <div class="left-part-about" id="about-header-block">
         <h1 class="header-label" id="about-header">
             <span>zrobym</span>
             <br>
@@ -100,7 +100,7 @@
 </div>
 <div class="black-background">
     <div class="about-container ">
-        <div class="left-part-about black">
+        <div class="left-part-about black" id="about-black-header-block">
             <h1 class="header-label" id="about-black-header">
             <span>we design
             </span>
@@ -130,7 +130,7 @@
     </div>
     <div class="map-container">
         <div class="map">
-            <h3 class="map-header-label">Работаем в <span class="number">13<span> городах :</h3>
+            <h3 class="map-header-label">Наши представители в 13 городах :</h3>
             <span class="large-label-city first-line-city" style="top: 70px;">Шанхай</span>
             <span class="medium-label-city first-line-city" style="top: 195px;">Москва</span>
             <span class="small-label-city first-line-city" style="top: 245px;">Гданьск</span>
@@ -159,7 +159,7 @@
     <label for="tab-4" class="label" onclick="selectTab('tab-4',3)">Магазин готовых проектов</label>
 </div>
 <div class="tab-1" id="panel">
-    <div class="panel">
+    <div class="panel" id="panel-header-block">
         <div class="left-part-slide black">
             <h1 class="header-label" id="panel-header">
                 <span class="light-font">То, чем мы</span> <br> <span><b>гордимся</b></span>
@@ -179,30 +179,30 @@
     </div>
 </div>
 <div class="philosophy-container">
-    <div class="philosophy-left-block">
+    <div class="philosophy-left-block" id="philosophy-header-block">
         <h1 class="header-label" id="philosophy-header">
             <span>Философия</span>
             <br><span class="light-font">Zrobym</span>
             <br><span class="light-font">Architects</span>
         </h1>
-        <div class="philosophy-numbers-block">
+        <div class="philosophy-numbers-block" id="philosophy-numbers-block">
             <div class="item">
-                <span class="number">
+                <span class="number number-first">
                     534
                 </span>
-                <span class="text">Разработанных проектов</span>
+                <span class="text">Объектов всего</span>
             </div>
             <div class="item">
-                <span class="number">
-                    534
+                <span class="number number-second">
+                    94
                 </span>
-                <span class="text">Разработано проектов</span>
+                <span class="text">Объектов реализованно</span>
             </div>
             <div class="item">
-                <span class="number">
-                    534
+                <span class="number number-third">
+                    227
                 </span>
-                <span class="text">Разработано проектов</span>
+                <span class="text">Публикаций в прессе</span>
             </div>
         </div>
     </div>
@@ -223,16 +223,16 @@
             <div class="rev-button">
                 <span>Начнем проект вместе</span>
             </div>
-            <!--<button class="btn-3">-->
-                <!--<span>Начнем проект вместе</span>-->
-            <!--</button>-->
+            <!--<div class="button btn-3">-->
+            <!--<span>Начнем проект вместе</span>-->
+            <!--</div>-->
         </div>
     </div>
 </div>
 <div class="team-container" id="animate-area">
     <div class="circle"></div>
     <div class="team-block">
-        <div class="team-block-header">
+        <div class="header-label" id="team-block-header">
             <span><b>Главное</b></span>
         </div>
         <div class="team-block-text">
@@ -324,7 +324,7 @@
         </div>
     </div>
 </div>
-<div class="black-background">
+<div class="black-background" id="footer-header-block">
     <div class="footer black">
         <h1 class="header-label" id="footer-header">
             <span> контакты</span>
@@ -356,19 +356,14 @@
             </div>
             <div class="item">
                 <h3>Zrobym architects</h3>
-                <p>
-                    <h5>Минск:</h5>
-                    <div>+375 29 3650669 Андрусь</div>
-                    <div> +375 44 5180676 Алексей</div>
-                </p>
-                <p>
-                    <h5>Нью-Йорк:</h5>
+                <h5>Минск:</h5>
+                <div>+375 29 3650669 Андрусь</div>
                 <div> +375 44 5180676 Алексей</div>
-                </p>
-                <p>
-                    <h5>Шанхай:</h5>
+
+                <h5>Нью-Йорк:</h5>
+                <div> +375 44 5180676 Алексей</div>
+                <h5>Шанхай:</h5>
                 <div>+375 44 5180676 Алексей</div>
-                </p>
             </div>
             <div class="item">
                 <h3>By furniture</h3>
@@ -382,7 +377,7 @@
             <div class="item">
             </div>
             <div class="item">
-                <div style="margin-left: 10px">
+                <div style="margin: 50px 10px">
                     <div class="rev-button white">
                         <span>Контакты во всех странах</span>
                     </div>
@@ -463,9 +458,9 @@
     });
     $("#open-input").focus(function () {
         $("#feedback-input-block").addClass('height-auto');
+        $(".confirm-block").addClass('height-auto');
         $(".feedback-input").addClass('open-block');
-        $("#open-input").addClass('full')
-        $(".confirm-block").css('display', 'flex');
+        $("#open-input").addClass('full');
     });
     $('.arrow').click(function () {
         var win = $(window).height();
@@ -475,9 +470,7 @@
         return false;
     });
     $(window).scroll(function () {
-        $('.anim-about').css({
-            'top': 200-($(this).scrollTop() / 2) + "px"
-        });
+
     });
 </script>
 <script async>
@@ -524,106 +517,109 @@
         ' планировку, материалы фасада, кровли, а поможем вам адаптировать проект под ваш бюджет.'
     ];
 
-    $(document).ready(function(){
+    $(document).ready(function () {
         document.getElementById('panel-description').innerText = panelDescriptions[0];
         document.getElementById('panel-subheader').innerText = panelHeaders[0];
     });
 
-    function selectTab(id,count) {
+    function selectTab(id, count) {
         $('.right-part-slide').addClass('rev-slide');
         document.getElementById('panel').className = '';
         document.getElementById('panel').classList.add(id);
         document.getElementById('panel-description').innerText = panelDescriptions[count];
         document.getElementById('panel-subheader').innerText = panelHeaders[count];
-        setTimeout( () => {
+        setTimeout(() => {
             $('.right-part-slide').removeClass('rev-slide');
-        },1500);
+        }, 1500);
     }
 
-    var $window = $(window);
-    var $elem2 = $("#about-header");
-    var $elem3 = $("#about-black-header");
-    var $elem4 = $("#panel-header");
-    var $elem5 = $("#philosophy-header");
-    var $elem6 = $("#footer-header");
-    var $elem7 = $(".philosophy-numbers-block");
-    var $elem8 = $(".team-block-header");
-    var $button = $(".button");
+    const aboutHeaderBlock = document.getElementById('about-header-block');
+    const aboutHeader = document.getElementById('about-header');
 
-    function isScrolledIntoView(elem, $window) {
+    const aboutBlackHeaderBlock = document.getElementById('about-black-header-block');
+    const aboutBlackHeader = document.getElementById('about-black-header');
 
-        var docViewTop = $window.scrollTop();
-        var docViewBottom = docViewTop + $window.height();
-        console.log(docViewBottom, docViewTop);
+    const panelHeaderBlock = document.getElementById('panel-header-block');
+    const panelHeader = document.getElementById('panel-header');
 
-        var elemTop = elem.offset().top;
-        var elemBottom = elemTop + elem.height();
-        console.log(elemTop, elemBottom);
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    const philosophyHeaderBlock = document.getElementById('philosophy-header-block');
+    const philosophyHeader = document.getElementById('philosophy-header');
+    const philosophyNumbersBlock = document.getElementById('philosophy-numbers-block');
+
+    const teamBlockHeaderBlock = document.getElementById('animate-area');
+    const teamBlockHeader = document.getElementById('team-block-header');
+
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    let isCounter = true;
+
+    function counterAnimation(blockName, startCount, maxCount, stepCount) {
+        var count = startCount,
+            block = $(blockName),
+            interval = setInterval(function () {
+                block.text(count);
+                count = count + stepCount;
+                if (count > maxCount) {
+                    count = maxCount;
+                    block.text(count);
+                    clearInterval(interval);
+                }
+            }, 100);
     }
-
 
     $(document).on("scroll", function () {
-        // if (isScrolledIntoView($elem2, $window)) {
-        //     // $button.addClass("rev-button");
-        //     $button.addClass("btn-3");
-        //     // $button.removeClass("header-label");
-        // }
-        if (isScrolledIntoView($elem2, $window)) {
-            $elem2.addClass("rev-block");
-            $elem2.removeClass("header-label");
-            return;
+
+        if (aboutHeaderBlock.getBoundingClientRect().top < 500) {
+            aboutHeader.classList.add("rev-block");
+            aboutHeader.classList.remove("header-label");
+            $('.anim-about').css({
+                'top': 300 - ($(this).scrollTop() / 2) + "px"
+            });
         }
-        if (isScrolledIntoView($elem3, $window)) {
-            $elem3.addClass("rev-block");
-            $elem3.removeClass("header-label");
+
+        if (aboutBlackHeaderBlock.getBoundingClientRect().top < 500) {
+            aboutBlackHeader.classList.add("rev-block");
+            aboutBlackHeader.classList.remove("header-label");
             $('.anim-about-black').css({
-                'top': 600-($(this).scrollTop() / 3) + "px"
+                'top': 1000 - ($(this).scrollTop() / 2) + "px"
             });
-            return;
         }
-        if (isScrolledIntoView($elem4, $window)) {
-            $elem4.addClass("rev-block");
-            $elem4.removeClass("header-label");
-            return;
+
+        if (panelHeaderBlock.getBoundingClientRect().top < 500) {
+            panelHeader.classList.add("rev-block");
+            panelHeader.classList.remove("header-label");
         }
-        if (isScrolledIntoView($elem5, $window)) {
-            $elem5.addClass("rev-block");
-            $elem5.removeClass("header-label");
+
+        if (philosophyHeaderBlock.getBoundingClientRect().top < 500) {
+            philosophyHeader.classList.add("rev-block");
+            philosophyHeader.classList.remove("header-label");
             $('.anim-philosophy').css({
-                'top': 1400-($(this).scrollTop() / 3) + "px"
+                'top': 2000 - ($(this).scrollTop() / 2) + "px"
             });
-            return;
         }
-        if (isScrolledIntoView($elem6, $window)) {
-            $elem6.addClass("rev-block");
-            $elem6.removeClass("header-label");
-            return;
+
+        if (philosophyHeaderBlock.getBoundingClientRect().top < 200) {
+            philosophyNumbersBlock.classList.add("rev-block");
+            philosophyNumbersBlock.style.display = 'flex';
+            if (isCounter) {
+                counterAnimation('.number-first', 0, 630, 21);
+                counterAnimation('.number-second', 0, 94, 3);
+                counterAnimation('.number-third', 0, 227, 8);
+            }
+            isCounter = false;
         }
-        if (isScrolledIntoView($elem7, $window)) {
-            $elem7.addClass("rev-block");
-            $elem7.css('display', 'flex');
-            // $( function () {
-            //     var count = 333,
-            //         block = $( '.number' ),
-            //         interval = setInterval( function () {
-            //             count++;
-            //
-            //             block.text( count );
-            //
-            //             if( count === 666 ) {
-            //                 clearInterval( interval );
-            //             }
-            //         }, 1    0 );
-            //
-            //     block.text( count );
-            // } );
+
+        if (teamBlockHeaderBlock.getBoundingClientRect().top < 500) {
+            teamBlockHeader.classList.add("rev-block");
+            teamBlockHeader.classList.remove("header-label");
         }
-        if (isScrolledIntoView($elem8, $window)) {
-            $elem8.addClass("rev-block");
-            $elem8.removeClass("header-label");
-            // $elem2.removeClass("philosophy-numbers-block");
+
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
         }
+
     });
 </script>
 </body>
