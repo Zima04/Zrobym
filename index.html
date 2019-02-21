@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
+<script src="http://d3js.org/d3.v3.js"></script>
 <hr class="center-line"/>
 <hr class="left-line"/>
 <hr class="right-line"/>
@@ -48,7 +49,8 @@
         <div class="language">RU</div>
     </div>
 </div>
-<div class="about-container  ">
+<hr class="gorizontal-line-top"/>
+<div class="about-container">
     <div class="left-part-about" id="about-header-block">
         <h1 class="header-label" id="about-header">
             <span>zrobym</span>
@@ -89,6 +91,7 @@
         </div>
     </div>
 </div>
+<hr class="gorizontal-line"/>
 <div class="services-block">
     <h4>Наши услуги</h4>
     <ul>
@@ -98,6 +101,7 @@
         <li class="services-li">Магазин готовых продуктов</li>
     </ul>
 </div>
+<hr class="gorizontal-line-top"/>
 <div class="black-background">
     <div class="about-container ">
         <div class="left-part-about black" id="about-black-header-block">
@@ -128,26 +132,14 @@
             </div>
         </div>
     </div>
+    <hr class="gorizontal-line"/>
     <div class="map-container">
         <div class="map">
             <h3 class="map-header-label">Наши представители в 13 городах :</h3>
-            <span class="large-label-city first-line-city" style="top: 70px;">Шанхай</span>
-            <span class="medium-label-city first-line-city" style="top: 195px;">Москва</span>
-            <span class="small-label-city first-line-city" style="top: 245px;">Гданьск</span>
-            <span class="medium-label-city first-line-city" style="top: 370px;">Дубай</span>
-            <span class="small-label-city second-line-city" style="top: 153px;">Лос Анджелес</span>
-            <span class="medium-label-city second-line-city" style="top: 245px;">Вильнюс</span>
-            <span class="medium-label-city second-line-city" style="top: 400px;">Детройт</span>
-            <span class="medium-label-city third-line-city" style="top: 100px;">Киев</span>
-            <span class="large-label-city third-line-city" style="top: 300px;">Минск</span>
-            <span class="medium-label-city forth-line-city" style="top: 270px;">Берлин</span>
-            <span class="small-label-city forth-line-city" style="top: 370px;">Краков</span>
-            <span class="large-label-city fifth-line-city" style="top: 90px;">Нью Йорк</span>
-            <span class="medium-label-city fifth-line-city" style="top: 430px;">Бразилиа</span>
-            <span class="small-label-city six-line-city" style="top: 270px;">Париж</span>
         </div>
     </div>
 </div>
+<hr class="gorizontal-line-bottom"/>
 <div class="tabs">
     <input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
     <label for="tab-1" class="label" onclick="selectTab('tab-1',0)">Архитектурное проектирование</label>
@@ -223,9 +215,6 @@
             <div class="rev-button">
                 <span>Начнем проект вместе</span>
             </div>
-            <!--<div class="button btn-3">-->
-            <!--<span>Начнем проект вместе</span>-->
-            <!--</div>-->
         </div>
     </div>
 </div>
@@ -289,7 +278,7 @@
         </div>
     </div>
 </div>
-<div class="feedback-container">
+<div class="feedback-container" id="feedback-container">
     <h3 class="inputs-container">Напишите нам</h3>
     <div class="inputs-container">
         <div class="feedback-left-part">
@@ -325,10 +314,11 @@
     </div>
 </div>
 <div class="black-background" id="footer-header-block">
+    <hr class="gorizontal-line-top"/>
     <div class="footer black">
-        <h1 class="header-label" id="footer-header">
+        <div class="header-label" id="footer-header">
             <span> контакты</span>
-        </h1>
+        </div>
         <div class="sub-head-label">
             <div class="item">
                 давайте встретимся
@@ -385,6 +375,7 @@
             </div>
         </div>
     </div>
+    <hr class="gorizontal-line-bottom"/>
 </div>
 <div id="openModal" class="modalDialog">
     <div>
@@ -450,18 +441,15 @@
 
 </div>
 
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!--OPEN-MENU-->
 <script async>
     $("#more-button").click(function () {
         $("#more-text").toggleClass('open');
     });
-    $("#open-input").focus(function () {
-        $("#feedback-input-block").addClass('height-auto');
-        $(".confirm-block").addClass('height-auto');
-        $(".feedback-input").addClass('open-block');
-        $("#open-input").addClass('full');
-    });
+</script>
+<!--SCROLL MY ARROW-->
+<script async>
     $('.arrow').click(function () {
         var win = $(window).height();
         $('body,html').animate({
@@ -473,7 +461,229 @@
 
     });
 </script>
+<!--FEEDBACK OPENING BLOCK-->
 <script async>
+
+    $("#open-input").focus(function () {
+        $("#feedback-input-block").addClass('height-auto');
+        $(".confirm-block").addClass('height-auto');
+        $(".feedback-input").addClass('open-block');
+        $("#open-input").addClass('full');
+    });
+</script>
+<!--MAP SCRIPT-->
+<script async>
+    var w = 960,
+        h = 500;
+
+    var circleWidth = 10;
+
+    var palette = {
+        "lightgray": "#819090",
+        "gray": "#708284",
+        "mediumgray": "#536870",
+        "darkgray": "#475B62",
+
+        "darkblue": "#0A2933",
+        "darkerblue": "#042029",
+
+        "paleryellow": "#FCF4DC",
+        "paleyellow": "#EAE3CB",
+        "yellow": "#A57706",
+        "orange": "#BD3613",
+        "red": "#fff7d8",
+        "pink": "#cda173",
+        "purple": "#595AB7",
+        "blue": "#2176C7",
+        "green": "#259286",
+        "yellowgreen": "#738A05"
+    }
+
+    var nodes = [
+        {"name": "Минск"},
+        {"name": "Детройт"},
+        {"name": "Нью Йорк"},
+        {"name": "Бразилиа"},
+        {"name": "Лос Анджелес"},
+        {"name": "Гданьск"},
+        {"name": "Вильнюс"},
+        {"name": "Киев"},
+        {"name": "Берлин"},
+        {"name": "Краков"},
+        {"name": "Париж"},
+        {"name": "Шанхай"},
+        {"name": "Дубай"},
+        {"name": "Москва"},
+    ]
+
+    var links = [
+        {source: nodes[0], target: nodes[1]},
+        {source: nodes[0], target: nodes[2]},
+        {source: nodes[0], target: nodes[3]},
+        {source: nodes[0], target: nodes[4]},
+        {source: nodes[0], target: nodes[5]},
+        {source: nodes[0], target: nodes[6]},
+        {source: nodes[0], target: nodes[7]},
+        {source: nodes[0], target: nodes[8]},
+        {source: nodes[0], target: nodes[9]},
+        {source: nodes[0], target: nodes[10]},
+        {source: nodes[0], target: nodes[11]},
+        {source: nodes[0], target: nodes[12]},
+        {source: nodes[0], target: nodes[13]},
+    ]
+
+
+    var vis = d3.select(".map")
+        .append("svg:svg")
+        .attr("class", "stage")
+        // .attr("width", w)
+        // .attr("height", h);
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("viewBox", "0 0 960 600");
+
+    var force = d3.layout.force()
+        .nodes(nodes)
+        .links([])
+        .gravity(0.06)
+        .charge(-400)
+        .size([w, h]);
+
+    var link = vis.selectAll(".link")
+        .data(links)
+        .enter().append("line")
+        .attr("class", "link")
+        .attr("stroke", "palette.pink")
+        .attr("fill", "palette.pink");
+
+    var node = vis.selectAll("circle.node")
+        .data(nodes)
+        .enter().append("g")
+        .attr("class", "node")
+
+        //MOUSEOVER
+        .on("mouseover", function (d, i) {
+            if (i > 0) {
+                //CIRCLE
+                d3.select(this).selectAll("circle")
+                    .transition()
+                    .duration(250)
+                    .style("cursor", "grab")
+                    .attr("r", circleWidth + 3)
+                    .attr("fill", palette.paleryellow);
+
+                //TEXT
+                d3.select(this).select("text")
+                    .transition()
+                    .style("cursor", "grab")
+                    .duration(250)
+                    .style("cursor", "grab")
+                    .attr("font-size", "1.5em")
+                    .attr("x", 25)
+                    .attr("y", 5)
+            } else {
+                d3.select(this).selectAll("circle")
+                    .transition()
+                    .duration(250)
+                    .style("cursor", "grab")
+
+            }
+        })
+
+        //MOUSEOUT
+        .on("mouseout", function (d, i) {
+            if (i > 0) {
+                //CIRCLE
+                d3.select(this).selectAll("circle")
+                    .transition()
+                    .duration(250)
+                    .attr("r", circleWidth)
+                    .attr("fill", palette.pink);
+
+                //TEXT
+                d3.select(this).select("text")
+                    .transition()
+                    .duration(250)
+                    .attr("font-size", "1em")
+                    .attr("x", 15)
+                    .attr("y", 5)
+            }
+        })
+
+        .call(force.drag);
+
+
+    //CIRCLE
+    node.append("svg:circle")
+        .attr("cx", function (d) {
+            return d.x;
+        })
+        .attr("cy", function (d) {
+            return d.y;
+        })
+        .attr("r", function (d, i) {
+            if (i > 0) {
+                return circleWidth;
+            } else {
+                return circleWidth + 5;
+            }
+        })
+        .attr("fill", function (d, i) {
+            if (i > 0) {
+                return palette.pink;
+            } else {
+                return palette.red
+            }
+        })
+
+    //TEXT
+    node.append("text")
+        .text(function (d, i) {
+            return d.name;
+        })
+        .attr("x", 15)
+        .attr("y", 5)
+        .attr("font-family", "Helvetica Medium")
+        .attr("fill", function (d, i) {
+            return palette.pink;
+        })
+        .attr("font-size", function (d, i) {
+
+            if (i > 0) {
+                return "1em";
+            } else {
+                return "2em";
+            }
+
+        })
+        .attr("text-anchor", function (d, i) {
+            return "beginning";
+        });
+
+
+    force.on("tick", function (e) {
+        node.attr("transform", function (d, i) {
+            return "translate(" + d.x + "," + d.y + ")";
+        });
+
+        link.attr("x1", function (d) {
+            return d.source.x;
+        })
+            .attr("y1", function (d) {
+                return d.source.y;
+            })
+            .attr("x2", function (d) {
+                return d.target.x;
+            })
+            .attr("y2", function (d) {
+                return d.target.y;
+            });
+        // nodes[0].y += (h / 2 - nodes[0].y   );
+        // nodes[0].x += (w / 2 - nodes[0].x);
+    });
+</script>
+<!--CHANGING SLIDER-->
+<script async>
+
     const panelHeaders = [
         'Architectual projects by ZROBYM architects',
         'Interior design by ZROBYM architects',
@@ -532,7 +742,45 @@
             $('.right-part-slide').removeClass('rev-slide');
         }, 1500);
     }
+</script>
+<!--CHANGE COLOR MENU-LABEL-->
+<script async>
 
+    var postion = $('#feedback-container').offset().top - $('body').height() / 2,
+        height = $('#feedback-container').height();
+    // positionMenuLabel = $('.menu-label').offset().top;
+    $(document).on('scroll', function () {
+        // console.log(positionMenuLabel);
+        var scroll = $(document).scrollTop();
+        if (scroll > postion && scroll < (postion + height + $('body').height() / 2)) {
+            $('.menu-label').addClass('menu-white-color');
+            $('.bar').addClass('menu-white-bg');
+        } else {
+            $('.menu-label').removeClass('menu-white-color');
+            $('.bar').removeClass('menu-white-bg');
+        }
+    });
+</script>
+<!--START COUNTER OF NUMBERS-->
+<script async>
+    let isCounter = true;
+
+    function counterAnimation(blockName, startCount, maxCount, stepCount) {
+        var count = startCount,
+            block = $(blockName),
+            interval = setInterval(function () {
+                block.text(count);
+                count = count + stepCount;
+                if (count > maxCount) {
+                    count = maxCount;
+                    block.text(count);
+                    clearInterval(interval);
+                }
+            }, 100);
+    }
+</script>
+<!--ANIMATIONS WITH LABELS AND PARALAX BLOCKS-->
+<script async>
     const aboutHeaderBlock = document.getElementById('about-header-block');
     const aboutHeader = document.getElementById('about-header');
 
@@ -552,37 +800,29 @@
     const footerHeaderBlock = document.getElementById('footer-header-block');
     const footerHeader = document.getElementById('footer-header');
 
-    let isCounter = true;
-
-    function counterAnimation(blockName, startCount, maxCount, stepCount) {
-        var count = startCount,
-            block = $(blockName),
-            interval = setInterval(function () {
-                block.text(count);
-                count = count + stepCount;
-                if (count > maxCount) {
-                    count = maxCount;
-                    block.text(count);
-                    clearInterval(interval);
-                }
-            }, 100);
-    }
+    const feedbackContainer = document.getElementById('feedback-container');
 
     $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+
+        console.log(perc);
 
         if (aboutHeaderBlock.getBoundingClientRect().top < 500) {
             aboutHeader.classList.add("rev-block");
             aboutHeader.classList.remove("header-label");
             $('.anim-about').css({
-                'top': 300 - ($(this).scrollTop() / 2) + "px"
+                'top': 30 - (perc * 5) + "%"
             });
         }
 
         if (aboutBlackHeaderBlock.getBoundingClientRect().top < 500) {
             aboutBlackHeader.classList.add("rev-block");
             aboutBlackHeader.classList.remove("header-label");
+            force.start();
             $('.anim-about-black').css({
-                'top': 1000 - ($(this).scrollTop() / 2) + "px"
+                'top': 125 - (perc * 5) + "%"
             });
         }
 
@@ -595,8 +835,8 @@
             philosophyHeader.classList.add("rev-block");
             philosophyHeader.classList.remove("header-label");
             $('.anim-philosophy').css({
-                'top': 2000 - ($(this).scrollTop() / 2) + "px"
-            });
+                'top': 265 - (perc * 5) + "%"
+            })
         }
 
         if (philosophyHeaderBlock.getBoundingClientRect().top < 200) {
@@ -619,7 +859,6 @@
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
         }
-
     });
 </script>
 </body>
