@@ -749,9 +749,7 @@
 
     var postion = $('#feedback-container').offset().top - $('body').height() / 2,
         height = $('#feedback-container').height();
-    // positionMenuLabel = $('.menu-label').offset().top;
     $(document).on('scroll', function () {
-        // console.log(positionMenuLabel);
         var scroll = $(document).scrollTop();
         if (scroll > postion && scroll < (postion + height + $('body').height() / 2)) {
             $('.menu-label').addClass('menu-white-color');
@@ -807,8 +805,6 @@
         var st = $(this).scrollTop();
         var wh = $(document).height();
         var perc = (st * 100) / wh;
-
-        console.log(perc);
 
         if (aboutHeaderBlock.getBoundingClientRect().top < 500) {
             aboutHeader.classList.add("rev-block");
