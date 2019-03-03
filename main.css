@@ -1726,7 +1726,7 @@ textarea {
     }
 
     .background-image-mobile {
-        min-height: calc(100vh + 20px);
+        min-height: calc(100vh);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1742,7 +1742,7 @@ textarea {
         top: 0;
         left: 0;
         right: 0;
-        bottom: -20px;
+        bottom: 0;
         background: rgba(0, 0, 0, .4);
         z-index: 0;
     }
