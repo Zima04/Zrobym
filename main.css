@@ -1661,7 +1661,7 @@ textarea {
 /*}*/
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
     body {
         overflow-x: hidden;
     }
