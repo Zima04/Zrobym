@@ -1726,14 +1726,13 @@ textarea {
     }
 
     .background-image-mobile {
-        min-height: 100vh;
+        min-height: calc(100vh + 20px);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         background-size: cover;
         background-image: url("assets/images/forth.jpg");
-
     }
 
 
