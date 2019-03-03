@@ -12,6 +12,24 @@
 <hr class="center-line"/>
 <hr class="left-line"/>
 <hr class="right-line"/>
+<div class="background-image-mobile">
+    <div class="mobile-menu-block">
+            <span class="menu-label menu-white-color"> Меню
+            <div class="menu-icon">
+                <span class="bar n1 menu-white-bg"></span>
+                <span class="bar n2 menu-white-bg"></span>
+                <span class="bar n3 menu-white-bg"></span>
+            </div>
+            </span>
+    </div>
+    <div class="mobile-logo-block">
+        <div class="burger">
+        </div>
+    </div>
+    <div class="mobile-arrow-block">
+        <div class="arrow arrow-animate"></div>
+    </div>
+</div>
 <div class="background-image ">
     <div class="left-nav">
         <div class="burger">
@@ -83,7 +101,7 @@
                 <span>Читать больше</span>
                 <!--<span>Скрыть</span>-->
             </div>
-            <div style="padding: 100px 0">
+            <div class="buttons-container" style="padding: 100px 0">
                 <div class="rev-button">
                     <span>Узнать больше</span>
                 </div>
@@ -121,7 +139,7 @@
                     каким образом осуществляется работа над проектом.
                     Моделируя пространство, мы используем самые продвинутые графические редакторы.
                 </p>
-                <div style="padding: 100px 0">
+                <div class="buttons-container" style="padding: 100px 0">
                     <div class="rev-button white">
                         <span>наш офис</span>
                     </div>
@@ -141,14 +159,16 @@
 </div>
 <hr class="gorizontal-line-bottom"/>
 <div class="tabs">
+    <div class="tabs-prev" onclick="selectTabMobile(-1)"></div>
+    <div class="tabs-next" onclick="selectTabMobile(1)"></div>
     <input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
-    <label for="tab-1" class="label" onclick="selectTab('tab-1',0)">Архитектурное проектирование</label>
+    <label for="tab-1" class="label" onclick="selectTab('tab-1',0)"><span>Архитектурное проектирование</span></label>
     <input name="tabs" type="radio" id="tab-2" class="input"/>
-    <label for="tab-2" class="label" onclick="selectTab('tab-2',1)">Дизайн внутренних пространств</label>
+    <label for="tab-2" class="label" onclick="selectTab('tab-2',1)"><span>Дизайн внутренних пространств</span></label>
     <input name="tabs" type="radio" id="tab-3" class="input"/>
-    <label for="tab-3" class="label" onclick="selectTab('tab-3',2)">Свой бренд серийной мебели</label>
+    <label for="tab-3" class="label" onclick="selectTab('tab-3',2)"><span>Свой бренд серийной мебели</span></label>
     <input name="tabs" type="radio" id="tab-4" class="input"/>
-    <label for="tab-4" class="label" onclick="selectTab('tab-4',3)">Магазин готовых проектов</label>
+    <label for="tab-4" class="label" onclick="selectTab('tab-4',3)"><span>Магазин готовых проектов</span></label>
 </div>
 <div class="tab-1" id="panel">
     <div class="panel" id="panel-header-block">
@@ -169,6 +189,9 @@
             </div>
         </div>
     </div>
+</div>
+<div class="white-background">
+
 </div>
 <div class="philosophy-container">
     <div class="philosophy-left-block" id="philosophy-header-block">
@@ -218,62 +241,64 @@
         </div>
     </div>
 </div>
-<div class="team-container" id="animate-area">
-    <div class="circle"></div>
-    <div class="team-block">
-        <div class="header-label" id="team-block-header">
-            <span><b>Главное</b></span>
-        </div>
-        <div class="team-block-text">
-            <h4>Профессиональная команда</h4>
-            <p>У нас высокопрофессиональная команда архитекторов, дизайнеров, смежников</p>
-            <div style="padding: 20px 0">
-                <div class="rev-button white">
-                    <span>Вся команда</span>
+<div class="mobile-reverse">
+    <div class="team-container" id="animate-area">
+        <div class="circle"></div>
+        <div class="team-block">
+            <div class="header-label" id="team-block-header">
+                <span><b>Главное</b></span>
+            </div>
+            <div class="team-block-text">
+                <h4>Профессиональная команда</h4>
+                <p>У нас высокопрофессиональная команда архитекторов, дизайнеров, смежников</p>
+                <div style="padding: 20px 0">
+                    <div class="rev-button white">
+                        <span>Вся команда</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="chief-container">
-    <div class="left-part-chief">
-        <div class="chief-image">
-        </div>
-        <div class="chief-links-block">
-            <div class="chief-link">
-                <h4>andrus bezdar</h4>
-                <span class="icon instagram-icon-black"></span>
-                <span class="icon facebook-icon-black"></span>
+    <div class="chief-container">
+        <div class="left-part-chief">
+            <div class="chief-image">
             </div>
-            <div class="chief-link">
-                <h4>алексей кораблев</h4>
-                <span class="icon instagram-icon-black"></span>
-                <span class="icon facebook-icon-black"></span>
-            </div>
-        </div>
-    </div>
-    <div class="right-part-chief">
-        <div class="info-block">
-            <h3>Andrus bezdar<br>алексей кораблев</h3>
-            <p>При выборе дизайн студии, каждому заказчику нужно знать,
-                каким образом осуществляется работа над проектом.
-            </p>
-            <div style="padding-top: 100px">
-                <div class="rev-button">
-                    <span>работать с нами</span>
+            <div class="chief-links-block">
+                <div class="chief-link">
+                    <h4>andrus bezdar</h4>
+                    <span class="icon instagram-icon-black"></span>
+                    <span class="icon facebook-icon-black"></span>
+                </div>
+                <div class="chief-link">
+                    <h4>алексей кораблев</h4>
+                    <span class="icon instagram-icon-black"></span>
+                    <span class="icon facebook-icon-black"></span>
                 </div>
             </div>
         </div>
-        <div class="info-block">
-            <h3>Наш блог</h3>
-            <p>Следите за нашими новостями в самых популярных социальных сетях.
-            </p>
-            <div class="social-icons">
-                <span class="icon behance-icon-black"></span>
-                <span class="icon youtube-icon-black"></span>
-                <span class="icon instagram-icon-black"></span>
-                <span class="icon facebook-icon-black"></span>
-                <span class="icon vk-icon-black"></span>
+        <div class="right-part-chief">
+            <div class="info-block">
+                <h3>Andrus bezdar<br>алексей кораблев</h3>
+                <p>При выборе дизайн студии, каждому заказчику нужно знать,
+                    каким образом осуществляется работа над проектом.
+                </p>
+                <div style="padding-top: 100px">
+                    <div class="rev-button">
+                        <span>работать с нами</span>
+                    </div>
+                </div>
+            </div>
+            <div class="info-block">
+                <h3>Наш блог</h3>
+                <p>Следите за нашими новостями в самых популярных социальных сетях.
+                </p>
+                <div class="social-icons">
+                    <span class="icon behance-icon-black"></span>
+                    <span class="icon youtube-icon-black"></span>
+                    <span class="icon instagram-icon-black"></span>
+                    <span class="icon facebook-icon-black"></span>
+                    <span class="icon vk-icon-black"></span>
+                </div>
             </div>
         </div>
     </div>
@@ -319,50 +344,102 @@
         <div class="header-label" id="footer-header">
             <span> контакты</span>
         </div>
-        <div class="sub-head-label">
-            <div class="item">
-                давайте встретимся
-            </div>
-            <div class="item">
-                давайте общаться
-            </div>
-        </div>
         <div class="footer-info-block">
-            <div class="item">
-                <h3>zrobym</h3>
-                <p>
-                    г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
-                </p>
+            <div class="left-part-footer">
+                <div class="sub-head-label">
+                    давайте встретимся
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>zrobym</h3>
+                        <p>
+                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            г.Минск, ул. Немига, 5
+                            <br>(ТЦ Метрополь)
+                            <br> 3 этаж, BY furniture
+                            <br> Время работы: с 10:00 до 19:00
+                            <br> понедельник и воскресенье - <br> выходные
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="item">
-                <h3>By furniture</h3>
-                <p>
-                    г.Минск, ул. Немига, 5
-                    <br>(ТЦ Метрополь)
-                    <br> 3 этаж, BY furniture
-                    <br> Время работы: с 10:00 до 19:00
-                    <br> понедельник и воскресенье - <br> выходные
-                </p>
-            </div>
-            <div class="item">
-                <h3>Zrobym architects</h3>
-                <h5>Минск:</h5>
-                <div>+375 29 3650669 Андрусь</div>
-                <div> +375 44 5180676 Алексей</div>
+            <div class="right-part-footer">
+                <div class="sub-head-label">
+                    давайте общаться
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>Zrobym architects</h3>
+                        <h5>Минск:</h5>
+                        <div>+375 29 3650669 Андрусь</div>
+                        <div> +375 44 5180676 Алексей</div>
 
-                <h5>Нью-Йорк:</h5>
-                <div> +375 44 5180676 Алексей</div>
-                <h5>Шанхай:</h5>
-                <div>+375 44 5180676 Алексей</div>
+                        <h5>Нью-Йорк:</h5>
+                        <div> +375 44 5180676 Алексей</div>
+                        <h5>Шанхай:</h5>
+                        <div>+375 44 5180676 Алексей</div>
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            +375 29 3032540 Маруся
+                            <br>byfurniture@zrobym.by
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="item">
-                <h3>By furniture</h3>
-                <p>
-                    +375 29 3032540 Маруся
-                    <br>byfurniture@zrobym.by
-                </p>
-            </div>
+
         </div>
+
+        <!--<div class="sub-head-label">-->
+        <!--<div class="item">-->
+        <!--давайте встретимся-->
+        <!--</div>-->
+        <!--<div class="item">-->
+        <!--давайте общаться-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="footer-info-block">-->
+        <!--<div class="item">-->
+        <!--<h3>zrobym</h3>-->
+        <!--<p>-->
+        <!--г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<div class="item">-->
+        <!--<h3>By furniture</h3>-->
+        <!--<p>-->
+        <!--г.Минск, ул. Немига, 5-->
+        <!--<br>(ТЦ Метрополь)-->
+        <!--<br> 3 этаж, BY furniture-->
+        <!--<br> Время работы: с 10:00 до 19:00-->
+        <!--<br> понедельник и воскресенье - <br> выходные-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<div class="item">-->
+        <!--<h3>Zrobym architects</h3>-->
+        <!--<h5>Минск:</h5>-->
+        <!--<div>+375 29 3650669 Андрусь</div>-->
+        <!--<div> +375 44 5180676 Алексей</div>-->
+
+        <!--<h5>Нью-Йорк:</h5>-->
+        <!--<div> +375 44 5180676 Алексей</div>-->
+        <!--<h5>Шанхай:</h5>-->
+        <!--<div>+375 44 5180676 Алексей</div>-->
+        <!--</div>-->
+        <!--<div class="item">-->
+        <!--<h3>By furniture</h3>-->
+        <!--<p>-->
+        <!--+375 29 3032540 Маруся-->
+        <!--<br>byfurniture@zrobym.by-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
         <div class="footer-button-block">
             <div class="item">
             </div>
@@ -684,7 +761,7 @@
 </script>
 <!--CHANGING SLIDER-->
 <script async>
-
+    let currentCount = 0;
     const panelHeaders = [
         'Architectual projects by ZROBYM architects',
         'Interior design by ZROBYM architects',
@@ -729,8 +806,8 @@
     ];
 
     $(document).ready(function () {
-        document.getElementById('panel-description').innerText = panelDescriptions[0];
-        document.getElementById('panel-subheader').innerText = panelHeaders[0];
+        document.getElementById('panel-description').innerText = panelDescriptions[currentCount];
+        document.getElementById('panel-subheader').innerText = panelHeaders[currentCount];
     });
 
     function selectTab(id, count) {
@@ -739,8 +816,29 @@
         document.getElementById('panel').classList.add(id);
         document.getElementById('panel-description').innerText = panelDescriptions[count];
         document.getElementById('panel-subheader').innerText = panelHeaders[count];
+        currentCount = count;
         setTimeout(() => {
             $('.right-part-slide').removeClass('rev-slide');
+        }, 1500);
+    }
+
+    function selectTabMobile(action) {
+        console.log(action);
+        if (currentCount + action > 3) {
+            currentCount = -1;
+        }
+        if (currentCount + action < 0) {
+            currentCount = 3;
+        } else currentCount = +currentCount + action;
+        $('#panel-subheader').addClass('rev-slide');
+        $(`#tab-${currentCount + 1}`).prop('checked', true);
+        ;
+        document.getElementById('panel').className = '';
+        document.getElementById('panel').classList.add(`tab-${currentCount + 1}`);
+        document.getElementById('panel-description').innerText = panelDescriptions[currentCount];
+        document.getElementById('panel-subheader').innerText = panelHeaders[currentCount];
+        setTimeout(() => {
+            $('#panel-subheader').removeClass('rev-slide');
         }, 1500);
     }
 </script>
