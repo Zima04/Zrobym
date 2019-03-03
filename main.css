@@ -1749,7 +1749,7 @@ textarea {
 
     .mobile-logo-block {
         width: 100%;
-        z-index: 9999;
+        z-index: 5;
     }
 
     .mobile-arrow-block, .mobile-menu-block {
@@ -1757,7 +1757,7 @@ textarea {
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 9999;
+        z-index: 5;
     }
 
     .menu-label {
@@ -1860,6 +1860,7 @@ textarea {
 
     .label:first-of-type, .label:last-of-type {
         margin: 0;
+        border: 0;
     }
 
     .label:first-of-type {
@@ -1873,7 +1874,7 @@ textarea {
     }
 
     .panel .rev-block {
-        margin: 70px 0;
+        margin: 55px 0;
     }
 
     .white-background {
@@ -2017,4 +2018,56 @@ textarea {
     .footer-button-block .item:first-of-type {
         display: none;
     }
+
+    .modalDialogMobile {
+        opacity: 0;
+        z-index: -1;
+        height: 100vh;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.95);
+        transition: all 0.4s ease-out;
+    }
+
+    .modalDialogMobile:target {
+        pointer-events: auto;
+        opacity: 1;
+        z-index: 10;
+    }
+
+    .modalDialogMobile > div {
+        position: relative;
+    }
+
+    .background-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .close {
+        top: -55px;
+    }
+
+    .menu-links {
+        width: 50%;
+        text-align: center;
+    }
+
+    /*.modalDialogMobile > div:after {*/
+    /*content: '';*/
+    /*bottom: 0;*/
+    /*position: absolute;*/
+    /*left: 10%;*/
+    /*right: 10%;*/
+    /*border-left: #e5e5e5 1px double;*/
+    /*border-right: #e5e5e5 1px double;*/
+    /*z-index: 0;*/
+    /*height: 100%;*/
+    /*}*/
 }
