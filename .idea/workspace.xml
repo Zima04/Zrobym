@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="2026" column="23" selection-start-line="2026" selection-start-column="23" selection-end-line="2026" selection-end-column="23" />
+                <state relative-caret-position="321">
+                  <caret line="2039" column="21" selection-start-line="2039" selection-start-column="21" selection-end-line="2039" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="522" column="50" selection-start-line="522" selection-start-column="33" selection-end-line="522" selection-end-column="50" />
+                <state relative-caret-position="-527">
+                  <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="53" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -98,15 +97,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="12" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -149,8 +139,8 @@
       <find>letter-spacing: 2px;</find>
       <find>.label:last-of-type</find>
       <find>modalDialog</find>
-      <find>openModal</find>
       <find>modalDialogMobile</find>
+      <find>openModal</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -265,7 +255,7 @@
       <workItem from="1550575019084" duration="5409000" />
       <workItem from="1550602904138" duration="500000" />
       <workItem from="1550747624223" duration="4362000" />
-      <workItem from="1551544966055" duration="24694000" />
+      <workItem from="1551544966055" duration="25578000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -372,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551646928969</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix mobile">
+      <created>1551647832428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551647832428</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232166000" />
+    <option name="totallyTimeSpent" value="233050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,13 +505,6 @@
     <entry file="file://$PROJECT_DIR$/assets/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -522,10 +512,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="522" column="50" selection-start-line="522" selection-start-column="33" selection-end-line="522" selection-end-column="50" />
+        <state relative-caret-position="-527">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -577,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="2026" column="23" selection-start-line="2026" selection-start-column="23" selection-end-line="2026" selection-end-column="23" />
+        <state relative-caret-position="321">
+          <caret line="2039" column="21" selection-start-line="2039" selection-start-column="21" selection-end-line="2039" selection-end-column="21" />
         </state>
       </provider>
     </entry>
