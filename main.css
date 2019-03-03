@@ -1820,25 +1820,25 @@ textarea {
 
     .tabs-prev {
         height: 50px;
-        width: 50px;
-        border-radius: 100%;
+        width: 25px;
+        border-radius: 0 100px 100px 0;
         background-color: white;
         opacity: 0.3;
         position: absolute;
         top: 29vh;
-        left: -25px;
+        left: 0;
         cursor: pointer;
     }
 
     .tabs-next {
         height: 50px;
-        width: 50px;
-        border-radius: 100%;
+        width: 25px;
+        border-radius: 100px 0 0 100px;
         background-color: white;
         opacity: 0.3;
         position: absolute;
         top: 29vh;
-        right: -25px;
+        right: 0;
         cursor: pointer;
     }
 
