@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1003" />
+    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1004" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="1718" column="23" selection-start-line="1718" selection-start-column="23" selection-end-line="1718" selection-end-column="23" />
+                <state relative-caret-position="259">
+                  <caret line="1893" column="15" selection-start-line="1893" selection-start-column="15" selection-end-line="1893" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="978" column="45" lean-forward="true" selection-start-line="978" selection-start-column="45" selection-end-line="978" selection-end-column="45" />
+                <state relative-caret-position="530">
+                  <caret line="523" column="9" lean-forward="true" selection-start-line="523" selection-start-column="9" selection-end-line="523" selection-end-column="9" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -48,15 +49,16 @@
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
@@ -92,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>map</find>
       <find>footer</find>
       <find>map-co</find>
       <find>border</find>
@@ -122,6 +123,7 @@
       <find>appear-text</find>
       <find>philosophy-numbers-block</find>
       <find>rev-button</find>
+      <find>#panel .rev-block</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -238,7 +240,7 @@
       <workItem from="1550602904138" duration="500000" />
       <workItem from="1550747624223" duration="4362000" />
       <workItem from="1551544966055" duration="25925000" />
-      <workItem from="1551874206213" duration="3058000" />
+      <workItem from="1551874206213" duration="3545000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -408,11 +410,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551878374821</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix number counter">
+      <created>1551878482938</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551878482939</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix prev next buttons">
+      <created>1551878746759</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551878746759</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236455000" />
+    <option name="totallyTimeSpent" value="236942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,6 +441,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -480,7 +497,8 @@
     <MESSAGE value="fix mobile" />
     <MESSAGE value="fix top slide" />
     <MESSAGE value="fix number counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix number counter" />
+    <MESSAGE value="fix prev next buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix prev next buttons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
@@ -561,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="978" column="45" lean-forward="true" selection-start-line="978" selection-start-column="45" selection-end-line="978" selection-end-column="45" />
+        <state relative-caret-position="530">
+          <caret line="523" column="9" lean-forward="true" selection-start-line="523" selection-start-column="9" selection-end-line="523" selection-end-column="9" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -573,15 +591,16 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
@@ -595,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1718" column="23" selection-start-line="1718" selection-start-column="23" selection-end-line="1718" selection-end-column="23" />
+        <state relative-caret-position="259">
+          <caret line="1893" column="15" selection-start-line="1893" selection-start-column="15" selection-end-line="1893" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -1330,7 +1330,7 @@ textarea {
     border-radius: 50%;
 }
 
-.modalDialogMobile{
+.modalDialogMobile {
     display: none;
 }
 
@@ -1669,11 +1669,11 @@ textarea {
 @media screen and (max-width: 450px) {
     body {
         overflow-x: hidden;
-        max-width: 100% ;
+        max-width: 100%;
         width: 101%;
     }
 
-    html{
+    html {
         width: 101%;
     }
 
@@ -1839,7 +1839,7 @@ textarea {
         background-color: white;
         opacity: 0.3;
         position: absolute;
-        top: 31vh;
+        top: 40vh;
         left: 0;
         cursor: pointer;
         z-index: 999;
@@ -1852,7 +1852,7 @@ textarea {
         background-color: white;
         opacity: 0.3;
         position: absolute;
-        top: 31vh;
+        top: 40vh;
         right: 0;
         cursor: pointer;
         z-index: 999;
@@ -1893,6 +1893,11 @@ textarea {
         margin: 55px 0;
     }
 
+    #panel .rev-block {
+        top: 0;
+    }
+
+
     .white-background {
         display: block;
         height: 550px;
@@ -1907,7 +1912,7 @@ textarea {
         display: flex;
         justify-content: center;
         position: relative;
-        top: 30%;
+        top: 32%;
         opacity: initial;
         background: none;
         padding: 0 25px;
@@ -2011,8 +2016,8 @@ textarea {
         text-align: justify;
     }
 
-    .team-block-text .rev-button span{
-        border: none!important;
+    .team-block-text .rev-button span {
+        border: none !important;
     }
 
     .chief-container {
