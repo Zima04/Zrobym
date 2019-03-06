@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="2128" column="25" selection-start-line="2128" selection-start-column="25" selection-end-line="2128" selection-end-column="25" />
+                <state relative-caret-position="4705">
+                  <caret line="2103" lean-forward="true" selection-start-line="2103" selection-end-line="2103" />
                 </state>
               </provider>
             </entry>
@@ -38,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="469">
-                  <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
+                <state relative-caret-position="116">
+                  <caret line="701" column="46" selection-start-line="701" selection-start-column="46" selection-end-line="701" selection-end-column="46" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -58,12 +56,11 @@
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
@@ -143,8 +140,8 @@
         <option value="$PROJECT_DIR$/assets/icons/Behance.svg" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/graph.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -243,7 +240,7 @@
       <workItem from="1551544966055" duration="25925000" />
       <workItem from="1551874206213" duration="5241000" />
       <workItem from="1551888055411" duration="710000" />
-      <workItem from="1551899502393" duration="4621000" />
+      <workItem from="1551899502393" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -455,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551888208481</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix comments from Andrew">
+      <created>1551905222354</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551905222354</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243969000" />
+    <option name="totallyTimeSpent" value="244899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +535,8 @@
     <MESSAGE value="fix prev next buttons" />
     <MESSAGE value="fix subheader panel" />
     <MESSAGE value="fix service padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix service padding" />
+    <MESSAGE value="fix comments from Andrew" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix comments from Andrew" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
@@ -612,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
+        <state relative-caret-position="116">
+          <caret line="701" column="46" selection-start-line="701" selection-start-column="46" selection-end-line="701" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -632,12 +637,11 @@
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
@@ -647,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="2128" column="25" selection-start-line="2128" selection-start-column="25" selection-end-line="2128" selection-end-column="25" />
+        <state relative-caret-position="4705">
+          <caret line="2103" lean-forward="true" selection-start-line="2103" selection-end-line="2103" />
         </state>
       </provider>
     </entry>
