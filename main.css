@@ -1926,6 +1926,13 @@ textarea {
         flex-direction: column;
     }
 
+    #panel-subheader{
+        min-height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #panel-description {
         margin-top: 50px;
         max-height: 200px;
