@@ -1740,7 +1740,7 @@ textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         background-size: cover;
         background-image: url("assets/images/forth.jpg");
     }

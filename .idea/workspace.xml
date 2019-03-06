@@ -24,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="1729" column="24" lean-forward="true" selection-start-line="1729" selection-start-column="24" selection-end-line="1729" selection-end-column="24" />
+                <state relative-caret-position="346">
+                  <caret line="1735" column="5" lean-forward="true" selection-start-line="1735" selection-start-column="5" selection-end-line="1735" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -241,7 +241,7 @@
       <workItem from="1550602904138" duration="500000" />
       <workItem from="1550747624223" duration="4362000" />
       <workItem from="1551544966055" duration="25925000" />
-      <workItem from="1551874206213" duration="1574000" />
+      <workItem from="1551874206213" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -383,11 +383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551875921129</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix top slide">
+      <created>1551876635678</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1551876635678</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix top slide">
+      <created>1551876888213</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551876888213</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234971000" />
+    <option name="totallyTimeSpent" value="235842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="1729" column="24" lean-forward="true" selection-start-line="1729" selection-start-column="24" selection-end-line="1729" selection-end-column="24" />
+        <state relative-caret-position="346">
+          <caret line="1735" column="5" lean-forward="true" selection-start-line="1735" selection-start-column="5" selection-end-line="1735" selection-end-column="5" />
         </state>
       </provider>
     </entry>
