@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="1735" column="5" lean-forward="true" selection-start-line="1735" selection-start-column="5" selection-end-line="1735" selection-end-column="5" />
+                <state relative-caret-position="310">
+                  <caret line="1718" column="23" selection-start-line="1718" selection-start-column="23" selection-end-line="1718" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+                <state relative-caret-position="340">
+                  <caret line="978" column="45" lean-forward="true" selection-start-line="978" selection-start-column="45" selection-end-line="978" selection-end-column="45" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -54,7 +53,6 @@
                     <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
@@ -66,7 +64,6 @@
                     <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -95,10 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>langua</find>
-      <find>nodes</find>
-      <find>over</find>
-      <find>modea</find>
       <find>map</find>
       <find>footer</find>
       <find>map-co</find>
@@ -125,6 +118,10 @@
       <find>-10</find>
       <find>.right-part-slide</find>
       <find>image-m</find>
+      <find>header-label</find>
+      <find>appear-text</find>
+      <find>philosophy-numbers-block</find>
+      <find>rev-button</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -241,7 +238,7 @@
       <workItem from="1550602904138" duration="500000" />
       <workItem from="1550747624223" duration="4362000" />
       <workItem from="1551544966055" duration="25925000" />
-      <workItem from="1551874206213" duration="2445000" />
+      <workItem from="1551874206213" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -397,11 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551876888213</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix top slide">
+      <created>1551877774257</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551877774257</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix number counter">
+      <created>1551878374821</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551878374821</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235842000" />
+    <option name="totallyTimeSpent" value="236455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +425,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,7 +479,8 @@
     <MESSAGE value="add mobile version" />
     <MESSAGE value="fix mobile" />
     <MESSAGE value="fix top slide" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix top slide" />
+    <MESSAGE value="fix number counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix number counter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
@@ -550,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="978" column="45" lean-forward="true" selection-start-line="978" selection-start-column="45" selection-end-line="978" selection-end-column="45" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -567,7 +578,6 @@
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
@@ -579,15 +589,14 @@
             <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="1735" column="5" lean-forward="true" selection-start-line="1735" selection-start-column="5" selection-end-line="1735" selection-end-column="5" />
+        <state relative-caret-position="310">
+          <caret line="1718" column="23" selection-start-line="1718" selection-start-column="23" selection-end-line="1718" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -802,6 +802,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     margin-top: 200px;
     flex-wrap: wrap;
     opacity: 0;
+    display: flex;
 }
 
 .philosophy-numbers-block .item {
