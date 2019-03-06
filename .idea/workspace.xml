@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1004" />
+    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1003" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="1681" column="20" selection-start-line="1680" selection-start-column="3" selection-end-line="1681" selection-end-column="20" />
+                <state relative-caret-position="339">
+                  <caret line="2128" column="25" selection-start-line="2128" selection-start-column="25" selection-end-line="2128" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
-                  <caret line="523" column="9" lean-forward="true" selection-start-line="523" selection-start-column="9" selection-end-line="523" selection-end-column="9" />
+                <state relative-caret-position="469">
+                  <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -94,9 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>map-co</find>
-      <find>border</find>
-      <find>rev-block</find>
       <find>header-la</find>
       <find>cons</find>
       <find>console</find>
@@ -124,6 +122,9 @@
       <find>rev-button</find>
       <find>#panel .rev-block</find>
       <find>left-li</find>
+      <find>rev-bloc</find>
+      <find>zrobym</find>
+      <find>Дизайн</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -148,10 +149,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,6 +242,8 @@
       <workItem from="1550747624223" duration="4362000" />
       <workItem from="1551544966055" duration="25925000" />
       <workItem from="1551874206213" duration="5241000" />
+      <workItem from="1551888055411" duration="710000" />
+      <workItem from="1551899502393" duration="4621000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -445,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551879965239</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix service padding">
+      <created>1551888208481</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1551888208481</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238638000" />
+    <option name="totallyTimeSpent" value="243969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,10 +471,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116325185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -476,7 +486,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17659806" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1756374" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -520,7 +530,8 @@
     <MESSAGE value="fix number counter" />
     <MESSAGE value="fix prev next buttons" />
     <MESSAGE value="fix subheader panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix subheader panel" />
+    <MESSAGE value="fix service padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix service padding" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
@@ -601,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="523" column="9" lean-forward="true" selection-start-line="523" selection-start-column="9" selection-end-line="523" selection-end-column="9" />
+        <state relative-caret-position="469">
+          <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -636,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1681" column="20" selection-start-line="1680" selection-start-column="3" selection-end-line="1681" selection-end-column="20" />
+        <state relative-caret-position="339">
+          <caret line="2128" column="25" selection-start-line="2128" selection-start-column="25" selection-end-line="2128" selection-end-column="25" />
         </state>
       </provider>
     </entry>

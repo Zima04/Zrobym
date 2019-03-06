@@ -976,7 +976,6 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 
 .left-part-chief {
     flex: 1;
-    padding-top: 30%;
 }
 
 .chief-links-block {
@@ -1678,8 +1677,8 @@ textarea {
     }
 
     .center-line,
-        .left-line,
-        .right-line,
+    .left-line,
+    .right-line,
     .gorizontal-line,
     .background-image,
     .gorizontal-line-bottom,
@@ -1694,14 +1693,11 @@ textarea {
     }
 
     /*.left-line {*/
-        /*left: 35%;*/
+    /*left: 35%;*/
     /*}*/
-
     /*.right-line {*/
-        /*right: 35%;*/
+    /*right: 35%;*/
     /*}*/
-
-
     h1, h2, h3, h4, h5,
     .header-label,
     .philosophy-left-block-header,
@@ -1716,9 +1712,23 @@ textarea {
         margin: 100px 0;
     }
 
+    .rev-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: table;
+    }
+
+    .rev-block span {
+        display: inline-block;
+        padding: 0;
+    }
+
+
     .rev-block span:after {
         left: calc(50% - 65px);
     }
+
 
     .rev-button {
         display: flex;
@@ -1842,26 +1852,26 @@ textarea {
     }
 
     .tabs-prev {
-        height: 50px;
-        width: 25px;
+        height: 100px;
+        width: 50px;
         border-radius: 0 100px 100px 0;
         background-color: white;
         opacity: 0.3;
         position: absolute;
-        top: 40vh;
+        top: 35vh;
         left: 0;
         cursor: pointer;
         z-index: 999;
     }
 
     .tabs-next {
-        height: 50px;
-        width: 25px;
+        height: 100px;
+        width: 50px;
         border-radius: 100px 0 0 100px;
         background-color: white;
         opacity: 0.3;
         position: absolute;
-        top: 40vh;
+        top: 35vh;
         right: 0;
         cursor: pointer;
         z-index: 999;
@@ -1915,6 +1925,8 @@ textarea {
 
     .left-part-slide {
         padding: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .right-part-slide {
@@ -1958,7 +1970,7 @@ textarea {
     }
 
     .philosophy-left-block {
-        display: block;
+        /*display: block;*/
         top: 0;
 
     }
@@ -2049,12 +2061,20 @@ textarea {
     .footer {
         margin: 0;
         padding: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .footer-info-block {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .sub-head-label {
+        display: flex;
+        justify-content: center;
     }
 
     .footer-button-block .item:first-of-type {
@@ -2084,6 +2104,9 @@ textarea {
 
     .modalDialogMobile > div {
         position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .background-content {
@@ -2100,6 +2123,10 @@ textarea {
     .menu-links {
         width: 50%;
         text-align: center;
+    }
+
+    .social-icons{
+        padding-top: 100px;
     }
 
     /*.modalDialogMobile > div:after {*/

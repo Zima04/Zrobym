@@ -117,7 +117,7 @@
     <h4>Наши услуги</h4>
     <ul>
         <li class="services-li">Архитекторное проектирование</li>
-        <li class="services-li">Дизайн внутренних пространств</li>
+        <li class="services-li">Дизайн интерьера</li>
         <li class="services-li">Свой бренд серийной мебели</li>
         <li class="services-li">Магазин готовых продуктов</li>
     </ul>
@@ -167,7 +167,7 @@
     <input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
     <label for="tab-1" class="label" onclick="selectTab('tab-1',0)"><span>Архитектурное проектирование</span></label>
     <input name="tabs" type="radio" id="tab-2" class="input"/>
-    <label for="tab-2" class="label" onclick="selectTab('tab-2',1)"><span>Дизайн внутренних пространств</span></label>
+    <label for="tab-2" class="label" onclick="selectTab('tab-2',1)"><span>Дизайн интерьера</span></label>
     <input name="tabs" type="radio" id="tab-3" class="input"/>
     <label for="tab-3" class="label" onclick="selectTab('tab-3',2)"><span>Свой бренд серийной мебели</span></label>
     <input name="tabs" type="radio" id="tab-4" class="input"/>
@@ -354,7 +354,7 @@
                 </div>
                 <div class="footer-info-block">
                     <div class="item">
-                        <h3>zrobym</h3>
+                        <h3>zrobym architects</h3>
                         <p>
                             г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
                         </p>
@@ -485,7 +485,7 @@
                     Архитектурное проектирование
                 </a>
                 <a class="menu-links">
-                    Дизайн внутренних пространств
+                    Дизайн интерьера
                 </a>
                 <a class="menu-links">
                     Бренд серийной мебели
@@ -545,7 +545,7 @@
                 Архитектурное проектирование
             </a>
             <a class="menu-links">
-                Дизайн внутренних пространств
+                Дизайн интерьера
             </a>
             <a class="menu-links">
                 Бренд серийной мебели
@@ -560,6 +560,13 @@
                 Контакты
             </a>
 
+        </div>
+        <div class="social-icons">
+            <span class="icon behance-icon-white"></span>
+            <span class="icon youtube-icon-white"></span>
+            <span class="icon instagram-icon-white"></span>
+            <span class="icon facebook-icon-white"></span>
+            <span class="icon vk-icon-white"></span>
         </div>
     </div>
 </div>
@@ -600,7 +607,7 @@
     var w = 960,
         h = 500;
 
-    var circleWidth = 10;
+    var circleWidth = 7;
 
     var palette = {
         "lightgray": "#819090",
@@ -626,7 +633,7 @@
     var nodes = [
         {"name": "Минск"},
         {"name": "Детройт"},
-        {"name": "Нью Йорк"},
+        {"name": "Нью-Йорк"},
         {"name": "Бразилиа"},
         {"name": "Лос Анджелес"},
         {"name": "Гданьск"},
@@ -692,7 +699,7 @@
                     .transition()
                     .duration(250)
                     .style("cursor", "grab")
-                    .attr("r", circleWidth + 3)
+                    .attr("r", circleWidth + 5)
                     .attr("fill", palette.paleryellow);
 
                 //TEXT
