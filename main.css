@@ -1879,8 +1879,7 @@ textarea {
 
     .panel {
         flex-direction: column;
-        min-height: auto;
-        max-height: 60vh;
+        height: 500px;
     }
 
     .panel .rev-block {
@@ -1901,7 +1900,7 @@ textarea {
         display: flex;
         justify-content: center;
         position: relative;
-        top: 95px;
+        top: 30%;
         opacity: initial;
         background: none;
         padding: 0 25px;

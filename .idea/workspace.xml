@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="2039" column="21" selection-start-line="2039" selection-start-column="21" selection-end-line="2039" selection-end-column="21" />
+                <state relative-caret-position="168">
+                  <caret line="1753" column="19" selection-start-line="1753" selection-start-column="19" selection-end-line="1753" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -111,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>:after</find>
       <find>hover</find>
       <find>menu</find>
       <find>langua</find>
@@ -141,6 +140,7 @@
       <find>modalDialog</find>
       <find>modalDialogMobile</find>
       <find>openModal</find>
+      <find>-10</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -164,10 +164,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2033" />
+    <option name="y" value="142" />
+    <option name="width" value="1550" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,7 +256,7 @@
       <workItem from="1550575019084" duration="5409000" />
       <workItem from="1550602904138" duration="500000" />
       <workItem from="1550747624223" duration="4362000" />
-      <workItem from="1551544966055" duration="25578000" />
+      <workItem from="1551544966055" duration="25925000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -369,11 +370,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551647832428</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix mobile">
+      <created>1551648782096</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551648782096</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix mobile">
+      <created>1551648919385</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551648919385</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233050000" />
+    <option name="totallyTimeSpent" value="233397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,10 +400,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1551" height="879" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14597094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +414,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21820615" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17659806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -574,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="2039" column="21" selection-start-line="2039" selection-start-column="21" selection-end-line="2039" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="1753" column="19" selection-start-line="1753" selection-start-column="19" selection-end-line="1753" selection-end-column="19" />
         </state>
       </provider>
     </entry>
