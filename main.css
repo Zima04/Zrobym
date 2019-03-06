@@ -2114,7 +2114,7 @@ textarea {
         display: flex;
         align-items: center;
         width: 100%;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .close {
@@ -2127,7 +2127,7 @@ textarea {
     }
 
     .social-icons{
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     /*.modalDialogMobile > div:after {*/
