@@ -1842,6 +1842,7 @@ textarea {
         top: 31vh;
         left: 0;
         cursor: pointer;
+        z-index: 999;
     }
 
     .tabs-next {
@@ -1854,6 +1855,7 @@ textarea {
         top: 31vh;
         right: 0;
         cursor: pointer;
+        z-index: 999;
     }
 
     .label {
