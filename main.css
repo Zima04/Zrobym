@@ -2004,6 +2004,10 @@ textarea {
         text-align: justify;
     }
 
+    .team-block-text .rev-button span{
+        border: none!important;
+    }
+
     .chief-container {
         min-height: auto;
         flex-direction: column;
