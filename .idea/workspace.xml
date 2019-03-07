@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1004" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -147,10 +144,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="-2009" />
+    <option name="y" value="-27" />
+    <option name="width" value="1550" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,7 +238,7 @@
       <workItem from="1551544966055" duration="25925000" />
       <workItem from="1551874206213" duration="5241000" />
       <workItem from="1551888055411" duration="710000" />
-      <workItem from="1551899502393" duration="6274000" />
+      <workItem from="1551899502393" duration="6317000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -467,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551906397108</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fix menu">
+      <created>1551907081538</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1551907081538</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245622000" />
+    <option name="totallyTimeSpent" value="245665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,10 +487,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116325185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09272919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -498,7 +501,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1756374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13434453" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -544,7 +547,8 @@
     <MESSAGE value="fix subheader panel" />
     <MESSAGE value="fix service padding" />
     <MESSAGE value="fix comments from Andrew" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix comments from Andrew" />
+    <MESSAGE value="fix menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix menu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
