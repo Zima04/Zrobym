@@ -1308,8 +1308,8 @@ textarea {
 .menu-links:hover {
     cursor: pointer;
     color: #cda173;
-    transform: scale(1.1);
-    transform-origin: left center;
+    /*transform: scale(1.1);*/
+    /*transform-origin: center;*/
 }
 
 .arrow-block .social-icons {
