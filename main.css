@@ -868,6 +868,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 }
 .philosophy-right-block div:last-of-type {
     margin-top: 50px ;
+    /*margin-left: 0px;*/
     margin-left: 8px;
 }
 
@@ -1768,9 +1769,13 @@ textarea {
         width: 100%;
     }
 
+    .rev-button a{
+        width: 100%;
+    }
+
     .rev-button span {
         display: flex;
-        width: 100%;
+        /*width: 100%;*/
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -2022,6 +2027,10 @@ textarea {
 
     .philosophy-right-block div {
         margin: 100px 15px;
+    }
+
+    .philosophy-right-block div:last-of-type{
+        margin: 50px 15px;
     }
 
     .philosophy-numbers-block .item {

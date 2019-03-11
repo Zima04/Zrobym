@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1010" />
+    <bookmark url="file://$PROJECT_DIR$/main.css" description=".right-part-chief .info-block {&#10;    margin-top: 70..." line="1012" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="1445" column="30" selection-start-line="1445" selection-start-column="30" selection-end-line="1445" selection-end-column="30" />
+                <state relative-caret-position="267">
+                  <caret line="2032" column="25" selection-start-line="2032" selection-start-column="25" selection-end-line="2032" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="511" column="53" selection-start-line="511" selection-start-column="53" selection-end-line="511" selection-end-column="53" />
+                <state relative-caret-position="166">
+                  <caret line="446" column="30" lean-forward="true" selection-start-line="446" selection-start-column="30" selection-end-line="446" selection-end-column="30" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -49,16 +50,16 @@
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
@@ -94,12 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rotate</find>
-      <find>images</find>
-      <find>arrow-block</find>
-      <find>arrow-animate</find>
-      <find>padding</find>
-      <find>.rev-button span</find>
       <find>letter-spacing: 2px;</find>
       <find>.label:last-of-type</find>
       <find>modalDialog</find>
@@ -111,7 +106,6 @@
       <find>header-label</find>
       <find>appear-text</find>
       <find>philosophy-numbers-block</find>
-      <find>rev-button</find>
       <find>#panel .rev-block</find>
       <find>left-li</find>
       <find>rev-bloc</find>
@@ -124,6 +118,13 @@
       <find>rev-block</find>
       <find>.philosophy-right-block</find>
       <find>buttons-container</find>
+      <find>social-icons</find>
+      <find>social</find>
+      <find>icon</find>
+      <find>.philosophy-right-block div</find>
+      <find>rev-button</find>
+      <find>Узнать больше</find>
+      <find>.philosophy-right-block div:last-of-type</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -142,8 +143,8 @@
         <option value="$PROJECT_DIR$/assets/icons/Behance.svg" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/graph.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -159,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,12 +182,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Projects/reporting-web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -247,6 +248,7 @@
       <workItem from="1552071357592" duration="2772000" />
       <workItem from="1552296593800" duration="2951000" />
       <workItem from="1552301400591" duration="19000" />
+      <workItem from="1552301820395" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="Add numberCount">
       <created>1550265421378</created>
@@ -486,11 +488,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551963553137</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix styles">
+      <created>1552301911474</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1552301911475</updated>
+    </task>
+    <task id="LOCAL-00036" summary="make links">
+      <created>1552303553142</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552303553142</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252150000" />
+    <option name="totallyTimeSpent" value="255961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,6 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07376186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -563,7 +580,9 @@
     <MESSAGE value="fix service padding" />
     <MESSAGE value="fix comments from Andrew" />
     <MESSAGE value="fix menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix menu" />
+    <MESSAGE value="fix styles" />
+    <MESSAGE value="make links" />
+    <option name="LAST_COMMIT_MESSAGE" value="make links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/background/map.png" />
@@ -635,17 +654,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1445" column="30" selection-start-line="1445" selection-start-column="30" selection-end-line="1445" selection-end-column="30" />
+        <state relative-caret-position="267">
+          <caret line="2032" column="25" selection-start-line="2032" selection-start-column="25" selection-end-line="2032" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="511" column="53" selection-start-line="511" selection-start-column="53" selection-end-line="511" selection-end-column="53" />
+        <state relative-caret-position="166">
+          <caret line="446" column="30" lean-forward="true" selection-start-line="446" selection-start-column="30" selection-end-line="446" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -656,16 +682,16 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
@@ -674,13 +700,6 @@
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/parallaks/parallaks/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
