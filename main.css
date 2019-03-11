@@ -862,7 +862,12 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 }
 
 .philosophy-right-block div {
-    margin: 50px 15px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.philosophy-right-block div:last-of-type {
+    margin-top: 50px ;
+    margin-left: 8px;
 }
 
 .philosophy-right-button-block {
@@ -1162,6 +1167,7 @@ textarea {
 
 .footer-info-block {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -1347,6 +1353,7 @@ textarea {
     max-width: 60%;
     z-index: 1;
     padding: 20px;
+
 }
 
 .rev-block span {
@@ -1357,6 +1364,7 @@ textarea {
     animation-delay: 0.8s;
     z-index: 0;
     padding: 0.4em 0;
+
 }
 
 .rev-block:after {
@@ -1435,6 +1443,10 @@ textarea {
     z-index: 1;
 }
 
+.buttons-container .rev-button{
+    margin-bottom: 35px;
+}
+
 .white span {
     color: #ffffff !important;
     border: 2px #ffffff solid !important;
@@ -1454,6 +1466,7 @@ textarea {
     cursor: pointer;
     border: 2px black solid;
     padding: 14px 42px;
+    white-space:nowrap;
 }
 
 .rev-button:hover:after {
@@ -1668,6 +1681,12 @@ textarea {
 /*}*/
 /*}*/
 
+@media screen and (max-width: 1000px) {
+    #about-header, #about-black-header, #panel-header,
+    #philosophy-header, #team-block-header, #footer-header{
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width: 450px) {
     body {
@@ -2074,6 +2093,7 @@ textarea {
     .footer-info-block {
         display: flex;
         flex-direction: column;
+
         text-align: center;
     }
 
@@ -2130,7 +2150,7 @@ textarea {
         text-align: center;
     }
 
-    .social-icons{
+    .social-icons {
         padding-top: 30px;
     }
 
