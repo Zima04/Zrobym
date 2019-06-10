@@ -32,7 +32,7 @@ main {
     margin-bottom: 140px;
     display: flex;
     flex-wrap: wrap;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     font-size: 16pt;
 }
 
@@ -41,17 +41,20 @@ main {
     text-transform: uppercase;
     flex: 1;
     padding-left: 15px;
+    min-width: 650px;
 }
 
 .list-content {
     flex: 1;
     padding-left: 15px;
+    min-width: 650px;
 }
 
 .list-content > form > input,
 .list-content > form > button {
     display: block;
 }
+
 .list-option {
     position: relative;
     /*padding-bottom: 30px;*/
@@ -60,7 +63,8 @@ main {
 
 .list-option-title {
     position: relative;
-    left: 50px;
+    /*left: 50px;*/
+    margin-left: 50px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -91,7 +95,8 @@ main {
 }
 
 .input-text-field {
-    width: 350px;
+    max-width: 350px;
+    width: calc(100% - 75px);
     height: 50px;
     background-color: lightgray;
     border: none;
@@ -101,11 +106,13 @@ main {
 }
 
 .long-input-field {
-    width: 450px;
+    width: calc(100% - 75px);
+    max-width: 450px;
 }
 
 .input-textarea {
-    width: 450px;
+    max-width: 450px;
+    width: calc(100% - 75px);
     height: 190px;
     border: none;
     padding: 10px 30px 10px 30px;
@@ -177,18 +184,36 @@ main {
 
 /*MYSTYLES*/
 
-.info-block{
-    top: 35%!important;
+.info-block {
+    top: 0 !important;
+    margin-top: 80px;
 }
 
-.first-monitor{
+.menu-label-block {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    /*top: 50%;*/
+    z-index: 99;
+    min-height: calc(100vh - 212px);
+    text-transform: uppercase;
+}
+
+.first-monitor {
     background: #ffffff;
-    height: 100vh;
+    min-height: calc(100vh - 210px);
+    padding: 0 10%;
     display: flex;
     flex-direction: column;
     color: #000000;
     position: relative;
     z-index: 1;
+}
+
+.welcome-info {
+    height: calc(100% - 200px);
+    border: none;
 }
 
 .burger {
@@ -204,12 +229,18 @@ main {
     width: 66px;
 }
 
-.left-part-about{
+.left-part-about {
     top: 0;
 }
 
-.rev-block{
+.rev-block {
     max-width: 90%;
+}
+
+@media screen and (max-width: 850px) {
+    .welcome-info {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 600px) {
