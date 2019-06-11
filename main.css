@@ -1274,8 +1274,7 @@ textarea {
     justify-content: flex-end;
     color: #FFFFFF;
     align-items: center;
-    padding-bottom: 20px;
-
+    /*padding-bottom: 20px;*/
 }
 
 .lang {
@@ -1318,7 +1317,7 @@ textarea {
     display: flex;
     flex-direction: row;
     color: #FFFFFF;
-    padding-left: calc(10% + 20px);
+    /*padding-left: calc(10% + 20px);*/
 }
 
 .close {

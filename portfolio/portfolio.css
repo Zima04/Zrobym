@@ -282,10 +282,36 @@ ul {
 .rev-block {
     max-width: 90%;
 }
-
+/*MENU_OPEN*/
 .modaal-container {
     background: none !important;
 }
+
+.modaal-content-container{
+    padding: 0!important;
+}
+
+.open-menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 212px);
+    border: none;
+}
+
+.open-menu-content .language-block{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 850px) {
     .welcome-info {

@@ -49,10 +49,61 @@
             </span>
 </a>
 <div id="inline" style="display:none;">
-    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-        venenatis vestibulum. Praesent commodo cursus magna, vel
-        scelerisque nisl consectetur et.</p>
+    <hr class="left-line"/>
+    <hr class="right-line"/>
+    <div>
+        <div class="left-nav">
+            <div class="burger">
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="open-menu-content">
+            <div class="background-content">
+                <a id="close-button" title="Закрыть" class="close"></a>
+                <a class="menu-links">
+                    Главная
+                </a>
+                <a class="menu-links">
+                    О нас
+                </a>
+                <a class="menu-links">
+                    Архитектурное проектирование
+                </a>
+                <a class="menu-links">
+                    Дизайн интерьера
+                </a>
+                <a class="menu-links">
+                    Бренд серийной мебели
+                </a>
+                <a class="menu-links">
+                    Готовые проекты
+                </a>
+                <a class="menu-links">
+                    Пресса
+                </a>
+                <a class="menu-links">
+                    Контакты
+                </a>
+
+            </div>
+            <div class="language-block">
+                <span class="lang">ru</span>
+                <span class="lang">eng</span>
+                <span class="lang">by</span>
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="arrow-block">
+            <div class="social-icons">
+                <a href="#"><span class="icon behance-icon-white"></span></a>
+                <a href="#"><span class="icon youtube-icon-white"></span></a>
+                <a href="#"><span class="icon instagram-icon-white"></span></a>
+                <a href="#"><span class="icon facebook-icon-white"></span></a>
+                <a href="#"> <span class="icon vk-icon-white"></span></a>
+            </div>
+            <div class="language">RU</div>
+        </div>
+    </div>
 </div>
 
 <hr class="gorizontal-line"/>
@@ -304,11 +355,15 @@
 <script async>
     $('.menu-label-block').modaal({
         fullscreen: true,
-        background: "#000000"
+        background: "#000000",
+        hide_close:true
     });
     $("#more-button").click(function () {
         $("#more-text").toggleClass('open');
     });
+    $("#close-button").click(function () {
+        $('.menu-label-block').modaal('close');
+    })
 </script>
 <!--SCROLL MY ARROW-->
 <script async>
