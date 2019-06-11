@@ -1,0 +1,28 @@
+.info-block {
+    top: 0 !important;
+    margin-top: 80px;
+}
+
+.first-monitor {
+    background: #ffffff;
+    min-height: calc(100vh - 210px);
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-info {
+    height: calc(100% - 200px);
+    border: none;
+}
+
+.left-part-about {
+    top: 0;
+}
+
+.rev-block {
+    max-width: 90%;
+}

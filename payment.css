@@ -189,17 +189,6 @@ main {
     margin-top: 80px;
 }
 
-.menu-label-block {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 10%;
-    /*top: 50%;*/
-    z-index: 99;
-    min-height: calc(100vh - 212px);
-    text-transform: uppercase;
-}
-
 .first-monitor {
     background: #ffffff;
     min-height: calc(100vh - 210px);
@@ -214,19 +203,6 @@ main {
 .welcome-info {
     height: calc(100% - 200px);
     border: none;
-}
-
-.burger {
-    margin: 20px 0;
-    height: 70px;
-    background: url("assets/logos/Zrobym_logo_Black.svg") no-repeat;
-    background-position: center center;
-}
-
-.arrow {
-    background: url(assets/icons/Black/arrow-grey.svg) no-repeat;
-    min-height: 40px;
-    width: 66px;
 }
 
 .left-part-about {
@@ -247,7 +223,6 @@ main {
 
     li {
         display: flex;
-        /*justify-content: center;*/
         align-items: center;
     }
 
@@ -255,13 +230,6 @@ main {
         padding: 0 30px;
     }
 
-    /*.list-item,*/
-    /*.list-content,*/
-    /*.list-option {*/
-    /*	justify-content: center;*/
-    /*	align-items: center;*/
-    /*	display: flex;*/
-    /*}*/
     .list-content {
         justify-content: start;
         width: 100%;
@@ -286,27 +254,21 @@ main {
 
     .list-option {
         left: -20px;
-
-        /*margin-bottom: 15px;*/
     }
 
     .list-option-title {
         display: flex;
-        /*line-height: 50px;*/
         line-height: 20px;
-        /*width: 60%;*/
         padding-bottom: 40px;
     }
 
     .list-option-title:before {
         position: absolute;
-        /*top: 0px;*/
         top: -13px;
         left: -50px;
     }
 
     .example-button {
-        /*left: 0px;*/
         bottom: 25px;
     }
 
@@ -322,10 +284,7 @@ main {
     }
 
     .input-text-field {
-        /*width: 200px;*/
-        /*height: 30px;*/
         width: 90%;
-        /*text-align: center;*/
     }
 
     .sizes {

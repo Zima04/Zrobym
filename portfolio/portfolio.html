@@ -27,15 +27,15 @@
         </a>
     </div>
     <div class="mobile-logo-block">
-        <div class="burger">
+        <div class="burger-black">
         </div>
     </div>
     <div class="mobile-arrow-block">
-        <div class="arrow arrow-animate"></div>
+        <div class="arrow-grey arrow-animate"></div>
     </div>
 </div>
 <div class="left-nav">
-    <div class="burger">
+    <div class="burger-black">
     </div>
 </div>
 
@@ -49,11 +49,12 @@
             </span>
 </a>
 <div id="inline" style="display:none;">
+    <hr class="center-line"/>
     <hr class="left-line"/>
     <hr class="right-line"/>
     <div>
         <div class="left-nav">
-            <div class="burger">
+            <div class="burger-white">
             </div>
         </div>
         <hr class="gorizontal-line"/>
@@ -93,7 +94,7 @@
             </div>
         </div>
         <hr class="gorizontal-line"/>
-        <div class="arrow-block">
+        <div class="social-icons-block">
             <div class="social-icons">
                 <a href="#"><span class="icon behance-icon-white"></span></a>
                 <a href="#"><span class="icon youtube-icon-white"></span></a>
@@ -105,7 +106,6 @@
         </div>
     </div>
 </div>
-
 <hr class="gorizontal-line"/>
 <div class="first-monitor" id="first-monitor">
     <div class="welcome-info">
@@ -148,7 +148,7 @@
 </div>
 <hr class="gorizontal-line"/>
 <div class="arrow-block">
-    <div class="arrow arrow-animate"></div>
+    <div class="arrow-grey arrow-animate"></div>
 </div>
 <hr class="gorizontal-line"/>
 <hr class="gorizontal-line-top"/>
@@ -276,7 +276,6 @@
         </div>
     </div>
 </div>
-
 <div class="black-background" id="footer-header-block">
     <hr class="gorizontal-line-top"/>
     <div class="footer black">
@@ -353,21 +352,42 @@
 <script src='../libs/modaal.js'></script>
 <!--OPEN-MORE-TEXT-->
 <script async>
+    let textButton = 'Читать больше';
     $('.menu-label-block').modaal({
         fullscreen: true,
         background: "#000000",
-        hide_close:true
-    });
-    $("#more-button").click(function () {
-        $("#more-text").toggleClass('open');
+        overlay_opacity:0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
     });
     $("#close-button").click(function () {
         $('.menu-label-block').modaal('close');
     })
+    $("#more-button").click(function () {
+        $("#more-text").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button span").text(textButton);
+            return 'open'
+        });
+    });
 </script>
 <!--SCROLL MY ARROW-->
 <script async>
-    $('.arrow').click(function () {
+    $('.arrow-grey').click(function () {
         var win = $('#first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win

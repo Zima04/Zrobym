@@ -7,6 +7,7 @@
     </style>
     <link rel="stylesheet" href="../main.css" type="text/css">
     <link rel="stylesheet" href="../payment.css">
+    <link rel="stylesheet" href="../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
 </head>
 <body>
@@ -15,11 +16,11 @@
 <hr class="right-line"/>
 
 <div class="left-nav">
-    <div class="burger">
+    <div class="burger-black">
     </div>
 </div>
-<a href="#openModal" class="menu-label-block">
-            <span class="menu-label"> Меню
+<a href="#inline" class="menu-label-block">
+    <span class="menu-label"> Меню
             <div class="menu-icon">
                 <span class="bar n1"></span>
                 <span class="bar n2"></span>
@@ -27,6 +28,64 @@
             </div>
             </span>
 </a>
+<div id="inline" style="display:none;">
+    <hr class="center-line"/>
+    <hr class="left-line"/>
+    <hr class="right-line"/>
+    <div>
+        <div class="left-nav">
+            <div class="burger-white">
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="open-menu-content">
+            <div class="background-content">
+                <a id="close-button" title="Закрыть" class="close"></a>
+                <a class="menu-links">
+                    Главная
+                </a>
+                <a class="menu-links">
+                    О нас
+                </a>
+                <a class="menu-links">
+                    Архитектурное проектирование
+                </a>
+                <a class="menu-links">
+                    Дизайн интерьера
+                </a>
+                <a class="menu-links">
+                    Бренд серийной мебели
+                </a>
+                <a class="menu-links">
+                    Готовые проекты
+                </a>
+                <a class="menu-links">
+                    Пресса
+                </a>
+                <a class="menu-links">
+                    Контакты
+                </a>
+
+            </div>
+            <div class="language-block">
+                <span class="lang">ru</span>
+                <span class="lang">eng</span>
+                <span class="lang">by</span>
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="social-icons-block">
+            <div class="social-icons">
+                <a href="#"><span class="icon behance-icon-white"></span></a>
+                <a href="#"><span class="icon youtube-icon-white"></span></a>
+                <a href="#"><span class="icon instagram-icon-white"></span></a>
+                <a href="#"><span class="icon facebook-icon-white"></span></a>
+                <a href="#"> <span class="icon vk-icon-white"></span></a>
+            </div>
+            <div class="language">RU</div>
+        </div>
+    </div>
+</div>
 <div class="background-image-mobile">
     <div class="mobile-menu-block">
         <a href="#openModalMobile" class="menu-label-block">
@@ -44,7 +103,7 @@
         </div>
     </div>
     <div class="mobile-arrow-block">
-        <div class="arrow arrow-animate"></div>
+        <div class="arrow-grey arrow-animate"></div>
     </div>
 </div>
 <hr class="gorizontal-line"/>
@@ -89,7 +148,7 @@
 </div>
 <hr class="gorizontal-line"/>
 <div class="arrow-block">
-    <div class="arrow arrow-animate"></div>
+    <div class="arrow-grey arrow-animate"></div>
 </div>
 <hr class="gorizontal-line"/>
 <main>
@@ -292,69 +351,6 @@
     </div>
     <hr class="gorizontal-line-bottom"/>
 </div>
-<div id="openModal" class="modalDialog">
-    <div>
-        <div class="left-nav">
-            <div class="burger">
-            </div>
-        </div>
-        <div class="welcome-info">
-            <a href="#openModal" class="menu-label-block">
-            <span class="menu-label"> Меню
-                <div class="menu-icon">
-                    <!--<span class="bar n1"></span>-->
-                    <span class="bar n2"></span>
-                    <!--<span class="bar n3"></span>-->
-                </div>
-            </span>
-            </a>
-            <div class="background-content">
-                <a href="#close" title="Закрыть" class="close"></a>
-                <a class="menu-links">
-                    Главная
-                </a>
-                <a class="menu-links">
-                    О нас
-                </a>
-                <a class="menu-links">
-                    Архитектурное проектирование
-                </a>
-                <a class="menu-links">
-                    Дизайн интерьера
-                </a>
-                <a class="menu-links">
-                    Бренд серийной мебели
-                </a>
-                <a class="menu-links">
-                    Готовые проекты
-                </a>
-                <a class="menu-links">
-                    Пресса
-                </a>
-                <a class="menu-links">
-                    Контакты
-                </a>
-
-            </div>
-            <div class="language-block">
-                <span class="lang">ru</span>
-                <span class="lang">eng</span>
-                <span class="lang">by</span>
-            </div>
-        </div>
-        <div class="arrow-block">
-            <div class="social-icons">
-                <a href="#"><span class="icon behance-icon-white"></span></a>
-                <a href="#"><span class="icon youtube-icon-white"></span></a>
-                <a href="#"><span class="icon instagram-icon-white"></span></a>
-                <a href="#"><span class="icon facebook-icon-white"></span></a>
-                <a href="#"> <span class="icon vk-icon-white"></span></a>
-            </div>
-            <div class="language">RU</div>
-        </div>
-    </div>
-
-</div>
 <div id="openModalMobile" class="modalDialogMobile">
     <div>
         <div class="mobile-menu-block">
@@ -407,15 +403,45 @@
 </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='../libs/modaal.js'></script>
 <!--OPEN-MORE-TEXT-->
 <script async>
+    let textButton = 'Читать больше';
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity:0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $("#close-button").click(function () {
+        $('.menu-label-block').modaal('close');
+    })
     $("#more-button").click(function () {
-        $("#more-text").toggleClass('open');
+        $("#more-text").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button span").text(textButton);
+            return 'open'
+        });
     });
 </script>
 <!--SCROLL MY ARROW-->
 <script async>
-    $('.arrow').click(function () {
+    $('.arrow-grey').click(function () {
         var win = $('#first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win

@@ -314,9 +314,17 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 10%;
     position: relative;
     z-index: 1;
+    min-height: 100px;
 }
 
-.burger {
+.burger-black {
+    margin: 20px 0;
+    height: 70px;
+    background: url("assets/logos/Zrobym_logo_Black.svg") no-repeat;
+    background-position: center center;
+}
+
+.burger-white{
     margin: 20px 0;
     height: 70px;
     background: url("assets/logos/Zrobym_logo_White.svg") no-repeat;
@@ -364,12 +372,15 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 }
 
 .menu-label-block {
+    position: fixed;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 10%;
-    min-height: calc(100vh - 212px);
+    min-height: 100vh;
     text-transform: uppercase;
+    z-index: 9999;
 }
 
 .menu-label {
@@ -430,8 +441,8 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 
 .menu-label-block:hover .bar.n3,
 .menu-label-block:hover .bar.n1,
-.menu-label-block.active .bar.n3,
-.menu-label-block.active .bar.n1 {
+.menu-label-block.click .bar.n3,
+.menu-label-block.click .bar.n1 {
     margin-left: 11px;
 }
 
@@ -467,6 +478,19 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     min-height: 35px;
     position: relative;
     width: 60px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 2s linear;
+    top: 0;
+    margin: 10px;
+    z-index: 9999;
+}
+
+.arrow-grey{
+    background: url(assets/icons/Black/arrow-grey.svg) no-repeat;
+    min-height: 40px;
+    width: 66px;
+    position: relative;
     font-size: 10px;
     cursor: pointer;
     transition: all 2s linear;
@@ -868,8 +892,9 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     margin-top: 50px;
     margin-left: 15px;
 }
+
 .philosophy-right-block div:last-of-type {
-    margin-top: 50px ;
+    margin-top: 50px;
     /*margin-left: 0px;*/
     margin-left: 8px;
 }
@@ -1231,40 +1256,20 @@ textarea {
 
 /*MENU-PAGE*/
 
-.modalDialog {
-     opacity: 0;
-     z-index: -1;
-     height: 100vh;
-     position: absolute;
-     font-family: Arial, Helvetica, sans-serif;
-     top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
-     background: rgba(0, 0, 0, 0.95);
-     transition: all 0.4s ease-out;
- }
-
-.modalDialog:target {
-    pointer-events: auto;
-    opacity: 1;
-    z-index: 10;
+.modaal-container {
+    background: none !important;
 }
 
-.modalDialog > div {
-    position: relative;
+.modaal-content-container {
+    padding: 0 !important;
 }
 
-.modalDialog > div:after {
-    content: '';
-    bottom: 0;
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    border-left: #e5e5e5 1px double;
-    border-right: #e5e5e5 1px double;
-    z-index: 0;
-    height: 100%;
+.open-menu-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 212px);
+    border: none;
 }
 
 .language-block {
@@ -1274,7 +1279,9 @@ textarea {
     justify-content: flex-end;
     color: #FFFFFF;
     align-items: center;
-    /*padding-bottom: 20px;*/
+    position: absolute;
+    right: 0;
+    bottom: 120px;
 }
 
 .lang {
@@ -1313,11 +1320,19 @@ textarea {
     /*transform-origin: center;*/
 }
 
-.arrow-block .social-icons {
+.social-icons-block{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.social-icons-block .social-icons {
     display: flex;
     flex-direction: row;
     color: #FFFFFF;
-    /*padding-left: calc(10% + 20px);*/
+    padding-left: calc(10% + 20px);
 }
 
 .close {
@@ -1446,7 +1461,7 @@ textarea {
     z-index: 1;
 }
 
-.buttons-container .rev-button{
+.buttons-container .rev-button {
     margin-bottom: 35px;
 }
 
@@ -1469,7 +1484,7 @@ textarea {
     cursor: pointer;
     border: 2px black solid;
     padding: 14px 42px;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 .rev-button:hover:after {
@@ -1686,7 +1701,7 @@ textarea {
 
 @media screen and (max-width: 1000px) {
     #about-header, #about-black-header, #panel-header,
-    #philosophy-header, #team-block-header, #footer-header{
+    #philosophy-header, #team-block-header, #footer-header {
         font-size: 30px;
     }
 }
@@ -1770,7 +1785,7 @@ textarea {
         width: 100%;
     }
 
-    .rev-button a{
+    .rev-button a {
         width: 100%;
     }
 
@@ -2030,7 +2045,7 @@ textarea {
         margin: 100px 15px;
     }
 
-    .philosophy-right-block div:last-of-type{
+    .philosophy-right-block div:last-of-type {
         margin: 50px 15px;
     }
 
