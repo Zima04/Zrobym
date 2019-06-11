@@ -26,3 +26,71 @@
 .rev-block {
     max-width: 90%;
 }
+
+.road{
+    background: url("../assets/images/shema.svg");
+    background-position: center center;
+    background-size: cover;
+    height: 50%;
+}
+
+.road-label{
+    position: absolute;
+    left: calc(10% + 20px);
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 450px) {
+    .first-monitor {
+        padding: 0;
+    }
+
+    .welcome-info {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-item, .list-content {
+        min-width: auto;
+        padding: 0;
+    }
+
+    .info-block {
+        margin-top: 0;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .left-part-about {
+        display: contents;
+        top: 0;
+    }
+
+    .arrow-block {
+        display: none;
+    }
+
+    .left-nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .burger-black {
+        margin: 20px 0;
+        height: 300px;
+        width: 150px;
+        background-position: center center;
+        background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
+    }
+
+    .menu-label-block {
+        width: 100%;
+        position: absolute;
+    }
+}
