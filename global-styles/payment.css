@@ -77,7 +77,7 @@ main {
     content: "";
     top: -10px;
     left: -70px;
-    background: url(assets/icons/Black/unchecked.png);
+    background: url(../assets/icons/Black/unchecked.png);
     width: 42px;
     height: 42px;
 }
@@ -87,7 +87,7 @@ main {
 }
 
 .list-option input[type="checkbox"]:checked + .list-option-title:before {
-    background: url(assets/icons/Black/checked.png);
+    background: url(../assets/icons/Black/checked.png);
 }
 
 .checkmark {
@@ -161,7 +161,7 @@ main {
 
 .example-button:before {
     margin-right: 8px;
-    content: url(assets/icons/Black/example-button-arrow.png);
+    content: url(../assets/icons/Black/example-button-arrow.png);
 }
 
 .underline {
@@ -335,7 +335,7 @@ main {
         display: none;
     }
 
-    .left-nav {
+    .burger-block {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -350,7 +350,7 @@ main {
         height: 300px;
         width: 150px;
         background-position: center center;
-        background: url("assets/logos/Zrobym_logo_White.svg") no-repeat;
+        background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }
 
     .menu-label-block{

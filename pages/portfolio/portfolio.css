@@ -312,7 +312,7 @@ ul {
         display: none;
     }
 
-    .left-nav {
+    .burger-block {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -327,7 +327,7 @@ ul {
         height: 300px;
         width: 150px;
         background-position: center center;
-        background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
+        background: url("../../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }
 
     .menu-label-block {

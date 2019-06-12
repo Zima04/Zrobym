@@ -2,27 +2,27 @@
 
 @font-face {
     font-family: "Helvetica Medium";
-    src: url("assets/fonts/HelveticaNeueCyr-Medium_2.otf") format("opentype");
+    src: url("../assets/fonts/HelveticaNeueCyr-Medium_2.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Helvetica Heavy";
-    src: url("assets/fonts/HelveticaNeueCyr-Heavy.otf") format("opentype");
+    src: url("../assets/fonts/HelveticaNeueCyr-Heavy.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Helvetica Bold";
-    src: url("assets/fonts/HelveticaNeueCyr-Bold_2.otf") format("opentype");
+    src: url("../assets/fonts/HelveticaNeueCyr-Bold_2.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Helvetica Heavy Roman";
-    src: url("assets/fonts/HelveticaNeueCyr-HeavyItalic.otf") format("opentype");
+    src: url("../assets/fonts/HelveticaNeueCyr-HeavyItalic.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Helvetica Light";
-    src: url("assets/fonts/HelveticaNeueCyr-Light_2.otf") format("opentype");
+    src: url("../assets/fonts/HelveticaNeueCyr-Light_2.otf") format("opentype");
 }
 
 /*SCROLL STYLING*/
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 12px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/Black/Facebook.svg") no-repeat;
+    background: url("../assets/icons/Black/Facebook.svg") no-repeat;
 }
 
 .instagram-icon-black {
@@ -212,14 +212,14 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 20px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/Black/Instagram.svg") no-repeat;
+    background: url("../assets/icons/Black/Instagram.svg") no-repeat;
 }
 
 .behance-icon-black {
     width: 20px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/Black/Behance.svg") no-repeat;
+    background: url("../assets/icons/Black/Behance.svg") no-repeat;
 }
 
 .youtube-icon-black {
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 30px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/Black/YouTube.svg") no-repeat;
+    background: url("../assets/icons/Black/YouTube.svg") no-repeat;
 }
 
 .vk-icon-black {
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 30px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/Black/VK.svg") no-repeat;
+    background: url("../assets/icons/Black/VK.svg") no-repeat;
 }
 
 .facebook-icon-white {
@@ -243,13 +243,13 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 12px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/White/Facebook.svg") no-repeat;
+    background: url("../assets/icons/White/Facebook.svg") no-repeat;
 }
 
 .facebook-icon-white:hover, .facebook-icon-black:hover {
     transform: scale(1.2);
     margin-left: 10px;
-    background: url("assets/icons/Gold/Facebook.svg") no-repeat;
+    background: url("../assets/icons/Gold/Facebook.svg") no-repeat;
 }
 
 .instagram-icon-white {
@@ -257,25 +257,25 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 20px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/White/Instagram.svg") no-repeat;
+    background: url("../assets/icons/White/Instagram.svg") no-repeat;
 }
 
 .instagram-icon-white:hover, .instagram-icon-black:hover {
     transform: scale(1.2);
     margin-left: 10px;
-    background: url("assets/icons/Gold/Instagram.svg") no-repeat;
+    background: url("../assets/icons/Gold/Instagram.svg") no-repeat;
 }
 
 .behance-icon-white {
     width: 30px;
-    background: url("assets/icons/White/Behance.svg") no-repeat;
+    background: url("../assets/icons/White/Behance.svg") no-repeat;
     transition: 0.3s linear;
     cursor: pointer;
 }
 
 .behance-icon-white:hover, .behance-icon-black:hover {
     transform: scale(1.2);
-    background: url("assets/icons/Gold/Behance.svg") no-repeat;
+    background: url("../assets/icons/Gold/Behance.svg") no-repeat;
 }
 
 .youtube-icon-white {
@@ -283,13 +283,13 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 30px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/White/YouTube.svg") no-repeat;
+    background: url("../assets/icons/White/YouTube.svg") no-repeat;
 }
 
 .youtube-icon-white:hover, .youtube-icon-black:hover {
     transform: scale(1.2);
     margin-left: 10px;
-    background: url("assets/icons/Gold/YouTube.svg") no-repeat;
+    background: url("../assets/icons/Gold/YouTube.svg") no-repeat;
 }
 
 .vk-icon-white {
@@ -297,17 +297,17 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 30px;
     transition: 0.3s linear;
     cursor: pointer;
-    background: url("assets/icons/White/VK.svg") no-repeat;
+    background: url("../assets/icons/White/VK.svg") no-repeat;
 }
 
 .vk-icon-white:hover, .vk-icon-black:hover {
     transform: scale(1.2);
     margin-left: 10px;
-    background: url("assets/icons/Gold/VK.svg") no-repeat;
+    background: url("../assets/icons/Gold/VK.svg") no-repeat;
 }
 
 /*HEADER*/
-.left-nav {
+.burger-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,14 +320,14 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 .burger-black {
     margin: 20px 0;
     height: 70px;
-    background: url("assets/logos/Zrobym_logo_Black.svg") no-repeat;
+    background: url("../assets/logos/Zrobym_logo_Black.svg") no-repeat;
     background-position: center center;
 }
 
 .burger-white {
     margin: 20px 0;
     height: 70px;
-    background: url("assets/logos/Zrobym_logo_White.svg") no-repeat;
+    background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
     background-position: center center;
 }
 
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 /*WELCOME-BLOCK*/
 
 .background-image {
-    background: url("assets/images/Zrobim_Index_First-Screen.gif") no-repeat;
+    background: url("../assets/images/Zrobim_Index_First-Screen.gif") no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 }
 
 .arrow {
-    background: url(assets/icons/White/arrow.svg) no-repeat;
+    background: url(../assets/icons/White/arrow.svg) no-repeat;
     min-height: 35px;
     position: relative;
     width: 60px;
@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 }
 
 .arrow-grey {
-    background: url(assets/icons/Black/arrow-grey.svg) no-repeat;
+    background: url(../assets/icons/Black/arrow-grey.svg) no-repeat;
     min-height: 40px;
     width: 66px;
     position: relative;
@@ -755,7 +755,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     background: linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.4)
-    ), url("assets/images/first.jpg") no-repeat;
+    ), url("../assets/images/first.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -764,7 +764,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     background: linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.4)
-    ), url("assets/images/third.jpg") no-repeat;
+    ), url("../assets/images/third.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -773,7 +773,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     background: linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.4)
-    ), url("assets/images/fifth.JPG") no-repeat;
+    ), url("../assets/images/fifth.JPG") no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -782,7 +782,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     background: linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.4)
-    ), url("assets/images/forth.jpg") no-repeat;
+    ), url("../assets/images/forth.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -990,7 +990,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     overflow: hidden;
     /*width: 100%;*/
     background-size: cover;
-    background-image: url('assets/images/team.jpg');
+    background-image: url('../assets/images/team.jpg');
     background-position: 0px 0px;
     background-repeat: repeat-x;
     animation: animatedBackground 35s linear infinite;
@@ -1005,7 +1005,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 
 .chief-image {
     min-height: 60vh;
-    background: url("assets/images/chiefs.jpg") no-repeat;
+    background: url("../assets/images/chiefs.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -1336,7 +1336,7 @@ textarea {
 }
 
 .close {
-    background: url(assets/icons/White/cross.svg);
+    background: url(../assets/icons/White/cross.svg);
     line-height: 25px;
     position: absolute;
     right: 30px;
@@ -1585,120 +1585,6 @@ textarea {
     }
 }
 
-/*.button {*/
-/*flex-wrap: nowrap;*/
-/*display: inline-block;*/
-/*position: relative;*/
-/*z-index: 1;*/
-/*color: #000000;*/
-/*text-transform: uppercase;*/
-/*animation: appear-text-button 0.0001s linear forwards;*/
-/*animation-delay: 1.4s;*/
-/*margin: 140px 0;*/
-/*cursor: pointer;*/
-/*background: none;*/
-/*border: none;*/
-/*font-size: 18px;*/
-/*padding: 20px;*/
-/*}*/
-
-/*.button span {*/
-/*display: block;*/
-/*}*/
-
-/*.button::before, .button::after {*/
-/*content: "";*/
-/*width: 0;*/
-/*height: 2px;*/
-/*position: absolute;*/
-/*transition: all 0.2s linear;*/
-/*background: #1b1b1b;*/
-/*}*/
-
-/*span::before, span::after {*/
-/*content: "";*/
-/*width: 2px;*/
-/*height: 0;*/
-/*position: absolute;*/
-/*transition: all 0.2s linear;*/
-/*background: #1b1b1b;*/
-/*}*/
-
-/*.button:hover::before, .button:hover::after {*/
-/*width: 100%;*/
-/*}*/
-
-/*.button:hover span::before, .button:hover span::after {*/
-/*height: 100%;*/
-/*}*/
-
-/*.btn-3::after {*/
-/*left: 0;*/
-/*bottom: 0;*/
-/*transition-delay: 1.6s;*/
-/*animation: animate-border-after 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;*/
-
-/*}*/
-
-/*.btn-3 span::after {*/
-/*transition-delay: 1.4s;*/
-/*right: 0;*/
-/*bottom: 0;*/
-/*animation: animate-border-after-span 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;*/
-/*}*/
-
-/*.btn-3::before {*/
-/*right: 0;*/
-/*top: 0;*/
-/*transition-delay: 1.2s;*/
-/*animation: animate-border-before 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;*/
-
-/*}*/
-
-/*.btn-3 span::before {*/
-/*transition-delay: 1s;*/
-/*left: 0;*/
-/*top: 0;*/
-/*animation: animate-border-before-span 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;*/
-
-/*}*/
-
-/*@keyframes animate-border-after-span {*/
-/*0% {*/
-/*height: 0;*/
-/*}*/
-/*100% {*/
-/*height: 100%;*/
-/*}*/
-/*}*/
-
-/*@keyframes animate-border-after {*/
-/*0% {*/
-/*width: 0;*/
-/*}*/
-/*100% {*/
-/*width: 100%;*/
-/*}*/
-/*}*/
-
-/*@keyframes animate-border-before-span {*/
-/*0% {*/
-/*height: 0;*/
-/*}*/
-/*100% {*/
-/*height: 100%;*/
-/*}*/
-/*}*/
-
-/*@keyframes animate-border-before {*/
-/*0% {*/
-/*width: 0;*/
-/*}*/
-/*100% {*/
-/*width: 100%;*/
-/*}*/
-/*}*/
-
 @media screen and (max-width: 1000px) {
     #about-header, #about-black-header, #panel-header,
     #philosophy-header, #team-block-header, #footer-header {
@@ -1729,16 +1615,12 @@ textarea {
     .circle,
     .chief-links-block,
     .right-part-chief,
-    .feedback-container {
+    .feedback-container,
+    .language-block,
+    .language {
         display: none
     }
 
-    /*.left-line {*/
-    /*left: 35%;*/
-    /*}*/
-    /*.right-line {*/
-    /*right: 35%;*/
-    /*}*/
     h1, h2, h3, h4, h5,
     .header-label,
     .philosophy-left-block-header,
@@ -1791,7 +1673,6 @@ textarea {
 
     .rev-button span {
         display: flex;
-        /*width: 100%;*/
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -1812,7 +1693,7 @@ textarea {
         align-items: center;
         justify-content: space-between;
         background-size: cover;
-        background-image: url("assets/images/forth.jpg");
+        background-image: url("../assets/images/forth.jpg");
     }
 
 
@@ -2147,10 +2028,6 @@ textarea {
 
     .social-icons {
         padding-top: 30px;
-    }
-
-    .language-block, .language {
-        display: none;
     }
 
     .social-icons-block {
