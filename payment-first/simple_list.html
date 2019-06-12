@@ -23,7 +23,7 @@
     <div class="mobile-menu-block">
     </div>
     <div class="mobile-arrow-block">
-        <div class="arrow-grey arrow-animate"></div>
+        <div class="arrow arrow-animate"></div>
     </div>
 </div>
 <a href="#inline" class="menu-label-block">
@@ -377,7 +377,12 @@
         }, 800);
         return false;
     });
-    $(window).scroll(function () {
+    $('.arrow').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
     });
 </script>
 <!--FEEDBACK OPENING BLOCK-->

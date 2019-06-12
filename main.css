@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     background-position: center center;
 }
 
-.burger-white{
+.burger-white {
     margin: 20px 0;
     height: 70px;
     background: url("assets/logos/Zrobym_logo_White.svg") no-repeat;
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     width: 10%;
     min-height: 100vh;
     text-transform: uppercase;
-    z-index: 9999;
+    z-index: 99;
 }
 
 .menu-label {
@@ -483,10 +483,10 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     transition: all 2s linear;
     top: 0;
     margin: 10px;
-    z-index: 9999;
+    z-index: 99;
 }
 
-.arrow-grey{
+.arrow-grey {
     background: url(assets/icons/Black/arrow-grey.svg) no-repeat;
     min-height: 40px;
     width: 66px;
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     transition: all 2s linear;
     top: 0;
     margin: 10px;
-    z-index: 9999;
+    z-index: 99;
 }
 
 .language {
@@ -1320,7 +1320,7 @@ textarea {
     /*transform-origin: center;*/
 }
 
-.social-icons-block{
+.social-icons-block {
     height: 100px;
     display: flex;
     align-items: center;
@@ -1837,7 +1837,7 @@ textarea {
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 5;
+        z-index: 100;
     }
 
     .menu-label {
@@ -2132,43 +2132,12 @@ textarea {
         display: none;
     }
 
-    .modalDialogMobile {
-        display: block;
-        opacity: 0;
-        z-index: -1;
-        height: 100vh;
-        position: absolute;
-        font-family: Arial, Helvetica, sans-serif;
-        top: 0;
-        right: -4px;
-        bottom: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.95);
-        transition: all 0.4s ease-out;
-    }
-
-    .modalDialogMobile:target {
-        pointer-events: auto;
-        opacity: 1;
-        z-index: 10;
-    }
-
-    .modalDialogMobile > div {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .background-content {
         display: flex;
         align-items: center;
+        /*justify-content: space-around;*/
         width: 100%;
         padding-top: 20px;
-    }
-
-    .close {
-        top: -55px;
     }
 
     .menu-links {
@@ -2180,15 +2149,19 @@ textarea {
         padding-top: 30px;
     }
 
-    /*.modalDialogMobile > div:after {*/
-    /*content: '';*/
-    /*bottom: 0;*/
-    /*position: absolute;*/
-    /*left: 10%;*/
-    /*right: 10%;*/
-    /*border-left: #e5e5e5 1px double;*/
-    /*border-right: #e5e5e5 1px double;*/
-    /*z-index: 0;*/
-    /*height: 100%;*/
-    /*}*/
+    .language-block, .language {
+        display: none;
+    }
+
+    .social-icons-block {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        justify-content: center;
+    }
+
+    .social-icons-block .social-icons {
+        padding: 0;
+    }
+
 }

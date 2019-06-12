@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="mobile-arrow-block">
-        <div class="arrow-grey arrow-animate"></div>
+        <div class="arrow arrow-animate"></div>
     </div>
 </div>
 <a href="#inline" class="menu-label-block">
@@ -106,6 +106,7 @@
                 <br>
                 <span class="light-font">Zrobim architects</span>
             </h1>
+
         </div>
         <div class="right-part-about">
             <div class="info-block">
@@ -271,6 +272,18 @@
         $(".confirm-block").addClass('height-auto');
         $(".feedback-input").addClass('open-block');
         $("#open-input").addClass('full');
+    });
+</script>
+<script async>
+    $('.arrow').click(function () {
+        var win = $(window).height();
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+    $(window).scroll(function () {
+
     });
 </script>
 <script async>

@@ -22,7 +22,7 @@
     <div class="mobile-menu-block">
     </div>
     <div class="mobile-arrow-block">
-        <div class="arrow-grey arrow-animate"></div>
+        <div class="arrow arrow-animate"></div>
     </div>
 </div>
 
@@ -375,6 +375,13 @@
 <!--SCROLL MY ARROW-->
 <script async>
     $('.arrow-grey').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+    $('.arrow').click(function () {
         var win = $('#first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win
