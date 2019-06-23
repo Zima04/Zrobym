@@ -1,6 +1,6 @@
 @font-face {
     font-family: helvetica;
-    src: url(fonts/HelveticaNeueCyr-Light.otf);
+    src: url(../pages/portfolio/fonts/HelveticaNeueCyr-Light.otf);
 }
 
 * {
@@ -33,7 +33,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     /*white-space: nowrap;*/
-    font-size: calc(16px + 2 * ((100vw - 420px) / 860));
+    /*font-size: calc(16px + 2 * ((100vw - 420px) / 860));*/
+}
+
+.list-content > ul {
+    padding-top: 8px;
 }
 
 .list-item {
@@ -56,38 +60,41 @@ main {
 }
 
 .list-option {
-    position: relative;
-    /*padding-bottom: 30px;*/
+    display: flex;
+    flex-direction: column;
+    /*padding-bottom: 15px;*/
     line-height: 30px;
-}
-
-.list-option-title {
-    position: relative;
-    /*left: 50px;*/
-    margin-left: 50px;
-    cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
-.list-option-title:before {
-    position: absolute;
-    content: "";
-    top: -10px;
-    left: -70px;
-    background: url(../assets/icons/Black/unchecked.png);
-    width: 42px;
-    height: 42px;
+.list-option-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-option-title > div {
+    display: flex;
+}
+
+.list-option-title > div:nth-child(1) {
+    margin-right: 10px;
+}
+
+.list-option-title > div:nth-child(2) {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .list-option input {
     cursor: pointer;
 }
 
-.list-option input[type="checkbox"]:checked + .list-option-title:before {
-    background: url(../assets/icons/Black/checked.png);
+.list-option input[type="checkbox"]:checked + .list-option-title > div:nth-child(1) > img {
+    background-image: url(../assets/icons/Black/checked.png);
 }
 
 .checkmark {
@@ -153,14 +160,12 @@ main {
 }
 
 .example-button {
-    position: absolute;
-    /*left: 44px;*/
-    left: 0;
-    bottom: -20px;
+    margin-left: 50px;
     font-size: 12pt;
     color: #CDA173;
     border: none;
     background-color: white;
+    cursor: pointer;
 }
 
 .example-button:before {
@@ -252,6 +257,7 @@ main {
     .list-item {
         line-height: 20px;
         margin-bottom: 20px;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -267,23 +273,11 @@ main {
     }
 
     .list-option {
-        left: -20px;
+        align-items: flex-start;
     }
 
     .list-option-title {
-        display: flex;
         line-height: 20px;
-        padding-bottom: 40px;
-    }
-
-    .list-option-title:before {
-        position: absolute;
-        top: -13px;
-        left: -50px;
-    }
-
-    .example-button {
-        bottom: 25px;
     }
 
     .list-container > ul > li {
