@@ -216,11 +216,18 @@
                         <input type="text" class="input-text-field long-input-field" placeholder="телефон">
                         <input type="text" class="input-text-field long-input-field" placeholder="email*">
                         <textarea placeholder="сообщение" class="input-textarea"></textarea>
-                        <button class="order-button">Сделать заказ</button>
+                        <!--                        <button class="order-button">Сделать заказ</button>-->
+
                     </form>
                 </div>
             </li>
+            <div class="buttons-container" style="padding: 100px 0">
+                <div class="rev-button black">
+                    <a href="#"><span>Сделать заказ</span></a>
+                </div>
+            </div>
         </ul>
+
     </div>
 </main>
 <div class="feedback-container" id="feedback-container">
@@ -338,7 +345,7 @@
     $('.menu-label-block').modaal({
         fullscreen: true,
         background: "#000000",
-        overlay_opacity:0.9,
+        overlay_opacity: 0.9,
         hide_close: true,
         before_open() {
             $('.menu-label-block').addClass("click");
@@ -386,30 +393,11 @@
 </script>
 <!--FEEDBACK OPENING BLOCK-->
 <script async>
-
     $("#open-input").focus(function () {
         $("#feedback-input-block").addClass('height-auto');
         $(".confirm-block").addClass('height-auto');
         $(".feedback-input").addClass('open-block');
         $("#open-input").addClass('full');
-    });
-</script>
-<!--ANIMATIONS WITH LABELS AND PARALAX BLOCKS-->
-<script async>
-    const aboutHeaderBlock = document.getElementById('about-header-block');
-    const aboutHeader = document.getElementById('about-header');
-    $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
-
-        if (aboutHeaderBlock.getBoundingClientRect().top < 500) {
-            aboutHeader.classList.add("rev-block");
-            aboutHeader.classList.remove("header-label");
-            $('.anim-about').css({
-                'top': -10 - (perc * 5) + "%"
-            });
-        }
     });
 </script>
 <!--GET DEFAULT NUMBERS TO TOP POSITION-->
@@ -420,5 +408,38 @@
         });
     });
 </script>
+<script async>
+    const aboutHeaderBlock = document.getElementById('about-header-block');
+    const aboutHeader = document.getElementById('about-header');
+
+    const aboutBlackHeaderBlock = document.getElementById('about-black-header-block');
+    const aboutBlackHeader = document.getElementById('about-black-header');
+
+    const panelHeaderBlock = document.getElementById('panel-header-block');
+    const panelHeader = document.getElementById('panel-header');
+
+    const philosophyHeaderBlock = document.getElementById('philosophy-header-block');
+    const philosophyHeader = document.getElementById('philosophy-header');
+    const philosophyNumbersBlock = document.getElementById('philosophy-numbers-block');
+
+    const teamBlockHeaderBlock = document.getElementById('animate-area');
+    const teamBlockHeader = document.getElementById('team-block-header');
+
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    const feedbackContainer = document.getElementById('feedback-container');
+
+    $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
+    });
+</script>
+
 </body>
 </html>

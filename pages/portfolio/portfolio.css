@@ -281,7 +281,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     .first-monitor {
         padding: 0;
     }

@@ -27,14 +27,14 @@
     max-width: 90%;
 }
 
-.road{
+.road {
     background: url("../../assets/images/shema.svg");
     background-position: center center;
     background-size: cover;
     height: 50%;
 }
 
-.road-label{
+.road-label {
     position: absolute;
     left: calc(10% + 20px);
     color: #FFFFFF;

@@ -33,7 +33,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     /*white-space: nowrap;*/
-    font-size: 16pt;
+    font-size: calc(16px + 2 * ((100vw - 420px) / 860));
 }
 
 .list-item {
@@ -41,13 +41,13 @@ main {
     text-transform: uppercase;
     flex: 1;
     padding-left: 15px;
-    min-width: 650px;
+    /*min-width: 650px;*/
 }
 
 .list-content {
     flex: 1;
     padding-left: 15px;
-    min-width: 650px;
+    /*min-width: 650px;*/
 }
 
 .list-content > form > input,
@@ -58,7 +58,7 @@ main {
 .list-option {
     position: relative;
     /*padding-bottom: 30px;*/
-    line-height: 80px;
+    line-height: 30px;
 }
 
 .list-option-title {
@@ -126,14 +126,18 @@ main {
 }
 
 .order-button {
-    width: 190px;
-    height: 40px;
+    /*width: 190px;*/
+    /*height: 40px;*/
     margin-top: 40px;
     margin-left: 10px;
-    background: black;
-    color: white;
-    font-size: 16px;
-    border: none;
+    /*background: black;*/
+    /*color: white;*/
+    /*font-size: 16px;*/
+    /*border: none;*/
+}
+
+.order-button span {
+    font-size: 9pt;
 }
 
 .price-field {
@@ -223,6 +227,7 @@ main {
 
     .first-monitor {
         padding: 0;
+        min-height: auto;
     }
 
     .list-item, .list-content {
@@ -353,7 +358,7 @@ main {
         background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }
 
-    .menu-label-block{
+    .menu-label-block {
         width: 100%;
         position: absolute;
     }
