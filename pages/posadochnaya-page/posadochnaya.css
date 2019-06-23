@@ -1,11 +1,11 @@
 @font-face {
     font-family: helvetica;
-    src: url(fonts/HelveticaNeueCyr-Light.otf);
+    src: url(/pages/portfolio/fonts/HelveticaNeueCyr-Light.otf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     font-family: helvetica;
 }
 
@@ -54,7 +54,7 @@ main .designing-container:nth-child(2) {
 .designing-info-description {
     padding-top: 30px;
     line-height: 22px;
-    width: 570px;
+    /*width: 570px;*/
 }
 
 .read-more-button {
@@ -99,17 +99,18 @@ main .designing-container:nth-child(2) {
     display: flex;
     justify-content: space-around;
     flex: 1;
-    background: url("assets/cna_house.png");
-    height: 550px;
+    /*background: url("assets/cna_house.png");*/
+    /*height: 550px;*/
 }
 
 .project-image > img {
-    height: 550px;
+    height: auto;
+    width: 100%;
 }
 
-#architect-photo > img {
-    height: 400px;
-}
+/*#architect-photo > img {*/
+/*    height: 400px;*/
+/*}*/
 
 #map {
     height: 500px;
@@ -402,4 +403,34 @@ main .designing-container:nth-child(2) {
     .interest-text {
         margin-bottom: 20px;
     }
+}
+
+
+.info-block {
+    top: 0 !important;
+    margin-top: 80px;
+}
+
+.first-monitor {
+    background: #ffffff;
+    min-height: calc(100vh - 210px);
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-info {
+    height: calc(100% - 200px);
+    border: none;
+}
+
+.left-part-about {
+    top: 0;
+}
+
+.rev-block {
+    max-width: 90%;
 }

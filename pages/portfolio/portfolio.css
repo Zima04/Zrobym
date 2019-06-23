@@ -59,12 +59,19 @@ ul {
     align-items: center;
     display: flex;
     flex-direction: column;
-    outline: #e5e5e5 1px solid;
+    border: #e5e5e5 1px solid;
     background-color: #ffffff;
 }
 
+/*.project:first-of-type{*/
+/*    border-left: #e5e5e5 1px solid;*/
+/*}*/
+
+
 .project > img {
-    width: 450px;
+    width: 100%;
+    height: auto;
+    min-width: 300px;
 }
 
 .project-title {
@@ -81,6 +88,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding-bottom: 30px;
 }
 
@@ -161,7 +169,7 @@ ul {
 }
 
 .interests-details {
-    margin-top: 150px;
+    margin-top: 100px;
     flex: 1;
     padding: 15px;
     display: flex;
@@ -265,23 +273,11 @@ ul {
     }
 }
 
-@media (max-width: 360px) {
-    .interest-mark {
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 435px) {
-    .interests-details > ul {
-        width: 100%;
-    }
-
-    .interest-mark {
-        margin-right: 0;
-    }
-}
-
 @media screen and (max-width: 450px) {
+    main {
+        padding: 0;
+    }
+
     .first-monitor {
         padding: 0;
     }
@@ -299,7 +295,7 @@ ul {
 
     .info-block {
         margin-top: 0;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         text-align: justify;
     }
 
@@ -338,7 +334,7 @@ ul {
     .categories {
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin: 0;
         align-items: center;
     }
 
@@ -350,8 +346,17 @@ ul {
         flex-direction: column;
     }
 
-    .project > img {
+    .interests-details {
+        margin: 0;
+    }
+
+    .interests-details > ul {
         width: 100%;
+    }
+
+    .interests-details > ul {
+        margin-top: 50px;
+        margin-bottom: 0;
     }
 
     .interests-details span:nth-child(1) {
@@ -369,8 +374,16 @@ ul {
     }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 1000px) {
     .interests-details {
         align-items: center;
+    }
+
+    .interest-mark {
+        display: none;
+    }
+
+    .center-line{
+        z-index: 0;
     }
 }

@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
 #panel-header,
 #philosophy-header,
 #team-block-header,
-#footer-header {
+#footer-header,
+#interesting-header{
     font-family: "Helvetica Heavy", serif;
     font-size: 40px;
 }
