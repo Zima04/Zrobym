@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, #more-button, .map-header-label {
+h1, h2, h3, h4, h5, .more-button, .map-header-label {
     font-family: "Helvetica Medium", serif;
 }
 
@@ -543,18 +543,18 @@ h1, h2, h3, h4, h5, #more-button, .map-header-label {
     transition: 0.3s linear;
 }
 
-#more-button {
+.more-button {
     color: rgb(205, 161, 115);
     cursor: pointer;
 }
 
-#more-text {
+.more-text {
     max-height: 0;
     transition: max-height 1s ease-out;
     overflow: hidden;
 }
 
-#more-text.open {
+.more-text.open {
     max-height: 500px;
     transition: max-height 1s ease-in;
 }
