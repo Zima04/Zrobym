@@ -75,7 +75,7 @@ ul {
 }
 
 .project-title {
-    font-size: 18pt;
+    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 5px;
     display: flex;
@@ -84,7 +84,7 @@ ul {
 }
 
 .project-description {
-    font-size: 14pt;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +205,7 @@ ul {
 .interest-text {
     width: 300px;
     height: 50px;
-    font-size: 10pt;
+    font-size: 12px;
     border: 2px solid black;
     display: flex;
     text-align: center;

@@ -35,7 +35,7 @@
     max-width: 90%;
 }
 
-.road-mobile{
+.road-mobile {
     display: none;
 }
 
@@ -75,7 +75,7 @@
     }
 
     .info-block {
-        margin: 0!important;
+        margin: 0 !important;
         text-align: center;
     }
 
@@ -84,19 +84,20 @@
         top: 0;
     }
 
-    .right-part-about{
+    .right-part-about {
         padding: 0;
     }
 
-    .road{
+    .road {
         padding-top: 50px;
     }
 
-    .road-mobile{
+    .road-mobile {
         display: flex;
+        padding-top: 50px;
     }
 
-    .road{
+    .road {
         display: none;
     }
 
