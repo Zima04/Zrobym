@@ -250,8 +250,10 @@
                         <input type="text" class="input-text-field long-input-field" placeholder="телефон">
                         <input type="text" class="input-text-field long-input-field" placeholder="email*">
                         <textarea placeholder="сообщение" class="input-textarea"></textarea>
-                        <div class="rev-button black" style="margin-top: 40px">
-                            <a href="#"><span>Сделать заказ</span></a>
+                        <div class="buttons-container">
+                            <div class="rev-button black" style="margin-top: 40px">
+                                <a href="#"><span>Сделать заказ</span></a>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -430,30 +432,14 @@
         $("#open-input").addClass('full');
     });
 </script>
-<!--ANIMATIONS WITH LABELS AND PARALAX BLOCKS-->
 <script async>
-    const aboutHeaderBlock = document.getElementById('about-header-block');
-    const aboutHeader = document.getElementById('about-header');
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
     $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
-
-        if (aboutHeaderBlock.getBoundingClientRect().top < 500) {
-            aboutHeader.classList.add("rev-block");
-            aboutHeader.classList.remove("header-label");
-            $('.anim-about').css({
-                'top': -10 - (perc * 5) + "%"
-            });
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
         }
-    });
-</script>
-<!--GET DEFAULT NUMBERS TO TOP POSITION-->
-<script async>
-    $('.close').click(function () {
-        $('.anim-about').css({
-            'top': 0 + "%"
-        });
     });
 </script>
 </body>

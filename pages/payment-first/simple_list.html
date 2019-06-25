@@ -229,7 +229,7 @@
                     итоговая стоимость проекта
                 </div>
                 <div class="list-content">
-                    <div class="price-field"><span class="price">4200 $, <div class="underline"></div></span>США</div>
+                    <div class="price-field"><span class="price">3280 $, <div class="underline"></div></span>США</div>
                 </div>
             </li>
             <li>
@@ -242,8 +242,10 @@
                         <input type="text" class="input-text-field long-input-field" placeholder="телефон">
                         <input type="text" class="input-text-field long-input-field" placeholder="email*">
                         <textarea placeholder="сообщение" class="input-textarea"></textarea>
-                        <div class="rev-button black" style="margin-top: 40px">
-                            <a href="#"><span>Сделать заказ</span></a>
+                        <div class="buttons-container">
+                            <div class="rev-button black" style="margin-top: 40px">
+                                <a href="#"><span>Сделать заказ</span></a>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -422,22 +424,11 @@
         $("#open-input").addClass('full');
     });
 </script>
-<!--GET DEFAULT NUMBERS TO TOP POSITION-->
-<script async>
-    $('.close').click(function () {
-        $('.anim-about').css({
-            'top': 0 + "%"
-        });
-    });
-</script>
 <script async>
     const footerHeaderBlock = document.getElementById('footer-header-block');
     const footerHeader = document.getElementById('footer-header');
 
     $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
         if (footerHeaderBlock.getBoundingClientRect().top < 500) {
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
