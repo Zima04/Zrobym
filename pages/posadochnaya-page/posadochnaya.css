@@ -342,6 +342,10 @@ main .designing-container:nth-child(2) {
         text-align: justify;
     }
 
+    .center-line {
+        z-index: 0;
+    }
+
     .space-description {
         display: none;
     }
