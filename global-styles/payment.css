@@ -348,7 +348,7 @@ main {
     .burger-black {
         margin: 20px 0;
         height: 300px;
-        width: 150px;
+        width: 100px;
         background-position: center center;
         background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }

@@ -104,7 +104,8 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #philosophy-header,
 #team-block-header,
 #footer-header,
-#interesting-header{
+#interesting-header,
+#map-header {
     font-family: "Helvetica Heavy", serif;
     font-size: 40px;
 }
@@ -1588,7 +1589,7 @@ textarea {
 
 @media screen and (max-width: 1000px) {
     #about-header, #about-black-header, #panel-header,
-    #philosophy-header, #team-block-header, #footer-header {
+    #philosophy-header, #team-block-header, #footer-header,#map-header {
         font-size: 30px;
     }
 }
@@ -1633,7 +1634,7 @@ textarea {
     .header-label, .rev-block, #philosophy-header {
         max-width: 100%;
         text-align: center;
-        margin: 100px 0;
+        margin: 50px 0;
     }
 
     .rev-block {
@@ -1678,7 +1679,7 @@ textarea {
         text-align: center;
         align-items: center;
         margin: 0;
-        padding: 20px 42px;
+        padding: 20px 42px!important;
         font-size: 12px;
     }
 

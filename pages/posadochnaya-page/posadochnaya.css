@@ -30,12 +30,11 @@ main .designing-container:nth-child(2) {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
+    margin-left: 10%;
 }
 
 .designing-title {
-    padding: 15px;
     display: flex;
-    /*justify-content: center;*/
     flex: 1;
 }
 
@@ -54,7 +53,7 @@ main .designing-container:nth-child(2) {
 .designing-info-description {
     padding-top: 30px;
     line-height: 22px;
-    /*width: 570px;*/
+    display: flex;
 }
 
 .read-more-button {
@@ -100,13 +99,31 @@ main .designing-container:nth-child(2) {
     justify-content: space-around;
     flex: 1;
     min-width: 450px;
-    /*background: url("assets/cna_house.png");*/
-    /*height: 550px;*/
 }
 
 .project-image > img {
     height: auto;
     width: 100%;
+}
+
+.empty-right-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 10%
+}
+
+.empty-left-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 10%
+}
+
+.empty-left-part {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 10%
 }
 
 /*#architect-photo > img {*/
@@ -117,6 +134,7 @@ main .designing-container:nth-child(2) {
     height: 500px;
     background-image: url(assets/map.png);
     background-position: center;
+    background-size: cover;
 }
 
 #map span:nth-child(2) {
@@ -144,7 +162,7 @@ main .designing-container:nth-child(2) {
     white-space: nowrap;
 }
 
-.space-description{
+.space-description {
     width: 20%;
 }
 
@@ -257,10 +275,6 @@ main .designing-container:nth-child(2) {
     margin-top: 10px;
 }
 
-.big-margin-top {
-    margin-left: 20%;
-}
-
 .no-select {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -296,10 +310,6 @@ main .designing-container:nth-child(2) {
     font-size: 20px;
 }
 
-/*.header3 {*/
-/*    font-size: 16pt;*/
-/*}*/
-
 .normal-wrap {
     white-space: normal;
 }
@@ -316,27 +326,101 @@ main .designing-container:nth-child(2) {
 
 @media (max-width: 1000px) {
     .project-image > img {
-        /*width: 80%;*/
+        width: 80%;
         margin-bottom: 40px;
     }
 
-    .project-description {
+    .project-description, .info-block {
         text-align: center;
+    }
+
+    .project.last, .designing-container {
+        flex-direction: column
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .space-description {
+        display: none;
+    }
+
+    .rev-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: table;
+    }
+
+    .left-part-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rev-block span:after {
+        left: calc(50% - 65px);
+    }
+
+    .empty-left-part > .left-part-about {
+        display: none;
+    }
+
+    .empty-right-part > .right-part-about {
+        display: none;
     }
 }
 
 @media (max-width: 450px) {
 
-    .project:nth-child(2n - 1) {
-        flex-direction: column;
+    main {
+        padding: 0;
     }
 
-    .project:nth-child(2n) {
-        flex-direction: column-reverse;
+    .info-block {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .left-part-about {
+        display: contents;
+        top: 0;
+    }
+
+    .arrow-block {
+        display: none;
+    }
+
+    .burger-block {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .burger-black {
+        margin: 20px 0;
+        height: 300px;
+        width: 100px;
+        background-position: center center;
+        background: url("../../assets/logos/Zrobym_logo_White.svg") no-repeat;
+    }
+
+    .menu-label-block {
+        width: 100%;
+        position: absolute;
     }
 
     .project-image {
-        min-width: 0px;
+        min-width: 300px;
+    }
+
+    .project {
+        flex-direction: row;
     }
 
     .project-description {
@@ -348,30 +432,69 @@ main .designing-container:nth-child(2) {
     }
 
     .interests {
-        padding: 0 14%;
+        flex-direction: column;
+        padding: 0 10%;
         text-align: center;
     }
 
+    .interests .rev-button span{
+        white-space: pre-line!important;
+    }
+
     .interests-details {
-        width: 100%;
+        /*width: 99%;*/
+        padding: 0;
+        margin: 0;
     }
 
     .interests-details > ul > li {
         justify-content: center;
     }
 
-    .project-description {
-        padding: 0 14%;
+    .project-image > img {
+        width: 100%;
     }
 
-    .project-image > img {
-        width: 70%;
+    .last .project-image {
+        min-width: auto;
+    }
+
+    .designing-container,
+    main .designing-container:nth-child(2),
+    .empty-left-part,
+    .empty-right-part,
+    .project,
+    .project-description-container {
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .info-block {
+        margin: 0 !important;
+    }
+
+    .designing-title {
+        justify-content: center;
+    }
+
+    .designing-title-container {
+        margin: 0;
+
+    }
+
+    .project-description-container {
+        width: 90% !important;
     }
 
     .buttons-container {
+        padding: 50px 0 !important;
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .footer-info-block p {
+        text-align: center;
     }
 }
 

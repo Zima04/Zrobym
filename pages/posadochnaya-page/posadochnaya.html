@@ -93,7 +93,6 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<hr class="gorizontal-line"/>
 <div class="arrow-block">
     <div class="arrow-grey arrow-animate"></div>
 </div>
@@ -101,7 +100,7 @@
 <main>
     <div class="designing-container">
         <div class="left-part-about">
-            <h1 class="rev-block" id="about-header">
+            <h1 class="rev-block">
                 <span>проектирование</span>
                 <br>
                 <span class="light-font">что вы знаете<br>об этом?</span>
@@ -133,10 +132,11 @@
             </div>
         </div>
     </div>
+    <hr class="gorizontal-line"/>
     <div class="designing-container" style="margin-bottom: 100px;">
         <div class="left-part-about">
-            <h1 class="rev-block" id="about-header">
-                <span class="light-font">новые проекты</span>
+            <h1 class="rev-block">
+                <span class="light-font">новые проекты</span><br>
                 <span>ZROBYM </span><br>
                 <span>ARCHITECTS</span>
             </h1>
@@ -153,7 +153,7 @@
 </main>
 <div class="projects-container">
     <hr class="gorizontal-line"/>
-    <div class="project">
+    <div class="project" style="flex-wrap: wrap">
         <div class="project-image">
             <img src="assets/cna_house.png">
         </div>
@@ -253,21 +253,20 @@
             <img src="assets/tomography.png">
         </div>
     </div>
-    <div style="display: flex;flex-direction: row;padding: 100px 10%">
-        <div class="left-part-about" style="display: flex;justify-content: center;align-items: center;white-space: nowrap;">
-            <div>
-                <span class="uppercase bolder">еще больше проектов<br><br></span>
-                <span class="designing-info-description">
+    <div class="empty-right-part">
+        <div class="left-part-about"
+             style="display: flex;flex-direction:column;justify-content: center;align-items: center;padding: 15px;">
+            <span class="uppercase bolder">еще больше проектов<br><br></span>
+            <span class="designing-info-description">
 							Перейдите в наше портфолио, чтобы посмотреть<br>
 							реализованные, а также все наши проекты
 						</span>
-            </div>
         </div>
         <div class="right-part-about">
         </div>
     </div>
     <hr class="gorizontal-line"/>
-    <div style="display: flex;flex-direction: row;padding: 100px 10%">
+    <div class="empty-left-part">
         <div class="left-part-about ">
         </div>
         <div class="right-part-about">
@@ -277,13 +276,13 @@
                         <a href="#"><span>реализованные проекты</span></a>
                     </div>
                     <div class="rev-button">
-                        <a href="#"><span>все проекты студии</span></a>
+                        <a href="#"><span style="padding: 14px 59px;">все проекты студии</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="project">
+    <div class="project last">
         <div class="project-image">
             <img src="assets/architect.png">
         </div>
@@ -313,17 +312,14 @@
 </div>
 
 <div class="designing-container" id="map">
-    <div class="designing-title">
-
-        <div class="designing-title-container big-margin-top">
-            <h1 class="rev-block">
-                <span>места, где мы</span>
-                <br>
-                <span class="light-font">проектировали</span>
-            </h1>
-        </div>
+    <div class="left-part-about" style="padding-left: 10%">
+        <h1 class="rev-block" id="map-header">
+            <span>места, где мы</span>
+            <br>
+            <span class="light-font">проектировали</span>
+        </h1>
     </div>
-    <div class="designing-info">
+    <div class="right-part-about">
     </div>
 </div>
 <div class="interests">
@@ -337,26 +333,38 @@
     <div class="right-part-about">
         <div class="interests-details">
             <span>Возможно вам будут интересны другие направления и проекты нашей студии:</span>
-            <ul>
-                <li>
-                    <div class="interest-mark">I</div>
-                    <div class="interest-text">
-                        <span class="bolder uppercase">дизайн внутренних пространств</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="interest-mark">C</div>
-                    <div class="interest-text">
-                        <span class="bolder uppercase">наши реализованные проекты</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="interest-mark">BY</div>
-                    <div class="interest-text">
-                        <span class="bolder uppercase">бренд серийной мебели</span>
-                    </div>
-                </li>
-            </ul>
+
+            <div class="buttons-container" style="padding-top: 100px">
+                <div class="rev-button black">
+                    <a href="#"><span>дизайн внутренних пространств</span></a>
+                </div>
+                <div class="rev-button black">
+                    <a href="#"><span>наши реализованные проекты</span></a>
+                </div>
+                <div class="rev-button black">
+                    <a href="#"><span>бренд серийной мебели</span></a>
+                </div>
+            </div>
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <div class="interest-mark">I</div>-->
+<!--                    <div class="interest-text">-->
+<!--                        <span class="bolder uppercase">дизайн внутренних пространств</span>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div class="interest-mark">C</div>-->
+<!--                    <div class="interest-text">-->
+<!--                        <span class="bolder uppercase">наши реализованные проекты</span>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div class="interest-mark">BY</div>-->
+<!--                    <div class="interest-text">-->
+<!--                        <span class="bolder uppercase">бренд серийной мебели</span>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
         </div>
     </div>
 </div>
@@ -378,7 +386,7 @@
     </div>
     <div class="confirm-block">
         <div class="item">
-            <img src="../assets/images/projects/images/recaptcha.png" style="width: 100%">
+            <img src="../../assets/images/recaptcha.png" style="width: 100%">
         </div>
         <div class="item">
             Пожалуйста заполните поля со * и пройдите верификацию
@@ -552,6 +560,20 @@
         $('.anim-about').css({
             'top': 0 + "%"
         });
+    });
+</script>
+<script async>
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
     });
 </script>
 </body>
