@@ -148,6 +148,8 @@ main {
 }
 
 .price-field {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     font-size: 36pt;
     z-index: 1;
@@ -259,7 +261,6 @@ main {
         margin-bottom: 20px;
         margin-top: 40px;
         display: flex;
-        align-items: center;
         justify-content: center;
         text-align: center;
     }
@@ -347,7 +348,7 @@ main {
     .burger-black {
         margin: 20px 0;
         height: 300px;
-        width: 150px;
+        width: 100px;
         background-position: center center;
         background: url("../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }

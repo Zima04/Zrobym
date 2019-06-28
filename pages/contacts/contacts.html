@@ -98,7 +98,7 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="first-monitor" id="first-monitor">
+<div class="first-monitor">
     <div class="welcome-info">
         <div class="left-part-about">
             <h1 class="rev-block" id="about-header">
@@ -130,10 +130,10 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="first-monitor" id="first-monitor">
+<div class="first-monitor">
     <div class="welcome-info">
         <div class="left-part-about">
-            <h1 class="rev-block" id="about-header">
+            <h1 class="rev-block">
                 <span>Контакты</span>
                 <br>
                 <span class="light-font">by furniture</span>
@@ -154,7 +154,10 @@
 </div>
 <hr class="gorizontal-line"/>
 <div class="road">
-    <img src="../../assets/images/shema.svg" class="road-image">
+    <img src="../../assets/images/road.jpg" class="road-image">
+</div>
+<div class="road-mobile">
+    <img src="../../assets/images/road_mobile.jpg" class="road-image">
 </div>
 <div class="feedback-container" id="feedback-container">
     <h3 class="inputs-container">Напишите нам</h3>
@@ -174,7 +177,7 @@
     </div>
     <div class="confirm-block">
         <div class="item">
-            <img src="../assets/images/projects/images/recaptcha.png" style="width: 100%">
+            <img src="../../assets/images/recaptcha.png" style="width: 100%">
         </div>
         <div class="item">
             Пожалуйста заполните поля со * и пройдите верификацию
@@ -282,9 +285,6 @@
         }, 800);
         return false;
     });
-    $(window).scroll(function () {
-
-    });
 </script>
 <script async>
     $('.menu-label-block').modaal({
@@ -302,6 +302,16 @@
     $("#close-button").click(function () {
         $('.menu-label-block').modaal('close');
     })
+</script>
+<script async>
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+    $(document).on("scroll", function () {
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
+    });
 </script>
 </body>
 </html>

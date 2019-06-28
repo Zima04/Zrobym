@@ -114,7 +114,7 @@
                     качественно разработанный проект уменьшает количество переделок в процессе строительства здания и
                     экономит
                     деньги заказчика за счёт рационального использования материалов, указания поставщиков с </p>
-                <p id="more-text">
+                <p id="more-text" class="more-text">
                     наименьшей наценкой, предоставления партнёрских скидок клиентам и т.д.
 
                     Как правило, грамотный проект и авторское
@@ -125,7 +125,7 @@
                     которые будут заниматься разработкой и реализацией вашего проекта, следует подходить исходя из их
                     профессионализма (портфолио + опыт реализации проекта + творческие достижения). Не забывайте это!
                 </p>
-                <div id="more-button">
+                <div id="more-button" class="more-button">
                     <span>Читать полностью</span>
                     <!--<span>Скрыть</span>-->
                 </div>
@@ -229,7 +229,7 @@
                     итоговая стоимость проекта
                 </div>
                 <div class="list-content">
-                    <div class="price-field"><span class="price">4200 $, <div class="underline"></div></span>США</div>
+                    <div class="price-field"><span class="price">3280 $, <div class="underline"></div></span>США</div>
                 </div>
             </li>
             <li>
@@ -237,13 +237,15 @@
                     ваши контактные данные
                 </div>
                 <div class="list-content">
-                    <form method="POST">
+                    <form method="POST" style="display: flex;flex-direction: column">
                         <input type="text" class="input-text-field long-input-field" placeholder="ФИО*">
                         <input type="text" class="input-text-field long-input-field" placeholder="телефон">
                         <input type="text" class="input-text-field long-input-field" placeholder="email*">
                         <textarea placeholder="сообщение" class="input-textarea"></textarea>
-                        <div class="rev-button black" style="margin-top: 40px">
-                            <a href="#"><span>Сделать заказ</span></a>
+                        <div class="buttons-container">
+                            <div class="rev-button black" style="margin-top: 40px">
+                                <a href="#"><span>Сделать заказ</span></a>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -270,7 +272,7 @@
     </div>
     <div class="confirm-block">
         <div class="item">
-            <img src="../assets/images/projects/images/recaptcha.png" style="width: 100%">
+            <img src="../../assets/images/recaptcha.png" style="width: 100%">
         </div>
         <div class="item">
             Пожалуйста заполните поля со * и пройдите верификацию
@@ -422,22 +424,11 @@
         $("#open-input").addClass('full');
     });
 </script>
-<!--GET DEFAULT NUMBERS TO TOP POSITION-->
-<script async>
-    $('.close').click(function () {
-        $('.anim-about').css({
-            'top': 0 + "%"
-        });
-    });
-</script>
 <script async>
     const footerHeaderBlock = document.getElementById('footer-header-block');
     const footerHeader = document.getElementById('footer-header');
 
     $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
         if (footerHeaderBlock.getBoundingClientRect().top < 500) {
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
