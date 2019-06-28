@@ -93,15 +93,14 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<hr class="gorizontal-line"/>
 <div class="arrow-block">
     <div class="arrow-grey arrow-animate"></div>
 </div>
 <hr class="gorizontal-line"/>
 <main>
-    <div class="designing-container">
+    <div class="information-container">
         <div class="left-part-about">
-            <h1 class="rev-block" id="about-header">
+            <h1 class="rev-block">
                 <span>проектирование</span>
                 <br>
                 <span class="light-font">что вы знаете<br>об этом?</span>
@@ -117,12 +116,12 @@
                     типового проекта. Минимум вложений, минимум затрат и минимум
                     сложностей - по крайней мере, на первоначальном этапе. Такому решению
                     сегодня верны многие домовладельцы, и вариант имеет право на жизнь. </p>
-                <p id="more-text">
+                <p id="more-text" class="more-text">
                     Нельзя упустить из виду тот факт, что типовой проект обойдется заказчику
                     примерно втрое дешевле, чем услуги архитектурной студии, которая
                     постарается до мелочей продумать индивидуальный проект нового дома.
                 </p>
-                <div id="more-button">
+                <div id="more-button" class="more-button">
                     <span>Читать полностью</span>
                 </div>
                 <div class="buttons-container" style="padding-top: 100px">
@@ -133,10 +132,11 @@
             </div>
         </div>
     </div>
-    <div class="designing-container">
+    <hr class="gorizontal-line"/>
+    <div class="information-container" style="margin-bottom: 100px;">
         <div class="left-part-about">
-            <h1 class="rev-block" id="about-header">
-                <span class="light-font">новые проекты</span>
+            <h1 class="rev-block">
+                <span class="light-font">новые проекты</span><br>
                 <span>ZROBYM </span><br>
                 <span>ARCHITECTS</span>
             </h1>
@@ -151,8 +151,9 @@
         </div>
     </div>
 </main>
-<div class="projects-container">
-    <div class="project">
+<div class="project-container">
+    <hr class="gorizontal-line"/>
+    <div class="project" style="flex-wrap: wrap">
         <div class="project-image">
             <img src="assets/cna_house.png">
         </div>
@@ -173,10 +174,14 @@
                     </div>
                 </div>
             </div>
+            <div class="space-description"></div>
         </div>
     </div>
+    <hr class="gorizontal-line"/>
     <div class="project">
+
         <div class="project-description">
+            <div class="space-description"></div>
             <div class="project-description-container">
                 <div class="header1 uppercase bolder">matski house</div>
                 <div class="header3 uppercase bolder">проект дома</div>
@@ -198,6 +203,7 @@
             <img src="assets/matski_house.png">
         </div>
     </div>
+    <hr class="gorizontal-line"/>
     <div class="project">
         <div class="project-image">
             <img src="assets/kindergarten.png">
@@ -219,10 +225,13 @@
                     </div>
                 </div>
             </div>
+            <div class="space-description"></div>
         </div>
     </div>
+    <hr class="gorizontal-line"/>
     <div class="project">
         <div class="project-description">
+            <div class="space-description"></div>
             <div class="project-description-container">
                 <div class="header1 uppercase bolder">tomography</div>
                 <div class="header3 uppercase bolder">реконструкция здания</div>
@@ -244,130 +253,113 @@
             <img src="assets/tomography.png">
         </div>
     </div>
-    <div class="project">
-        <div class="project-description">
-            <div class="project-description-container">
-                <span class="header3 uppercase bolder">еще больше проектов</span>
-                <span class="designing-info-description">
-							Перейдите в наше портфолио, чтобы посмотреть<br>
-							реализованные, а также все наши проекты
-						</span>
+    <div class="empty-right-part">
+        <div class="left-part-about"
+             style="display: flex;flex-direction:column;justify-content: center;align-items: center;padding: 15px;">
+            <span class="uppercase bolder">еще больше проектов<br><br></span>
+            <p>
+                Перейдите в наше портфолио, чтобы посмотреть<br>
+                реализованные, а также все наши проекты
+            </p>
+        </div>
+        <div class="right-part-about">
+        </div>
+    </div>
+    <hr class="gorizontal-line"/>
+    <div class="empty-left-part">
+        <div class="left-part-about ">
+        </div>
+        <div class="right-part-about">
+            <div style="padding: 15px">
+                <div class="buttons-container">
+                    <div class="rev-button black">
+                        <a href="#"><span>реализованные проекты</span></a>
+                    </div>
+                    <div class="rev-button">
+                        <a href="#"><span style="padding: 14px 59px;">все проекты студии</span></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="project-description">
+    </div>
+    <div class="project last">
+        <div class="project-image">
+            <img src="assets/architect.png">
+        </div>
+        <div class="project-description" style="white-space: initial">
+            <div class="project-description-container" style="padding: 15px; width: 80%">
+                <h4>индивидуальное проектирование дома</h4>
+                <p>
+                    При индивидуальном проектировании вашего дома мы
+                    раскроем всю красоту участка, рационально и с учётом всех
+                    предпочтений распланируем пространство и прилегающую к
+                    дому территорию, Создадим уникальный проект дома с учетом
+                    всех особенностей и пожеланий клиента.
+                </p>
+                <p id="more-text-2" class="more-text">
+                    А также поможем
+                    создать приятную уютную атмосферу в доме, Проектирование
+                    домов от студии ZROBYM architects - это именно то, что вам
+                    нужно!
+                </p>
+                <div id="more-button-2" class="more-button">
+                    <span>Читать полностью</span>
+                </div>
+            </div>
+            <div class="space-description"></div>
+        </div>
+    </div>
+    <hr class="gorizontal-line"/>
+    <div class="empty-left-part">
+        <div class="left-part-about ">
+        </div>
+        <div class="right-part-about">
+            <div style="padding: 15px">
+                <div class="buttons-container">
+                    <div class="rev-button black">
+                        <a href="#"><span>рассчитать стоимость</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="information-container" id="map">
+    <div class="left-part-about" style="padding-left: 10%">
+        <h1 class="rev-block" id="map-header">
+            <span>места, где мы</span>
+            <br>
+            <span class="light-font">проектировали</span>
+        </h1>
+    </div>
+    <div class="right-part-about">
+    </div>
+</div>
+<div class="interests">
+    <div class="left-part-about">
+        <h1 class="rev-block" id="interesting-header">
+            <span>вам будет</span>
+            <br>
+            <span class="light-font">интересно</span>
+        </h1>
+    </div>
+    <div class="right-part-about">
+        <div class="interests-details">
+            <span>Возможно вам будут интересны другие направления и проекты нашей студии:</span>
+
             <div class="buttons-container" style="padding-top: 100px">
                 <div class="rev-button black">
-                    <a href="#"><span>реализованные проекты</span></a>
+                    <a href="#"><span>дизайн внутренних пространств</span></a>
                 </div>
-                <div class="rev-button">
-                    <a href="#"><span>все проекты студии</span></a>
+                <div class="rev-button black">
+                    <a href="#"><span>наши реализованные проекты</span></a>
+                </div>
+                <div class="rev-button black">
+                    <a href="#"><span>бренд серийной мебели</span></a>
                 </div>
             </div>
         </div>
-    </div>
-<!--    <div class="project">-->
-<!--        <div class="project-image" id="architect-photo">-->
-<!--            <img src="assets/architect.png">-->
-<!--        </div>-->
-<!--        <div class="project-description">-->
-<!--            <div class="project-description-container">-->
-<!--                <span class="uppercase bolder">индивидуальное проектирование дома</span>-->
-<!--                <span class="designing-info-description normal-wrap">-->
-<!--                        При индивидуальном проектировании вашего дома мы-->
-<!--                        раскроем всю красоту участка, рационально и с учётом всех-->
-<!--                        предпочтений распланируем пространство и прилегающую к-->
-<!--                        дому территорию, Создадим уникальный проект дома с учетом-->
-<!--                        всех особенностей и пожеланий клиента. А также поможем-->
-<!--                        создать приятную уютную атмосферу в доме, Проектирование-->
-<!--                        домов от студии ZROBYM architects - это именно то, что вам-->
-<!--                        нужно!-->
-<!--                    </span>-->
-<!--                <button class="read-more-button no-outline">Читать полностью</button>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="designing-container">-->
-<!--        <div class="left-part-about">-->
-<!--            <img src="assets/architect.png">-->
-<!--        </div>-->
-<!--        <div class="right-part-about">-->
-<!--            <div class="info-block">-->
-<!--                <h4>индивидуальное проектирование дома</h4>-->
-<!--                <p>-->
-<!--                    При индивидуальном проектировании вашего дома мы-->
-<!--                    раскроем всю красоту участка, рационально и с учётом всех-->
-<!--                    предпочтений распланируем пространство и прилегающую к-->
-<!--                    дому территорию, Создадим уникальный проект дома с учетом-->
-<!--                    всех особенностей и пожеланий клиента.-->
-<!--                </p>-->
-<!--                <p id="more-text">-->
-<!--                    А также поможем-->
-<!--                    создать приятную уютную атмосферу в доме, Проектирование-->
-<!--                    домов от студии ZROBYM architects - это именно то, что вам-->
-<!--                    нужно!-->
-<!--                </p>-->
-<!--                <div id="more-button">-->
-<!--                    <span>Читать полностью</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-    </div>
-<!--    <div class="project" id="no-margin-top-project">-->
-<!--        <div class="project-description">-->
-<!--        </div>-->
-<!--        <div class="project-description">-->
-<!--            <div class="project-description-container">-->
-<!--						<span class="uppercase bolder white-font no-select">-->
-<!--							индивидуальное проектирование дома-->
-<!--						</span>-->
-<!--                <button class="black-box-button no-outline">-->
-<!--                    <span class="uppercase bolder lower-font">рассчитать стоимость</span>-->
-<!--                </button>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-</div>
-<!--<div class="designing-container" id="map">-->
-<!--    <div class="designing-title">-->
-<!--        <div class="designing-title-container big-margin-top">-->
-<!--            <span class="uppercase header1">места, где мы</span>-->
-<!--            <span class="uppercase header1 bolder">проектировали-->
-<!--                    <div class="underline"></div>-->
-<!--                </span>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="designing-info">-->
-<!--    </div>-->
-<!--</div>-->
-<div class="interests">
-    <div class="interests-title">
-				<span class="header1 uppercase">
-					<span class="bolder">вам будет</span>интересно
-					<div class="underline" id="interests-underline"></div>
-				</span>
-    </div>
-    <div class="interests-details">
-        <span>Возможно вам будут интересны другие направления и <br>проекты нашей студии:</span>
-        <ul>
-            <li>
-                <div class="interest-mark" id="i-logo"></div>
-                <div class="interest-text">
-                    <span class="bolder uppercase">дизайн внутренних пространств</span>
-                </div>
-            </li>
-            <li>
-                <div class="interest-mark" id="c-logo"></div>
-                <div class="interest-text">
-                    <span class="bolder uppercase">наши реализованные проекты</span>
-                </div>
-            </li>
-            <li>
-                <div class="interest-mark" id="by-logo"></div>
-                <div class="interest-text">
-                    <span class="bolder uppercase">бренд серийной мебели</span>
-                </div>
-            </li>
-        </ul>
     </div>
 </div>
 <div class="feedback-container" id="feedback-container">
@@ -388,7 +380,7 @@
     </div>
     <div class="confirm-block">
         <div class="item">
-            <img src="../assets/images/projects/images/recaptcha.png" style="width: 100%">
+            <img src="../../assets/images/recaptcha.png" style="width: 100%">
         </div>
         <div class="item">
             Пожалуйста заполните поля со * и пройдите верификацию
@@ -513,18 +505,34 @@
             return 'open'
         });
     });
+    $("#more-button-2").click(function () {
+        $("#more-text-2").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button-2 span").text(textButton);
+            return 'open'
+        });
+    });
 </script>
 <!--SCROLL MY ARROW-->
 <script async>
     $('.arrow-grey').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win
         }, 800);
         return false;
     });
     $('.arrow').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win
         }, 800);
@@ -546,6 +554,20 @@
         $('.anim-about').css({
             'top': 0 + "%"
         });
+    });
+</script>
+<script async>
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
     });
 </script>
 </body>
