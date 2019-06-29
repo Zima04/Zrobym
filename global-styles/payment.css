@@ -1,14 +1,3 @@
-@font-face {
-    font-family: helvetica;
-    src: url(../pages/portfolio/fonts/HelveticaNeueCyr-Light.otf);
-}
-
-* {
-    /*margin: 0;*/
-    /*padding: 0;*/
-    font-family: helvetica;
-}
-
 ul {
     list-style: none;
 }
@@ -20,9 +9,7 @@ main {
 }
 
 .list-container {
-    /*width: 1280px;*/
     width: 100%;
-    /*padding-top: 135px;*/
     padding: 0 10%;
     background-color: white;
 }
@@ -32,26 +19,15 @@ main {
     margin-bottom: 140px;
     display: flex;
     flex-wrap: wrap;
-    /*white-space: nowrap;*/
-    /*font-size: calc(16px + 2 * ((100vw - 420px) / 860));*/
-}
-
-.list-content > ul {
-    padding-top: 8px;
-}
-
-.list-item {
-    line-height: 50px;
-    text-transform: uppercase;
-    flex: 1;
-    padding-left: 15px;
-    /*min-width: 650px;*/
 }
 
 .list-content {
     flex: 1;
     padding-left: 15px;
-    /*min-width: 650px;*/
+}
+
+.list-content > ul {
+    padding-top: 8px;
 }
 
 .list-content > form > input,
@@ -59,10 +35,16 @@ main {
     display: block;
 }
 
+.list-item {
+    line-height: 50px;
+    text-transform: uppercase;
+    flex: 1;
+    padding-left: 15px;
+}
+
 .list-option {
     display: flex;
     flex-direction: column;
-    /*padding-bottom: 15px;*/
     line-height: 30px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -128,23 +110,8 @@ main {
     resize: none;
 }
 
-.mesurement {
+.measurement {
     margin-left: 20px;
-}
-
-.order-button {
-    /*width: 190px;*/
-    /*height: 40px;*/
-    margin-top: 40px;
-    margin-left: 10px;
-    /*background: black;*/
-    /*color: white;*/
-    /*font-size: 16px;*/
-    /*border: none;*/
-}
-
-.order-button span {
-    font-size: 9pt;
 }
 
 .price-field {
@@ -178,7 +145,6 @@ main {
 .underline {
     position: absolute;
     bottom: 2px;
-    /*left: 0;*/
     width: 180px;
     height: 15px;
     background-color: #CDA173;
@@ -254,6 +220,7 @@ main {
     .list-content {
         justify-content: start;
         width: 100%;
+        flex-direction: column;
     }
 
     .list-item {
@@ -263,10 +230,6 @@ main {
         display: flex;
         justify-content: center;
         text-align: center;
-    }
-
-    .list-content {
-        flex-direction: column;
     }
 
     .list-options {
@@ -288,17 +251,8 @@ main {
         margin-bottom: 20px;
     }
 
-    .long-input-field {
-        /*width: 90%;*/
-    }
-
-    .input-text-field {
-        /*width: 90%;*/
-    }
-
     .sizes {
         display: flex;
-        /*flex-direction: row;*/
         align-items: center;
     }
 
@@ -317,7 +271,6 @@ main {
     }
 
     .input-textarea {
-        /*width: 90%;*/
         height: 100px;
     }
 
@@ -357,10 +310,4 @@ main {
         width: 100%;
         position: absolute;
     }
-}
-
-@media screen and (max-width: 1280px) {
-    /*.list-container {*/
-    /*    padding: 0 50px;*/
-    /*}*/
 }
