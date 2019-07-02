@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/contacts.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,36 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/contacts/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="310" column="34" selection-start-line="310" selection-start-column="34" selection-end-line="310" selection-end-column="34" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/contacts/contacts.css">
+        <entry file="file://$PROJECT_DIR$/global-styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="34012">
+              <caret line="1591" column="70" selection-start-line="1591" selection-start-column="70" selection-end-line="1591" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -158,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,7 +190,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,14 +282,8 @@
       <workItem from="1561381533259" duration="2274000" />
       <workItem from="1561451104704" duration="2254000" />
       <workItem from="1561484380456" duration="16878000" />
-      <workItem from="1561828046014" duration="2030000" />
-    </task>
-    <task id="LOCAL-00010" summary="fix mobile">
-      <created>1551627961439</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1551627961439</updated>
+      <workItem from="1561828046014" duration="2327000" />
+      <workItem from="1561840569401" duration="142000" />
     </task>
     <task id="LOCAL-00011" summary="fix mobile">
       <created>1551628709418</created>
@@ -653,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561830226695</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="contacts: redundant classes removed">
+      <created>1561830465411</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1561830465412</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376552000" />
+    <option name="totallyTimeSpent" value="376991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,7 +645,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12888302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -716,7 +690,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix number counter" />
     <MESSAGE value="fix prev next buttons" />
     <MESSAGE value="fix subheader panel" />
     <MESSAGE value="fix service padding" />
@@ -741,7 +714,8 @@
     <MESSAGE value="posadochnaya update" />
     <MESSAGE value="portfolio: unused classes removed" />
     <MESSAGE value="payment pages: redundant classes removed&#10;one class renamed (meAsurement)" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment pages: redundant classes removed&#10;one class renamed (meAsurement)" />
+    <MESSAGE value="contacts: redundant classes removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="contacts: redundant classes removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,10 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
+    <entry file="file://$PROJECT_DIR$/pages/contacts/contacts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35002">
-          <caret line="1591" column="70" selection-start-line="1591" selection-start-column="70" selection-end-line="1591" selection-end-column="70" />
+        <state relative-caret-position="636">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1052,10 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contacts/contacts.css">
+    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="34012">
+          <caret line="1591" column="70" selection-start-line="1591" selection-start-column="70" selection-end-line="1591" selection-end-column="70" />
         </state>
       </provider>
     </entry>

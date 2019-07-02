@@ -46,10 +46,16 @@ main {
     display: flex;
     flex-direction: column;
     line-height: 30px;
+    margin-bottom: 5px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.list-option > div {
+    position: relative;
+    height: 0px;
 }
 
 .list-option-title {
@@ -63,12 +69,17 @@ main {
 }
 
 .list-option-title > div:nth-child(1) {
-    margin-right: 10px;
+    margin-right: 45px;
 }
 
 .list-option-title > div:nth-child(2) {
     flex-direction: column;
     align-items: flex-start;
+}
+
+.list-option-title > div > img {
+    width: 35px;
+    height: 35px;
 }
 
 .list-option input {
@@ -77,6 +88,7 @@ main {
 
 .list-option input[type="checkbox"]:checked + .list-option-title > div:nth-child(1) > img {
     background-image: url(../assets/icons/Black/checked.png);
+    background-size: 35px 35px;
 }
 
 .checkmark {
@@ -129,7 +141,9 @@ main {
 }
 
 .example-button {
-    margin-left: 50px;
+    position: relative;
+    top: -10px;
+    margin-left: 75px;
     font-size: 12pt;
     color: #CDA173;
     border: none;
