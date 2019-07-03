@@ -141,14 +141,15 @@ main {
 }
 
 .example-button-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    position: relative;
+    margin-left: 75px;
+    height: 0;
 }
 
 .example-button-arrow {
     width: 5px;
     height: 10px;
+    margin-right: 5px;
     background: url(../assets/icons/Black/example-button-arrow.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -156,30 +157,24 @@ main {
 }
 
 .example-button {
-    font-size: 14px;
+    position: relative;
+    top: -8px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
     color: #CDA173;
     border: none;
     background-color: white;
     cursor: pointer;
+    font-family: "Helvetica Medium";
 }
-
-/*.example-button-arrow {
-    width: 5px;
-    height: 5px;
-    background: url(../assets/icons/Black/example-button-arrow.png);
-}
-
-.example-button:before {
-    margin-right: 8px;
-    content: url(../assets/icons/Black/example-button-arrow.png);
-    size: 40px 40px;
-}*/
 
 .underline {
     position: absolute;
-    bottom: 2px;
+    bottom: -15px;
+    /*left: 0;*/
     width: 180px;
-    height: 15px;
+    height: 8px;
     background-color: #CDA173;
     z-index: -1;
 }
@@ -230,6 +225,10 @@ main {
 }
 
 @media screen and (max-width: 450px) {
+
+    #no-top-space-example-button {
+        top: 0;
+    }
 
     .first-monitor {
         padding: 0;

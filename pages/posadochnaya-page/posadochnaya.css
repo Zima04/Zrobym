@@ -108,6 +108,19 @@ main .information-container:nth-child(2) {
     z-index: -1;
 }
 
+.interests-title {
+    margin-top: 100px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex: 1;
+    z-index: 1;
+}
+
+#interests-title-span {
+    position: relative;
+}
+
 .interests-details {
     margin-top: 100px;
     flex: 1;
@@ -148,6 +161,10 @@ main .information-container:nth-child(2) {
 
 .header3 {
     font-size: 20px;
+}
+
+.normal-wrap {
+    white-space: normal;
 }
 
 @media (max-width: 1000px) {
