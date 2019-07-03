@@ -53,7 +53,6 @@ html, body {
     margin: 0;
     font-family: "Helvetica Light", serif;
     z-index: 0;
-    letter-spacing: 2px;
 }
 
 .anim-about {
