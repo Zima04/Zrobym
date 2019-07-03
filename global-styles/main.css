@@ -53,7 +53,6 @@ html, body {
     margin: 0;
     font-family: "Helvetica Light", serif;
     z-index: 0;
-    letter-spacing: 2px;
 }
 
 .anim-about {
@@ -1373,7 +1372,10 @@ textarea {
     max-width: 60%;
     z-index: 1;
     padding: 20px;
+}
 
+.rev-block .non-line:after {
+   height: 0!important;
 }
 
 .rev-block span {
@@ -1589,7 +1591,7 @@ textarea {
 
 @media screen and (max-width: 1000px) {
     #about-header, #about-black-header, #panel-header,
-    #philosophy-header, #team-block-header, #footer-header,#map-header {
+    #philosophy-header, #team-block-header, #footer-header, #map-header {
         font-size: 30px;
     }
 }
@@ -1679,7 +1681,7 @@ textarea {
         text-align: center;
         align-items: center;
         margin: 0;
-        padding: 20px 42px!important;
+        padding: 20px 42px !important;
         font-size: 12px;
     }
 

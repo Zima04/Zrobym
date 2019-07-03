@@ -98,7 +98,7 @@
 </div>
 <hr class="gorizontal-line"/>
 <main>
-    <div class="designing-container">
+    <div class="information-container">
         <div class="left-part-about">
             <h1 class="rev-block">
                 <span>проектирование</span>
@@ -133,7 +133,7 @@
         </div>
     </div>
     <hr class="gorizontal-line"/>
-    <div class="designing-container" style="margin-bottom: 100px;">
+    <div class="information-container" style="margin-bottom: 100px;">
         <div class="left-part-about">
             <h1 class="rev-block">
                 <span class="light-font">новые проекты</span><br>
@@ -151,7 +151,7 @@
         </div>
     </div>
 </main>
-<div class="projects-container">
+<div class="project-container">
     <hr class="gorizontal-line"/>
     <div class="project" style="flex-wrap: wrap">
         <div class="project-image">
@@ -257,10 +257,10 @@
         <div class="left-part-about"
              style="display: flex;flex-direction:column;justify-content: center;align-items: center;padding: 15px;">
             <span class="uppercase bolder">еще больше проектов<br><br></span>
-            <span class="designing-info-description">
-							Перейдите в наше портфолио, чтобы посмотреть<br>
-							реализованные, а также все наши проекты
-						</span>
+            <p>
+                Перейдите в наше портфолио, чтобы посмотреть<br>
+                реализованные, а также все наши проекты
+            </p>
         </div>
         <div class="right-part-about">
         </div>
@@ -325,7 +325,7 @@
     </div>
 </div>
 
-<div class="designing-container" id="map">
+<div class="information-container" id="map">
     <div class="left-part-about" style="padding-left: 10%">
         <h1 class="rev-block" id="map-header">
             <span>места, где мы</span>
@@ -359,26 +359,6 @@
                     <a href="#"><span>бренд серийной мебели</span></a>
                 </div>
             </div>
-<!--            <ul>-->
-<!--                <li>-->
-<!--                    <div class="interest-mark">I</div>-->
-<!--                    <div class="interest-text">-->
-<!--                        <span class="bolder uppercase">дизайн внутренних пространств</span>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div class="interest-mark">C</div>-->
-<!--                    <div class="interest-text">-->
-<!--                        <span class="bolder uppercase">наши реализованные проекты</span>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div class="interest-mark">BY</div>-->
-<!--                    <div class="interest-text">-->
-<!--                        <span class="bolder uppercase">бренд серийной мебели</span>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
         </div>
     </div>
 </div>
@@ -545,14 +525,14 @@
 <!--SCROLL MY ARROW-->
 <script async>
     $('.arrow-grey').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win
         }, 800);
         return false;
     });
     $('.arrow').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.first-monitor').height() + 213;
         $('body,html').animate({
             scrollTop: win
         }, 800);

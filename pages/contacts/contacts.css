@@ -1,6 +1,5 @@
 .first-monitor {
     background: #ffffff;
-    /*min-height: calc(100vh - 210px);*/
     padding: 0 10%;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,6 @@
     margin-top: 80px;
 }
 
-
 .rev-block {
     max-width: 90%;
 }
@@ -48,12 +46,6 @@
     width: 100%;
 }
 
-.road-label {
-    position: absolute;
-    left: calc(10% + 20px);
-    color: #FFFFFF;
-}
-
 @media screen and (max-width: 450px) {
     .rev-block {
         margin: 50px;
@@ -67,11 +59,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-    }
-
-    .list-item, .list-content {
-        min-width: auto;
-        padding: 0;
     }
 
     .info-block {
@@ -90,15 +77,12 @@
 
     .road {
         padding-top: 50px;
+        display: none;
     }
 
     .road-mobile {
         display: flex;
         padding-top: 50px;
-    }
-
-    .road {
-        display: none;
     }
 
     .arrow-block {
