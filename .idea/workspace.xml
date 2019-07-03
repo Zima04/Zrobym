@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/pages/portfolio/portfolio.html" description="&lt;a href=&quot;#inline&quot; class=&quot;menu-label-block&quot;&gt;" line="27" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.css" afterDir="false" />
-    </list>
+    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -83,8 +80,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+                <state relative-caret-position="123">
+                  <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -167,9 +164,9 @@
       <find>list-item</find>
       <find>rev-block</find>
       <find>about-header</find>
-      <find>counterAnimation</find>
       <find>checkbox</find>
       <find>checkmark</find>
+      <find>counterAnimation</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -211,7 +208,6 @@
         <option value="$PROJECT_DIR$/global-styles/payment.css" />
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
-        <option value="$PROJECT_DIR$/pages/portfolio/portfolio.css" />
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
         <option value="$PROJECT_DIR$/pages/contacts/contacts.html" />
@@ -219,6 +215,7 @@
         <option value="$PROJECT_DIR$/global-styles/main.css" />
         <option value="$PROJECT_DIR$/pages/payment-first/simple_list.html" />
         <option value="$PROJECT_DIR$/pages/payment-second/double_list.html" />
+        <option value="$PROJECT_DIR$/pages/portfolio/portfolio.css" />
         <option value="$PROJECT_DIR$/pages/portfolio/portfolio.css" />
       </list>
     </option>
@@ -358,13 +355,6 @@
       <workItem from="1561484380456" duration="16878000" />
       <workItem from="1561828046014" duration="2327000" />
       <workItem from="1561840569401" duration="142000" />
-    </task>
-    <task id="LOCAL-00013" summary="fix mobile">
-      <created>1551629428024</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1551629428024</updated>
     </task>
     <task id="LOCAL-00014" summary="fix mobile">
       <created>1551629575564</created>
@@ -702,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562189323974</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="fix project descriptions">
+      <created>1562189561119</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1562189561119</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382661000" />
+    <option name="totallyTimeSpent" value="383548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +715,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16391276" />
@@ -765,7 +762,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix service padding" />
     <MESSAGE value="fix comments from Andrew" />
     <MESSAGE value="fix menu" />
     <MESSAGE value="fix styles" />
@@ -790,7 +786,8 @@
     <MESSAGE value="contacts: redundant classes removed" />
     <MESSAGE value="fix headers" />
     <MESSAGE value="fix culculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix culculation" />
+    <MESSAGE value="fix project descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix project descriptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1114,8 +1111,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        <state relative-caret-position="123">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
