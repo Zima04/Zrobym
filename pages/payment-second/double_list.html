@@ -228,7 +228,7 @@
                     <span class="bold">3.</span> укажите площадь объекта
                 </div>
                 <div class="list-content sizes">
-                    <input type="text" class="input-text-field">
+                    <input type="text" class="input-text-field recalculated">
                     <label class="measurement">M<sup>2</sup></label>
                 </div>
             </li>
@@ -237,7 +237,13 @@
                     итоговая стоимость проекта
                 </div>
                 <div class="list-content">
-                    <div class="price-field"><span class="price">4200 $, <div class="underline"></div></span>США</div>
+                    <div class="price-field">
+                        <span class="price">
+                        <span class="price-number">0</span>
+                        $,
+                        <div class="underline"></div>
+                        </span>США
+                    </div>
                 </div>
             </li>
             <li>
@@ -440,6 +446,36 @@
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
         }
+    });
+</script>
+<script async>
+    let arrayOfIntervals = [];
+
+    function counterAnimation(startCount, maxCount, stepCount) {
+        arrayOfIntervals.forEach(item => {
+            clearInterval(item);
+        });
+        let count = startCount,
+            block = $('.price-number');
+        arrayOfIntervals.push(setInterval(function () {
+            block.text(count);
+            count = count + stepCount;
+            if (count > maxCount) {
+                count = maxCount;
+                block.text(count);
+                arrayOfIntervals.forEach(item => {
+                    clearInterval(item);
+                })
+            }
+        }, 100));
+    }
+
+    let inputs = document.getElementsByClassName('checkmark');
+    let inputSizeRoom = document.getElementsByClassName('recalculated');
+    Array.from([...inputs, ...inputSizeRoom]).forEach(item => {
+        item.addEventListener('change', () => {
+            counterAnimation(0, 630, 21)
+        })
     });
 </script>
 </body>
