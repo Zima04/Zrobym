@@ -59,8 +59,8 @@ ul {
 }
 
 .project-title {
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -68,12 +68,12 @@ ul {
 }
 
 .project-description {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .pagination-container {
