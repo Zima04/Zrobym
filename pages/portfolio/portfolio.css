@@ -227,10 +227,9 @@ ul {
 
 .underline {
     position: absolute;
-    bottom: 2px;
-    left: -15px;
+    bottom: -15px;
     width: 82px;
-    height: 10px;
+    height: 8px;
     background-color: #CDA173;
     z-index: -1;
 }

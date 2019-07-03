@@ -185,13 +185,6 @@ main .designing-container:nth-child(2) {
     z-index: 1;
 }
 
-#interests-underline {
-    top: 95px;
-    width: 200px;
-    height: 12px;
-    background-color: #BABABA;
-}
-
 #interests-title-span {
     position: relative;
 }
@@ -312,16 +305,6 @@ main .designing-container:nth-child(2) {
 
 .normal-wrap {
     white-space: normal;
-}
-
-.underline {
-    position: relative;
-    bottom: 15px;
-    left: -15px;
-    width: 200px;
-    height: 15px;
-    background-color: #CDA173;
-    z-index: -1;
 }
 
 @media (max-width: 1000px) {

@@ -177,10 +177,10 @@ main {
 
 .underline {
     position: absolute;
-    bottom: 2px;
+    bottom: -15px;
     /*left: 0;*/
     width: 180px;
-    height: 15px;
+    height: 8px;
     background-color: #CDA173;
     z-index: -1;
 }

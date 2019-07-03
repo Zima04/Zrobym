@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #interesting-header,
 #map-header {
     font-family: "Helvetica Heavy", serif;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .light-font {
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 /*WELCOME-BLOCK*/
 
 .background-image {
-    background: url("../assets/images/Zrobim_Index_First-Screen.gif") no-repeat;
+    background: url("../assets/images/zrobym_Index_First-Screen.gif") no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
