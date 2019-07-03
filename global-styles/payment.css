@@ -53,10 +53,10 @@ main {
     user-select: none;
 }
 
-.list-option > div {
+/*.list-option > div {
     position: relative;
     height: 0px;
-}
+}*/
 
 .list-option-title {
     display: flex;
@@ -140,20 +140,33 @@ main {
     white-space: nowrap;
 }
 
+.example-button-container {
+    position: relative;
+    margin-left: 75px;
+    height: 0;
+}
+
+.example-button-arrow {
+    width: 5px;
+    height: 10px;
+    margin-right: 5px;
+    background: url(../assets/icons/Black/example-button-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5px 10px;
+}
+
 .example-button {
     position: relative;
-    top: -10px;
-    margin-left: 75px;
-    font-size: 12pt;
+    top: -8px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
     color: #CDA173;
     border: none;
     background-color: white;
     cursor: pointer;
-}
-
-.example-button:before {
-    margin-right: 8px;
-    content: url(../assets/icons/Black/example-button-arrow.png);
+    font-family: "Helvetica Medium";
 }
 
 .underline {
@@ -212,6 +225,10 @@ main {
 }
 
 @media screen and (max-width: 450px) {
+
+    #no-top-space-example-button {
+        top: 0;
+    }
 
     .first-monitor {
         padding: 0;
