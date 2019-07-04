@@ -18,13 +18,6 @@
     <div class="burger-black">
     </div>
 </div>
-<div class="background-image-mobile">
-    <div class="mobile-menu-block">
-    </div>
-    <div class="mobile-arrow-block">
-        <div class="arrow arrow-animate"></div>
-    </div>
-</div>
 <a href="#inline" class="menu-label-block">
     <span class="menu-label"> Меню
             <div class="menu-icon">
@@ -228,7 +221,7 @@
                     <span class="bold">2.</span> укажите площадь объекта
                 </div>
                 <div class="list-content sizes">
-                    <input type="text" class="input-text-field">
+                    <input type="text" class="input-text-field recalculated">
                     <label class="measurement">M<sup>2</sup></label>
                 </div>
             </li>
@@ -237,7 +230,13 @@
                     итоговая стоимость проекта
                 </div>
                 <div class="list-content">
-                    <div class="price-field"><span class="price">3280 $, <div class="underline"></div></span>США</div>
+                    <div class="price-field">
+                        <span class="price">
+                        <span class="price-number">0</span>
+                        $,
+                        <div class="underline"></div>
+                        </span>США
+                    </div>
                 </div>
             </li>
             <li>
@@ -262,41 +261,6 @@
 
     </div>
 </main>
-<!--<div class="feedback-container" id="feedback-container">-->
-<!--    <h3 class="inputs-container">Напишите нам</h3>-->
-<!--    <div class="inputs-container">-->
-<!--        <div class="feedback-left-part">-->
-<!--            <span>И мы ответим на любые интересующие вас вопросы о проекте</span>-->
-<!--            <div class="feedback-input-block" id="feedback-input-block">-->
-<!--                <input class="feedback-input" type="text" placeholder="ФИО*">-->
-<!--                <input class="feedback-input" type="text" placeholder="город, страна*">-->
-<!--                <input class="feedback-input" type="text" placeholder="телефон">-->
-<!--                <input class="feedback-input" type="text" placeholder="email*">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="feedback-right-part">-->
-<!--            <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="confirm-block">-->
-<!--        <div class="item">-->
-<!--            <img src="../../assets/images/recaptcha.png" style="width: 100%">-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            Пожалуйста заполните поля со * и пройдите верификацию-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <div>-->
-<!--                <div class="rev-button">-->
-<!--                    <span>отправить</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 <div class="black-background" id="footer-header-block">
     <hr class="gorizontal-line-top"/>
     <div class="footer black">
@@ -441,6 +405,36 @@
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
         }
+    });
+</script>
+<script async>
+    let arrayOfIntervals = [];
+
+    function counterAnimation(startCount, maxCount, stepCount) {
+        arrayOfIntervals.forEach(item => {
+            clearInterval(item);
+        });
+        let count = startCount,
+            block = $('.price-number');
+        arrayOfIntervals.push(setInterval(function () {
+            block.text(count);
+            count = count + stepCount;
+            if (count > maxCount) {
+                count = maxCount;
+                block.text(count);
+                arrayOfIntervals.forEach(item => {
+                    clearInterval(item);
+                })
+            }
+        }, 100));
+    }
+
+    let inputs = document.getElementsByClassName('checkmark');
+    let inputSizeRoom = document.getElementsByClassName('recalculated');
+    Array.from([...inputs, ...inputSizeRoom]).forEach(item => {
+        item.addEventListener('change', () => {
+            counterAnimation(0, 630, 21)
+        })
     });
 </script>
 

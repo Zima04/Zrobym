@@ -59,8 +59,8 @@ ul {
 }
 
 .project-title {
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -68,12 +68,12 @@ ul {
 }
 
 .project-description {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .pagination-container {
@@ -265,29 +265,6 @@ ul {
         display: none;
     }
 
-    .burger-block {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        z-index: 2;
-    }
-
-    .burger-black {
-        margin: 20px 0;
-        height: 300px;
-        width: 100px;
-        background-position: center center;
-        background: url("../../assets/logos/Zrobym_logo_White.svg") no-repeat;
-    }
-
-    .menu-label-block {
-        width: 100%;
-        position: absolute;
-    }
-
     .categories {
         display: flex;
         flex-direction: column;
@@ -323,6 +300,41 @@ ul {
     .interests-details > ul > li {
         flex-wrap: wrap-reverse;
         justify-content: center;
+    }
+
+    .burger-block {
+        display: none;
+    }
+
+    .first-monitor h1 {
+        padding-top: 0;
+    }
+
+    .menu-label-block {
+        width: 100%;
+        height: 100px;
+        min-height: 0;
+        position: unset;
+    }
+
+    .menu-label {
+        transform: rotate(0);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+    }
+
+    .menu-icon {
+        position: unset;
+    }
+
+    .menu-icon .bar {
+        margin-top: 0;
+        background: black;
     }
 }
 

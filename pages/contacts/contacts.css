@@ -90,24 +90,37 @@
     }
 
     .burger-block {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        display: none;
     }
 
-    .burger-black {
-        margin: 20px 0;
-        height: 300px;
-        width: 100px;
-        background-position: center center;
-        background: url("../../assets/logos/Zrobym_logo_White.svg") no-repeat;
+    .first-monitor h1 {
+        padding-top: 0;
     }
 
     .menu-label-block {
         width: 100%;
-        position: absolute;
+        height: 100px;
+        min-height: 0;
+        position: unset;
+    }
+
+    .menu-label {
+        transform: rotate(0);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+    }
+
+    .menu-icon {
+        position: unset;
+    }
+
+    .menu-icon .bar {
+        margin-top: 0;
+        background: black;
     }
 }

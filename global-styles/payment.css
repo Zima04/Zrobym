@@ -161,7 +161,7 @@ main {
     top: -8px;
     display: flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 14px;
     color: #CDA173;
     border: none;
     background-color: white;
@@ -233,6 +233,10 @@ main {
     .first-monitor {
         padding: 0;
         min-height: auto;
+    }
+
+    .first-monitor h1 {
+        padding-top: 0;
     }
 
     .list-item, .list-content {
@@ -321,13 +325,15 @@ main {
     }
 
     .burger-block {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        z-index: 2;
+        /*position: absolute;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*width: 100%;*/
+        /*z-index: 2;*/
+
+        display: none;
     }
 
     .burger-black {
@@ -340,6 +346,30 @@ main {
 
     .menu-label-block {
         width: 100%;
-        position: absolute;
+        height: 100px;
+        min-height: 0;
+        position: unset;
+    }
+
+    .menu-label {
+        transform: rotate(0);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+    }
+
+    .menu-icon {
+        /*top: 30px;*/
+        /*right: 8px;*/
+        position: unset;
+    }
+
+    .menu-icon .bar {
+        margin-top: 0;
+        background: black;
     }
 }
