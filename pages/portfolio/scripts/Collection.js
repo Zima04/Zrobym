@@ -21,6 +21,20 @@ const collection = [
         category: 'category-3',
     },
     {
+        src: '../../assets/images/projects/galitsa.png',
+        title: 'galitsa',
+        description: 'Проект частного дома',
+        year: 2019,
+        category: 'category-1',
+    },
+    {
+        src: '../../assets/images/projects/kordis_exterior.png',
+        title: 'kordis exterior',
+        description: 'Проект',
+        year: 2019,
+        category: 'category-2',
+    },
+    {
         src: '../../assets/images/projects/kindergarten.png',
         title: 'kindergarten',
         description: 'Разработка фасадов детского сада',
