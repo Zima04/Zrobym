@@ -14,14 +14,29 @@
 <hr class="center-line"/>
 <hr class="left-line"/>
 <hr class="right-line"/>
-<div class="burger-block">
-    <div class="burger-black">
+<div class="video-container">
+    <video autoplay muted loop class="fullscreen-bg__video">
+        <source src="../../assets/video/architecture.mp4" type="video/mp4">
+    </video>
+    <div class="burger-block">
+        <div class="burger-white">
+        </div>
     </div>
-</div>
-<div class="background-image-mobile">
-    <div class="mobile-menu-block">
+    <div class="video-content">
+        <div class="welcome-info">
+            <div class="left-part-about black">
+                <h1 class="rev-block" id="about-header">
+                    <span class="light-font">Architectual</span>
+                    <br>
+                    <span>projects</span>
+                </h1>
+                <span class="rev-block">
+                <span class="non-line">by Zrobym architects</span>
+            </span>
+            </div>
+        </div>
     </div>
-    <div class="mobile-arrow-block">
+    <div class="arrow-block">
         <div class="arrow arrow-animate"></div>
     </div>
 </div>
@@ -93,9 +108,7 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="arrow-block">
-    <div class="arrow-grey arrow-animate"></div>
-</div>
+
 <hr class="gorizontal-line"/>
 <main>
     <div class="information-container">
@@ -532,7 +545,7 @@
         return false;
     });
     $('.arrow').click(function () {
-        var win = $('.first-monitor').height() + 213;
+        var win = $('.video-container').height();
         $('body,html').animate({
             scrollTop: win
         }, 800);
