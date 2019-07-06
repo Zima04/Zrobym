@@ -1,0 +1,10 @@
+#right-part-about-big-padding-top {
+    padding-top: 220px;
+}
+
+.team-header {
+    position: relative;
+    font-family: "Helvetica Heavy";
+    font-size: 45px;
+    padding: 150px 0 0 20px;
+}
