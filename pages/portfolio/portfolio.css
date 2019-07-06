@@ -240,6 +240,10 @@ ul {
         padding: 0;
     }
 
+    .rev-block{
+         margin: 10px;
+    }
+
     .first-monitor {
         padding: 0;
     }

@@ -253,6 +253,7 @@ main .information-container:nth-child(2) {
         padding: 0;
     }
 
+
     .video-container .left-part-about {
         flex-direction: column;
     }
@@ -370,7 +371,7 @@ main .information-container:nth-child(2) {
     }
 
     .buttons-container {
-        padding: 50px 0 !important;
+        padding-top: 30px !important;
         display: flex;
         justify-content: center;
         flex-direction: column;

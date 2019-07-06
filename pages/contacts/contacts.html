@@ -226,15 +226,5 @@
         $('.menu-label-block').modaal('close');
     })
 </script>
-<script async>
-    const footerHeaderBlock = document.getElementById('footer-header-block');
-    const footerHeader = document.getElementById('footer-header');
-    $(document).on("scroll", function () {
-        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
-            footerHeader.classList.add("rev-block");
-            footerHeader.classList.remove("header-label");
-        }
-    });
-</script>
 </body>
 </html>
