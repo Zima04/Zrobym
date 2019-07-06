@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team</title>
+    <link rel="stylesheet" href="../../global-styles/main.css" type="text/css" />
+    <link rel="stylesheet" href="../portfolio/portfolio.css" />
+    <link rel="stylesheet" href="../../libs/modaal.css" />
+    <link rel="stylesheet" href="team.css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='../../libs/modaal.js'></script>
+
+    <template id="person-template">
+        <div class="person">
+            <img id="template-image"/>
+            <div class="person-name uppercase bolder" id="template-name"></div>
+            <div class="person-position uppercase" id="template-position"></div>
+        </div>
+    </template>
+</head>
+
+<body>
+<hr class="center-line" />
+<hr class="left-line" />
+<hr class="right-line" />
+<div class="burger-block">
+    <div class="burger-black">
+    </div>
+</div>
+<a href="#inline" class="menu-label-block">
+    <span class="menu-label"> Меню
+        <div class="menu-icon">
+            <span class="bar n1"></span>
+            <span class="bar n2"></span>
+            <span class="bar n3"></span>
+        </div>
+    </span>
+</a>
+<div id="inline" style="display:none;">
+    <hr class="center-line"/>
+    <hr class="left-line"/>
+    <hr class="right-line"/>
+    <div>
+        <div class="burger-block">
+            <div class="burger-white">
+            </div>
+        </div>
+        <hr class="gorizontal-line" />
+        <div class="open-menu-content">
+            <div class="background-content">
+                <a id="close-button" title="Закрыть" class="close"></a>
+                <a class="menu-links">Главная</a>
+                <a class="menu-links">О нас</a>
+                <a class="menu-links">Архитектурное проектирование</a>
+                <a class="menu-links">Дизайн интерьера</a>
+                <a class="menu-links">Бренд серийной мебели</a>
+                <a class="menu-links">Готовые проекты</a>
+                <a class="menu-links">Пресса</a>
+                <a class="menu-links">Контакты</a>
+            </div>
+            <div class="language-block">
+                <span class="lang">ru</span>
+                <span class="lang">eng</span>
+                <span class="lang">by</span>
+            </div>
+        </div>
+        <hr class="gorizontal-line" />
+        <div class="social-icons-block">
+            <div class="social-icons">
+                <a href="#"><span class="icon behance-icon-white"></span></a>
+                <a href="#"><span class="icon youtube-icon-white"></span></a>
+                <a href="#"><span class="icon instagram-icon-white"></span></a>
+                <a href="#"><span class="icon facebook-icon-white"></span></a>
+                <a href="#"> <span class="icon vk-icon-white"></span></a>
+            </div>
+            <div class="language">RU</div>
+        </div>
+    </div>
+</div>
+<hr class="gorizontal-line" />
+<div class="first-monitor" id="first-monitor">
+    <div class="welcome-info">
+        <div class="left-part-about ">
+            <h1 class="rev-block" id="about-header">
+                <span class="light-font">профессиональная</span>
+                <br />
+                <span>команда</span>
+            </h1>
+            <span class="rev-block">
+                <span class="non-line uppercase">zrobym architects</span>
+            </span>
+        </div>
+        <div class="right-part-about big-padding-top">
+            <div class="info-block">
+                <h4>архитектура с идеей</h4>
+                <p>
+                    Мы видим миссию нашей команды в изменении окружающего мира за счет качественной
+                    концептуальной архитектуры. В каждом нашем проекте заложен уникальный смысл и
+                    авторская идея
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="gorizontal-line" />
+<div class="arrow-block">
+    <div class="arrow-grey arrow-animate"></div>
+</div>
+<hr class="gorizontal-line" />
+
+<main>
+    <div class="team-header uppercase">специалисты
+        <div class="underline"></div>
+    </div>
+</main>
+
+<div class="interests">
+    <div class="left-part-about medium-padding-top">
+        <h1 class="rev-block" id="interesting-header">
+            <span class="light-font">ищем</span>
+            <br>
+            <span>сотрудников!</span>
+        </h1>
+        <span class="rev-block">
+            <span class="non-line uppercase header3">в команду zrobym architects</span>
+        </span>
+    </div>
+    <div class="right-part-about medium-padding-top">
+        <div class="info-block">
+            <h3>как попасть в нашу команду?</h3>
+            <p>
+                Ищем суперпрофессионала, архитектурного фанатика, гения дизайна с КПД 200%
+                в команду архитекторов ZROBYM! Предлагаем как удаленную работу, так и работу
+                в офисе студии, высокую ЗП, ведение проектов и реализацию Вашего творческого
+                потенциала!
+            </p>
+            <button class="see-requirements-button bolder">Посмотреть требования</button>
+        </div>
+    </div>
+</div>
+<div class="feedback-container" id="feedback-container">
+    <h3 class="inputs-container">Напишите нам</h3>
+    <div class="inputs-container">
+        <div class="feedback-left-part">
+            <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
+            <div class="feedback-input-block" id="feedback-input-block">
+                <input class="feedback-input" type="text" placeholder="ФИО*">
+                <input class="feedback-input" type="text" placeholder="город, страна*">
+                <input class="feedback-input" type="text" placeholder="телефон">
+                <input class="feedback-input" type="text" placeholder="email*">
+            </div>
+        </div>
+        <div class="feedback-right-part">
+            <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
+        </div>
+    </div>
+    <div class="confirm-block">
+        <div class="item">
+            <img src="../../assets/images/recaptcha.png" style="width: 100%">
+        </div>
+        <div class="item">
+            Пожалуйста заполните поля со * и пройдите верификацию
+        </div>
+        <div class="item">
+            <div>
+                <div class="rev-button">
+                    <span>отправить</span>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+
+        </div>
+    </div>
+</div>
+<div class="black-background" id="footer-header-block">
+    <hr class="gorizontal-line-top"/>
+    <div class="footer black">
+        <div class="header-label" id="footer-header">
+            <span> контакты</span>
+        </div>
+        <div class="footer-info-block">
+            <div class="left-part-footer">
+                <div class="sub-head-label">
+                    давайте встретимся
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>zrobym architects</h3>
+                        <p>
+                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            г.Минск, ул. Немига, 5
+                            <br>(ТЦ Метрополь)
+                            <br> 3 этаж, BY furniture
+                            <br> Время работы: с 10:00 до 19:00
+                            <br> понедельник и воскресенье - <br> выходные
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part-footer">
+                <div class="sub-head-label">
+                    давайте общаться
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>Zrobym architects</h3>
+                        <h5>Минск:</h5>
+                        <div>+375 29 3650669 Андрусь</div>
+                        <div> +375 44 5180676 Алексей</div>
+
+                        <h5>Нью-Йорк:</h5>
+                        <div> +375 44 5180676 Алексей</div>
+                        <h5>Шанхай:</h5>
+                        <div>+375 44 5180676 Алексей</div>
+                        <br>
+                        <div>info@zrobym.by</div>
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            +375 29 3032540 Маруся
+                            <br>byfurniture@zrobym.by
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-button-block">
+            <div class="item">
+            </div>
+            <div class="item">
+                <div style="margin: 50px 10px">
+                    <div class="rev-button white">
+                        <a href=""><span>Контакты во всех странах</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="gorizontal-line-bottom"/>
+</div>
+
+<script src="scripts/Collection.js"></script>
+<script src="scripts/Model.js"></script>
+<script src="scripts/View.js"></script>
+<script src="scripts/Controller.js"></script>
+
+<!--MENU-MORE-TEXT-->
+<script async>
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity: 0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $("#close-button").click(function () {
+        $('.menu-label-block').modaal('close');
+    });
+</script>
+
+<!--SCROLL MY ARROW-->
+<script async>
+    $('.arrow-grey').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+    $('.arrow').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+</script>
+
+<!--FEEDBACK OPENING BLOCK-->
+<script async>
+
+    $("#open-input").focus(function () {
+        $("#feedback-input-block").addClass('height-auto');
+        $(".confirm-block").addClass('height-auto');
+        $(".feedback-input").addClass('open-block');
+        $("#open-input").addClass('full');
+    });
+</script>
+
+</body>
+</html>

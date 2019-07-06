@@ -187,6 +187,15 @@ main {
     font-weight: bolder;
 }
 
+#close-area {
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background: none;
+    outline: 0;
+}
+
 /*MYSTYLES*/
 
 .info-block {

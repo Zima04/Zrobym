@@ -29,7 +29,7 @@ ul {
     cursor: pointer;
 }
 
-.year-header {
+.my-header {
     position: relative;
     margin: 100px 0px 50px 20px;
 }
@@ -276,7 +276,7 @@ ul {
         align-items: center;
     }
 
-    .year-header {
+    .my-header {
         margin-top: 50px;
     }
 

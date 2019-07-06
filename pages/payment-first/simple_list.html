@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8">
     <title>Payment-first</title>
-    <style>
-    </style>
     <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
     <link rel="stylesheet" href="../../global-styles/payment.css">
     <link rel="stylesheet" href="../../libs/modaal.css">
@@ -40,6 +38,7 @@
         <div class="open-menu-content">
             <div class="background-content">
                 <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
                 <a class="menu-links">
                     Главная
                 </a>
@@ -350,9 +349,9 @@
             $('.menu-label-block').removeClass("click");
         }
     });
-    $("#close-button").click(function () {
+    $('.close').click(function () {
         $('.menu-label-block').modaal('close');
-    })
+    });
     $("#more-button").click(function () {
         $("#more-text").toggleClass(function () {
             switch (textButton) {
