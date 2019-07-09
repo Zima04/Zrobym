@@ -109,6 +109,7 @@ main .information-container:nth-child(2) {
 
 .project-description-container div:nth-child(1) {
     margin-bottom: 30px;
+    font-family: "Muller Medium";
 }
 
 .project-description-container div:nth-child(2) {

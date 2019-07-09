@@ -1392,6 +1392,7 @@ textarea {
     max-width: 60%;
     z-index: 1;
     padding: 20px;
+    font-family: "Muller ExtraBold";
 }
 
 .non-line {
