@@ -8,7 +8,7 @@
 
 .team-header {
     position: relative;
-    font-family: "Helvetica Heavy";
+    font-family: "Muller ExtraBold";
     font-size: 45px;
     padding: 150px 0 0 20px;
 }
@@ -28,13 +28,12 @@
     align-items: center;
     padding-bottom: 40px;
     border: #e5e5e5 1px solid;
-    font-family: "Helvetica Light";
+    font-family: "Muller Light";
     z-index: 3;
     background: white;
 }
 
 .person > img {
-    width: 100%;
     height: auto;
     width: 300px;
 }
@@ -46,6 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Muller Medium";
 }
 
 .person-position {
