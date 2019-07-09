@@ -544,6 +544,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 }
 
 .more-button {
+    padding-top: 25px;
     color: rgb(205, 161, 115);
     cursor: pointer;
 }
@@ -1470,6 +1471,7 @@ textarea {
 }
 
 .white span {
+    background-color: #000000!important;
     color: #ffffff !important;
     border: 2px #ffffff solid !important;
 }
