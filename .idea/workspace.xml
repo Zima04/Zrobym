@@ -7,8 +7,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/team/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/team/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/Helvetica Neue Condensed Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/Helvetica Neue Condensed Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-BlackItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Heavy.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-HeavyItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-LightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-MediumItaicl.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Roman.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-ThinItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-UltraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/fonts/HelveticaNeueCyr-UltraLightItalic.otf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,43 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global-styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="361" column="38" selection-start-line="361" selection-start-column="38" selection-end-line="361" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/team/team.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/team/team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="1394" column="36" selection-start-line="1394" selection-start-column="36" selection-end-line="1394" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -75,15 +59,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sizes</find>
-      <find>price-field</find>
-      <find>order</find>
       <find>info-block</find>
       <find>road-mobile</find>
       <find>road</find>
       <find>road-label</find>
       <find>list-item</find>
-      <find>rev-block</find>
       <find>about-header</find>
       <find>checkbox</find>
       <find>checkmark</find>
@@ -104,7 +84,11 @@
       <find>#about-header</find>
       <find>team-header</find>
       <find>non-line</find>
+      <find>intere</find>
       <find>rev-button</find>
+      <find>rev-block</find>
+      <find>left-part-about</find>
+      <find>project-description-container</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(255, 0, 0, 0.5)</replace>
@@ -143,11 +127,6 @@
         <option value="$PROJECT_DIR$/pages/portfolio/scripts/Collection.js" />
         <option value="$PROJECT_DIR$/pages/main-page/main-page.html" />
         <option value="$PROJECT_DIR$/pages/contacts/contacts.css" />
-        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
-        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
-        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
-        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
-        <option value="$PROJECT_DIR$/global-styles/main.css" />
         <option value="$PROJECT_DIR$/global-styles/payment.css" />
         <option value="$PROJECT_DIR$/pages/contacts/contacts.html" />
         <option value="$PROJECT_DIR$/pages/payment-second/double_list.html" />
@@ -161,6 +140,11 @@
         <option value="$PROJECT_DIR$/pages/team/scripts/Controller.js" />
         <option value="$PROJECT_DIR$/pages/team/team.css" />
         <option value="$PROJECT_DIR$/pages/team/team.html" />
+        <option value="$PROJECT_DIR$/global-styles/main.css" />
+        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
+        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css" />
+        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
+        <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
       </list>
     </option>
   </component>
@@ -187,30 +171,7 @@
             <path>
               <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="Muller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="global-styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -241,38 +202,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="payment-second" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="posadochnaya-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrobym.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrobym.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +213,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ivan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Angular/carhub" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -373,20 +302,7 @@
       <workItem from="1561840569401" duration="142000" />
       <workItem from="1562418440841" duration="4889000" />
       <workItem from="1562435519328" duration="11863000" />
-    </task>
-    <task id="LOCAL-00018" summary="fix mobile">
-      <created>1551648919385</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1551648919385</updated>
-    </task>
-    <task id="LOCAL-00019" summary="fix top slide">
-      <created>1551874291013</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1551874291013</updated>
+      <workItem from="1562745311173" duration="59000" />
     </task>
     <task id="LOCAL-00020" summary="fix top slide">
       <created>1551875921129</created>
@@ -717,11 +633,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562448664538</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="team page fonts checked&#10;see requirements button made rev-button">
+      <created>1562705898047</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1562705898047</updated>
+    </task>
+    <task id="LOCAL-00068" summary="template (posadochnaya) page fonts checked">
+      <created>1562707476610</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1562707476610</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407602000" />
+    <option name="totallyTimeSpent" value="409333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,7 +664,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20489095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -747,8 +676,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.11756374" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16684724" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11756374" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16572239" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -780,8 +709,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add script fixing top page" />
-    <MESSAGE value="add other pages" />
     <MESSAGE value="fix modale and adaptive" />
     <MESSAGE value="fix modale menu" />
     <MESSAGE value="add contacts page" />
@@ -805,7 +732,9 @@
     <MESSAGE value="close area added" />
     <MESSAGE value="started to write team page" />
     <MESSAGE value="team page" />
-    <option name="LAST_COMMIT_MESSAGE" value="team page" />
+    <MESSAGE value="team page fonts checked&#10;see requirements button made rev-button" />
+    <MESSAGE value="template (posadochnaya) page fonts checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="template (posadochnaya) page fonts checked" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/icons/Black/VK.svg">
@@ -1037,49 +966,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
+    <entry file="file://$PROJECT_DIR$/pages/team/team.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="361" column="38" selection-start-line="361" selection-start-column="38" selection-end-line="361" selection-end-column="38" />
+        <state relative-caret-position="110">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css">
+    <entry file="file://$PROJECT_DIR$/pages/team/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="375" column="32" lean-forward="true" selection-start-line="375" selection-start-column="32" selection-end-line="375" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="389" column="31" selection-start-line="389" selection-start-column="31" selection-end-line="389" selection-end-column="31" />
+        <state relative-caret-position="341">
+          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
           <folding>
-            <element signature="n#video#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="535">
           <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1100,22 +1008,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/team/team.css">
+    <entry file="file://$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="363">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/team/team.html">
+    <entry file="file://$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="356" column="17" selection-start-line="356" selection-start-column="17" selection-end-line="356" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#video#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="1394" column="36" selection-start-line="1394" selection-start-column="36" selection-end-line="1394" selection-end-column="36" />
         </state>
       </provider>
     </entry>
