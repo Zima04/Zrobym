@@ -40,6 +40,7 @@ main {
     text-transform: uppercase;
     flex: 1;
     padding-left: 15px;
+    font-family: "Muller Regular";
 }
 
 .list-option {
@@ -53,15 +54,11 @@ main {
     user-select: none;
 }
 
-/*.list-option > div {
-    position: relative;
-    height: 0px;
-}*/
-
 .list-option-title {
     display: flex;
     align-items: center;
     cursor: pointer;
+    line-height: 20px;
 }
 
 .list-option-title > div {
@@ -138,6 +135,7 @@ main {
     padding-left: 10px;
     font-weight: bolder;
     white-space: nowrap;
+    font-family: "Muller ExtraBold";
 }
 
 .example-button-container {
@@ -166,7 +164,7 @@ main {
     border: none;
     background-color: white;
     cursor: pointer;
-    font-family: "Helvetica Medium";
+    font-family: "Muller Medium";
 }
 
 .underline {

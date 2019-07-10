@@ -1,28 +1,48 @@
 /*GLOBAL*/
 
 @font-face {
-    font-family: "Helvetica Medium";
-    src: url("../assets/fonts/HelveticaNeueCyr-Medium_2.otf") format("opentype");
+    font-family: "Muller Black";
+    src: url("../assets/fonts/Muller/Muller-Black.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Helvetica Heavy";
-    src: url("../assets/fonts/HelveticaNeueCyr-Heavy.otf") format("opentype");
+    font-family: "Muller Bold";
+    src: url("../assets/fonts/Muller/Muller-Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Helvetica Bold";
-    src: url("../assets/fonts/HelveticaNeueCyr-Bold_2.otf") format("opentype");
+    font-family: "Muller ExtraBold";
+    src: url("../assets/fonts/Muller/Muller-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Helvetica Heavy Roman";
-    src: url("../assets/fonts/HelveticaNeueCyr-HeavyItalic.otf") format("opentype");
+    font-family: "Muller Heavy";
+    src: url("../assets/fonts/Muller/Muller-Heavy.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Helvetica Light";
-    src: url("../assets/fonts/HelveticaNeueCyr-Light_2.otf") format("opentype");
+    font-family: "Muller Light";
+    src: url("../assets/fonts/Muller/Muller-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Muller Medium";
+    src: url("../assets/fonts/Muller/Muller-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url("../assets/fonts/Muller/Muller-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Muller Thin";
+    src: url("../assets/fonts/Muller/Muller-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Muller UltraLight";
+    src: url("../assets/fonts/Muller/Muller-UltraLight.otf") format("opentype");
 }
 
 /*SCROLL STYLING*/
@@ -51,7 +71,7 @@ html, body {
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Light", serif;
+    font-family: "Muller Light";
     z-index: 0;
 }
 
@@ -78,7 +98,7 @@ ul {
 }
 
 p {
-    font-family: "Helvetica Light", serif;
+    font-family: "Muller Light";
 }
 
 a {
@@ -94,7 +114,7 @@ h1, h2, h3, h4, h5,
 }
 
 h1, h2, h3, h4, h5, .more-button, .map-header-label {
-    font-family: "Helvetica Medium", serif;
+    font-family: "Muller Medium";
 }
 
 #about-header,
@@ -105,12 +125,12 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #footer-header,
 #interesting-header,
 #map-header {
-    font-family: "Helvetica Heavy", serif;
+    font-family: "Muller ExtraBold";
     font-size: 45px;
 }
 
 .light-font {
-    font-family: "Helvetica Light", serif;
+    font-family: "Muller Light";
 }
 
 .center-line {
@@ -385,7 +405,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 }
 
 .menu-label {
-    font-family: "Helvetica Medium", serif;
+    font-family: "Muller Medium";
     transform: rotate(270deg);
     font-size: 14px;
     cursor: pointer;
@@ -1373,6 +1393,11 @@ textarea {
     max-width: 60%;
     z-index: 1;
     padding: 20px;
+    font-family: "Muller ExtraBold";
+}
+
+.non-line {
+    font-family: "Muller Medium";
 }
 
 .rev-block .non-line:after {
@@ -1387,7 +1412,6 @@ textarea {
     animation-delay: 0.8s;
     z-index: 0;
     padding: 0.4em 0;
-
 }
 
 .rev-block:after {
@@ -1479,7 +1503,7 @@ textarea {
 .rev-button span {
     color: #000000;
     /*font-size: 20px;*/
-    font-family: "Helvetica Bold", serif;
+    font-family: "Muller Medium", serif;
     text-transform: uppercase;
     font-size: 10px;
     /*opacity: 0;*/
