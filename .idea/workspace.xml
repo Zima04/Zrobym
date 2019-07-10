@@ -7,11 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-first/simple_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-first/simple_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-second/double_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-second/double_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global-styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="1472" column="6" selection-start-line="1472" selection-start-column="1" selection-end-line="1472" selection-end-column="6" />
+            <state relative-caret-position="388">
+              <caret line="1493" column="1" lean-forward="true" selection-start-line="1493" selection-start-column="1" selection-end-line="1493" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -37,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="541">
-              <caret line="172" column="28" lean-forward="true" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+              <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/payment-second/double_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="31">
               <caret line="257" column="56" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -199,16 +194,16 @@
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
         <option value="$PROJECT_DIR$/pages/payment-first/simple_list.html" />
-        <option value="$PROJECT_DIR$/global-styles/main.css" />
         <option value="$PROJECT_DIR$/pages/payment-second/double_list.html" />
+        <option value="$PROJECT_DIR$/global-styles/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="2420" />
-    <option name="height" value="1320" />
+    <option name="x" value="-18" />
+    <option name="y" value="-23" />
+    <option name="width" value="1936" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,28 +219,6 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="payment-first" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +230,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reporting-web-angular7" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -347,14 +320,7 @@
       <workItem from="1562418440841" duration="4889000" />
       <workItem from="1562435519328" duration="11863000" />
       <workItem from="1562529502766" duration="1436000" />
-      <workItem from="1562705954548" duration="1257000" />
-    </task>
-    <task id="LOCAL-00019" summary="fix top slide">
-      <created>1551874291013</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1551874291013</updated>
+      <workItem from="1562705954548" duration="2278000" />
     </task>
     <task id="LOCAL-00020" summary="fix top slide">
       <created>1551875921129</created>
@@ -692,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562460612991</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="small fix from Vlad">
+      <created>1562707348412</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1562707348412</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410303000" />
+    <option name="totallyTimeSpent" value="411324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,10 +681,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13020489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.103793465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -722,9 +694,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.11756374" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49947312" visible="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.16684724" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.2340195" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -989,7 +961,7 @@
     <entry file="file://$PROJECT_DIR$/pages/portfolio/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
-          <caret line="172" column="28" lean-forward="true" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1080,16 +1052,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="1472" column="6" selection-start-line="1472" selection-start-column="1" selection-end-line="1472" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/payment-second/double_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="31">
           <caret line="257" column="56" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1102,6 +1067,13 @@
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="1493" column="1" lean-forward="true" selection-start-line="1493" selection-start-column="1" selection-end-line="1493" selection-end-column="1" />
         </state>
       </provider>
     </entry>
