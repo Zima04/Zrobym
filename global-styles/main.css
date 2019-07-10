@@ -1189,6 +1189,34 @@ textarea {
     z-index: 2;
 }
 
+.gorizontal-line-short-top {
+    position: relative;
+    top: -65px;
+    left: -7%;
+    min-height: 1px;
+    margin: 0;
+    border: none;
+    color: #e5e5e5;
+    background-color: #e5e5e5;
+    width: 8%;
+    height: 1px;
+    z-index: 2;
+}
+
+.gorizontal-line-short-bottom {
+    position: relative;
+    bottom: -70px;
+    left: -7%;
+    min-height: 1px;
+    margin: 0;
+    border: none;
+    color: #e5e5e5;
+    background-color: #e5e5e5;
+    width: 8%;
+    height: 1px;
+    z-index: 2;
+}
+
 .gorizontal-line-top {
     position: relative;
     min-height: 1px;
