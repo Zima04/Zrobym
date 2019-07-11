@@ -46,6 +46,11 @@
     width: 100%;
 }
 
+.black-background{
+    min-height: 20px;
+    background-color: #000000;
+}
+
 @media screen and (max-width: 450px) {
     .rev-block {
         margin: 10px;

@@ -1235,8 +1235,8 @@ textarea {
 }
 
 .sub-head-label {
-    padding: 20px;
-    font-size: 26px;
+    font-size: 29px;
+    padding: 60px 20px 20px;
 }
 
 .footer-info-block .item {
@@ -1500,8 +1500,15 @@ textarea {
     border: 2px #ffffff solid !important;
 }
 
+.gold span{
+    background-color: #1b1b1b!important;
+    color: #cda173 !important;
+    border: 2px #cda173 solid !important;
+}
+
 .rev-button span {
     color: #000000;
+    /*display: flex;*/
     /*font-size: 20px;*/
     font-family: "Muller Medium", serif;
     text-transform: uppercase;
@@ -1510,7 +1517,7 @@ textarea {
     z-index: 0;
     animation: appear-text-button 0.0001s linear forwards;
     animation-delay: 1.4s;
-    margin: 140px 0;
+    /*margin: 140px 0;*/
     cursor: pointer;
     border: 2px black solid;
     padding: 14px 42px;
@@ -1546,6 +1553,19 @@ textarea {
     opacity: 1;
     height: 100%;
     background-color: #ffffff !important;
+}
+
+.gold:after {
+    cursor: pointer;
+    z-index: 9999;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    opacity: 1;
+    height: 100%;
+    background-color: #cda173 !important;
 }
 
 @keyframes rev-button {
