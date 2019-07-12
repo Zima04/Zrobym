@@ -66,6 +66,7 @@
         <div class="open-menu-content">
             <div class="background-content">
                 <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
                 <a class="menu-links">
                     Главная
                 </a>
@@ -363,7 +364,7 @@
     <div class="right-part-about">
         <div class="interests-details">
             <span>Возможно вам будут интересны другие направления и проекты нашей студии:</span>
-            <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column; align-items: center">
+            <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
                 <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
@@ -439,10 +440,10 @@
                     <div class="item">
                         <h3>By furniture</h3>
                         <p>
-                            г.Минск, ул. Немига, 5
-                            <br>(ТЦ Метрополь)
-                            <br> 3 этаж, BY furniture
-                            <br> Время работы: с 10:00 до 19:00
+                            г.Минск, пр-т Победителей, 65
+                            <br>(ТЦ Замок)
+                            <br> Замок Home, пав. 484, BY furniture
+                            <br> Время работы: с 11:00 до 20:00
                             <br> понедельник и воскресенье - <br> выходные
                         </p>
                     </div>
@@ -461,11 +462,12 @@
 
                         <h5>Международные контакты:</h5>
                         <div>WhatsApp +375 44 5180676 Алексей</div>
+                        <br><br>info@zrobym.by
                     </div>
                     <div class="item">
                         <h3>By furniture</h3>
                         <p>
-                            +375 29 3032540 Маруся
+                            <br> +375 29 3032540 Маруся
                             <br>byfurniture@zrobym.by
                         </p>
                     </div>
@@ -505,7 +507,7 @@
             $('.menu-label-block').removeClass("click");
         }
     });
-    $("#close-button").click(function () {
+    $(".close").click(function () {
         $('.menu-label-block').modaal('close');
     })
     $("#more-button").click(function () {

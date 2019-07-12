@@ -201,6 +201,33 @@ ul {
     z-index: -1;
 }
 
+#close-area{
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background: none;
+    outline: 0;
+}
+
+@keyframes rev-button {
+    0% {
+        top: 0;
+        height: 0;
+        width: calc(100%)
+    }
+    50% {
+        top: 0;
+        height: 42px;
+        width: calc(100%)
+    }
+    100% {
+        top: 50%;
+        height: 0;
+        width: calc(100%)
+    }
+}
+
 /*MYSTYLES*/
 
 .info-block {

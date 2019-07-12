@@ -41,6 +41,7 @@
         <div class="open-menu-content">
             <div class="background-content">
                 <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
                 <a class="menu-links">Главная</a>
                 <a class="menu-links">О нас</a>
                 <a class="menu-links">Архитектурное проектирование</a>
@@ -93,23 +94,23 @@
                 </p>
             </div>
             <div class="info-block">
-                <hr class="gorizontal-line-short-top" style="top: -20px;" />
-                <h4>Нью Йорк, США</h4>
+                <hr class="gorizontal-line-short-top" style="top: -20px;"/>
+                <h4>Международные контакты</h4>
                 <p>
-                    г.Минск, ул. М.Богдановича, д 11, 3 этаж<br>
+                    WhatsApp<br>
                     +375 44 5180676 Алексей<br>
-                    info@zrobym.by
+                    byfurniture@zrobym.by
                 </p>
-                <hr class="gorizontal-line-short-bottom" style="bottom: -20px;" />
+<!--                <hr class="gorizontal-line-short-bottom" style="bottom: -20px;"/>-->
             </div>
-            <div class="info-block">
-                <h4>Шанхай, Китай</h4>
-                <p>
-                    г.Минск, ул. М.Богдановича, д 11, 3 этаж<br>
-                    +375 44 5180676 Алексей<br>
-                    info@zrobym.by
-                </p>
-            </div>
+            <!--            <div class="info-block">-->
+            <!--                <h4>Шанхай, Китай</h4>-->
+            <!--                <p>-->
+            <!--                    г.Минск, ул. М.Богдановича, д 11, 3 этаж<br>-->
+            <!--                    +375 44 5180676 Алексей<br>-->
+            <!--                    info@zrobym.by-->
+            <!--                </p>-->
+            <!--            </div>-->
         </div>
     </div>
 </div>
@@ -129,8 +130,8 @@
         <div class="right-part-about">
             <div class="info-block">
                 <h4>минск, беларусь</h4>
-                <p> г.Минск, ул. Немига, 5 (ТЦ Метрополь) 3 этаж
-                    <br><br> Время работы: с 10:00 до 19:00
+                <p> г.Минск, пр-т Победителей, 65 (ТЦ Замок), Замок Home, пав 484
+                    <br><br> Время работы: с 11:00 до 20:00
                     <br> понедельник и воскресенье - выходные
                     <br><br> +375 29 3032540 Маруся<br>
                     <br>byfurniture@zrobym.by
@@ -181,75 +182,7 @@
         </div>
     </div>
 </div>
-<div class="black-background" id="footer-header-block">
-    <hr class="gorizontal-line-top"/>
-    <div class="footer black">
-        <div class="header-label" style="margin-top: 80px" id="footer-header">
-            <span> контакты</span>
-        </div>
-        <div class="footer-info-block">
-            <div class="left-part-footer">
-                <div class="sub-head-label">
-                    давайте встретимся
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>zrobym architects</h3>
-                        <p>
-                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            г.Минск, ул. Немига, 5
-                            <br>(ТЦ Метрополь)
-                            <br> 3 этаж, BY furniture
-                            <br> Время работы: с 10:00 до 19:00
-                            <br> понедельник и воскресенье - <br> выходные
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="right-part-footer">
-                <div class="sub-head-label">
-                    давайте общаться
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>Zrobym architects</h3>
-                        <h5>Минск:</h5>
-                        <div>+375 29 3650669 Андрусь</div>
-                        <div> +375 44 5180676 Алексей</div>
-
-                        <h5>Международные контакты:</h5>
-                        <div>WhatsApp +375 44 5180676 Алексей</div>
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            +375 29 3032540 Маруся
-                            <br>byfurniture@zrobym.by
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="footer-button-block">
-            <div class="item">
-            </div>
-            <div class="item">
-                <div style="margin: 50px 10px">
-                    <div class="rev-button gold">
-                        <a href=""><span>Контакты во всех странах</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr class="gorizontal-line-bottom"/>
-</div>
+<div class="black-background"></div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='../../libs/modaal.js'></script>
 <!--FEEDBACK OPENING BLOCK-->
@@ -286,6 +219,20 @@
     $(".close").click(function () {
         $('.menu-label-block').modaal('close');
     })
+</script>
+<script async>
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
+    });
 </script>
 </body>
 </html>
