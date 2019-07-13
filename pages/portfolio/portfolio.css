@@ -44,12 +44,12 @@ ul {
 
 .project {
     flex: 1;
-    z-index: 3;
+    z-index: 4;
     position: relative;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: #e5e5e5 1px solid;
+    outline: #e5e5e5 1px solid;
     background-color: #ffffff;
 }
 
@@ -82,8 +82,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding: 50px 0 100px;
+    z-index: 3;
+    background-color: #ffffff;
+    position: relative;
 }
 
 .pagination-container > label {
@@ -334,6 +336,10 @@ ul {
     .interests-details > ul > li {
         flex-wrap: wrap-reverse;
         justify-content: center;
+    }
+
+    .buttons-container{
+        align-items: center;
     }
 
     .burger-block {

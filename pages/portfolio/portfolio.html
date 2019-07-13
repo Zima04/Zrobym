@@ -10,8 +10,8 @@
 </head>
 <body>
 <hr class="center-line"/>
-<hr class="left-line"/>
-<hr class="right-line"/>
+<hr class="left-line" style="left: calc(10% - 1px);"/>
+<hr class="right-line" style="right: calc(10% - 1px);"/>
 <div class="burger-block">
     <div class="burger-black">
     </div>
@@ -185,17 +185,17 @@
         <div class="interests-details">
             <span>Возможно вам будут интересны другие направления и проекты нашей студии:</span>
             <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
                     </a>
                 </div>
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
                     </a>
                 </div>
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">бренд серийной мебели</span>
                     </a>
@@ -205,7 +205,7 @@
     </div>
 </div>
 <div class="feedback-container" id="feedback-container">
-    <h3 class="inputs-container">Напишите нам</h3>
+    <h3 style="padding-left: 15px">Напишите нам</h3>
     <div class="inputs-container">
         <div class="feedback-left-part">
             <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
@@ -221,21 +221,25 @@
         </div>
     </div>
     <div class="confirm-block">
-        <div class="item">
-            <img src="../../assets/images/recaptcha.png" style="width: 100%">
-        </div>
-        <div class="item">
-            Пожалуйста заполните поля со * и пройдите верификацию
-        </div>
-        <div class="item">
-            <div>
-                <div class="rev-button">
-                    <span>отправить</span>
-                </div>
+        <div class="feedback-left-part" style="flex-direction: row;">
+            <div class="item">
+                <img src="../../assets/images/recaptcha.png" style="width: 100%">
+            </div>
+            <div class="item">
+                Пожалуйста заполните поля со * и пройдите верификацию
             </div>
         </div>
-        <div class="item">
+        <div class="feedback-right-part">
+            <div class="item">
+                <div>
+                    <div class="rev-button">
+                        <span>отправить</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
 
+            </div>
         </div>
     </div>
 </div>
@@ -282,7 +286,7 @@
 
                         <h5>Международные контакты:</h5>
                         <div>WhatsApp +375 44 5180676 Алексей</div>
-                        <br><br>info@zrobym.by
+                        <br>info@zrobym.by
                     </div>
                     <div class="item">
                         <h3>By furniture</h3>
@@ -299,7 +303,7 @@
             <div class="item">
             </div>
             <div class="item">
-                <div style="margin: 50px 10px">
+                <div style="margin: 50px 0">
                     <div class="rev-button gold">
                         <a href=""><span>Контакты во всех странах</span></a>
                     </div>

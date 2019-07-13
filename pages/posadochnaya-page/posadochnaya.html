@@ -273,13 +273,15 @@
     </div>
     <div class="empty-right-part" style="padding: 0">
         <div class="left-part-about"
-             style="display: flex;flex-direction:column;justify-content: center;align-items: center">
-
-            <span class="uppercase bolder" style="display: flex;width: 400px">еще больше проектов<br><br></span>
-            <p style="width: 400px">
-                Перейдите в наше портфолио, чтобы посмотреть<br>
-                реализованные, а также все наши проекты
-            </p>
+             style="display: flex;flex-direction:row;justify-content: center;align-items: center">
+            <div class="space-description" style="width: 34%"></div>
+            <div class="more-projects-text">
+                <h4 class="uppercase bolder" style="display: flex">еще больше проектов<br></h4>
+                <p>
+                    Перейдите в наше портфолио, чтобы посмотреть
+                    реализованные, а также все наши проекты
+                </p>
+            </div>
         </div>
         <div class="right-part-about">
         </div>
@@ -291,10 +293,10 @@
             <div style="padding: 15px">
                 <div class="buttons-container" style="display: flex; flex-direction: column; align-items: center">
                     <div class="rev-button black" style="margin-bottom: 15px;">
-                        <a href="#" style="display: block;width: 240px;"><span>реализованные проекты</span></a>
+                        <a href="#" style="display: block;"><span>реализованные проекты</span></a>
                     </div>
                     <div class="rev-button" style="margin-bottom: 15px;">
-                        <a href="#" style="display: block;width: 240px;"><span style="padding: 14px 59px;">все проекты студии</span></a>
+                        <a href="#" style="display: block;"><span style="padding: 14px 59px;">все проекты студии</span></a>
                     </div>
                 </div>
             </div>
@@ -305,7 +307,7 @@
             <img src="assets/architect.png">
         </div>
         <div class="project-description" style="white-space: initial">
-            <div class="project-description-container" style="display:block;padding: 15px; width: 80%">
+            <div class="project-description-container" style="display:block;padding: 50px; width: 80%">
                 <h4>индивидуальное проектирование дома</h4>
                 <p>
                     При индивидуальном проектировании вашего дома мы
@@ -331,7 +333,7 @@
         <div class="left-part-about ">
         </div>
         <div class="right-part-about">
-            <div style="padding: 15px">
+            <div class="project-last-button">
                 <div class="buttons-container">
                     <div class="rev-button black">
                         <a href="#"><span>рассчитать стоимость</span></a>
@@ -341,7 +343,6 @@
         </div>
     </div>
 </div>
-
 <div class="information-container" id="map">
     <div class="left-part-about" style="padding-left: 10%">
         <h1 class="rev-block" id="map-header">
@@ -365,17 +366,17 @@
         <div class="interests-details">
             <span>Возможно вам будут интересны другие направления и проекты нашей студии:</span>
             <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
                     </a>
                 </div>
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
                     </a>
                 </div>
-                <div class="rev-button black" style="width: 290px;margin-bottom: 15px;">
+                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
                     <a href="#" style="display: block;width: 100%;">
                         <span style="display: flex; justify-content: center;">бренд серийной мебели</span>
                     </a>
@@ -385,7 +386,7 @@
     </div>
 </div>
 <div class="feedback-container" id="feedback-container">
-    <h3 class="inputs-container">Напишите нам</h3>
+    <h3 style="padding-left: 15px">Напишите нам</h3>
     <div class="inputs-container">
         <div class="feedback-left-part">
             <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
@@ -401,21 +402,25 @@
         </div>
     </div>
     <div class="confirm-block">
-        <div class="item">
-            <img src="../../assets/images/recaptcha.png" style="width: 100%">
-        </div>
-        <div class="item">
-            Пожалуйста заполните поля со * и пройдите верификацию
-        </div>
-        <div class="item">
-            <div>
-                <div class="rev-button">
-                    <span>отправить</span>
-                </div>
+        <div class="feedback-left-part" style="flex-direction: row;">
+            <div class="item">
+                <img src="../../assets/images/recaptcha.png" style="width: 100%">
+            </div>
+            <div class="item">
+                Пожалуйста заполните поля со * и пройдите верификацию
             </div>
         </div>
-        <div class="item">
+        <div class="feedback-right-part">
+            <div class="item">
+                <div>
+                    <div class="rev-button">
+                        <span>отправить</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
 
+            </div>
         </div>
     </div>
 </div>
@@ -462,7 +467,7 @@
 
                         <h5>Международные контакты:</h5>
                         <div>WhatsApp +375 44 5180676 Алексей</div>
-                        <br><br>info@zrobym.by
+                        <br>info@zrobym.by
                     </div>
                     <div class="item">
                         <h3>By furniture</h3>
@@ -479,7 +484,7 @@
             <div class="item">
             </div>
             <div class="item">
-                <div style="margin: 50px 10px">
+                <div style="margin: 50px 0">
                     <div class="rev-button gold">
                         <a href=""><span>Контакты во всех странах</span></a>
                     </div>

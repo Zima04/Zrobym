@@ -130,7 +130,7 @@
         <div class="right-part-about">
             <div class="info-block">
                 <h4>минск, беларусь</h4>
-                <p> г.Минск, пр-т Победителей, 65 (ТЦ Замок), Замок Home, пав 484
+                <p> г.Минск, пр-т Победителей, 65 (ТЦ Замок), Замок Home, пав. 484
                     <br><br> Время работы: с 11:00 до 20:00
                     <br> понедельник и воскресенье - выходные
                     <br><br> +375 29 3032540 Маруся<br>
@@ -148,7 +148,7 @@
     <img src="../../assets/images/road_mobile.jpg" class="road-image">
 </div>
 <div class="feedback-container" id="feedback-container">
-    <h3 class="inputs-container">Напишите нам</h3>
+    <h3 style="padding-left: 15px">Напишите нам</h3>
     <div class="inputs-container">
         <div class="feedback-left-part">
             <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
@@ -164,21 +164,25 @@
         </div>
     </div>
     <div class="confirm-block">
-        <div class="item">
-            <img src="../../assets/images/recaptcha.png" style="width: 100%">
-        </div>
-        <div class="item">
-            Пожалуйста заполните поля со * и пройдите верификацию
-        </div>
-        <div class="item">
-            <div>
-                <div class="rev-button">
-                    <span>отправить</span>
-                </div>
+        <div class="feedback-left-part" style="flex-direction: row;">
+            <div class="item">
+                <img src="../../assets/images/recaptcha.png" style="width: 100%">
+            </div>
+            <div class="item">
+                Пожалуйста заполните поля со * и пройдите верификацию
             </div>
         </div>
-        <div class="item">
+        <div class="feedback-right-part">
+            <div class="item">
+                <div>
+                    <div class="rev-button">
+                        <span>отправить</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
 
+            </div>
         </div>
     </div>
 </div>
@@ -219,20 +223,6 @@
     $(".close").click(function () {
         $('.menu-label-block').modaal('close');
     })
-</script>
-<script async>
-    const footerHeaderBlock = document.getElementById('footer-header-block');
-    const footerHeader = document.getElementById('footer-header');
-
-    $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
-        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
-            footerHeader.classList.add("rev-block");
-            footerHeader.classList.remove("header-label");
-        }
-    });
 </script>
 </body>
 </html>
