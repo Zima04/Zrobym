@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Press</title>
+    <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
+    <link rel="stylesheet" href="press.css">
+    <link rel="stylesheet" href="../../libs/modaal.css">
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<hr class="center-line"/>
+<hr class="left-line" style="left: calc(10% - 1px);"/>
+<hr class="right-line" style="right: calc(10% - 1px);"/>
+<div class="burger-block">
+    <div class="burger-black">
+    </div>
+</div>
+<a href="#inline" class="menu-label-block">
+    <span class="menu-label"> Меню
+        <div class="menu-icon">
+            <span class="bar n1"></span>
+            <span class="bar n2"></span>
+            <span class="bar n3"></span>
+        </div>
+    </span>
+</a>
+<div id="inline" style="display:none;">
+    <hr class="center-line"/>
+    <hr class="left-line"/>
+    <hr class="right-line"/>
+    <div>
+        <div class="burger-block">
+            <div class="burger-white">
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="open-menu-content">
+            <div class="background-content">
+                <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
+                <a class="menu-links">Главная</a>
+                <a class="menu-links">О нас</a>
+                <a class="menu-links">Архитектурное проектирование</a>
+                <a class="menu-links">Дизайн интерьера</a>
+                <a class="menu-links">Бренд серийной мебели</a>
+                <a class="menu-links">Готовые проекты</a>
+                <a class="menu-links">Пресса</a>
+                <a class="menu-links">Контакты</a>
+            </div>
+            <div class="language-block">
+                <span class="lang">ru</span>
+                <span class="lang">eng</span>
+                <span class="lang">by</span>
+            </div>
+        </div>
+        <hr class="gorizontal-line"/>
+        <div class="social-icons-block">
+            <div class="social-icons">
+                <a href="#"><span class="icon behance-icon-white"></span></a>
+                <a href="#"><span class="icon youtube-icon-white"></span></a>
+                <a href="#"><span class="icon instagram-icon-white"></span></a>
+                <a href="#"><span class="icon facebook-icon-white"></span></a>
+                <a href="#"> <span class="icon vk-icon-white"></span></a>
+            </div>
+            <div class="language">RU</div>
+        </div>
+    </div>
+</div>
+<hr class="gorizontal-line"/>
+<div class="first-monitor" id="first-monitor">
+    <div class="welcome-info">
+        <div class="left-part-about ">
+            <h1 class="rev-block" id="about-header">
+                <span>Пресса</span><br>
+                <span class="light-font">
+                    О Zrobym architects
+                </span>
+            </h1>
+            <span class="rev-block">
+                <span class="non-line">в видео и журналах</span>
+            </span>
+        </div>
+        <div class="right-part-about">
+            <div class="info-block" style="margin-top: 200px;top: 0;">
+                <h4>Самые свежие новости о проектах студии
+                    на youtube, в прессе и сайтах</h4>
+                <p> Для многих понятие об идеальном проекте дома состоит из уже сформировавшихся взглядов на
+                    собственное понимание комфорта и организацию быта. Для проектирования домов под
+                    конкретных людей, наша архитектурная студия берёт за основу их привычный образ
+                    жизни и профессионально организует для них пространство. Реализовав некоторые архитектурные
+                    проектов домов в Минске и Беларуси, мы получили бесценный опыт, который и применяем в своей
+                    работе.</p>
+                <p id="more-text" class="more-text">
+                    В своих проектах архитекторы показывают взгляд на доверенное им пространство.
+                    Наш подход отличается своей индивидуальностью.
+                    Из большого количества проектов домов и коттеджей в нашем портфолио нельзя найти два похожих.
+                    Каждый человек хочет заказать индивидуальный архитектурный проект частного дома, чтобы в Минске
+                    и других регионах Беларуси он оставался уникальным. Поэтому архитектурное
+                    проектирование любого здания от нашего бюро отличается не только креативом и творческим подходом, но
+                    и нестандартными решениями!
+                </p>
+                <div id="more-button" class="more-button">
+                    <span>Читать больше</span>
+                    <!--<span>Скрыть</span>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="gorizontal-line"/>
+<div class="arrow-block">
+    <div class="arrow-grey arrow-animate"></div>
+</div>
+<main>
+    <div class="categories">
+        <input type="radio" checked="checked" id="all-projects" name="radio-categories">
+        <label for="all-projects">Все публикации</label>
+        <input type="radio" id="category-1" name="radio-categories">
+        <label for="category-1">Журналы</label>
+        <input type="radio" id="category-2" name="radio-categories">
+        <label for="category-2">Web</label>
+    </div>
+    <h1 class="rev-block" id="about-header">
+            <span class="light-font">
+                    Zrobym architects
+                </span><br>
+        <span>публикации</span>
+    </h1>
+    <!--    <div class="projects-container" id="2019">-->
+    <!--        <template id="project-template">-->
+    <!--            <div class="project">-->
+    <!--                <img>-->
+    <!--                <div class="project-title">-->
+    <!--                    <span class="bolder uppercase"></span>-->
+    <!--                </div>-->
+    <!--                <div class="project-description"></div>-->
+    <!--            </div>-->
+    <!--        </template>-->
+    <!--    </div>-->
+</main>
+<div class="publication-container">
+    <div class="publication-image">
+    </div>
+    <div class="publication-description">
+        <div class="publication-header">
+            Квартиросъемка: «двушка», переделанная из «однушки», с кровать
+        </div>
+        <div class="publication-tags">
+            <div class="publication-address">
+                www.onliner.by
+            </div>
+            <div class="publication-tag">
+                WEB
+            </div>
+        </div>
+    </div>
+</div>
+<div class="publication-container">
+    <div class="publication-image">
+    </div>
+    <div class="publication-description">
+        <div class="publication-header">
+            Квартиросъемка: «двушка», переделанная из «однушки», с кровать
+        </div>
+        <div class="publication-tags">
+            <div class="publication-address">
+                www.onliner.by
+            </div>
+            <div class="publication-tag">
+                WEB
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pagination-container">
+    <div class="left-arrow">
+        <img src="../../assets/images/press/left-arrow.svg">
+    </div>
+    <div class="right-arrow">
+        <img src="../../assets/images/press/right-arrow.svg">
+    </div>
+    <hr style="top: 118px;position:absolute;" class="gorizontal-line"/>
+    <input type="radio" name="pagination" id="p1" checked="checked">
+    <label for="p1">1
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p2">
+    <label for="p2">2
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p3">
+    <label for="p3">3
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p4">
+    <label for="p4">4
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p5">
+    <label for="p5">5
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p6">
+    <label for="p6">6
+        <div class="checkmark"></div>
+    </label>
+
+</div>
+<div style="padding: 300px 10% 100px">
+    <h1 class="rev-block" id="about-header">
+        <span class="light-font">Zrobym architects</span><br>
+        <span>На youtube </span>
+    </h1>
+</div>
+<div class="youtube-container">
+    <div class="youtube-description">
+        <h4 class="youtube-header">
+            Видеоблог "Дом архитектора". Часть 1
+        </h4>
+        <div class="youtube-text">
+            Text description provided by the architects. Interior project of
+            the production facility. The company Kitchen Coffee
+            Roasters is engaged in the roasting coffee process in Minsk, Belarus.
+        </div>
+        <div class="youtube-date">16 апреля 2019</div>
+    </div>
+    <div class="youtube-image">
+
+    </div>
+</div>
+<div class="pagination-container" style="padding: 0 10% 100px;">
+    <div class="left-arrow" style="top:-45px">
+        <img src="../../assets/images/press/left-arrow.svg">
+    </div>
+    <div class="right-arrow" style="top:-45px">
+        <img src="../../assets/images/press/right-arrow.svg">
+    </div>
+    <hr style="top: -12px;position:absolute;" class="gorizontal-line"/>
+    <input type="radio" name="pagination" id="p1" checked="checked">
+    <label for="p1">1
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p2">
+    <label for="p2">2
+        <div class="checkmark"></div>
+    </label>
+    <input type="radio" name="pagination" id="p3">
+    <label for="p3">3
+        <div class="checkmark"></div>
+    </label>
+</div>
+<div class="empty-left-part">
+    <div class="left-part-about ">
+    </div>
+    <div class="right-part-about">
+        <div style="padding: 15px">
+            Смотрите наши последние видео на YouTube
+            <div class="buttons-container" style="display: flex; flex-direction: column;align-items: flex-start;">
+                <div class="rev-button black" style="margin: 15px 0;">
+                    <a href="#" style="display: block;"><span>Просмотреть на Youtube</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="feedback-container" id="feedback-container">
+    <h3 style="padding-left: 15px">Напишите нам</h3>
+    <div class="inputs-container">
+        <div class="feedback-left-part">
+            <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
+            <div class="feedback-input-block" id="feedback-input-block">
+                <input class="feedback-input" type="text" placeholder="ФИО*">
+                <input class="feedback-input" type="text" placeholder="город, страна*">
+                <input class="feedback-input" type="text" placeholder="телефон">
+                <input class="feedback-input" type="text" placeholder="email*">
+            </div>
+        </div>
+        <div class="feedback-right-part">
+            <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
+        </div>
+    </div>
+    <div class="confirm-block">
+        <div class="feedback-left-part" style="flex-direction: row;">
+            <div class="item">
+                <img src="../../assets/images/recaptcha.png" style="width: 100%">
+            </div>
+            <div class="item">
+                Пожалуйста заполните поля со * и пройдите верификацию
+            </div>
+        </div>
+        <div class="feedback-right-part">
+            <div class="item">
+                <div>
+                    <div class="rev-button">
+                        <span>отправить</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="black-background" id="footer-header-block">
+    <hr class="gorizontal-line-top"/>
+    <div class="footer black">
+        <div class="header-label" style="margin-top: 80px" id="footer-header">
+            <span> контакты</span>
+        </div>
+        <div class="footer-info-block">
+            <div class="left-part-footer">
+                <div class="sub-head-label">
+                    давайте встретимся
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>zrobym architects</h3>
+                        <p>
+                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            г.Минск, пр-т Победителей, 65
+                            <br>(ТЦ Замок)
+                            <br> Замок Home, пав. 484, BY furniture
+                            <br> Время работы: с 11:00 до 20:00
+                            <br> понедельник и воскресенье - <br> выходные
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part-footer">
+                <div class="sub-head-label">
+                    давайте общаться
+                </div>
+                <div class="footer-info-block">
+                    <div class="item">
+                        <h3>Zrobym architects</h3>
+                        <h5>Минск:</h5>
+                        <div>+375 29 3650669 Андрусь</div>
+                        <div> +375 44 5180676 Алексей</div>
+
+                        <h5>Международные контакты:</h5>
+                        <div>WhatsApp +375 44 5180676 Алексей</div>
+                        <br>info@zrobym.by
+                    </div>
+                    <div class="item">
+                        <h3>By furniture</h3>
+                        <p>
+                            <br> +375 29 3032540 Маруся
+                            <br>byfurniture@zrobym.by
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-button-block">
+            <div class="item">
+            </div>
+            <div class="item">
+                <div style="margin: 50px 0">
+                    <div class="rev-button gold">
+                        <a href=""><span>Контакты во всех странах</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="gorizontal-line-bottom"/>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='../../libs/modaal.js'></script>
+<!--OPEN-MORE-TEXT-->
+<script async>
+    let textButton = 'Читать больше';
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity: 0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $(".close").click(function () {
+        $('.menu-label-block').modaal('close');
+    })
+    $("#more-button").click(function () {
+        $("#more-text").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button span").text(textButton);
+            return 'open'
+        });
+    });
+</script>
+<!--SCROLL MY ARROW-->
+<script async>
+    $('.arrow-grey').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+    $('.arrow').click(function () {
+        var win = $('#first-monitor').height() + 213;
+        $('body,html').animate({
+            scrollTop: win
+        }, 800);
+        return false;
+    });
+</script>
+<!--FEEDBACK OPENING BLOCK-->
+<script async>
+
+    $("#open-input").focus(function () {
+        $("#feedback-input-block").addClass('height-auto');
+        $(".confirm-block").addClass('height-auto');
+        $(".feedback-input").addClass('open-block');
+        $("#open-input").addClass('full');
+    });
+</script>
+<script src="scripts/Collection.js"></script>
+<script src="scripts/Model.js"></script>
+<script src="scripts/View.js"></script>
+<script src="scripts/Controller.js"></script>
+<script async>
+    const footerHeaderBlock = document.getElementById('footer-header-block');
+    const footerHeader = document.getElementById('footer-header');
+
+    $(document).on("scroll", function () {
+        var st = $(this).scrollTop();
+        var wh = $(document).height();
+        var perc = (st * 100) / wh;
+        if (footerHeaderBlock.getBoundingClientRect().top < 500) {
+            footerHeader.classList.add("rev-block");
+            footerHeader.classList.remove("header-label");
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 67" width="36" height="67">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #d9d9d9 } 
+	</style>
+	<g id="Публикации">
+		<g id="Навигация">
+			<path id="Стрелка копия 3" class="shp0" d="M2.1 66.01L0.01 63.91L32.92 30.91L35.01 33.01L2.1 66.01ZM32.92 35.1L0.01 2.1L2.1 0.01L35.01 33.01L32.92 35.1Z" />
+		</g>
+	</g>
+</svg>

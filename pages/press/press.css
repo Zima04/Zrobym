@@ -1,0 +1,470 @@
+main {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.categories {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.categories > input[type="radio"] {
+    visibility: hidden;
+}
+
+.categories > input[type="radio"]:checked + label {
+    color: black;
+}
+
+.categories > label {
+    color: #AFAFAF;
+    cursor: pointer;
+}
+
+.publication-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    border-top: 1px #c2c2c2 solid;
+    z-index: 4;
+    position: relative;
+}
+
+.publication-container:last-child {
+    border-bottom: 1px #c2c2c2 solid;
+}
+
+
+.publication-image {
+    height: 270px;
+    width: 520px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background: url(../../assets/images/press/dog.png);
+    display: flex;
+}
+
+.publication-description {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    outline: 1px solid #c2c2c2;
+    justify-content: space-between;
+    width: calc(100% - 120px);
+}
+
+.publication-header {
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #000000;
+    font-family: "Muller Regular";
+}
+
+.publication-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-family: "Muller Light";
+    font-weight: 300;
+}
+
+.publication-address {
+    color: #cda173;
+}
+
+.publication-tag {
+    color: #959595;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0 50px;
+    z-index: 1;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.pagination-container > label {
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #C2C2C2;
+}
+
+.pagination-container > label:last-child {
+    padding-right: 8px;
+}
+
+.pagination-container > label > .checkmark {
+    position: absolute;
+    top: -17px;
+    left: -0.5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #C2C2C2;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.pagination-container > input[type="radio"] {
+    visibility: hidden;
+}
+
+.pagination-container > input[type="radio"]:checked + label > .checkmark {
+    top: -18px;
+    left: -2.5px;
+    width: 12px;
+    height: 12px;
+    background-color: #CDA174;
+    z-index: 5;
+}
+
+.pagination-container > input[type="radio"]:checked + label {
+    color: #CDA174;
+}
+
+.left-arrow{
+    position: absolute;
+    left: 10%;
+    top: 85px;
+}
+
+.right-arrow{
+    position: absolute;
+    right: 10%;
+    top: 85px;
+}
+
+.youtube-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    border-top: 1px solid #c2c2c2;
+    /*border-bottom: 1px solid #c2c2c2;*/
+}
+
+.youtube-description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 60px 15px;
+}
+
+.youtube-header {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Muller Medium";
+    font-weight: 500;
+}
+
+.youtube-text {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Muller Light";
+    font-weight: 300;
+}
+
+.youtube-date {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 72px;
+    color: #cda173;
+    font-family: "Muller Medium";
+    font-weight: 500;
+}
+
+.youtube-image {
+    background: url(../../assets/images/press/youtube.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.empty-left-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10% 170px;
+}
+
+
+.interests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #ECECEC;
+    z-index: -1;
+}
+
+.interests-details {
+    margin-top: 100px;
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interests-details > ul {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interests-details > ul > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.interest-mark {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    font-size: 24pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BABABA;
+    border: 2px solid #BABABA;
+}
+
+.interest-text {
+    font-family: "Muller Medium";
+    width: 300px;
+    height: 50px;
+    font-size: 12px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.header {
+    font-size: 36pt;
+}
+
+.underline {
+    position: absolute;
+    bottom: -15px;
+    width: 82px;
+    height: 8px;
+    background-color: #CDA173;
+    z-index: -1;
+}
+
+#close-area {
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background: none;
+    outline: 0;
+}
+
+@keyframes rev-button {
+    0% {
+        top: 0;
+        height: 0;
+        width: calc(100%)
+    }
+    50% {
+        top: 0;
+        height: 42px;
+        width: calc(100%)
+    }
+    100% {
+        top: 50%;
+        height: 0;
+        width: calc(100%)
+    }
+}
+
+/*MYSTYLES*/
+
+.first-monitor {
+    background: #ffffff;
+    min-height: calc(100vh - 210px);
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-info {
+    height: calc(100% - 200px);
+    border: none;
+}
+
+.left-part-about {
+    top: 0;
+}
+
+.rev-block {
+    max-width: 90%;
+}
+
+@media screen and (max-width: 850px) {
+    .welcome-info {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main {
+        padding: 0;
+    }
+
+    .rev-block {
+        margin: 10px;
+    }
+
+    .first-monitor {
+        padding: 0;
+    }
+
+    .welcome-info {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-block {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .left-part-about {
+        display: contents;
+        top: 0;
+    }
+
+    .arrow-block {
+        display: none;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .my-header {
+        margin-top: 50px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .interests-details {
+        margin: 0;
+    }
+
+    .interests-details > ul {
+        width: 100%;
+    }
+
+    .interests-details > ul {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .interests-details span:nth-child(1) {
+        text-align: center;
+    }
+
+    .interests-details > ul > li {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .buttons-container {
+        align-items: center;
+    }
+
+    .burger-block {
+        display: none;
+    }
+
+    .first-monitor h1 {
+        padding-top: 0;
+    }
+
+    .menu-label-block {
+        width: 100%;
+        height: 100px;
+        min-height: 0;
+        position: unset;
+    }
+
+    .menu-label {
+        transform: rotate(0);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+    }
+
+    .menu-icon {
+        position: unset;
+    }
+
+    .menu-icon .bar {
+        margin-top: 0;
+        background: black;
+    }
+}
+
+@media (max-width: 1000px) {
+    .interests-details {
+        align-items: center;
+    }
+
+    .interest-mark {
+        display: none;
+    }
+
+    .center-line {
+        z-index: 0;
+    }
+}
