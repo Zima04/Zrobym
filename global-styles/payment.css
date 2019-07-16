@@ -225,8 +225,6 @@ main {
     max-width: 90%;
 }
 
-
-
 @media screen and (max-width: 850px) {
     .welcome-info {
         flex-direction: column;
