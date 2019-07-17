@@ -71,6 +71,7 @@ html, body {
     min-height: 100%;
     padding: 0;
     margin: 0;
+    font-size: 2vh;
     font-family: "Muller Light";
     z-index: 0;
 }
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #interesting-header,
 #map-header {
     font-family: "Muller ExtraBold";
-    font-size: 45px;
+    font-size: 6.5vh;
 }
 
 .light-font {
@@ -407,7 +408,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 .menu-label {
     font-family: "Muller Medium";
     transform: rotate(270deg);
-    font-size: 14px;
+    font-size: 2vh;
     cursor: pointer;
     color: #cda173;
     position: fixed;
@@ -429,8 +430,8 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
     line-height: 18px;
     text-transform: uppercase;
     transform: rotate(90deg);
-    top: -6px;
-    right: -35px;
+    top: -4px;
+    right: -36px;
 }
 
 .menu-icon .bar {
@@ -1556,9 +1557,9 @@ textarea {
     color: #000000;
     letter-spacing: 2px;
     display: flex;
-    font-family: "Muller Medium", serif;
+    font-family: "Muller Light", serif;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 1.3vh;
     z-index: 0;
     animation: appear-text-button 0.0001s linear forwards;
     animation-delay: 1.4s;
@@ -1789,7 +1790,6 @@ textarea {
         background-size: cover;
         background-image: url("../assets/images/forth.jpg");
     }
-
 
     .background-image-mobile:after {
         content: '';
