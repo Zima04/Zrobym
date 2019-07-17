@@ -125,7 +125,8 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #team-block-header,
 #footer-header,
 #interesting-header,
-#map-header {
+#map-header,
+#office-header{
     font-family: "Muller ExtraBold";
     font-size: 6.5vh;
 }
