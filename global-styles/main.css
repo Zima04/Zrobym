@@ -71,7 +71,7 @@ html, body {
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 2vh;
+    font-size: 1.2vw;
     font-family: "Muller Light";
     z-index: 0;
 }
@@ -126,9 +126,9 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 #footer-header,
 #interesting-header,
 #map-header,
-#office-header{
+#office-header {
     font-family: "Muller ExtraBold";
-    font-size: 6.5vh;
+    font-size: 4vw;
 }
 
 .light-font {
@@ -1090,7 +1090,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
 }
 
 .feedback-input-block {
@@ -1102,9 +1102,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 
 .feedback-right-part {
     flex: 1;
-    padding: 15px;
     display: flex;
-    align-items: flex-start;
 }
 
 textarea {
@@ -1112,9 +1110,7 @@ textarea {
 }
 
 #open-input {
-    line-height: 25px;
-    height: 25px;
-    padding: 10px;
+    height: 1.2vw;
     margin: 0;
     width: 80%;
 }
@@ -1125,13 +1121,14 @@ textarea {
     background-color: #9a7956;
     outline: none;
     color: #000000;
-    width: 100%;
+    width: calc(100% - 60px);
+    line-height: 1.2vw;
+    font-size: 1.2vw;
     padding: 20px;
     margin-top: 10px;
 }
 
 .open-block {
-    padding: 10px;
     margin-top: 10px;
 }
 
@@ -1142,7 +1139,7 @@ textarea {
 
 .full {
     transition: 1s linear;
-    min-height: calc(100% - 20px);
+    min-height: calc(100% - 60px);
 }
 
 .feedback-input:last-of-type {
@@ -1264,7 +1261,7 @@ textarea {
 }
 
 .sub-head-label {
-    font-size: 29px;
+    font-size: 1.8vw;
     padding: 60px 20px 20px;
 }
 
@@ -1289,7 +1286,7 @@ textarea {
 
 .footer-button-block .item {
     flex: 1;
-    padding:0 20px;
+    padding: 0 20px;
 }
 
 .footer-button-block .button {
@@ -1431,7 +1428,7 @@ textarea {
 }
 
 .rev-block .non-line:after {
-   height: 0!important;
+    height: 0 !important;
 }
 
 .rev-block span {
@@ -1525,13 +1522,13 @@ textarea {
 }
 
 .white span {
-    background-color: #000000!important;
+    background-color: #000000 !important;
     color: #ffffff !important;
     border: 2px #ffffff solid !important;
 }
 
-.gold span{
-    background-color: #1b1b1b!important;
+.gold span {
+    background-color: #1b1b1b !important;
     color: #cda173 !important;
     border: 2px #cda173 solid !important;
 }
@@ -1558,7 +1555,7 @@ textarea {
     color: #000000;
     letter-spacing: 2px;
     display: flex;
-    font-family: "Muller Light", serif;
+    font-family: "Muller Medium", serif;
     text-transform: uppercase;
     font-size: 1.3vh;
     z-index: 0;
