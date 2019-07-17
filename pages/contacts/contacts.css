@@ -1,36 +1,27 @@
-.first-monitor {
+.contacts-container {
     background: #ffffff;
     padding: 0 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #000000;
     position: relative;
     z-index: 1;
 }
 
-.welcome-info {
-    height: calc(100% - 200px);
-    border: none;
+.contacts-left-part {
+    flex: 1;
+    padding-top: 100px;
 }
 
-.left-part-about {
-    top: 0;
+.contacts-right-part {
+    flex: 1;
+    padding: 100px 0;
 }
 
-.right-part-about {
-    padding-bottom: 50px
-}
-
-.info-block {
-    top: 0 !important;
-}
-
-.info-block:first-child {
-    margin-top: 80px;
-}
-
-.rev-block {
-    max-width: 90%;
+.contacts-description {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .road-mobile {
@@ -46,12 +37,12 @@
     width: 100%;
 }
 
-.black-background{
+.black-background {
     min-height: 20px;
     background-color: #000000;
 }
 
-#close-area{
+#close-area {
     top: 0;
     left: 50%;
     height: 100%;
@@ -60,33 +51,44 @@
     outline: 0;
 }
 
+#contacts-header {
+    font-size: 3vw;
+}
+
 @media screen and (max-width: 450px) {
-    .rev-block {
-        margin: 10px;
+
+    body {
+        font-size: 16px;
     }
 
-    .first-monitor {
+    .contacts-header {
+        margin: 50px 0 0 !important;
+    }
+
+    .rev-block {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .contacts-container {
+        flex-direction: column;
         padding: 0;
     }
 
-    .welcome-info {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    .contacts-left-part, .contacts-right-part {
+        padding: 0;
     }
 
-    .info-block {
-        margin: 0 !important;
+    .contacts-description {
+        padding: 10px;
         text-align: center;
     }
 
-    .left-part-about {
-        display: contents;
-        top: 0;
+    .rev-block {
+        width: 100%;
     }
 
-    .right-part-about {
+    .head-container {
         padding: 0;
     }
 
@@ -108,7 +110,7 @@
         display: none;
     }
 
-    .first-monitor h1 {
+    .head-container h1 {
         padding-top: 0;
     }
 
