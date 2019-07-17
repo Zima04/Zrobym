@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/office/office.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-styles/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles/payment.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,7 +64,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/office/office.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="457">
               <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
             </state>
           </provider>
@@ -222,10 +219,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="427" />
-    <option name="y" value="88" />
-    <option name="width" value="1354" />
-    <option name="height" value="878" />
+    <option name="x" value="426" />
+    <option name="y" value="87" />
+    <option name="width" value="1355" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -403,13 +400,6 @@
       <workItem from="1562789019473" duration="3534000" />
       <workItem from="1562854358767" duration="35000" />
       <workItem from="1563304559959" duration="2164000" />
-    </task>
-    <task id="LOCAL-00022" summary="fix top slide">
-      <created>1551876888213</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1551876888213</updated>
     </task>
     <task id="LOCAL-00023" summary="fix top slide">
       <created>1551877774257</created>
@@ -747,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562793854479</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="office page">
+      <created>1563315979423</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1563315979424</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422845000" />
+    <option name="totallyTimeSpent" value="423044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +761,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15532055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -810,7 +806,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add contacts page" />
     <MESSAGE value="a lot of fucking remarks" />
     <MESSAGE value="Structure fix" />
     <MESSAGE value="Portfolio page adding" />
@@ -835,7 +830,8 @@
     <MESSAGE value="template (posadochnaya) page fonts checked" />
     <MESSAGE value="contacts and payment pages checked" />
     <MESSAGE value="list dividers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="list dividers added" />
+    <MESSAGE value="office page" />
+    <option name="LAST_COMMIT_MESSAGE" value="office page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index2.html" />
@@ -1187,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/office/office.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
+        <state relative-caret-position="457">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
         </state>
       </provider>
