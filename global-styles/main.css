@@ -1090,7 +1090,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
 }
 
 .feedback-input-block {
@@ -1124,7 +1124,7 @@ textarea {
     width: calc(100% - 60px);
     line-height: 1.2vw;
     font-size: 1.2vw;
-    padding: 20px;
+    padding: 15px;
     margin-top: 10px;
 }
 
@@ -1139,7 +1139,7 @@ textarea {
 
 .full {
     transition: 1s linear;
-    min-height: calc(100% - 60px);
+    min-height: calc(100% - 45px);
 }
 
 .feedback-input:last-of-type {

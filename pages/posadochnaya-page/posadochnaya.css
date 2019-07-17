@@ -37,11 +37,31 @@ main .information-container:nth-child(2) {
     object-fit: cover;
 }
 
+.posadochnaya-header {
+    font-size: 3vw;
+}
+
+.information-container:first-of-type{
+    margin-top: 300px;
+}
+
 .information-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 0px;
+}
+
+.information-left-part {
+    flex: 1;
+}
+
+.information-right-part {
+    flex: 1;
+    padding-top: 150px;
+}
+
+.information-description {
+    padding: 15px;
 }
 
 .project {
@@ -102,12 +122,12 @@ main .information-container:nth-child(2) {
 }
 
 .project-description-container div:nth-child(1) {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-family: "Muller Medium";
 }
 
 .project-description-container div:nth-child(2) {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .project-description {
@@ -122,55 +142,36 @@ main .information-container:nth-child(2) {
     width: 20%;
 }
 
-.interests {
+.interests-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 0 10%;
     justify-content: center;
     background-color: #ECECEC;
     z-index: -1;
 }
 
-.interests-title {
-    margin-top: 100px;
-    display: flex;
-    padding: 15px;
-    justify-content: center;
+.interests-left-part {
+    padding-top: 80px;
     flex: 1;
-    z-index: 1;
 }
 
-#interests-title-span {
-    position: relative;
+.interests-right-part {
+    padding-top: 180px;
+    flex: 1;
 }
 
-.interests-details {
-    margin-top: 100px;
-    flex: 1;
-    padding: 15px;
+.interests-description {
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
 }
 
-.interests-details > ul {
-    margin-top: 120px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-details > ul > li {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-}
-
-.more-projects-text{
+.more-projects-text {
     width: 400px;
 }
-.project-last-button{
+
+.project-last-button {
     padding: 50px;
 }
 
@@ -183,11 +184,17 @@ main .information-container:nth-child(2) {
 }
 
 .header1 {
-    font-size: 40px;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Muller Medium";
+    font-weight: 500;
 }
 
 .header3 {
-    font-size: 20px;
+    font-family: "Muller Medium";
+    font-size: 1.4vw;
 }
 
 .normal-wrap {
@@ -214,7 +221,7 @@ main .information-container:nth-child(2) {
 /*    animation-iteration-count: 1;*/
 /*}*/
 
-#close-area{
+#close-area {
     top: 0;
     left: 50%;
     height: 100%;
@@ -258,7 +265,6 @@ main .information-container:nth-child(2) {
     /*p {*/
     /*    text-align: justify;*/
     /*}*/
-
     .center-line {
         z-index: 0;
     }
@@ -279,13 +285,13 @@ main .information-container:nth-child(2) {
         justify-content: center;
     }
 
-    .more-projects-text{
+    .more-projects-text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .more-projects-text p{
+    .more-projects-text p {
         text-align: center;
     }
 
@@ -297,7 +303,7 @@ main .information-container:nth-child(2) {
         display: none;
     }
 
-    .buttons-container{
+    .buttons-container {
         align-items: center;
     }
 }
@@ -394,7 +400,7 @@ main .information-container:nth-child(2) {
         min-width: auto;
     }
 
-    .project-last-button{
+    .project-last-button {
         padding: 0;
     }
 
