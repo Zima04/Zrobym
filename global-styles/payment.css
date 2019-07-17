@@ -264,10 +264,6 @@ main {
         text-align: justify;
     }
 
-    .more-button{
-        text-align: center;
-    }
-
     .list-item, .list-content {
         min-width: auto;
         padding: 0;

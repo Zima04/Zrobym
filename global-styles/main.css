@@ -2108,7 +2108,6 @@ textarea {
     .background-content {
         display: flex;
         align-items: center;
-        /*justify-content: space-around;*/
         width: 100%;
         padding-top: 20px;
     }
@@ -2131,6 +2130,10 @@ textarea {
 
     .social-icons-block .social-icons {
         padding: 0;
+    }
+
+    .more-button{
+        text-align: center;
     }
 
 }
