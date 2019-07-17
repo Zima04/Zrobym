@@ -8,6 +8,35 @@ main {
     align-items: center;
 }
 
+.projection-header {
+    font-size: 3vw;
+}
+
+.projection-container {
+    background: #ffffff;
+    padding: 0 10%;
+    display: flex;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.projection-left-part {
+    flex: 1;
+    padding-top: 80px;
+}
+
+.projection-right-part {
+    flex: 1;
+    padding: 180px 0 150px;
+}
+
+.projection-description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px 0 15px;
+}
+
 .list-container {
     width: 100%;
     padding: 0 10%;
@@ -194,37 +223,6 @@ main {
     outline: 0;
 }
 
-/*MYSTYLES*/
-
-.info-block {
-    top: 0 !important;
-    margin-top: 80px;
-}
-
-.first-monitor {
-    background: #ffffff;
-    min-height: calc(100vh - 210px);
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    position: relative;
-    z-index: 1;
-}
-
-.welcome-info {
-    height: calc(100% - 200px);
-    border: none;
-}
-
-.left-part-about {
-    top: 0;
-}
-
-.rev-block {
-    max-width: 90%;
-}
-
 @media screen and (max-width: 850px) {
     .welcome-info {
         flex-direction: column;
@@ -237,13 +235,37 @@ main {
         top: 0;
     }
 
-    .first-monitor {
-        padding: 0;
-        min-height: auto;
+    .projection-header {
+        font-size: 32px;
+        margin: 50px 0 0 !important;
     }
 
-    .first-monitor h1 {
-        padding-top: 0;
+    .rev-block {
+        width: 100%;
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .projection-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .projection-left-part {
+        padding: 0;
+    }
+
+    .projection-right-part {
+        padding: 0;
+    }
+
+    .projection-description{
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .more-button{
+        text-align: center;
     }
 
     .list-item, .list-content {
@@ -317,29 +339,11 @@ main {
         height: 100px;
     }
 
-    .info-block {
-        margin-top: 0;
-        margin-bottom: 60px;
-    }
-
-    .left-part-about {
-        display: contents;
-        top: 0;
-    }
-
     .arrow-block {
         display: none;
     }
 
     .burger-block {
-        /*position: absolute;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
-        /*width: 100%;*/
-        /*z-index: 2;*/
-
         display: none;
     }
 
@@ -370,8 +374,6 @@ main {
     }
 
     .menu-icon {
-        /*top: 30px;*/
-        /*right: 8px;*/
         position: unset;
     }
 
