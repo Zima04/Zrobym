@@ -13,13 +13,13 @@ class View {
 
     addAll(stuff) {
         const container = document.createElement('div');
-        container.classList.toggle('team-container');
+        container.classList.toggle('persons-container');
 
         stuff.forEach((person) => {
             container.appendChild(this._build(person));
         });
 
-        $('.team-header').after(container);
+        $('#persons-header').after(container);
     }
 }
 

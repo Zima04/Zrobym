@@ -1,18 +1,44 @@
-.big-padding-top {
-     padding-top: 220px;
- }
+main{
+    padding-top: 250px;
+}
+.team-page-container {
+    background: #ffffff;
+    padding: 0 10%;
+    display: flex;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.team-page-header {
+    font-size: 3vw;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Muller ExtraBold";
+    font-weight: 500;
+}
+
+.team-page-left-part {
+    padding-top: 80px;
+    flex: 1;
+}
+
+.team-page-right-part {
+    padding: 300px 0 100px;
+    flex: 1;
+}
+.team-page-description{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
 
 .medium-padding-top {
     padding-top: 110px;
 }
 
-.team-header {
-    position: relative;
-    font-family: "Muller ExtraBold";
-    font-size: 45px;
-}
-
-.team-container {
+.persons-container {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
@@ -55,11 +81,11 @@
 }
 
 .see-requirements-button {
+    display: block;
+    color: #000;
     margin: 40px 0 150px 0;
-}
-
-.header3 {
-    font-size: 18px;
+    font-family: "Muller Medium";
+    cursor: pointer;
 }
 
 @media (max-width: 450px) {
