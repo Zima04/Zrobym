@@ -1191,7 +1191,7 @@ textarea {
 .gorizontal-line-short-top {
     position: relative;
     top: -65px;
-    right: 64px;
+    right: 29px;
     min-height: 1px;
     margin: 0;
     border: none;
@@ -1680,7 +1680,7 @@ textarea {
 @media screen and (max-width: 1000px) {
     #about-header, #about-black-header, #panel-header,
     #philosophy-header, #team-block-header, #footer-header, #map-header {
-        font-size: 30px;
+        font-size: 36px;
     }
 }
 
@@ -1689,6 +1689,7 @@ textarea {
         overflow-x: hidden;
         max-width: 100%;
         width: 101%;
+        font-size: 16px;
     }
 
     html {
@@ -2096,8 +2097,8 @@ textarea {
     }
 
     .sub-head-label {
-        display: flex;
-        justify-content: center;
+        display: none;
+        /*justify-content: center;*/
     }
 
     .footer-button-block .item:first-of-type {
