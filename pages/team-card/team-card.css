@@ -1,7 +1,68 @@
+.team-card-container {
+    background: #ffffff;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.team-card-left-part,
+.team-card-right-part {
+    flex: 1;
+    padding-bottom: 45px;
+}
+
+.team-card-header {
+    margin-top: 465px;
+}
+
+.team-card-info {
+    padding: 195px 0 190px 10px;
+}
+
+.team-card-info > p {
+    margin: 0;
+}
+
+.team-card-info > h4 {
+    margin-top: 0;
+}
+
+.direction-container {
+    margin-top: 90px;
+}
+
+.direction-container > h4 {
+    margin-bottom: 0;
+}
+
+.direction {
+    margin-right: 185px;
+}
+
 .right-corner-pic {
     background: url('../../assets/images/team-card/янина-новикова.png');
 }
 
-/*#office-header {*/
-/*    padding-left: 10px;*/
-/*}*/
+.team-card-projects {
+    margin-top: 170px;
+}
+
+.team-card-projects-about {
+    padding: 230px 0 180px;
+}
+
+.buttons-container {
+    align-items: center;
+}
+
+#close-area {
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background: none;
+    outline: 0;
+}

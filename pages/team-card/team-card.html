@@ -4,17 +4,11 @@
     <meta charset="utf-8">
     <title>Team Card</title>
     <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
-    <link rel="stylesheet" href="../../global-styles/payment.css">
-    <link rel="stylesheet" href="../portfolio/portfolio.css">
     <link rel="stylesheet" href="../office/office.css" type="text/css">
     <link rel="stylesheet" href="team-card.css" type="text/css">
     <link rel="stylesheet" href="../../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='../../libs/modaal.js'></script>
 </head>
-
 <body>
 <hr class="center-line"/>
 <hr class="left-line"/>
@@ -25,12 +19,12 @@
 </div>
 <a href="#inline" class="menu-label-block">
     <span class="menu-label"> Меню
-            <div class="menu-icon">
-                <span class="bar n1"></span>
-                <span class="bar n2"></span>
-                <span class="bar n3"></span>
-            </div>
-            </span>
+        <div class="menu-icon">
+            <span class="bar n1"></span>
+            <span class="bar n2"></span>
+            <span class="bar n3"></span>
+        </div>
+    </span>
 </a>
 <div id="inline" style="display:none;">
     <hr class="center-line"/>
@@ -45,6 +39,7 @@
         <div class="open-menu-content">
             <div class="background-content">
                 <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
                 <a class="menu-links">Главная</a>
                 <a class="menu-links">О нас</a>
                 <a class="menu-links">Архитектурное проектирование</a>
@@ -74,19 +69,18 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="first-monitor" id="first-monitor">
-    <div class="welcome-info">
-        <div class="left-part-about">
-            <h1 class="rev-block" id="office-header">
-                <span>янина</span>
-                <br>
-                <span class="light-font">новикова</span>
-            </h1>
-            <span class="rev-block">
-                <span class="non-line">архитектор</span>
-            </span>
-        </div>
-        <div class="right-part-about"></div>
+<div class="team-card-container">
+    <div class="team-card-left-part">
+        <h1 class="rev-block team-card-header">
+            <span>янина</span>
+            <br>
+            <span class="light-font">новикова</span>
+        </h1>
+        <span class="rev-block">
+            <span class="non-line">архитектор</span>
+        </span>
+    </div>
+    <div class="team-card-right-part">
     </div>
 </div>
 <hr class="gorizontal-line"/>
@@ -94,64 +88,67 @@
     <div class="arrow-grey arrow-animate"></div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="first-monitor">
-    <div class="welcome-info">
-        <div class="right-part-about">
-            <div class="info-block">
-                <h4>Янина Новикова</h4>
-                <p>
-                    Окончила Белорусский национальный технический университет г.
-                    Минск. Архитектурный факультет, специальность архитектура.
-                    Участник Студенческого Архитектурного форума
-                    "АРХ.ПРО.СВЕТ"(2016), участник международной школы
-                    архитектуры "SESAM"(2016), участник Шестого Минского
-                    архитектурного форума "Чему равно площадь"(2017).
-                </p>
-                <div class="address">
-                    <h4>Адрес нашей архитектурной студии:</h4><br />
-                    Архитектурное
-                    Дизайн интерьера
-                </div>
-            </div>
+<div class="team-card-container">
+    <div class="team-card-left-part team-card-info">
+        <h4>Янина Новикова</h4>
+        <p>
+            Окончила Белорусский национальный технический университет г.
+            Минск. Архитектурный факультет, специальность архитектура.
+            Участник Студенческого Архитектурного форума
+            "АРХ.ПРО.СВЕТ"(2016), участник международной школы
+            архитектуры "SESAM"(2016), участник Шестого Минского
+            архитектурного форума "Чему равно площадь"(2017).
+        </p>
+        <p id="more-text" class="more-text">
+            Как правило, грамотный проект и авторское
+            сопровождение позволяют заказчику сэкономить больше
+            средств на реализации здания, чем он потратил на услуги архитектурной студии.
+
+            Поэтому к выбору архитекторов,
+            которые будут заниматься разработкой и реализацией вашего проекта, следует подходить исходя из их
+            профессионализма (портфолио + опыт реализации проекта + творческие достижения). Не забывайте это!
+        </p>
+        <div id="more-button" class="more-button">
+            <span>Читать полностью</span>
         </div>
-        <div class="left-part-about"></div>
+        <div class="direction-container">
+            <h4>Направление деятельности:</h4><br />
+            <span class="direction">Архитектурное</span>
+            <span>Дизайн интерьера</span>
+        </div>
     </div>
+    <div class="team-card-left-part"></div>
 </div>
-
 <div class="right-corner-pic">
-
 </div>
-
-<div class="interests">
-    <div class="left-part-about">
-        <h1 class="rev-block" id="interesting-header">
+<div class="team-card-container" style="background-color: #ECECEC">
+    <div class="team-card-left-part">
+        <h1 class="rev-block team-card-projects">
             <span class="light-font">Наши</span>
             <br>
             <span>проекты</span>
         </h1>
     </div>
-    <div class="right-part-about">
-        <div class="interests-details">
-            <span>
-                Посмотрите работы и реализованные проекты<br />
-                специалистов нашей студии:
-            </span>
-            <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
-                    </a>
-                </div>
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
-                    </a>
-                </div>
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
-                    </a>
-                </div>
+    <div class="team-card-right-part team-card-projects-about">
+        <span>
+            Посмотрите работы и реализованные проекты<br />
+            специалистов нашей студии:
+        </span>
+        <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
+                </a>
+            </div>
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
+                </a>
+            </div>
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
+                </a>
             </div>
         </div>
     </div>
@@ -265,13 +262,14 @@
     </div>
     <hr class="gorizontal-line-bottom"/>
 </div>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='../../libs/modaal.js'></script>
 <!--BACKGROUND-PHOTO-HEIGHT-->
 <script>
     $(document).ready(function() {
 
         function calcHeight() {
-            let height = $('.first-monitor:eq(0)').height() +
+            let height = $('.team-card-container').height() +
                 $('.arrow-block').height() +
                 $('.burger-block').height();
             return height;
@@ -293,7 +291,6 @@
 
     });
 </script>
-
 <!--MENU-MORE-TEXT-->
 <script async>
     $('.menu-label-block').modaal({
@@ -308,32 +305,24 @@
             $('.menu-label-block').removeClass("click");
         }
     });
-    $("#close-button").click(function () {
+    $('.close').click(function () {
         $('.menu-label-block').modaal('close');
     });
 </script>
-
 <!--SCROLL MY ARROW-->
 <script async>
     $('.arrow-grey').click(function () {
-        var win = $('#first-monitor').height() + 213;
-        $('body,html').animate({
-            scrollTop: win
-        }, 800);
-        return false;
-    });
-    $('.arrow').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.team-card-container:eq(0)').height() +
+            $('.arrow-block').height() +
+            $('.burger-block').height();
         $('body,html').animate({
             scrollTop: win
         }, 800);
         return false;
     });
 </script>
-
 <!--FEEDBACK OPENING BLOCK-->
 <script async>
-
     $("#open-input").focus(function () {
         $("#feedback-input-block").addClass('height-auto');
         $(".confirm-block").addClass('height-auto');
@@ -341,7 +330,6 @@
         $("#open-input").addClass('full');
     });
 </script>
-
 <!--FOOTER-HEADER-ANIMATION-->
 <script async>
     const footerHeaderBlock = document.getElementById('footer-header-block');
@@ -354,6 +342,40 @@
         }
     });
 </script>
-
+<!--OPEN-MORE-TEXT-->
+<script async>
+    let textButton = 'Читать больше';
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity: 0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $('.close').click(function () {
+        $('.menu-label-block').modaal('close');
+    });
+    $("#more-button").click(function () {
+        $("#more-text").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button span").text(textButton);
+            return 'open'
+        });
+    });
+</script>
 </body>
 </html>
