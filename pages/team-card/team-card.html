@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Office</title>
+    <title>Team Card</title>
     <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
     <link rel="stylesheet" href="../../global-styles/payment.css">
     <link rel="stylesheet" href="../portfolio/portfolio.css">
-    <link rel="stylesheet" href="office.css" type="text/css">
+    <link rel="stylesheet" href="../office/office.css" type="text/css">
+    <link rel="stylesheet" href="team-card.css" type="text/css">
     <link rel="stylesheet" href="../../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
 
@@ -77,12 +78,12 @@
     <div class="welcome-info">
         <div class="left-part-about">
             <h1 class="rev-block" id="office-header">
-                <span>zrobym</span>
+                <span>янина</span>
                 <br>
-                <span class="light-font">architects</span>
+                <span class="light-font">новикова</span>
             </h1>
             <span class="rev-block">
-                <span class="non-line">офис студии</span>
+                <span class="non-line">архитектор</span>
             </span>
         </div>
         <div class="right-part-about"></div>
@@ -97,20 +98,19 @@
     <div class="welcome-info">
         <div class="right-part-about">
             <div class="info-block">
-                <h4>Офисное пространство</h4>
+                <h4>Янина Новикова</h4>
                 <p>
-                    Офисное пространство дизайнеров и архитекторов - это место
-                    для создания новых идей, работы и творчества - здесь архитектор
-                    не только проводит огромную часть своей жизни, но и
-                    подпитывается идеями для создания проектов. Поэтому очень
-                    важно стимулировать развитие творческого потенциала
-                    сотрудников приятным, эргономичным, функциональным,
-                    эстетичным пространством. Но дизайн своего офиса мы создаём не
-                    только для сотрудников, а и для клиентов. Здесь мы можем
+                    Окончила Белорусский национальный технический университет г.
+                    Минск. Архитектурный факультет, специальность архитектура.
+                    Участник Студенческого Архитектурного форума
+                    "АРХ.ПРО.СВЕТ"(2016), участник международной школы
+                    архитектуры "SESAM"(2016), участник Шестого Минского
+                    архитектурного форума "Чему равно площадь"(2017).
                 </p>
                 <div class="address">
-                    <span>Адрес нашей архитектурной студии:</span><br />
-                    ул. Богдановича 11, 3 этаж
+                    <h4>Адрес нашей архитектурной студии:</h4><br />
+                    Архитектурное
+                    Дизайн интерьера
                 </div>
             </div>
         </div>
@@ -272,7 +272,6 @@
 
         function calcHeight() {
             let height = $('.first-monitor:eq(0)').height() +
-                $('.first-monitor:eq(1)').height() +
                 $('.arrow-block').height() +
                 $('.burger-block').height();
             return height;
