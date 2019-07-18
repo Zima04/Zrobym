@@ -1090,7 +1090,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
 }
 
 .feedback-input-block {
@@ -1124,7 +1124,7 @@ textarea {
     width: calc(100% - 60px);
     line-height: 1.2vw;
     font-size: 1.2vw;
-    padding: 15px;
+    padding: 10px;
     margin-top: 10px;
 }
 
@@ -1532,24 +1532,6 @@ textarea {
     border: 2px #cda173 solid !important;
 }
 
-/*.rev-button span {*/
-/*    color: #000000;*/
-/*    !*display: flex;*!*/
-/*    letter-spacing: 2px;*/
-/*    font-family: "Muller Medium", serif;*/
-/*    text-transform: uppercase;*/
-/*    font-size: 10px;*/
-/*    !*opacity: 0;*!*/
-/*    z-index: 0;*/
-/*    animation: appear-text-button 0.0001s linear forwards;*/
-/*    animation-delay: 1.4s;*/
-/*    !*margin: 140px 0;*!*/
-/*    cursor: pointer;*/
-/*    border: 2px black solid;*/
-/*    padding: 14px 42px;*/
-/*    white-space: nowrap;*/
-/*}*/
-
 .rev-button span {
     color: #000000;
     letter-spacing: 2px;
@@ -1674,6 +1656,12 @@ textarea {
     100% {
         left: 100%;
         width: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .rev-button span {
+        font-size: 1vw;
     }
 }
 
@@ -2132,7 +2120,7 @@ textarea {
         padding: 0;
     }
 
-    .more-button{
+    .more-button {
         text-align: center;
     }
 
