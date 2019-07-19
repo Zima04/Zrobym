@@ -8,11 +8,7 @@
     z-index: 1;
 }
 
-.contacts-left-part {
-    flex: 1;
-    padding-top: 100px;
-}
-
+.contacts-left-part,
 .contacts-right-part {
     flex: 1;
     padding: 100px 0;
