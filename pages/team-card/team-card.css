@@ -11,15 +11,59 @@
 .team-card-left-part,
 .team-card-right-part {
     flex: 1;
-    padding-bottom: 45px;
+}
+
+.team-card-head-container {
+
+}
+
+.team-card-head-left-part {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.team-card-head-right-part {
+    width: 50%;
 }
 
 .team-card-header {
-    margin-top: 465px;
+    font-size: 3.6vw;
 }
 
 .team-card-info {
-    padding: 195px 0 190px 10px;
+    padding: 100px 15px 200px;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #ECECEC;
+    z-index: -1;
+}
+
+.interests-left-part {
+    padding-top: 80px;
+    flex: 1;
+}
+
+.interests-right-part {
+    padding-top: 180px;
+    flex: 1;
+}
+
+.interests-description {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interests-container .rev-button span {
+    padding: 14px 10px;
 }
 
 .team-card-info > p {
@@ -42,22 +86,6 @@
     margin-right: 185px;
 }
 
-.right-corner-pic {
-    background: url('../../assets/images/team-card/янина-новикова.png');
-}
-
-.team-card-projects {
-    margin-top: 170px;
-}
-
-.team-card-projects-about {
-    padding: 230px 0 180px;
-}
-
-.buttons-container {
-    align-items: center;
-}
-
 #close-area {
     top: 0;
     left: 50%;
@@ -65,4 +93,103 @@
     width: 50%;
     background: none;
     outline: 0;
+}
+
+@media (max-width: 1500px) {
+    .rev-button{
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .team-card-header {
+        font-size: 32px;
+        margin: 50px 0 0 !important;
+    }
+
+    .rev-block {
+        padding: 0;
+        margin: 15px 0 !important;
+        width: 100%;
+    }
+
+    .team-card-head-left-part, .team-card-head-right-part {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .team-card-info {
+        padding: 0 15px 50px;
+    }
+
+    .interests-container, .interests-left-part, .interests-right-part, .buttons-container {
+        flex-direction: column;
+        padding: 0!important;
+    }
+
+    .team-card-container {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    .contacts-description {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .direction-container{
+        margin-top: 50px;
+    }
+
+    .arrow-block {
+        display: none;
+    }
+
+    .burger-block {
+        display: none;
+    }
+
+    .menu-label-block {
+        width: 100%;
+        height: 100px;
+        min-height: 0;
+        position: unset;
+    }
+
+    .menu-label {
+        transform: rotate(0);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+    }
+
+    .menu-icon {
+        position: unset;
+    }
+
+    .menu-icon .bar {
+        margin-top: 0;
+        background: black;
+    }
+
+    .interests-description {
+        padding: 35px 15px;
+        text-align: justify;
+    }
+
+    .buttons-container {
+        align-items: center;
+    }
+
 }
