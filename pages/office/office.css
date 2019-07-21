@@ -1,9 +1,47 @@
-#first-monitor {
-    justify-content: flex-end;
+.office-page {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -110px;
 }
 
-.welcome-info {
-    padding-bottom: 50px;
+.office-header {
+    font-size: 3.6vw;
+}
+
+.office-page-left-part {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.office-page-right-part {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.office-container {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+    margin-left: 20%;
+}
+
+.office-left-part {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.office-right-part {
+    width: 50%;
+    padding: 15px;
 }
 
 .address {
@@ -14,46 +52,103 @@
     font-family: "Muller Medium";
 }
 
-.buttons-container {
-    margin-bottom: 100px;
-}
-
-.right-corner-pic {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    background: url('../../assets/images/office-photos.png') no-repeat;
-    background-size: auto 100%;
-}
-
 .arrow-block {
     z-index: 2;
 }
 
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #ECECEC;
+    z-index: -1;
+}
+
+.interests-left-part {
+    padding-top: 80px;
+    flex: 1;
+}
+
+.interests-right-part {
+    padding-top: 180px;
+    flex: 1;
+}
+
+.interests-description {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interests-container .rev-button span {
+    padding: 14px 10px;
+}
+
+.arrow-block {
+    position: absolute;
+    width: 100vw;
+}
+
 @media (max-width: 850px) {
-  .right-corner-pic {
-      display: none;
-  }
+    .right-corner-pic {
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
-    .first-monitor {
-        min-height: 0;
+
+    body {
+        font-size: 16px;
+    }
+
+    .office-header {
+        font-size: 32px;
+    }
+
+    .office-page {
+        flex-direction: column;
+    }
+
+    .office-page-left-part {
+        padding-top: 110px !important;
+    }
+
+    .office-left-part {
+        padding-top: 0 !important;
+    }
+
+    .office-container {
+        margin: 0;
+        text-align: justify;
+    }
+
+    .office-header {
+        font-size: 32px;
+        margin: 50px 0 0 !important;
+    }
+
+    .rev-block {
+        padding: 0;
+        margin: 15px 0 !important;
+        width: 100%;
+    }
+
+    .interests-container, .interests-left-part, .interests-right-part, .buttons-container {
+        flex-direction: column;
+        padding: 0 !important;
     }
 
     .address {
         margin-top: 40px;
     }
 
-    .buttons-container {
-        margin-bottom: 40px;
+    .interests-description {
+        padding: 35px 15px;
+        text-align: justify;
     }
 
-    #interesting-header {
-        margin-top: 80px;
+    .buttons-container {
+        align-items: center;
     }
 }

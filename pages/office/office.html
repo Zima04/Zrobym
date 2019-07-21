@@ -73,30 +73,29 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="first-monitor" id="first-monitor">
-    <div class="welcome-info">
-        <div class="left-part-about">
-            <h1 class="rev-block" id="office-header">
-                <span>zrobym</span>
-                <br>
-                <span class="light-font">architects</span>
-            </h1>
-            <span class="rev-block">
-                <span class="non-line">офис студии</span>
-            </span>
+<div class="office-page">
+    <div class="office-page-left-part" style="padding-top: 500px">
+        <div class="office-container">
+            <div class="office-left-part" style="width: 100%;padding: 0">
+                <h1 class="rev-block office-header">
+                    <span>zrobym</span>
+                    <br>
+                    <span class="light-font">architects</span>
+                </h1>
+                <span class="rev-block">
+                    <span class="non-line">офис студии</span>
+                </span>
+            </div>
         </div>
-        <div class="right-part-about"></div>
-    </div>
-</div>
-<hr class="gorizontal-line"/>
-<div class="arrow-block">
-    <div class="arrow-grey arrow-animate"></div>
-</div>
-<hr class="gorizontal-line"/>
-<div class="first-monitor">
-    <div class="welcome-info">
-        <div class="right-part-about">
-            <div class="info-block">
+        <div>
+            <hr class="gorizontal-line"/>
+            <div class="arrow-block">
+                <div class="arrow-grey arrow-animate"></div>
+            </div>
+            <hr class="gorizontal-line" style="top: 100px;"/>
+        </div>
+        <div class="office-container" style="padding: 0">
+            <div class="office-left-part" style="width: 100%;padding-top: 180px;">
                 <h4>Офисное пространство</h4>
                 <p>
                     Офисное пространство дизайнеров и архитекторов - это место
@@ -109,166 +108,167 @@
                     только для сотрудников, а и для клиентов. Здесь мы можем
                 </p>
                 <div class="address">
-                    <span>Адрес нашей архитектурной студии:</span><br />
+                    <span>Адрес нашей архитектурной студии:</span><br/>
                     ул. Богдановича 11, 3 этаж
                 </div>
             </div>
         </div>
-        <div class="left-part-about"></div>
+    </div>
+    <div class="office-page-right-part">
+        <img src="../../assets/images/office-photos.png"
+             style=" position: relative;
+        width: 100%;
+        height: 100%">
     </div>
 </div>
-
-<div class="right-corner-pic">
-
-</div>
-
-<div class="interests">
-    <div class="left-part-about">
-        <h1 class="rev-block" id="interesting-header">
-            <span class="light-font">Наши</span>
-            <br>
-            <span>проекты</span>
-        </h1>
-    </div>
-    <div class="right-part-about">
-        <div class="interests-details">
+<div style="position: relative;top: -110px;">
+    <div class="interests-container">
+        <div class="interests-left-part">
+            <h1 class="rev-block office-header">
+                <span class="light-font">Наши</span>
+                <br>
+                <span>проекты</span>
+            </h1>
+        </div>
+        <div class="interests-right-part">
+            <div class="interests-description">
             <span>
-                Посмотрите работы и реализованные проекты<br />
-                специалистов нашей студии:
-            </span>
-            <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
-                    </a>
-                </div>
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
-                    </a>
-                </div>
-                <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                    <a href="#" style="display: block;width: 100%;">
-                        <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
-                    </a>
+            Посмотрите работы и реализованные проекты
+            специалистов нашей студии:
+        </span>
+                <div class="buttons-container" style="padding: 170px 0;display: flex; flex-direction: column;">
+                    <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
+                        </a>
+                    </div>
+                    <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
+                        </a>
+                    </div>
+                    <div class="rev-button black" style="width: 60%;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">бренд серийной мебели</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="feedback-container" id="feedback-container">
+        <h3 style="padding-left: 15px">Напишите нам</h3>
+        <div class="inputs-container">
+            <div class="feedback-left-part">
+                <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
+                <div class="feedback-input-block" id="feedback-input-block">
+                    <input class="feedback-input" type="text" placeholder="ФИО*">
+                    <input class="feedback-input" type="text" placeholder="город, страна*">
+                    <input class="feedback-input" type="text" placeholder="телефон">
+                    <input class="feedback-input" type="text" placeholder="email*">
+                </div>
+            </div>
+            <div class="feedback-right-part">
+                <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
+            </div>
+        </div>
+        <div class="confirm-block">
+            <div class="feedback-left-part" style="flex-direction: row;">
+                <div class="item">
+                    <img src="../../assets/images/recaptcha.png" style="width: 100%">
+                </div>
+                <div class="item">
+                    Пожалуйста заполните поля со * и пройдите верификацию
+                </div>
+            </div>
+            <div class="feedback-right-part">
+                <div class="item">
+                    <div>
+                        <div class="rev-button">
+                            <span>отправить</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="black-background" id="footer-header-block">
+        <hr class="gorizontal-line-top"/>
+        <div class="footer black">
+            <div class="header-label" style="margin-top: 80px" id="footer-header">
+                <span> контакты</span>
+            </div>
+            <div class="footer-info-block">
+                <div class="left-part-footer">
+                    <div class="sub-head-label">
+                        давайте встретимся
+                    </div>
+                    <div class="footer-info-block">
+                        <div class="item">
+                            <h3>zrobym architects</h3>
+                            <p>
+                                г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>By furniture</h3>
+                            <p>
+                                г.Минск, пр-т Победителей, 65
+                                <br>(ТЦ Замок)
+                                <br> Замок Home, пав. 484, BY furniture
+                                <br> Время работы: с 11:00 до 20:00
+                                <br> понедельник и воскресенье - <br> выходные
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part-footer">
+                    <div class="sub-head-label">
+                        давайте общаться
+                    </div>
+                    <div class="footer-info-block">
+                        <div class="item">
+                            <h3>Zrobym architects</h3>
+                            <h5>Минск:</h5>
+                            <div>+375 29 3650669 Андрусь</div>
+                            <div> +375 44 5180676 Алексей</div>
+
+                            <h5>Международные контакты:</h5>
+                            <div>WhatsApp +375 44 5180676 Алексей</div>
+                            <br>info@zrobym.by
+                        </div>
+                        <div class="item">
+                            <h3>By furniture</h3>
+                            <p>
+                                <br> +375 29 3032540 Маруся
+                                <br>byfurniture@zrobym.by
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-button-block">
+                <div class="item">
+                </div>
+                <div class="item">
+                    <div style="margin: 50px 0">
+                        <div class="rev-button gold">
+                            <a href=""><span>Контакты во всех странах</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="gorizontal-line-bottom"/>
     </div>
 </div>
-<div class="feedback-container" id="feedback-container">
-    <h3 style="padding-left: 15px">Напишите нам</h3>
-    <div class="inputs-container">
-        <div class="feedback-left-part">
-            <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
-            <div class="feedback-input-block" id="feedback-input-block">
-                <input class="feedback-input" type="text" placeholder="ФИО*">
-                <input class="feedback-input" type="text" placeholder="город, страна*">
-                <input class="feedback-input" type="text" placeholder="телефон">
-                <input class="feedback-input" type="text" placeholder="email*">
-            </div>
-        </div>
-        <div class="feedback-right-part">
-            <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
-        </div>
-    </div>
-    <div class="confirm-block">
-        <div class="feedback-left-part" style="flex-direction: row;">
-            <div class="item">
-                <img src="../../assets/images/recaptcha.png" style="width: 100%">
-            </div>
-            <div class="item">
-                Пожалуйста заполните поля со * и пройдите верификацию
-            </div>
-        </div>
-        <div class="feedback-right-part">
-            <div class="item">
-                <div>
-                    <div class="rev-button">
-                        <span>отправить</span>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-
-            </div>
-        </div>
-    </div>
-</div>
-<div class="black-background" id="footer-header-block">
-    <hr class="gorizontal-line-top"/>
-    <div class="footer black">
-        <div class="header-label" style="margin-top: 80px" id="footer-header">
-            <span> контакты</span>
-        </div>
-        <div class="footer-info-block">
-            <div class="left-part-footer">
-                <div class="sub-head-label">
-                    давайте встретимся
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>zrobym architects</h3>
-                        <p>
-                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            г.Минск, пр-т Победителей, 65
-                            <br>(ТЦ Замок)
-                            <br> Замок Home, пав. 484, BY furniture
-                            <br> Время работы: с 11:00 до 20:00
-                            <br> понедельник и воскресенье - <br> выходные
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="right-part-footer">
-                <div class="sub-head-label">
-                    давайте общаться
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>Zrobym architects</h3>
-                        <h5>Минск:</h5>
-                        <div>+375 29 3650669 Андрусь</div>
-                        <div> +375 44 5180676 Алексей</div>
-
-                        <h5>Международные контакты:</h5>
-                        <div>WhatsApp +375 44 5180676 Алексей</div>
-                        <br>info@zrobym.by
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            <br> +375 29 3032540 Маруся
-                            <br>byfurniture@zrobym.by
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="footer-button-block">
-            <div class="item">
-            </div>
-            <div class="item">
-                <div style="margin: 50px 0">
-                    <div class="rev-button gold">
-                        <a href=""><span>Контакты во всех странах</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr class="gorizontal-line-bottom"/>
-</div>
-
 <!--BACKGROUND-PHOTO-HEIGHT-->
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
 
         function calcHeight() {
             let height = $('.first-monitor:eq(0)').height() +
