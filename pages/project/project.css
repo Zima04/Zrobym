@@ -1,0 +1,96 @@
+.project-container {
+    background: #ffffff;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.project-left-part,
+.project-right-part {
+    flex: 1;
+}
+
+.project-header {
+    margin-top: 310px;
+    margin-bottom: 15px;
+    font-size: 3vw;
+}
+
+.project-main-info {
+    font-family: "Muller Regular";
+    padding: 60px 0 80px 15px;
+    margin: 0;
+}
+
+.project-info {
+    padding: 120px 0 140px 10px;
+}
+
+.project-info:nth-child(4) {
+    padding-top: 5px;
+}
+
+.project-info > p {
+    margin: 0;
+}
+
+.project-info > h4 {
+    margin-top: 0;
+}
+
+.right-corner-pic {
+    background: url('../../assets/images/project-page/flat-photos.png');
+}
+
+.project-projects {
+    margin-top: 170px;
+}
+
+.project-projects-about {
+    padding: 230px 0 180px;
+}
+
+.buttons-container {
+    align-items: center;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.project {
+    position: relative;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    margin: 0 5px 3px 0;
+    background: #F7F7F7;
+}
+
+.project:hover {
+    background: #F0F0F0;
+}
+
+.project-id {
+    width: 80px;
+    margin-left: 60px;
+}
+
+.project-name {
+    width: 390px;
+}
+
+.logo-container {
+    margin-top: 30px;
+}
+
+.logo-container img {
+    margin-right: 15px;
+}

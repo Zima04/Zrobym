@@ -38,15 +38,6 @@
     background-color: #000000;
 }
 
-#close-area {
-    top: 0;
-    left: 50%;
-    height: 100%;
-    width: 50%;
-    background: none;
-    outline: 0;
-}
-
 #contacts-header {
     font-size: 3vw;
 }

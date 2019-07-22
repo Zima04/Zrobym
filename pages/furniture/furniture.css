@@ -385,7 +385,6 @@ main {
 
     .designing-title-container {
         margin: 0;
-
     }
 
     .product-description-container {
@@ -403,26 +402,6 @@ main {
         text-align: center;
     }
 }
-.first-monitor {
-    background: #ffffff;
-    min-height: calc(100vh - 210px);
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    position: relative;
-    z-index: 1;
-}
-
-.welcome-info {
-    height: calc(100% - 200px);
-    border: none;
-}
-
-.left-part-about {
-    top: 0;
-}
-
 .rev-block {
     max-width: 100%;
 }

@@ -1,6 +1,7 @@
-main{
+main {
     padding-top: 250px;
 }
+
 .team-page-container {
     background: #ffffff;
     padding: 0 10%;
@@ -28,7 +29,8 @@ main{
     padding: 300px 0 100px;
     flex: 1;
 }
-.team-page-description{
+
+.team-page-description {
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -39,26 +41,38 @@ main{
 }
 
 .persons-container {
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    /*height: fit-content;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fill, 100px);*/
+    /*grid-gap: 1rem;*/
+    justify-content: space-between;
+}
+
+.persons-container::after {
+    clear: both;
 }
 
 .person {
+    /*max-width: 500px;*/
+    /*min-width: 300px;*/
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: #e5e5e5 1px solid;
+    outline: #e5e5e5 1px solid;
     font-family: "Muller Light";
     z-index: 3;
     background: white;
 }
 
 .person > img {
-    /*width: 100%;*/
+    width: 100%;
     height: auto;
-    width: 300px;
+    /*width: 300px;*/
 }
 
 .person-name {
@@ -88,6 +102,18 @@ main{
     cursor: pointer;
 }
 
+@media (max-width: 1500px) {
+    .persons-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1100px) {
+    .persons-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media (max-width: 450px) {
     .big-padding-top {
         padding-top: 40px;
@@ -97,29 +123,46 @@ main{
         padding-top: 40px;
     }
 
-    .team-header {
-        padding-top: 10px;
-        padding-left: 0;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
+    .persons-container {
+        grid-template-columns: 1fr;
     }
 
-    .team-header > .underline {
-        z-index: 0;
-        width: 180px;
+    main {
+        padding: 0;
     }
 
     .rev-block {
-        padding: 0 0 20px 0;
+        width: 100%;
+        padding: 0;
+        margin: 15px 0;
     }
 
-    #interesting-header {
-        font-size: 30px;
-        padding-top: 40px;
+    .team-page-header {
+        font-size: 24px;
+        margin: 50px 0 0 !important;
+    }
+
+    .team-page-container {
+        padding: 0 !important;
+        flex-direction: column;
+    }
+
+    .team-page-left-part {
+        padding: 0;
+        display: contents;
+    }
+
+    .team-page-right-part {
+        padding: 0;
+    }
+
+    .team-page-description {
+        padding: 0 15px;
+        text-align: justify;
     }
 
     .see-requirements-button {
-        margin-bottom: 50px;
+        text-align: center;
+        margin: 40px 0;
     }
 }

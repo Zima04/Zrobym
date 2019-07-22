@@ -16,6 +16,7 @@
 
 .team-card-header {
     margin-top: 465px;
+    font-size: 3vw;
 }
 
 .team-card-info {
@@ -56,13 +57,4 @@
 
 .buttons-container {
     align-items: center;
-}
-
-#close-area {
-    top: 0;
-    left: 50%;
-    height: 100%;
-    width: 50%;
-    background: none;
-    outline: 0;
 }

@@ -377,4 +377,8 @@ main {
         margin-top: 0;
         background: black;
     }
+
+    .gorizontal-line-short-top,.gorizontal-line-short-bottom{
+        display: none;
+    }
 }

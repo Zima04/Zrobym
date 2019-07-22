@@ -1,31 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Team</title>
-    <link rel="stylesheet" href="../../global-styles/main.css" type="text/css" />
-    <link rel="stylesheet" href="../portfolio/portfolio.css" />
-    <link rel="stylesheet" href="../../libs/modaal.css" />
-    <link rel="stylesheet" href="team.css" />
-    <meta name="viewport" content="width=device-width" />
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='../../libs/modaal.js'></script>
-
-    <template id="person-template">
-        <div class="person">
-            <img id="template-image"/>
-            <div class="person-name uppercase bolder" id="template-name"></div>
-            <div class="person-position uppercase" id="template-position"></div>
-        </div>
-    </template>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
+    <link rel="stylesheet" href="../office/office.css" type="text/css">
+    <link rel="stylesheet" href="project.css" type="text/css">
+    <link rel="stylesheet" href="../../libs/modaal.css">
+    <meta name="viewport" content="width=device-width"/>
 </head>
-
 <body>
-<hr class="center-line" />
-<hr class="left-line" />
-<hr class="right-line" />
+<hr class="center-line"/>
+<hr class="left-line"/>
+<hr class="right-line"/>
 <div class="burger-block">
     <div class="burger-black">
     </div>
@@ -48,10 +35,11 @@
             <div class="burger-white">
             </div>
         </div>
-        <hr class="gorizontal-line" />
+        <hr class="gorizontal-line"/>
         <div class="open-menu-content">
             <div class="background-content">
                 <a id="close-button" title="Закрыть" class="close"></a>
+                <div id="close-area" class="close"></div>
                 <a class="menu-links">Главная</a>
                 <a class="menu-links">О нас</a>
                 <a class="menu-links">Архитектурное проектирование</a>
@@ -67,7 +55,7 @@
                 <span class="lang">by</span>
             </div>
         </div>
-        <hr class="gorizontal-line" />
+        <hr class="gorizontal-line"/>
         <div class="social-icons-block">
             <div class="social-icons">
                 <a href="#"><span class="icon behance-icon-white"></span></a>
@@ -80,61 +68,123 @@
         </div>
     </div>
 </div>
-<hr class="gorizontal-line" />
-<div class="team-page-container">
-        <div class="team-page-left-part">
-            <h1 class="rev-block team-page-header">
-                <span class="light-font">профессиональная</span>
-                <br />
-                <span>команда</span>
-            </h1>
-            <span class="rev-block">
-                <span class="non-line uppercase">zrobym architects</span>
+<hr class="gorizontal-line"/>
+<div class="project-container">
+    <div class="project-left-part">
+        <h1 class="rev-block project-header">
+            <span>
+                knitted<br />
+                flat
             </span>
-        </div>
-        <div class="team-page-right-part">
-            <div class="team-page-description">
-                <h4>архитектура с идеей</h4>
-                <p>
-                    Мы видим миссию нашей команды в изменении окружающего мира за счет качественной
-                    концептуальной архитектуры. В каждом нашем проекте заложен уникальный смысл и
-                    авторская идея
-                </p>
-            </div>
-        </div>
+        </h1>
+        <span class="rev-block">
+            <span class="non-line">дизайн квартиры</span>
+        </span>
+        <p class="project-main-info">
+            Студия: Zrobym Architects<br />
+            Руководитель проекта: Роман Мохаммад<br />
+            Архитектор: Юлия Барылюк<br />
+            Расположение: г.Минск, Беларусь<br />
+            Площадь: 94 м.кв.<br />
+            Год: 2018
+        </p>
+    </div>
+    <div class="project-right-part">
+    </div>
 </div>
-<hr class="gorizontal-line" />
+<hr class="gorizontal-line"/>
 <div class="arrow-block">
     <div class="arrow-grey arrow-animate"></div>
 </div>
-<hr class="gorizontal-line" />
-<main>
-    <h1 class="rev-block team-page-header" id="persons-header">
-        <span>специалисты</span>
-    </h1>
-</main>
-<hr class="gorizontal-line" />
-<div class="team-page-container" style="background-color: #ECECEC">
-    <div class="team-page-left-part medium-padding-top">
-        <h1 class="rev-block team-page-header">
-            <span class="light-font">ищем</span>
-            <br>
-            <span>сотрудников!</span>
-        </h1>
-        <span class="rev-block">
-            <span class="non-line uppercase header3">в команду zrobym architects</span>
-        </span>
-    </div>
-    <div class="team-page-right-part">
-        <div class="team-page-description">
-            <h3>как попасть в нашу команду?</h3>
+<hr class="gorizontal-line"/>
+<div class="project-container">
+    <div class="project-left-part project-info">
+        <div class="project-info">
+            <h4>Описание проекта</h4>
             <p>
-                Ищем суперпрофессионала, архитектурного фанатика, гения дизайна с КПД 200%
-                в команду архитекторов ZROBYM! Предлагаем как удаленную работу, так и работу
-                в офисе студии, высокую ЗП, ведение проектов и реализацию Вашего творческого
-                потенциала!
+                Проект интерьера был разработан для молодой пары. Основное
+                пожелание заказчиков было создание уютной атмосферы и
+                использование ярких цветов. Мы внесли минимальные изменения в
+                планировку, лишь добавили 2 гардеробные. В квартире
+                использовано много дерева, а для того чтобы это смотрелось
+                органично, мы использовали 3 различных варианта фасадов -
+                фрезерованные, шпонированные и тонированные
             </p>
-            <a href=""><span class="see-requirements-button">Посмотреть требования</span></a>
+        </div>
+        <img src="../../assets/images/project-page/flat-scheme.png" />
+        <div class="project-info">
+            <h4>Экспликация плана</h4>
+            <p>Нажмите на помещение, чтобы посмотреть его дизайн:</p>
+            <div class="projects-list">
+                <div class="project">
+                    <div class="project-id">1</div>
+                    <div class="project-name">Кухня-гостинная</div>
+                    <div class="project-square">60м2</div>
+                </div>
+                <div class="project">
+                    <div class="project-id">2</div>
+                    <div class="project-name">Лоджия</div>
+                    <div class="project-square">60м2</div>
+                </div>
+                <div class="project">
+                    <div class="project-id">3</div>
+                    <div class="project-name">Спальня</div>
+                    <div class="project-square">60м2</div>
+                </div>
+                <div class="project">
+                    <div class="project-id">4</div>
+                    <div class="project-name">Ванная комната</div>
+                    <div class="project-square">60м2</div>
+                </div>
+                <div class="project">
+                    <div class="project-id">5</div>
+                    <div class="project-name">Санузел</div>
+                    <div class="project-square">60м2</div>
+                </div>
+            </div>
+        </div>
+        <div class="project-info">
+            <h4>Поделиться проектом</h4>
+            <p>Поделитесь понравившимся проектом в социальных сетях!</p>
+            <div class="logo-container">
+                <img src="../../assets/icons/facebook-logo.png" />
+                <img src="../../assets/icons/vk-logo.png" />
+            </div>
+        </div>
+    </div>
+    <div class="project-left-part"></div>
+</div>
+<div class="right-corner-pic">
+</div>
+<div class="project-container" style="background-color: #ECECEC">
+    <div class="project-left-part">
+        <h1 class="rev-block project-projects">
+            <span class="light-font">Наши</span>
+            <br>
+            <span>проекты</span>
+        </h1>
+    </div>
+    <div class="project-right-part project-projects-about">
+        <span>
+            Посмотрите работы и реализованные проекты<br />
+            специалистов нашей студии:
+        </span>
+        <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
+                </a>
+            </div>
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
+                </a>
+            </div>
+            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
+                <a href="#" style="display: block;width: 100%;">
+                    <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -247,12 +297,36 @@
     </div>
     <hr class="gorizontal-line-bottom"/>
 </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='../../libs/modaal.js'></script>
+<!--BACKGROUND-PHOTO-HEIGHT-->
+<script>
+    $(document).ready(function() {
 
-<script src="scripts/Collection.js"></script>
-<script src="scripts/Model.js"></script>
-<script src="scripts/View.js"></script>
-<script src="scripts/Controller.js"></script>
+        function calcHeight() {
+            let height = $('.project-container:eq(0)').height() +
+                $('.project-container:eq(1)').height() +
+                $('.arrow-block').height() +
+                $('.burger-block').height();
+            return height;
+        }
 
+        function setHeight(height) {
+            $('.right-corner-pic').height(height);
+        }
+
+        function resize() {
+            setHeight(calcHeight());
+        }
+
+        resize();
+
+        $(window).on('resize', () => {
+            resize();
+        });
+
+    });
+</script>
 <!--MENU-MORE-TEXT-->
 <script async>
     $('.menu-label-block').modaal({
@@ -267,32 +341,24 @@
             $('.menu-label-block').removeClass("click");
         }
     });
-    $("#close-button").click(function () {
+    $('.close').click(function () {
         $('.menu-label-block').modaal('close');
     });
 </script>
-
 <!--SCROLL MY ARROW-->
 <script async>
     $('.arrow-grey').click(function () {
-        var win = $('#first-monitor').height() + 213;
-        $('body,html').animate({
-            scrollTop: win
-        }, 800);
-        return false;
-    });
-    $('.arrow').click(function () {
-        var win = $('#first-monitor').height() + 213;
+        var win = $('.project-container:eq(0)').height() +
+            $('.arrow-block').height() +
+            $('.burger-block').height();
         $('body,html').animate({
             scrollTop: win
         }, 800);
         return false;
     });
 </script>
-
 <!--FEEDBACK OPENING BLOCK-->
 <script async>
-
     $("#open-input").focus(function () {
         $("#feedback-input-block").addClass('height-auto');
         $(".confirm-block").addClass('height-auto');
@@ -300,18 +366,51 @@
         $("#open-input").addClass('full');
     });
 </script>
+<!--FOOTER-HEADER-ANIMATION-->
 <script async>
     const footerHeaderBlock = document.getElementById('footer-header-block');
     const footerHeader = document.getElementById('footer-header');
 
     $(document).on("scroll", function () {
-        var st = $(this).scrollTop();
-        var wh = $(document).height();
-        var perc = (st * 100) / wh;
         if (footerHeaderBlock.getBoundingClientRect().top < 500) {
             footerHeader.classList.add("rev-block");
             footerHeader.classList.remove("header-label");
         }
+    });
+</script>
+<!--OPEN-MORE-TEXT-->
+<script async>
+    let textButton = 'Читать больше';
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity: 0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $('.close').click(function () {
+        $('.menu-label-block').modaal('close');
+    });
+    $("#more-button").click(function () {
+        $("#more-text").toggleClass(function () {
+            switch (textButton) {
+                case 'Читать больше': {
+                    textButton = 'Скрыть';
+                    break;
+                }
+                case 'Скрыть': {
+                    textButton = 'Читать больше';
+                    break;
+                }
+            }
+            $("#more-button span").text(textButton);
+            return 'open'
+        });
     });
 </script>
 </body>
