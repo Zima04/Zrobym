@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Team Card</title>
     <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
-    <link rel="stylesheet" href="../office/office.css" type="text/css">
     <link rel="stylesheet" href="team-card.css" type="text/css">
     <link rel="stylesheet" href="../../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
@@ -13,7 +12,7 @@
 <hr class="center-line"/>
 <hr class="left-line"/>
 <hr class="right-line"/>
-<div class="burger-block">
+<div class="burger-block" style="position: absolute;z-index: 3;">
     <div class="burger-black">
     </div>
 </div>
@@ -68,26 +67,30 @@
         </div>
     </div>
 </div>
-<hr class="gorizontal-line"/>
-<div class="team-card-container">
-    <div class="team-card-left-part">
-        <h1 class="rev-block team-card-header">
+<hr class="gorizontal-line" style="top: 110px;"/>
+<div class="team-card-container" style="padding: 0">
+    <div class="team-card-head-left-part">
+        <h1 class="rev-block team-card-header" style="margin:0 0 0 20%">
             <span>янина</span>
             <br>
             <span class="light-font">новикова</span>
         </h1>
-        <span class="rev-block">
+        <span class="rev-block" style="margin:0 0 0 20%">
             <span class="non-line">архитектор</span>
         </span>
     </div>
-    <div class="team-card-right-part">
+    <div class="team-card-head-right-part">
+        <img src="../../assets/images/team-card/янина-новикова.png"
+             style=" position: relative;
+        width: 100%;
+        height: 100%">
     </div>
 </div>
-<hr class="gorizontal-line"/>
-<div class="arrow-block">
+<hr class="gorizontal-line" style="top: -100px;"/>
+<div class="arrow-block" style="top: -100px;">
     <div class="arrow-grey arrow-animate"></div>
 </div>
-<hr class="gorizontal-line"/>
+<hr class="gorizontal-line" style="top: -100px;"/>
 <div class="team-card-container">
     <div class="team-card-left-part team-card-info">
         <h4>Янина Новикова</h4>
@@ -100,10 +103,11 @@
             архитектурного форума "Чему равно площадь"(2017).
         </p>
         <p id="more-text" class="more-text">
+            <br>
             Как правило, грамотный проект и авторское
             сопровождение позволяют заказчику сэкономить больше
             средств на реализации здания, чем он потратил на услуги архитектурной студии.
-
+            <br>
             Поэтому к выбору архитекторов,
             которые будут заниматься разработкой и реализацией вашего проекта, следует подходить исходя из их
             профессионализма (портфолио + опыт реализации проекта + творческие достижения). Не забывайте это!
@@ -112,43 +116,43 @@
             <span>Читать полностью</span>
         </div>
         <div class="direction-container">
-            <h4>Направление деятельности:</h4><br />
+            <h4>Направление деятельности:</h4><br/>
             <span class="direction">Архитектурное</span>
             <span>Дизайн интерьера</span>
         </div>
     </div>
-    <div class="team-card-left-part"></div>
+    <div class="team-card-right-part"></div>
 </div>
-<div class="right-corner-pic">
-</div>
-<div class="team-card-container" style="background-color: #ECECEC">
-    <div class="team-card-left-part">
-        <h1 class="rev-block team-card-projects">
+<div class="interests-container">
+    <div class="interests-left-part">
+        <h1 class="rev-block team-card-header">
             <span class="light-font">Наши</span>
             <br>
             <span>проекты</span>
         </h1>
     </div>
-    <div class="team-card-right-part team-card-projects-about">
-        <span>
-            Посмотрите работы и реализованные проекты<br />
+    <div class="interests-right-part">
+        <div class="interests-description">
+            <span>
+            Посмотрите работы и реализованные проекты
             специалистов нашей студии:
         </span>
-        <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
-                </a>
-            </div>
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
-                </a>
-            </div>
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
-                </a>
+            <div class="buttons-container" style="padding: 170px 0;display: flex; flex-direction: column;">
+                <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                    <a href="#" style="display: block;width: 100%;">
+                        <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
+                    </a>
+                </div>
+                <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                    <a href="#" style="display: block;width: 100%;">
+                        <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
+                    </a>
+                </div>
+                <div class="rev-button black" style="width: 60%;">
+                    <a href="#" style="display: block;width: 100%;">
+                        <span style="display: flex; justify-content: center;">бренд серийной мебели</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -266,7 +270,7 @@
 <script src='../../libs/modaal.js'></script>
 <!--BACKGROUND-PHOTO-HEIGHT-->
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
 
         function calcHeight() {
             let height = $('.team-card-container').height() +
