@@ -53,6 +53,8 @@
 }
 
 .arrow-block {
+    position: absolute;
+    width: 100%;
     z-index: 2;
 }
 
@@ -83,11 +85,6 @@
 
 .interests-container .rev-button span {
     padding: 14px 10px;
-}
-
-.arrow-block {
-    position: absolute;
-    width: 100vw;
 }
 
 @media (max-width: 850px) {
