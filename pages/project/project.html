@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <title>Project</title>
     <link rel="stylesheet" href="../../global-styles/main.css" type="text/css">
-    <link rel="stylesheet" href="../office/office.css" type="text/css">
+    <link rel="stylesheet" href="../../global-styles/payment.css">
+    <link rel="stylesheet" href="../portfolio/portfolio.css">
     <link rel="stylesheet" href="project.css" type="text/css">
     <link rel="stylesheet" href="../../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='../../libs/modaal.js'></script>
 </head>
+
 <body>
 <hr class="center-line"/>
 <hr class="left-line"/>
@@ -69,236 +74,244 @@
     </div>
 </div>
 <hr class="gorizontal-line"/>
-<div class="project-container">
-    <div class="project-left-part">
-        <h1 class="rev-block project-header">
+
+<div class="project-page">
+    <div class="project-page-left-part" style="margin-top: 110px;">
+        <div class="project-container" style="padding-top: 10px;">
+            <div class="project-left-part" style="width: 100%; padding: 0;">
+                <h1 class="rev-block project-header">
+                    <span>
+                        knitted<br />flat
+                    </span>
+                    <br />
+                </h1>
+                <span class="rev-block">
+                    <span class="non-line">дизайн квартиры</span>
+                </span>
+                <p style="margin: 0; padding: 60px 0 80px 15px; font-family: Muller Regular;">
+                    Студия: Zrobym Architects<br />
+                    Руководитель проекта: Роман Мохаммад<br />
+                    Архитектор: Юлия Барылюк<br />
+                    Расположение: г.Минск, Беларусь<br />
+                    Площадь: 94 м.кв.<br />
+                    Год: 2018
+                </p>
+            </div>
+        </div>
+        <div>
+            <hr class="gorizontal-line"/>
+            <div class="arrow-block">
+                <div class="arrow-grey arrow-animate"></div>
+            </div>
+            <hr class="gorizontal-line" style="top: 100px;" />
+        </div>
+        <div class="project-container" style="padding: 0; margin-top: 100px;">
+            <div class="project-left-part" style="width: 100%; padding-top: 120px; padding-bottom: 100px;">
+                <h4 style="margin-bottom: 0;">Описание проекта</h4>
+                <p style="margin-bottom: 0;">
+                    Проект интерьера был разработан для молодой пары. Основное
+                    пожелание заказчиков было создание уютной атмосферы и
+                    использование ярких цветов. Мы внесли минимальные изменения в
+                    планировку, лишь добавили 2 гардеробные. В квартире
+                    использовано много дерева, а для того чтобы это смотрелось
+                    органично, мы использовали 3 различных варианта фасадов -
+                    фрезерованные, шпонированные и тонированные
+                </p>
+                <img src="../../assets/images/project-page/flat-scheme.png" style="margin: 150px 0 75px;" />
+                <div class="project-info">
+                    <h4 style="margin: 0;">Экспликация плана</h4>
+                    <p style="margin-bottom: 0;">Нажмите на помещение, чтобы посмотреть его дизайн:</p>
+                    <div class="project-list">
+                        <div class="project">
+                            <div class="project-id">1</div>
+                            <div class="project-name">Кухня-гостинная</div>
+                            <div class="project-square">60м2</div>
+                        </div>
+                        <div class="project">
+                            <div class="project-id">2</div>
+                            <div class="project-name">Лоджия</div>
+                            <div class="project-square">60м2</div>
+                        </div>
+                        <div class="project">
+                            <div class="project-id">3</div>
+                            <div class="project-name">Спальня</div>
+                            <div class="project-square">60м2</div>
+                        </div>
+                        <div class="project">
+                            <div class="project-id">4</div>
+                            <div class="project-name">Ванная комната</div>
+                            <div class="project-square">60м2</div>
+                        </div>
+                        <div class="project">
+                            <div class="project-id">5</div>
+                            <div class="project-name">Санузел</div>
+                            <div class="project-square">60м2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Поделиться проектом</h4>
+                    <p>Поделитесь понравившимся проектом в социальных сетях!</p>
+                    <div class="logo-container">
+                        <img src="../../assets/icons/facebook-logo.png" />
+                        <img src="../../assets/icons/vk-logo.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-page-right-part">
+        <img src="../../assets/images/project-page/flat-photos.png"
+             style="position: relative;
+                    width: 100%;
+                    height: 100%">
+    </div>
+</div>
+<div style="position: relative;top: -110px;">
+    <div class="interests-container">
+        <div class="interests-left-part">
+            <h1 class="rev-block office-header">
+                <span class="light-font">Наши</span>
+                <br>
+                <span>проекты</span>
+            </h1>
+        </div>
+        <div class="interests-right-part">
+            <div class="interests-description">
             <span>
-                knitted<br />
-                flat
-            </span>
-        </h1>
-        <span class="rev-block">
-            <span class="non-line">дизайн квартиры</span>
-        </span>
-        <p class="project-main-info">
-            Студия: Zrobym Architects<br />
-            Руководитель проекта: Роман Мохаммад<br />
-            Архитектор: Юлия Барылюк<br />
-            Расположение: г.Минск, Беларусь<br />
-            Площадь: 94 м.кв.<br />
-            Год: 2018
-        </p>
-    </div>
-    <div class="project-right-part">
-    </div>
-</div>
-<hr class="gorizontal-line"/>
-<div class="arrow-block">
-    <div class="arrow-grey arrow-animate"></div>
-</div>
-<hr class="gorizontal-line" style="top: 100px;"/>
-<div class="project-container">
-    <div class="project-left-part project-info">
-        <div class="project-info">
-            <h4>Описание проекта</h4>
-            <p>
-                Проект интерьера был разработан для молодой пары. Основное
-                пожелание заказчиков было создание уютной атмосферы и
-                использование ярких цветов. Мы внесли минимальные изменения в
-                планировку, лишь добавили 2 гардеробные. В квартире
-                использовано много дерева, а для того чтобы это смотрелось
-                органично, мы использовали 3 различных варианта фасадов -
-                фрезерованные, шпонированные и тонированные
-            </p>
-        </div>
-        <img src="../../assets/images/project-page/flat-scheme.png" />
-        <div class="project-info">
-            <h4>Экспликация плана</h4>
-            <p>Нажмите на помещение, чтобы посмотреть его дизайн:</p>
-            <div class="projects-list">
-                <div class="project">
-                    <div class="project-id">1</div>
-                    <div class="project-name">Кухня-гостинная</div>
-                    <div class="project-square">60м2</div>
-                </div>
-                <div class="project">
-                    <div class="project-id">2</div>
-                    <div class="project-name">Лоджия</div>
-                    <div class="project-square">60м2</div>
-                </div>
-                <div class="project">
-                    <div class="project-id">3</div>
-                    <div class="project-name">Спальня</div>
-                    <div class="project-square">60м2</div>
-                </div>
-                <div class="project">
-                    <div class="project-id">4</div>
-                    <div class="project-name">Ванная комната</div>
-                    <div class="project-square">60м2</div>
-                </div>
-                <div class="project">
-                    <div class="project-id">5</div>
-                    <div class="project-name">Санузел</div>
-                    <div class="project-square">60м2</div>
-                </div>
-            </div>
-        </div>
-        <div class="project-info">
-            <h4>Поделиться проектом</h4>
-            <p>Поделитесь понравившимся проектом в социальных сетях!</p>
-            <div class="logo-container">
-                <img src="../../assets/icons/facebook-logo.png" />
-                <img src="../../assets/icons/vk-logo.png" />
-            </div>
-        </div>
-    </div>
-    <div class="project-left-part"></div>
-</div>
-<div class="right-corner-pic">
-</div>
-<div class="project-container" style="background-color: #ECECEC">
-    <div class="project-left-part">
-        <h1 class="rev-block project-projects">
-            <span class="light-font">Наши</span>
-            <br>
-            <span>проекты</span>
-        </h1>
-    </div>
-    <div class="project-right-part project-projects-about">
-        <span>
-            Посмотрите работы и реализованные проекты<br />
+            Посмотрите работы и реализованные проекты
             специалистов нашей студии:
         </span>
-        <div class="buttons-container" style="padding-top: 100px;display: flex; flex-direction: column;">
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
-                </a>
-            </div>
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
-                </a>
-            </div>
-            <div class="rev-button black" style="width: 300px;margin-bottom: 15px;">
-                <a href="#" style="display: block;width: 100%;">
-                    <span style="display: flex; justify-content: center;">архитектурное проектирование</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="feedback-container" id="feedback-container">
-    <h3 style="padding-left: 15px">Напишите нам</h3>
-    <div class="inputs-container">
-        <div class="feedback-left-part">
-            <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
-            <div class="feedback-input-block" id="feedback-input-block">
-                <input class="feedback-input" type="text" placeholder="ФИО*">
-                <input class="feedback-input" type="text" placeholder="город, страна*">
-                <input class="feedback-input" type="text" placeholder="телефон">
-                <input class="feedback-input" type="text" placeholder="email*">
-            </div>
-        </div>
-        <div class="feedback-right-part">
-            <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
-        </div>
-    </div>
-    <div class="confirm-block">
-        <div class="feedback-left-part" style="flex-direction: row;">
-            <div class="item">
-                <img src="../../assets/images/recaptcha.png" style="width: 100%">
-            </div>
-            <div class="item">
-                Пожалуйста заполните поля со * и пройдите верификацию
-            </div>
-        </div>
-        <div class="feedback-right-part">
-            <div class="item">
-                <div>
-                    <div class="rev-button">
-                        <span>отправить</span>
+                <div class="buttons-container" style="padding: 170px 0;display: flex; flex-direction: column;">
+                    <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">дизайн внутренних пространств</span>
+                        </a>
+                    </div>
+                    <div class="rev-button black" style="width: 60%;margin-bottom: 25px;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">наши реализованные проекты</span>
+                        </a>
+                    </div>
+                    <div class="rev-button black" style="width: 60%;">
+                        <a href="#" style="display: block;width: 100%;">
+                            <span style="display: flex; justify-content: center;">бренд серийной мебели</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="item">
+        </div>
+    </div>
+    <div class="feedback-container" id="feedback-container">
+        <h3 style="padding-left: 15px">Напишите нам</h3>
+        <div class="inputs-container">
+            <div class="feedback-left-part">
+                <span>И мы ответим на любые интересующие вас вопросы о проекте</span>
+                <div class="feedback-input-block" id="feedback-input-block">
+                    <input class="feedback-input" type="text" placeholder="ФИО*">
+                    <input class="feedback-input" type="text" placeholder="город, страна*">
+                    <input class="feedback-input" type="text" placeholder="телефон">
+                    <input class="feedback-input" type="text" placeholder="email*">
+                </div>
+            </div>
+            <div class="feedback-right-part">
+                <textarea class="feedback-input" id="open-input" placeholder="Что вас интересует?*"></textarea>
+            </div>
+        </div>
+        <div class="confirm-block">
+            <div class="feedback-left-part" style="flex-direction: row;">
+                <div class="item">
+                    <img src="../../assets/images/recaptcha.png" style="width: 100%">
+                </div>
+                <div class="item">
+                    Пожалуйста заполните поля со * и пройдите верификацию
+                </div>
+            </div>
+            <div class="feedback-right-part">
+                <div class="item">
+                    <div>
+                        <div class="rev-button">
+                            <span>отправить</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="black-background" id="footer-header-block">
+        <hr class="gorizontal-line-top"/>
+        <div class="footer black">
+            <div class="header-label" style="margin-top: 80px" id="footer-header">
+                <span> контакты</span>
+            </div>
+            <div class="footer-info-block">
+                <div class="left-part-footer">
+                    <div class="sub-head-label">
+                        давайте встретимся
+                    </div>
+                    <div class="footer-info-block">
+                        <div class="item">
+                            <h3>zrobym architects</h3>
+                            <p>
+                                г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>By furniture</h3>
+                            <p>
+                                г.Минск, пр-т Победителей, 65
+                                <br>(ТЦ Замок)
+                                <br> Замок Home, пав. 484, BY furniture
+                                <br> Время работы: с 11:00 до 20:00
+                                <br> понедельник и воскресенье - <br> выходные
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part-footer">
+                    <div class="sub-head-label">
+                        давайте общаться
+                    </div>
+                    <div class="footer-info-block">
+                        <div class="item">
+                            <h3>Zrobym architects</h3>
+                            <h5>Минск:</h5>
+                            <div>+375 29 3650669 Андрусь</div>
+                            <div> +375 44 5180676 Алексей</div>
+
+                            <h5>Международные контакты:</h5>
+                            <div>WhatsApp +375 44 5180676 Алексей</div>
+                            <br>info@zrobym.by
+                        </div>
+                        <div class="item">
+                            <h3>By furniture</h3>
+                            <p>
+                                <br> +375 29 3032540 Маруся
+                                <br>byfurniture@zrobym.by
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+            <div class="footer-button-block">
+                <div class="item">
+                </div>
+                <div class="item">
+                    <div style="margin: 50px 0">
+                        <div class="rev-button gold">
+                            <a href=""><span>Контакты во всех странах</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <hr class="gorizontal-line-bottom"/>
     </div>
 </div>
-<div class="black-background" id="footer-header-block">
-    <hr class="gorizontal-line-top"/>
-    <div class="footer black">
-        <div class="header-label" style="margin-top: 80px" id="footer-header">
-            <span> контакты</span>
-        </div>
-        <div class="footer-info-block">
-            <div class="left-part-footer">
-                <div class="sub-head-label">
-                    давайте встретимся
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>zrobym architects</h3>
-                        <p>
-                            г.Минск, ул. М.Богдановича,<br> д 11, 3 этаж <br> ZROBYM architects
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            г.Минск, пр-т Победителей, 65
-                            <br>(ТЦ Замок)
-                            <br> Замок Home, пав. 484, BY furniture
-                            <br> Время работы: с 11:00 до 20:00
-                            <br> понедельник и воскресенье - <br> выходные
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="right-part-footer">
-                <div class="sub-head-label">
-                    давайте общаться
-                </div>
-                <div class="footer-info-block">
-                    <div class="item">
-                        <h3>Zrobym architects</h3>
-                        <h5>Минск:</h5>
-                        <div>+375 29 3650669 Андрусь</div>
-                        <div> +375 44 5180676 Алексей</div>
-
-                        <h5>Международные контакты:</h5>
-                        <div>WhatsApp +375 44 5180676 Алексей</div>
-                        <br>info@zrobym.by
-                    </div>
-                    <div class="item">
-                        <h3>By furniture</h3>
-                        <p>
-                            <br> +375 29 3032540 Маруся
-                            <br>byfurniture@zrobym.by
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="footer-button-block">
-            <div class="item">
-            </div>
-            <div class="item">
-                <div style="margin: 50px 0">
-                    <div class="rev-button gold">
-                        <a href=""><span>Контакты во всех странах</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr class="gorizontal-line-bottom"/>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='../../libs/modaal.js'></script>
 <!--BACKGROUND-PHOTO-HEIGHT-->
 <script>
     $(document).ready(function() {
