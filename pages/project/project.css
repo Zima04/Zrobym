@@ -1,81 +1,104 @@
+
+.project-image {
+    background: url("../../assets/images/project-page/flat-photos.png");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project-page {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -110px;
+}
+
+.project-header {
+    font-size: 3.6vw;
+}
+
+.project-page-left-part {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-page-right-part {
+    position: relative;
+    display: flex;
+    flex: 1;
+    height: inherit;
+}
+
 .project-container {
     background: #ffffff;
-    padding: 0 10%;
     display: flex;
     flex-direction: row;
     color: #000000;
     position: relative;
     z-index: 1;
+    margin-left: 20%;
 }
 
-.project-left-part,
+.project-left-part {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
 .project-right-part {
+    width: 50%;
+    padding: 15px;
+}
+
+.arrow-block {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #ECECEC;
+    z-index: -1;
+}
+
+.interests-left-part {
+    padding-top: 80px;
     flex: 1;
 }
 
-.project-header {
-    margin-top: 310px;
-    margin-bottom: 15px;
-    font-size: 3vw;
+.interests-right-part {
+    padding-top: 180px;
+    flex: 1;
 }
 
-.project-main-info {
-    font-family: "Muller Regular";
-    padding: 60px 0 80px 15px;
-    margin: 0;
-}
-
-.project-info {
-    padding: 120px 0 140px 10px;
-}
-
-.project-info:nth-child(4) {
-    padding-top: 5px;
-}
-
-.project-info > p {
-    margin: 0;
-}
-
-.project-info > h4 {
-    margin-top: 0;
-}
-
-.right-corner-pic {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    z-index: 1;
-    background: url('../../assets/images/project-page/flat-photos.png');
-}
-
-.project-projects {
-    margin-top: 170px;
-}
-
-.project-projects-about {
-    padding: 230px 0 180px;
-}
-
-.buttons-container {
-    align-items: center;
-}
-
-.projects-list {
+.interests-description {
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+}
+
+.interests-container .rev-button span {
+    padding: 14px 10px;
+}
+
+.project-list {
+    margin: 40px 0 130px;
 }
 
 .project {
-    position: relative;
-    left: -15px;
-    display: flex;
-    align-items: center;
     height: 55px;
-    width: 100%;
-    margin: 0 5px 3px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px 5px 0;
     background: #F7F7F7;
 }
 
@@ -84,18 +107,76 @@
 }
 
 .project-id {
-    width: 80px;
-    margin-left: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .project-name {
-    width: 390px;
+    flex: 2;
+}
+
+.project-square {
+    flex: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-container {
-    margin-top: 30px;
+    display: flex;
 }
 
-.logo-container img {
-    margin-right: 15px;
+@media (max-width: 450px) {
+    body {
+        font-size: 16px;
+    }
+
+    .project-header {
+        font-size: 32px;
+    }
+
+    .project-page {
+        flex-direction: column;
+    }
+
+    .project-page-left-part {
+        padding-top: 110px !important;
+    }
+
+    .project-left-part {
+        padding-top: 0 !important;
+    }
+
+    .project-container {
+        margin: 0;
+        text-align: justify;
+    }
+
+    .project-header {
+        font-size: 32px;
+        margin: 50px 0 0 !important;
+    }
+
+    .rev-block {
+        padding: 0;
+        margin: 15px 0 !important;
+        width: 100%;
+    }
+
+    .interests-container,
+    .interests-left-part,
+    .interests-right-part,
+    .buttons-container {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .interests-description {
+        padding: 35px 15px;
+        text-align: justify;
+    }
+
+    .buttons-container {
+        align-items: center;
+    }
 }
