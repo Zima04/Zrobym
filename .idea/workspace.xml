@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="project page 2.0">
+    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
     </list>
@@ -129,14 +128,8 @@
       <workItem from="1563388318561" duration="13321000" />
       <workItem from="1563708535078" duration="11156000" />
       <workItem from="1563830582400" duration="174000" />
-      <workItem from="1563907638753" duration="4166000" />
-    </task>
-    <task id="LOCAL-00030" summary="fix service padding">
-      <created>1551888208481</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1551888208481</updated>
+      <workItem from="1563907638753" duration="4736000" />
+      <workItem from="1563914627528" duration="935000" />
     </task>
     <task id="LOCAL-00031" summary="fix comments from Andrew">
       <created>1551905222354</created>
@@ -474,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563830358081</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="project page 2.0">
+      <created>1563911936674</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1563911936674</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,14 +494,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish posadochnaya page" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Zima04/zrobym.github.io into igor-fix_payment&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="posadochnaya update" />
     <MESSAGE value="portfolio: unused classes removed" />
@@ -526,7 +527,8 @@
     <MESSAGE value="fix adaptive" />
     <MESSAGE value="fix team-card page" />
     <MESSAGE value="project page" />
-    <option name="LAST_COMMIT_MESSAGE" value="project page" />
+    <MESSAGE value="project page 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="project page 2.0" />
   </component>
   <component name="masterDetails">
     <states>

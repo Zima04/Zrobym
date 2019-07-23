@@ -6,8 +6,6 @@
 }
 
 .project-header {
-    margin-top: 310px;
-    margin-bottom: 15px;
     font-size: 3.6vw;
 }
 
@@ -89,10 +87,7 @@
 }
 
 .project {
-    position: relative;
-    left: -10px;
     height: 55px;
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,12 +100,23 @@
 }
 
 .project-id {
-    width: 80px;
-    margin-left: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .project-name {
-    width: 390px;
+    flex: 2;
+}
+
+.project-square {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
 }
 
 @media (max-width: 450px) {
