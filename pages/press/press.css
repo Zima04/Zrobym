@@ -67,7 +67,7 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 0 10%;
-    border-top: 1px #c2c2c2 solid;
+    outline: 1px solid #c2c2c2;
     z-index: 4;
     position: relative;
 }
@@ -86,6 +86,7 @@ ul {
 .publication-image img {
     width: 100%;
     height: auto;
+    outline: 1px solid #c2c2c2;
 }
 
 
@@ -243,75 +244,6 @@ ul {
     padding: 0 10% 170px;
 }
 
-
-.interests {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-details {
-    margin-top: 100px;
-    flex: 1;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-details > ul {
-    margin-top: 120px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-details > ul > li {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-}
-
-.interest-mark {
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
-    font-size: 24pt;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #BABABA;
-    border: 2px solid #BABABA;
-}
-
-.interest-text {
-    font-family: "Muller Medium";
-    width: 300px;
-    height: 50px;
-    font-size: 12px;
-    border: 2px solid black;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.bolder {
-    font-weight: bolder;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.header {
-    font-size: 36pt;
-}
-
 .underline {
     position: absolute;
     bottom: -15px;
@@ -346,32 +278,6 @@ ul {
         height: 0;
         width: calc(100%)
     }
-}
-
-/*MYSTYLES*/
-
-.first-monitor {
-    background: #ffffff;
-    min-height: calc(100vh - 210px);
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    position: relative;
-    z-index: 1;
-}
-
-.welcome-info {
-    height: calc(100% - 200px);
-    border: none;
-}
-
-.left-part-about {
-    top: 0;
-}
-
-.rev-block {
-    max-width: 90%;
 }
 
 @media screen and (max-width: 850px) {
