@@ -1,3 +1,12 @@
+
+.project-image {
+    background: url("../../assets/images/project-page/flat-photos.png");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .project-page {
     display: flex;
     flex-direction: row;
@@ -19,6 +28,7 @@
     position: relative;
     display: flex;
     flex: 1;
+    height: inherit;
 }
 
 .project-container {

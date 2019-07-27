@@ -1,3 +1,35 @@
+.press-container {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+    padding: 0 10%;
+}
+
+.press-left-part {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.press-right-part {
+    margin: 200px 0 100px;
+    width: 50%;
+}
+
+.press-header {
+    font-size: 2.9vw;
+}
+
+.press-description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
 main {
     padding: 0 10%;
     display: flex;
@@ -34,7 +66,7 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 0 10%;
-    border-top: 1px #c2c2c2 solid;
+    outline: 1px solid #c2c2c2;
     z-index: 4;
     position: relative;
 }
@@ -45,14 +77,17 @@ ul {
 
 
 .publication-image {
-    height: 270px;
-    width: 520px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    background: url(../../assets/images/press/dog.png);
     display: flex;
+    /*flex: 1;*/
+    width: 40%;
 }
+
+.publication-image img {
+    width: 100%;
+    height: auto;
+    outline: 1px solid #c2c2c2;
+}
+
 
 .publication-description {
     padding: 60px;
@@ -61,14 +96,15 @@ ul {
     background-color: #f3f3f3;
     outline: 1px solid #c2c2c2;
     justify-content: space-between;
-    width: calc(100% - 120px);
+    flex: 2;
 }
 
 .publication-header {
-    font-size: 27px;
+    font-size: 1.3vw;
     letter-spacing: 1px;
-    line-height: 33px;
+    line-height: 1.4vw;
     color: #000000;
+    text-transform: uppercase;
     font-family: "Muller Regular";
 }
 
@@ -76,7 +112,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 21px;
     letter-spacing: 1px;
     font-family: "Muller Light";
     font-weight: 300;
@@ -140,13 +175,13 @@ ul {
     color: #CDA174;
 }
 
-.left-arrow{
+.left-arrow {
     position: absolute;
     left: 10%;
     top: 85px;
 }
 
-.right-arrow{
+.right-arrow {
     position: absolute;
     right: 10%;
     top: 85px;
@@ -194,6 +229,7 @@ ul {
 }
 
 .youtube-image {
+    padding: 15px;
     background: url(../../assets/images/press/youtube.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -205,75 +241,6 @@ ul {
     flex-direction: row;
     justify-content: center;
     padding: 0 10% 170px;
-}
-
-
-.interests {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-details {
-    margin-top: 100px;
-    flex: 1;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-details > ul {
-    margin-top: 120px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-details > ul > li {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-}
-
-.interest-mark {
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
-    font-size: 24pt;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #BABABA;
-    border: 2px solid #BABABA;
-}
-
-.interest-text {
-    font-family: "Muller Medium";
-    width: 300px;
-    height: 50px;
-    font-size: 12px;
-    border: 2px solid black;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.bolder {
-    font-weight: bolder;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.header {
-    font-size: 36pt;
 }
 
 .underline {
@@ -310,32 +277,6 @@ ul {
         height: 0;
         width: calc(100%)
     }
-}
-
-/*MYSTYLES*/
-
-.first-monitor {
-    background: #ffffff;
-    min-height: calc(100vh - 210px);
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    position: relative;
-    z-index: 1;
-}
-
-.welcome-info {
-    height: calc(100% - 200px);
-    border: none;
-}
-
-.left-part-about {
-    top: 0;
-}
-
-.rev-block {
-    max-width: 90%;
 }
 
 @media screen and (max-width: 850px) {

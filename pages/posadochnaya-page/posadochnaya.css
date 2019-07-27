@@ -41,7 +41,7 @@ main .information-container:nth-child(2) {
     font-size: 3vw;
 }
 
-.information-container:first-of-type{
+.information-container:first-of-type {
     margin-top: 300px;
 }
 
@@ -83,7 +83,7 @@ main .information-container:nth-child(2) {
     display: flex;
     justify-content: space-around;
     flex: 1;
-    min-width: 450px;
+    min-width: 300px;
 }
 
 .project-image > img {
@@ -103,6 +103,10 @@ main .information-container:nth-child(2) {
     flex-direction: row;
     justify-content: center;
     padding: 0 10% 200px;
+}
+
+.left-part-empty, .right-part-empty {
+    flex: 1;
 }
 
 #map {
@@ -167,6 +171,10 @@ main .information-container:nth-child(2) {
     flex-direction: column;
 }
 
+.interests-container .rev-button span {
+    padding: 14px 10px;
+}
+
 .more-projects-text {
     width: 47%;
 }
@@ -228,56 +236,9 @@ main .information-container:nth-child(2) {
     }
 }
 
-@media (max-width: 1000px) {
-    .project-image > img {
-        width: 80%;
-        margin-bottom: 40px;
-    }
-
-    .project-description, .info-block {
-        text-align: center;
-    }
-
-    .project.last, .information-container {
-        flex-direction: column
-    }
-
-    .space-description {
-        display: none;
-    }
-
-    .rev-block {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        display: table;
-    }
-
-    .left-part-about {
-        display: flex;
-        justify-content: center;
-    }
-
-    .more-projects-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .more-projects-text p {
-        text-align: center;
-    }
-
-    .empty-left-part > .left-part-about {
-        display: none;
-    }
-
-    .empty-right-part > .right-part-about {
-        display: none;
-    }
-
-    .buttons-container {
-        align-items: center;
+@media (max-width: 1500px) {
+    .rev-button {
+        width: 100% !important;
     }
 }
 
@@ -287,17 +248,62 @@ main .information-container:nth-child(2) {
         padding: 0;
     }
 
-    body {
+    .header1 {
+        font-size: 20px;
+    }
+
+    body, .header3 {
         font-size: 16px;
     }
 
-    .contacts-header {
-        margin: 50px 0 0 !important;
+    .posadochnaya-header {
+        font-size: 32px;
     }
 
     .rev-block {
         padding: 0;
-        margin: 15px 0;
+        margin: 15px 0 !important;
+        width: 100%;
+    }
+
+    .space-description {
+        display: none;
+    }
+
+    .project {
+        margin: 0;
+    }
+
+    .information-container,
+    .information-right-part,
+    .information-left-part,
+    .interests-container,
+    .interests-left-part,
+    .interests-right-part,
+    .buttons-container,
+    .empty-right-part,
+    .empty-left-part {
+        flex-direction: column;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .interests-description {
+        padding: 35px 15px;
+        text-align: justify;
+    }
+
+    .project-description-container, .more-projects-text {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .project-last-button {
+        padding: 15px
+    }
+
+    .buttons-container {
+        align-items: center;
     }
 
     .video-container .left-part-about {
@@ -305,15 +311,9 @@ main .information-container:nth-child(2) {
         display: flex;
     }
 
-    .info-block {
-        margin-top: 0;
-        margin-bottom: 20px;
+    .last {
+        display: block;
         text-align: justify;
-    }
-
-    .left-part-about {
-        display: contents;
-        top: 0;
     }
 
     .arrow-block {
@@ -341,96 +341,6 @@ main .information-container:nth-child(2) {
     .menu-label-block {
         width: 100%;
         position: absolute;
-    }
-
-    .project-image {
-        min-width: 300px;
-    }
-
-    .project {
-        flex-direction: row;
-    }
-
-    .project-description {
-        white-space: normal;
-    }
-
-    .interest-mark {
-        display: none;
-    }
-
-    .interests {
-        flex-direction: column;
-        padding: 0 10%;
-        text-align: center;
-    }
-
-    .interests-container{
-        padding: 0 !important;
-        flex-direction: column;
-    }
-
-    .interests-left-part {
-        padding: 0;
-        display: contents;
-    }
-
-    .interests-right-part {
-        padding: 0;
-    }
-
-    .interests-description{
-        padding:35px 15px;
-        text-align: justify;
-    }
-
-    .interests .rev-button span {
-        white-space: pre-line !important;
-    }
-
-    .last .project-image {
-        min-width: auto;
-    }
-
-    .project-last-button {
-        padding: 0;
-    }
-
-    .information-container,
-    main .information-container:nth-child(2),
-    .empty-left-part,
-    .empty-right-part,
-    .project,
-    .project-description-container {
-        margin: 0 !important;
-        padding: 0;
-    }
-
-    .info-block {
-        margin: 0 !important;
-    }
-
-    .designing-title {
-        justify-content: center;
-    }
-
-    .designing-title-container {
-        margin: 0;
-    }
-
-    .project-description-container {
-        width: 90% !important;
-    }
-
-    .buttons-container {
-        padding-top: 30px !important;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .footer-info-block p {
-        text-align: center;
     }
 }
 

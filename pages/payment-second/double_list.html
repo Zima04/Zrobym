@@ -223,15 +223,12 @@
                     итоговая стоимость проекта
                 </div>
                 <div class="list-content">
-
                     <div class="price-field">
                         <span class="price">
-                        <span class="price-number">1760</span>
-                        $,
+                            <span class="price-number">1760</span>$,США
+                        </span>
                         <div class="underline"></div>
-                        </span>США
                     </div>
-                    <hr class="gorizontal-line-short-bottom"/>
                 </div>
             </li>
             <li>
@@ -422,11 +419,13 @@
         }, 100));
     }
 
+    let maxCount = 1763;
+    let stepCount = Math.round(maxCount / 20);
     let inputs = document.getElementsByClassName('checkmark');
     let inputSizeRoom = document.getElementsByClassName('recalculated');
     Array.from([...inputs, ...inputSizeRoom]).forEach(item => {
         item.addEventListener('change', () => {
-            counterAnimation(0, 630, 21)
+            counterAnimation(0, maxCount, stepCount)
         })
     });
 </script>

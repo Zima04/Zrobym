@@ -408,11 +408,13 @@
         }, 100));
     }
 
+    let maxCount = 1763;
+    let stepCount = Math.round(maxCount / 20);
     let inputs = document.getElementsByClassName('checkmark');
     let inputSizeRoom = document.getElementsByClassName('recalculated');
     Array.from([...inputs, ...inputSizeRoom]).forEach(item => {
         item.addEventListener('change', () => {
-            counterAnimation(0, 1760, 21)
+            counterAnimation(0, maxCount, stepCount)
         })
     });
 </script>
