@@ -1139,7 +1139,7 @@ textarea {
 
 .full {
     transition: 1s linear;
-    min-height: calc(100% - 45px);
+    min-height: calc(100% - 30px);
 }
 
 .feedback-input:last-of-type {
