@@ -12,13 +12,11 @@
     display: flex;
     width: 50%;
     flex-direction: column;
-    padding: 15px;
 }
 
 .press-right-part {
     margin: 200px 0 100px;
     width: 50%;
-    padding: 15px;
 }
 
 .press-header {
@@ -28,6 +26,7 @@
 .press-description {
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 
