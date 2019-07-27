@@ -93,6 +93,7 @@
 }
 
 .project:hover {
+    cursor: pointer;
     background: #F0F0F0;
 }
 

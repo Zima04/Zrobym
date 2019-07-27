@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,14 +130,8 @@
       <workItem from="1563708535078" duration="11156000" />
       <workItem from="1563830582400" duration="174000" />
       <workItem from="1563907638753" duration="4736000" />
-      <workItem from="1563914627528" duration="1788000" />
-    </task>
-    <task id="LOCAL-00032" summary="fix comments from Andrew">
-      <created>1551906397108</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1551906397108</updated>
+      <workItem from="1563914627528" duration="3308000" />
+      <workItem from="1563951445341" duration="18000" />
     </task>
     <task id="LOCAL-00033" summary="fix menu">
       <created>1551907081538</created>
@@ -474,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563915646485</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="project page 2.2">
+      <created>1563916458517</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1563916458517</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView">
@@ -503,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="posadochnaya update" />
     <MESSAGE value="portfolio: unused classes removed" />
     <MESSAGE value="payment pages: redundant classes removed&#10;one class renamed (meAsurement)" />
     <MESSAGE value="contacts: redundant classes removed" />
@@ -528,7 +529,8 @@
     <MESSAGE value="project page" />
     <MESSAGE value="project page 2.0" />
     <MESSAGE value="project page 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="project page 2.1" />
+    <MESSAGE value="project page 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="project page 2.2" />
   </component>
   <component name="masterDetails">
     <states>
