@@ -278,6 +278,10 @@ main {
         padding: 5%;
     }
 
+    .information-left-part img {
+        width: 50vw;
+    }
+
     .arrow-block {
         display: none;
     }
