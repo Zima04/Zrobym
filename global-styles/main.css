@@ -1805,11 +1805,12 @@ textarea {
         transform: rotate(0);
         position: relative;
         text-transform: uppercase;
+        flex-direction: column;
     }
 
     .menu-icon {
-        top: 30px;
-        right: 4px;
+        width: 40px;
+        height: 40px;
     }
 
     .menu-icon .bar {

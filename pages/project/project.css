@@ -1,10 +1,8 @@
-
 .project-image {
-    background: url("../../assets/images/project-page/flat-photos.png");
+    background: url("../../assets/images/project-page/flat-photos.png") no-repeat;
     height: 100%;
     width: 100%;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .project-page {
@@ -142,20 +140,40 @@
 
     .project-page-left-part {
         padding-top: 110px !important;
+        margin-top: 0 !important;
     }
 
     .project-left-part {
         padding-top: 0 !important;
+        padding-bottom: 30px !important;
+    }
+
+    .project-left-part > p {
+        text-align: center;
+        padding-bottom: 30px !important;
+    }
+
+    .project-left-part > img {
+        width: 100% !important;
+        margin-top: 75px !important;
     }
 
     .project-container {
-        margin: 0;
+        margin: 0 !important;
         text-align: justify;
+    }
+
+    .project-list {
+        margin-bottom: 50px;
     }
 
     .project-header {
         font-size: 32px;
         margin: 50px 0 0 !important;
+    }
+
+    .project-image {
+        height: 253rem;
     }
 
     .rev-block {
