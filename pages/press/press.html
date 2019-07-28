@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="press.css">
     <link rel="stylesheet" href="../../libs/modaal.css">
     <meta name="viewport" content="width=device-width"/>
+
+    <template id="publication-template">
+        <div class="publication-container">
+            <div class="publication-image">
+                <img src="" id="template-image">
+            </div>
+            <div class="publication-description">
+                <div class="publication-header" id="template-header"></div>
+                <div class="publication-tags">
+                    <div class="publication-address" id="template-address"></div>
+                    <div class="publication-tag" id="template-tag"></div>
+                </div>
+            </div>
+        </div>
+    </template>
 </head>
 <body>
 <hr class="center-line"/>
@@ -111,9 +126,9 @@
     <div class="arrow-grey arrow-animate"></div>
 </div>
 <main>
-    <div class="categories">
-        <input type="radio" checked="checked" id="all-projects" name="radio-categories">
-        <label for="all-projects">Все публикации</label>
+    <div class="categories" id="categories">
+        <input type="radio" checked="checked" id="all" name="radio-categories">
+        <label for="all">Все публикации</label>
         <input type="radio" id="category-1" name="radio-categories">
         <label for="category-1">Журналы</label>
         <input type="radio" id="category-2" name="radio-categories">
@@ -125,74 +140,7 @@
                 </span><br>
         <span>публикации</span>
     </h1>
-    <!--    <div class="projects-container" id="2019">-->
-    <!--        <template id="project-template">-->
-    <!--            <div class="project">-->
-    <!--                <img>-->
-    <!--                <div class="project-title">-->
-    <!--                    <span class="bolder uppercase"></span>-->
-    <!--                </div>-->
-    <!--                <div class="project-description"></div>-->
-    <!--            </div>-->
-    <!--        </template>-->
-    <!--    </div>-->
 </main>
-<div class="publication-container">
-    <div class="publication-image">
-        <img src="../../assets/logos/press_logos/Citydog.jpg">
-    </div>
-    <div class="publication-description">
-        <div class="publication-header">
-            Квартиросъемка: «двушка», переделанная из «однушки», с кроватью за стеклом и стеллажом для кота
-        </div>
-        <div class="publication-tags">
-            <div class="publication-address">
-                www.citydog.by
-            </div>
-            <div class="publication-tag">
-                WEB
-            </div>
-        </div>
-    </div>
-</div>
-<div class="publication-container">
-    <div class="publication-image">
-        <img src="../../assets/logos/press_logos/Onliner.jpg">
-    </div>
-    <div class="publication-description">
-        <div class="publication-header">
-            Не так как у всех. Дизайнеры создали интерьер квартиры для молодой минчанки
-        </div>
-        <div class="publication-tags">
-            <div class="publication-address">
-                www.onliner.by
-            </div>
-            <div class="publication-tag">
-                WEB
-            </div>
-        </div>
-    </div>
-</div>
-<div class="publication-container">
-    <div class="publication-image">
-        <img src="../../assets/logos/press_logos/Onliner.jpg">
-    </div>
-    <div class="publication-description">
-        <div class="publication-header">
-            200 000 рублей за «коробку» без окон. Молодая семья
-            с доходом и амбициями о том, сколько на самом
-            деле стоит дом мечты
-        </div>
-        <div class="publication-tags">
-            <div class="publication-address">
-                www.onliner.by
-            </div>
-            <div class="publication-tag">
-                WEB
-            </div>
-        </div>
-    </div>
-</div>
 <div class="pagination-container">
     <div class="left-arrow">
         <img src="../../assets/images/press/left-arrow.svg">

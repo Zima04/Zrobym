@@ -3,18 +3,17 @@ class Model {
         this._collection = collection;
     }
 
-    filter(f) {
-        return this._collection.filter((project) => {
-            if (f.year && f.year !== project.year) {
-                return false;
-            }
+    getPage(type) {
+        return this._filter(type);
+    }
 
-            if (f.category && f.category !== project.category) {
-                return false;
-            }
+    _filter(type) {
+        if (type === 'all') {
+            return this._collection;
+        }
 
-            return true;
-        });
+        const key = type === 'category-1' ? 'Журнал' : 'WEB';
+        return this._collection.filter(item => item.tag === key);
     }
 }
 

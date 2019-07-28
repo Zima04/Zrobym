@@ -1,31 +1,28 @@
 class View {
     constructor() {
-        this._containers = Array.from(document.querySelectorAll('.projects-container'));
-        this._template = document.getElementById('project-template');
+        this._template = document.getElementById('publication-template');
     }
 
-    _build(project) {
-        this._template.content.querySelector('img').src = project.src;
-        this._template.content.querySelector('.project-title span').textContent = project.title;
-        this._template.content.querySelector('.project-description').textContent = project.description;
+    _build(item) {
+        this._template.content.getElementById('template-image').src = item.src;
+        this._template.content.getElementById('template-header').textContent = item.header;
+        this._template.content.getElementById('template-address').textContent = item.address;
+        this._template.content.getElementById('template-tag').textContent = item.tag;
 
         return document.importNode(this._template.content, true);
     }
 
-    addProjects(containerId, projects) {
-        const container = this._containers.find((container) => {
-            return container.id == containerId;
+    addItems(items) {
+        const container = document.createElement('div');
+        container.id = 'container';
+        items.forEach((item) => {
+            container.appendChild(this._build(item));
         });
-
-        projects.forEach((project) => {
-            container.appendChild(this._build(project));
-        });
+        $('main').after(container);
     }
 
     clear() {
-        document.querySelectorAll('.projects-container').forEach((container) => {
-            container.querySelectorAll('.project').forEach(project => container.removeChild(project));
-        });
+        $('main').next().remove();
     }
 }
 

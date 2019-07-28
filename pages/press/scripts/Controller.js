@@ -3,40 +3,23 @@ class Controller {
         this._view = view;
         this._model = model;
 
-        this._viewAll();
-        this._setRadioListeners();
+        this._addCategoryListener();
+        this._viewPage('all');
     }
 
-    _setRadioListeners() {
-        document.querySelectorAll('input[name=radio-categories]')
-            .forEach((radio) => {
-                radio.addEventListener('change', event => this._listenRadio(event))
-            });
+    _addCategoryListener() {
+        document.getElementById('categories').addEventListener('click', (event) => {
+            if (event.target.type === 'radio') {
+                this._viewPage(event.target.id);
+            }
+        });
     }
 
-    _listenRadio(event) {
-        const category = event.target.id;
-        if (category === 'all-projects') {
-            this._viewAll();
-        } else {
-            this._viewCategory(category);
+    _viewPage(type) {
+        if ($('#container').length) {
+            this._view.clear();
         }
-    }
-
-    _viewAll() {
-        this._view.clear();
-
-        document.querySelectorAll('.projects-container').forEach((container) => {
-            this._view.addProjects(container.id, this._model.filter({'year': +container.id}));
-        });
-    }
-
-    _viewCategory(category) {
-        this._view.clear();
-
-        document.querySelectorAll('.projects-container').forEach((container) => {
-            this._view.addProjects(container.id, this._model.filter({'category': category, 'year': +container.id}));
-        });
+        this._view.addItems(this._model.getPage(type));
     }
 }
 
