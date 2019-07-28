@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="fix comments from Andrei and fix press">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/scripts/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/scripts/Collection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/scripts/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/scripts/Controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/scripts/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/scripts/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/scripts/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/scripts/View.js" afterDir="false" />
-    </list>
+    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +143,7 @@
       <workItem from="1563914627528" duration="1788000" />
       <workItem from="1564223138293" duration="281000" />
       <workItem from="1564223464307" duration="9521000" />
-      <workItem from="1564261086250" duration="4093000" />
-    </task>
-    <task id="LOCAL-00035" summary="fix styles">
-      <created>1552301911474</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1552301911475</updated>
+      <workItem from="1564261086250" duration="4457000" />
     </task>
     <task id="LOCAL-00036" summary="make links">
       <created>1552303553142</created>
@@ -495,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564235859879</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="press script for uploading publications, publication filter">
+      <created>1564265331353</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1564265331353</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TodoView">
@@ -538,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="portfolio: unused classes removed" />
     <MESSAGE value="payment pages: redundant classes removed&#10;one class renamed (meAsurement)" />
     <MESSAGE value="contacts: redundant classes removed" />
     <MESSAGE value="fix headers" />
@@ -563,7 +555,8 @@
     <MESSAGE value="project page 2.1" />
     <MESSAGE value="Merge branch 'igor-fix_payment' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="fix comments from Andrei and fix press" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix comments from Andrei and fix press" />
+    <MESSAGE value="press script for uploading publications, publication filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="press script for uploading publications, publication filter" />
   </component>
   <component name="masterDetails">
     <states>
