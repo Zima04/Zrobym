@@ -100,8 +100,8 @@ main {
     flex-wrap: wrap-reverse;
 }
 
-.product:nth-child(2n - 1),
-.product:nth-child(6) {
+.product:nth-child(2n + 1),
+.product:nth-child(4) {
     flex-wrap: wrap;
 }
 
@@ -305,6 +305,10 @@ main {
         z-index: 2;
     }
 
+    .burger-block > img {
+        display: none;
+    }
+
     .burger-black {
         margin: 20px 0;
         height: 300px;
@@ -316,6 +320,12 @@ main {
     .menu-label-block {
         width: 100%;
         position: absolute;
+        top: 0;
+    }
+
+    .menu-label {
+        text-indent: 200vw;
+        overflow: hidden;
     }
 
     .product-image {

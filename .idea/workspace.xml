@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,13 +132,6 @@
       <workItem from="1563914627528" duration="1788000" />
       <workItem from="1564223138293" duration="281000" />
       <workItem from="1564223464307" duration="17191000" />
-    </task>
-    <task id="LOCAL-00037" summary="make links">
-      <created>1552310922972</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1552310922972</updated>
     </task>
     <task id="LOCAL-00038" summary="add script fixing top page">
       <created>1552337610378</created>
@@ -476,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564325490989</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="mobile version of project page, burger centered">
+      <created>1564329505163</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1564329505163</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TodoView">
@@ -519,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="portfolio: unused classes removed" />
     <MESSAGE value="payment pages: redundant classes removed&#10;one class renamed (meAsurement)" />
     <MESSAGE value="contacts: redundant classes removed" />
     <MESSAGE value="fix headers" />
@@ -544,7 +543,8 @@
     <MESSAGE value="project page 2.1" />
     <MESSAGE value="Merge branch 'igor-fix_payment' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="fix comments from Andrei and fix press" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix comments from Andrei and fix press" />
+    <MESSAGE value="mobile version of project page, burger centered" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile version of project page, burger centered" />
   </component>
   <component name="masterDetails">
     <states>
