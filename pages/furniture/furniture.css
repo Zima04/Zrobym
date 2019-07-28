@@ -302,7 +302,6 @@ main {
         justify-content: center;
         align-items: center;
         width: 100%;
-        z-index: 2;
     }
 
     .burger-block > img {
@@ -410,6 +409,10 @@ main {
 
     .footer-info-block p {
         text-align: center;
+    }
+
+    #close-area {
+        display: none;
     }
 }
 .rev-block {
