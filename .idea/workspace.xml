@@ -4,6 +4,7 @@
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,13 +132,8 @@
       <workItem from="1563914627528" duration="1788000" />
       <workItem from="1564223138293" duration="281000" />
       <workItem from="1564223464307" duration="17191000" />
-    </task>
-    <task id="LOCAL-00039" summary="add script fixing top page">
-      <created>1552337716292</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1552337716292</updated>
+      <workItem from="1564477779919" duration="1499000" />
+      <workItem from="1564482932225" duration="870000" />
     </task>
     <task id="LOCAL-00040" summary="add other pages">
       <created>1559727477938</created>
@@ -475,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564334507903</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="furniture mobile version fixed">
+      <created>1564336073403</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1564336073403</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TodoView">
