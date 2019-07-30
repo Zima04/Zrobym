@@ -234,13 +234,6 @@ main {
         display: none;
     }
 
-    /*.rev-block {*/
-    /*    flex-direction: column;*/
-    /*    align-items: center;*/
-    /*    text-align: center;*/
-    /*    display: table;*/
-    /*}*/
-
     .left-part-about {
         display: flex;
         justify-content: center;
@@ -280,15 +273,13 @@ main {
         display: flex;
     }
 
-    .info-block {
-        margin-top: 0;
-        margin-bottom: 20px;
-        text-align: justify;
+    .product-description-container-right,
+    .product-description-container-left {
+        padding: 5%;
     }
 
-    .left-part-about {
-        display: contents;
-        top: 0;
+    .information-left-part img {
+        width: 50vw;
     }
 
     .arrow-block {
@@ -415,6 +406,7 @@ main {
         display: none;
     }
 }
+
 .rev-block {
     max-width: 100%;
 }
