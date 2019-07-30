@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/payment-first/simple_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-first/simple_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,14 +132,7 @@
       <workItem from="1564223138293" duration="281000" />
       <workItem from="1564223464307" duration="17191000" />
       <workItem from="1564477779919" duration="1499000" />
-      <workItem from="1564482932225" duration="1482000" />
-    </task>
-    <task id="LOCAL-00042" summary="fix modale menu">
-      <created>1560244985771</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1560244985771</updated>
+      <workItem from="1564482932225" duration="1612000" />
     </task>
     <task id="LOCAL-00043" summary="add contacts page">
       <created>1560257853409</created>
@@ -477,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564484244776</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="posadochnaya black upper button">
+      <created>1564484533623</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1564484533623</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TodoView">
@@ -520,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix culculation" />
     <MESSAGE value="fix project descriptions" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Zima04/zrobym.github.io into igor-fix_payment" />
     <MESSAGE value="close area added" />
@@ -545,7 +544,8 @@
     <MESSAGE value="furniture mobile version fixed" />
     <MESSAGE value="furniture buttons black" />
     <MESSAGE value="portfolio added button after module houses" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio added button after module houses" />
+    <MESSAGE value="posadochnaya black upper button" />
+    <option name="LAST_COMMIT_MESSAGE" value="posadochnaya black upper button" />
   </component>
   <component name="masterDetails">
     <states>
