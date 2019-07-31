@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-first/simple_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-first/simple_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-second/double_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-second/double_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/press.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/team-card/team-card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="527">
+              <caret line="61" column="79" lean-forward="true" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -181,6 +172,12 @@
         <option value="$PROJECT_DIR$/pages/posadochnaya-page/posadochnaya.html" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1OQR1x46c8cOtzhKDAKwlhWTju7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,13 +313,6 @@
       <workItem from="1564223464307" duration="17191000" />
       <workItem from="1564477779919" duration="1499000" />
       <workItem from="1564482932225" duration="2615000" />
-    </task>
-    <task id="LOCAL-00045" summary="a lot of fucking remarks">
-      <created>1560352520761</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1560352520761</updated>
     </task>
     <task id="LOCAL-00046" summary="Structure fix">
       <created>1560353111262</created>
@@ -660,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564484752813</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Merge branches 'igor-fix_payment' and 'master' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1564569251658</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1564569251658</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2378000" />
+    <option name="totallyTimeSpent" value="3267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,8 +674,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13645943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13645943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -691,7 +689,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49841937" visible="true" weight="0.20368364" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.16572239" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" weight="0.20368364" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" visible="true" weight="0.20368364" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="close area added" />
     <MESSAGE value="started to write team page" />
     <MESSAGE value="team page" />
     <MESSAGE value="team page fonts checked&#10;see requirements button made rev-button" />
@@ -780,7 +777,8 @@
     <MESSAGE value="posadochnaya black upper button" />
     <MESSAGE value="simple list feedback and button fixed" />
     <MESSAGE value="double list feedback and button fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="double list feedback and button fixed" />
+    <MESSAGE value="Merge branches 'igor-fix_payment' and 'master' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branches 'igor-fix_payment' and 'master' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/contacts/contacts.html">
@@ -908,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/team-card/team-card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="527">
+          <caret line="61" column="79" lean-forward="true" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
         </state>
       </provider>
     </entry>
