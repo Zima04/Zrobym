@@ -260,6 +260,10 @@ ul {
     outline: 0;
 }
 
+.burger-black {
+    background: unset;
+}
+
 @keyframes rev-button {
     0% {
         top: 0;

@@ -266,35 +266,6 @@
         <hr class="gorizontal-line-bottom"/>
     </div>
 </div>
-<!--BACKGROUND-PHOTO-HEIGHT-->
-<script>
-    $(document).ready(function () {
-
-        function calcHeight() {
-            let height = $('.first-monitor:eq(0)').height() +
-                $('.first-monitor:eq(1)').height() +
-                $('.arrow-block').height() +
-                $('.burger-block').height();
-            return height;
-        }
-
-        function setHeight(height) {
-            $('.right-corner-pic').height(height);
-        }
-
-        function resize() {
-            setHeight(calcHeight());
-        }
-
-        resize();
-
-        $(window).on('resize', () => {
-            resize();
-        });
-
-    });
-</script>
-
 <!--MENU-MORE-TEXT-->
 <script async>
     $('.menu-label-block').modaal({
