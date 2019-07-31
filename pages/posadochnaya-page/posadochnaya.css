@@ -341,6 +341,20 @@ main .information-container:nth-child(2) {
     .menu-label-block {
         width: 100%;
         position: absolute;
+        align-items: flex-start;
+    }
+
+    .menu-label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-indent: 100%;
+        overflow: hidden;
+    }
+
+    .menu-icon {
+        position: unset;
     }
 }
 

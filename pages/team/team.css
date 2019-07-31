@@ -59,6 +59,7 @@ main {
 .person {
     /*max-width: 500px;*/
     /*min-width: 300px;*/
+    position: relative;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -70,9 +71,18 @@ main {
 }
 
 .person > img {
+    transition: opacity 0.2s linear;
     width: 100%;
     height: auto;
     /*width: 300px;*/
+}
+
+.image-colored {
+    position: absolute;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 .person-name {
