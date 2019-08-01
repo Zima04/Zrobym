@@ -175,4 +175,10 @@ main {
         text-align: center;
         margin: 40px 0;
     }
+
+    .team-page-description h4,
+    .non-line,
+    #persons-header {
+        display: none;
+    }
 }

@@ -171,16 +171,12 @@ main .information-container:nth-child(2) {
     flex-direction: column;
 }
 
-.interests-container .rev-button span {
-    padding: 14px 10px;
-}
-
 .more-projects-text {
     width: 47%;
 }
 
 .project-last-button {
-    padding: 50px;
+   padding-top: 100px;
 }
 
 .bolder {
@@ -216,24 +212,6 @@ main .information-container:nth-child(2) {
     width: 50%;
     background: none;
     outline: 0;
-}
-
-@keyframes rev-button {
-    0% {
-        top: 0;
-        height: 0;
-        width: calc(100%)
-    }
-    50% {
-        top: 0;
-        height: 42px;
-        width: calc(100%)
-    }
-    100% {
-        top: 50%;
-        height: 0;
-        width: calc(100%)
-    }
 }
 
 @media (max-width: 1500px) {

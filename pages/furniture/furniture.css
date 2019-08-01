@@ -216,24 +216,6 @@ main {
     background: black;
 }
 
-@keyframes rev-button {
-    0% {
-        top: 0;
-        height: 0;
-        width: calc(100%)
-    }
-    50% {
-        top: 0;
-        height: 42px;
-        width: calc(100%)
-    }
-    100% {
-        top: 50%;
-        height: 0;
-        width: calc(100%)
-    }
-}
-
 @media (max-width: 1000px) {
     .space-description {
         display: none;
@@ -271,6 +253,18 @@ main {
 
     main {
         padding: 0;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .header1{
+        font-size: 22px;
+    }
+
+    .sub-header{
+        font-size: 16px;
     }
 
     .video-container .left-part-about {
