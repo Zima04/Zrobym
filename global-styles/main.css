@@ -571,6 +571,7 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
 }
 
 .more-text {
+    margin: 0;
     max-height: 0;
     transition: max-height 1s ease-out;
     overflow: hidden;
@@ -1284,7 +1285,6 @@ textarea {
 
 .footer-button-block .item {
     flex: 1;
-    padding: 0 20px;
 }
 
 .footer-button-block .button {
@@ -1680,7 +1680,7 @@ textarea {
 /*}*/
 
 @media screen and (min-width: 1920px) {
-   body {
+    body {
         font-size: 1vw;
     }
 }
@@ -1758,6 +1758,7 @@ textarea {
     .rev-button {
         display: flex;
         margin: 20px 0;
+        width: 100%;
     }
 
     .rev-button:hover:after {
@@ -2093,7 +2094,7 @@ textarea {
 
     .footer {
         margin: 0;
-        padding: 1px;
+        padding: 35px 15px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;

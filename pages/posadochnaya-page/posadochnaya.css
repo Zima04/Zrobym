@@ -12,11 +12,6 @@ main .information-container:nth-child(2) {
     height: 100vh;
 }
 
-.video-container .left-part-about {
-    top: 180px;
-    flex-direction: column;
-}
-
 .video-container:after {
     content: '';
     position: absolute;
@@ -273,8 +268,8 @@ main .information-container:nth-child(2) {
     }
 
     .project-description-container, .more-projects-text {
-        padding: 15px;
-        width: 100%;
+        padding: 15px !important;
+        width: 100% !important;
     }
 
     .project-last-button {
@@ -283,11 +278,6 @@ main .information-container:nth-child(2) {
 
     .buttons-container {
         align-items: center;
-    }
-
-    .video-container .left-part-about {
-        flex-direction: column;
-        display: flex;
     }
 
     .last {
@@ -345,4 +335,12 @@ main .information-container:nth-child(2) {
     color: #ffffff;
     position: relative;
     z-index: 1;
+}
+
+.video-content-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30vh;
+    color: #ffffff !important;
 }

@@ -4,6 +4,10 @@ main {
     flex-direction: column;
 }
 
+.left-line, .right-line {
+    z-index: 4;
+}
+
 ul {
     list-style: none;
 }
@@ -43,11 +47,13 @@ ul {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 40px 0;
+    padding: 40px 10%;
     outline: 1px solid #e5e5e5;
     position: relative;
     z-index: 3;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 .categories > input[type="radio"] {
@@ -242,7 +248,8 @@ ul {
     .projects-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .rev-button{
+
+    .rev-button {
         width: 100% !important;
     }
 }
@@ -288,8 +295,8 @@ ul {
         text-align: justify;
     }
 
-    .interests-description{
-        padding:35px 15px;
+    .interests-description {
+        padding: 35px 15px;
         text-align: justify;
     }
 
@@ -325,7 +332,7 @@ ul {
     }
 
     .projects-container {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
     .buttons-container {
