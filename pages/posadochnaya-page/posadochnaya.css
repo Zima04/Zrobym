@@ -161,12 +161,6 @@ main .information-container:nth-child(2) {
     flex: 1;
 }
 
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
 .more-projects-text {
     width: 47%;
 }
@@ -260,11 +254,6 @@ main .information-container:nth-child(2) {
         flex-direction: column;
         padding: 0 !important;
         margin: 0 !important;
-    }
-
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
     }
 
     .project-description-container, .more-projects-text {

@@ -62,12 +62,6 @@
     flex: 1;
 }
 
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
 .team-card-info > p {
     margin: 0;
 }
@@ -186,11 +180,6 @@
     .menu-icon .bar {
         margin-top: 0;
         background: black;
-    }
-
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
     }
 
     .buttons-container {

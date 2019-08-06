@@ -1407,6 +1407,14 @@ textarea {
     display: none;
 }
 
+/*INTERESTS*/
+
+.interests-description {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
 /*STYLING BLOCKS FOR ANIMATIONS HEADERS*/
 
 .header-label {
@@ -1516,11 +1524,11 @@ textarea {
 }
 
 .buttons-container .rev-button {
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
+    margin: 0;
 }
 
 .white span {
-    /*background-color: #000000 !important;*/
     color: #ffffff !important;
     border: 2px #ffffff solid !important;
 }
@@ -1532,19 +1540,6 @@ textarea {
 }
 
 .rev-button span {
-    /*color: #000000;*/
-    /*letter-spacing: 2px;*/
-    /*display: flex;*/
-    /*font-family: "Muller Medium", serif;*/
-    /*text-transform: uppercase;*/
-    /*font-size: 1.3vh;*/
-    /*z-index: 0;*/
-    /*animation: appear-text-button 0.0001s linear forwards;*/
-    /*animation-delay: 1.4s;*/
-    /*cursor: pointer;*/
-    /*border: 2px black solid;*/
-    /*padding: 14px 42px;*/
-    /*white-space: nowrap;*/
     color: #000000;
     letter-spacing: 3px;
     display: flex;
@@ -2145,5 +2140,14 @@ textarea {
 
     .more-button {
         text-align: center;
+    }
+
+    .interests-description > span {
+        margin-bottom: 25px;
+    }
+
+    .interests-description {
+        padding: 35px 15px;
+        text-align: justify;
     }
 }

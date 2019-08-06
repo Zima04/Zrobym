@@ -77,12 +77,6 @@
     flex: 1;
 }
 
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
 .project-list {
     margin: 40px 0 130px;
 }
@@ -184,11 +178,6 @@
     .buttons-container {
         flex-direction: column;
         padding: 0 !important;
-    }
-
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
     }
 
     .buttons-container {

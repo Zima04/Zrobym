@@ -77,12 +77,6 @@
     flex: 1;
 }
 
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
 @media (max-width: 850px) {
     .right-corner-pic {
         display: none;
@@ -134,11 +128,6 @@
 
     .address {
         margin-top: 40px;
-    }
-
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
     }
 
     .buttons-container {
