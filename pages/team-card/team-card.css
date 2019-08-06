@@ -30,6 +30,11 @@
     width: 50%;
 }
 
+.person-image {
+    background: url("../../assets/images/team-card/янина-новикова.png");
+    background-size: cover;
+}
+
 .team-card-header {
     font-size: 3.6vw;
 }
@@ -55,16 +60,6 @@
 .interests-right-part {
     padding-top: 180px;
     flex: 1;
-}
-
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-container .rev-button span {
-    padding: 14px 10px;
 }
 
 .team-card-info > p {
@@ -187,13 +182,12 @@
         background: black;
     }
 
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
-    }
-
     .buttons-container {
         align-items: center;
+    }
+
+    .person-image {
+        min-height: 70vh;
     }
 
 }

@@ -12,11 +12,6 @@ main .information-container:nth-child(2) {
     height: 100vh;
 }
 
-.video-container .left-part-about {
-    top: 180px;
-    flex-direction: column;
-}
-
 .video-container:after {
     content: '';
     position: absolute;
@@ -89,6 +84,7 @@ main .information-container:nth-child(2) {
 .project-image > img {
     height: auto;
     width: 100%;
+    object-fit: cover;
 }
 
 .empty-right-part {
@@ -165,22 +161,12 @@ main .information-container:nth-child(2) {
     flex: 1;
 }
 
-.interests-description {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.interests-container .rev-button span {
-    padding: 14px 10px;
-}
-
 .more-projects-text {
     width: 47%;
 }
 
 .project-last-button {
-    padding: 50px;
+    padding-top: 100px;
 }
 
 .bolder {
@@ -216,24 +202,6 @@ main .information-container:nth-child(2) {
     width: 50%;
     background: none;
     outline: 0;
-}
-
-@keyframes rev-button {
-    0% {
-        top: 0;
-        height: 0;
-        width: calc(100%)
-    }
-    50% {
-        top: 0;
-        height: 42px;
-        width: calc(100%)
-    }
-    100% {
-        top: 50%;
-        height: 0;
-        width: calc(100%)
-    }
 }
 
 @media (max-width: 1500px) {
@@ -288,14 +256,9 @@ main .information-container:nth-child(2) {
         margin: 0 !important;
     }
 
-    .interests-description {
-        padding: 35px 15px;
-        text-align: justify;
-    }
-
     .project-description-container, .more-projects-text {
-        padding: 15px;
-        width: 100%;
+        padding: 15px !important;
+        width: 100% !important;
     }
 
     .project-last-button {
@@ -304,11 +267,6 @@ main .information-container:nth-child(2) {
 
     .buttons-container {
         align-items: center;
-    }
-
-    .video-container .left-part-about {
-        flex-direction: column;
-        display: flex;
     }
 
     .last {
@@ -366,4 +324,12 @@ main .information-container:nth-child(2) {
     color: #ffffff;
     position: relative;
     z-index: 1;
+}
+
+.video-content-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30vh;
+    color: #ffffff !important;
 }
