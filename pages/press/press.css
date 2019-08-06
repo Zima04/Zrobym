@@ -42,7 +42,7 @@ ul {
 
 .categories {
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -67,11 +67,13 @@ ul {
     flex-direction: row;
     padding: 0 10%;
     outline: 1px solid #c2c2c2;
+    background-color: #ffffff;
     z-index: 4;
     position: relative;
 }
 
 .publication-container:last-child {
+    background-color: #ffffff;
     border-bottom: 1px #c2c2c2 solid;
 }
 
