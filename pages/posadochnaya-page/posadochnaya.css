@@ -89,6 +89,7 @@ main .information-container:nth-child(2) {
 .project-image > img {
     height: auto;
     width: 100%;
+    object-fit: cover;
 }
 
 .empty-right-part {
@@ -176,7 +177,7 @@ main .information-container:nth-child(2) {
 }
 
 .project-last-button {
-   padding-top: 100px;
+    padding-top: 100px;
 }
 
 .bolder {
