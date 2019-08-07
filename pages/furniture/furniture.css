@@ -280,6 +280,10 @@ main {
         padding: 5%;
     }
 
+    .information-left-part {
+        padding: 15% 5% 5%;
+    }
+
     .information-left-part img {
         width: 50vw;
     }
@@ -313,6 +317,18 @@ main {
         width: 100%;
         position: absolute;
         top: 0;
+        align-items: flex-start;
+    }
+
+    .menu-label {
+        display: flex;
+        align-items: center;
+        text-indent: 100%;
+        overflow: hidden;
+    }
+
+    .menu-icon {
+        position: unset;
     }
 
     .product-image {
