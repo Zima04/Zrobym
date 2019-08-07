@@ -174,13 +174,8 @@
 
     .interests-container,
     .interests-left-part,
-    .interests-right-part,
-    .buttons-container {
+    .interests-right-part{
         flex-direction: column;
         padding: 0 !important;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 }

@@ -251,10 +251,6 @@ main {
     .empty-right-part > .right-part-about {
         display: none;
     }
-
-    .buttons-container {
-        align-items: center;
-    }
 }
 
 @media (max-width: 450px) {
@@ -318,11 +314,6 @@ main {
         position: absolute;
         top: 0;
     }
-
-    /*.menu-label {*/
-    /*    text-indent: 200vw;*/
-    /*    overflow: hidden;*/
-    /*}*/
 
     .product-image {
         min-width: 300px;
@@ -395,13 +386,6 @@ main {
 
     .product-description-container {
         width: 90% !important;
-    }
-
-    .buttons-container {
-        padding-top: 30px !important;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .footer-info-block p {

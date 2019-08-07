@@ -1285,6 +1285,7 @@ textarea {
 
 .footer-button-block .item {
     flex: 1;
+    padding: 20px;
 }
 
 .footer-button-block .button {
@@ -1762,6 +1763,10 @@ textarea {
 
     .buttons-container {
         width: 100%;
+        padding: 30px 0 0 !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .rev-button a {
@@ -2103,8 +2108,10 @@ textarea {
     }
 
     .sub-head-label {
-        display: none;
-        /*justify-content: center;*/
+        justify-content: center;
+        font-size: 24px;
+        padding: 20px 0 0 0;
+        color: #cda173;
     }
 
     .footer-button-block .item:first-of-type {
@@ -2149,5 +2156,9 @@ textarea {
     .interests-description {
         padding: 35px 15px;
         text-align: justify;
+    }
+
+    .footer-button-block .item {
+        padding: 0;
     }
 }

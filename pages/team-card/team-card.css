@@ -127,8 +127,7 @@
 
     .interests-container,
     .interests-left-part,
-    .interests-right-part,
-    .buttons-container {
+    .interests-right-part {
         flex-direction: column;
         padding: 0 !important;
     }
@@ -180,10 +179,6 @@
     .menu-icon .bar {
         margin-top: 0;
         background: black;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 
     .person-image {

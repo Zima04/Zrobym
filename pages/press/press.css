@@ -297,7 +297,7 @@ ul {
         line-height: 16px;
     }
 
-    .press-container, .youtube-container, .buttons-container {
+    .press-container, .youtube-container {
         padding: 0 !important;
         flex-direction: column;
         border: none;
@@ -365,10 +365,6 @@ ul {
 
     .arrow-block {
         display: none;
-    }
-
-    .buttons-container {
-        align-items: center!important;
     }
 
     .burger-block {

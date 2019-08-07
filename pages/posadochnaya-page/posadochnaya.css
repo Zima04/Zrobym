@@ -248,7 +248,6 @@ main .information-container:nth-child(2) {
     .interests-container,
     .interests-left-part,
     .interests-right-part,
-    .buttons-container,
     .empty-right-part,
     .empty-left-part {
         flex-direction: column;
@@ -263,10 +262,6 @@ main .information-container:nth-child(2) {
 
     .project-last-button {
         padding: 15px
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 
     .last {

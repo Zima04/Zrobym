@@ -270,7 +270,7 @@ ul {
         margin: 50px 0 0 !important;
     }
 
-    .portfolio-container, .interests-container, .buttons-container {
+    .portfolio-container, .interests-container {
         padding: 0 !important;
         flex-direction: column;
     }
@@ -322,10 +322,6 @@ ul {
 
     .projects-container {
         grid-template-columns: 1fr;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 
     .burger-block {

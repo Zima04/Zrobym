@@ -121,16 +121,12 @@
         width: 100%;
     }
 
-    .interests-container, .interests-left-part, .interests-right-part, .buttons-container {
+    .interests-container, .interests-left-part, .interests-right-part{
         flex-direction: column;
         padding: 0 !important;
     }
 
     .address {
         margin-top: 40px;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 }
