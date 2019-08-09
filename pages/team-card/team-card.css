@@ -43,25 +43,6 @@
     padding: 100px 15px 200px;
 }
 
-.interests-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-left-part {
-    padding-top: 80px;
-    flex: 1;
-}
-
-.interests-right-part {
-    padding-top: 180px;
-    flex: 1;
-}
-
 .team-card-info > p {
     margin: 0;
 }
@@ -123,13 +104,6 @@
 
     .team-card-info {
         padding: 0 15px 50px;
-    }
-
-    .interests-container,
-    .interests-left-part,
-    .interests-right-part {
-        flex-direction: column;
-        padding: 0 !important;
     }
 
     .team-card-container {

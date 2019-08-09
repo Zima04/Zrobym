@@ -159,25 +159,6 @@ main .information-container:nth-child(2) {
     width: 20%;
 }
 
-.interests-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-left-part {
-    padding-top: 5vw;
-    flex: 1;
-}
-
-.interests-right-part {
-    padding-top: 14vw;
-    flex: 1;
-}
-
 .buttons-container {
     display: flex;
     flex-direction: column;
@@ -267,9 +248,6 @@ main .information-container:nth-child(2) {
     }
 
     .information-container,
-    .interests-container,
-    .interests-left-part,
-    .interests-right-part,
     .empty-right-part,
     .empty-left-part {
         flex-direction: column;

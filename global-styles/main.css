@@ -1410,6 +1410,25 @@ textarea {
 
 /*INTERESTS*/
 
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #ECECEC;
+    z-index: -1;
+}
+
+.interests-left-part {
+    padding-top: 5vw;
+    flex: 1;
+}
+
+.interests-right-part {
+    padding-top: 14vw;
+    flex: 1;
+}
+
 .interests-description {
     /*padding: 0 15px;*/
     padding: 0 70px 0 15px;
@@ -2167,6 +2186,13 @@ textarea {
     .interests-description {
         padding: 35px 15px;
         text-align: justify;
+    }
+
+    .interests-container,
+    .interests-left-part,
+    .interests-right-part{
+        flex-direction: column;
+        padding: 0 !important;
     }
 
     .footer-button-block .item {
