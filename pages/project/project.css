@@ -111,11 +111,6 @@
     justify-content: center;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-
 .icon.facebook-icon-black {
     width: 20px;
     height: 20px;

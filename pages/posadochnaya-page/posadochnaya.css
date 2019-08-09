@@ -32,12 +32,24 @@ main .information-container:nth-child(2) {
     object-fit: cover;
 }
 
-.posadochnaya-header {
-    font-size: 3vw;
+.burger-block {
+    flex: 1;
+    justify-content: center;
+    height: 15%;
 }
 
-.information-container:first-of-type {
-    margin-top: 300px;
+.arrow-block {
+    height: 15%;
+    position: relative;
+    /*min-height: 100px;*/
+}
+
+.arrow-block img {
+    width: 5vw;
+}
+
+.posadochnaya-header {
+    font-size: 3vw;
 }
 
 .information-container {
@@ -48,11 +60,12 @@ main .information-container:nth-child(2) {
 
 .information-left-part {
     flex: 1;
+    padding-top: 5vw;
 }
 
 .information-right-part {
     flex: 1;
-    padding-top: 150px;
+    padding-top: 15vw;
 }
 
 .information-description {
@@ -105,6 +118,10 @@ main .information-container:nth-child(2) {
     flex: 1;
 }
 
+.buttons-wrapper {
+    padding: 0 30px 0 50px
+}
+
 #map {
     height: 500px;
     background-image: url(assets/map.png);
@@ -122,8 +139,8 @@ main .information-container:nth-child(2) {
 }
 
 .project-description-container div:nth-child(1) {
-    margin-bottom: 40px;
-    font-family: "Muller Medium";
+    margin-bottom: 20px;
+    font-family: "Muller ExtraBold";
 }
 
 .project-description-container div:nth-child(2) {
@@ -152,14 +169,21 @@ main .information-container:nth-child(2) {
 }
 
 .interests-left-part {
-    padding-top: 80px;
+    padding-top: 5vw;
     flex: 1;
 }
 
 .interests-right-part {
-    padding-top: 180px;
+    padding-top: 14vw;
     flex: 1;
 }
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 50px;
+}
+
 
 .more-projects-text {
     width: 47%;
@@ -243,8 +267,6 @@ main .information-container:nth-child(2) {
     }
 
     .information-container,
-    .information-right-part,
-    .information-left-part,
     .interests-container,
     .interests-left-part,
     .interests-right-part,
@@ -255,13 +277,27 @@ main .information-container:nth-child(2) {
         margin: 0 !important;
     }
 
+    .information-right-part {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .information-right-part p {
+        text-align: justify;
+    }
+
+    .information-left-part, .interests-left-part {
+        padding-top: 40px !important;
+        flex-direction: column;
+    }
+
     .project-description-container, .more-projects-text {
-        padding: 15px !important;
+        padding: 15px 15px 0 !important;
         width: 100% !important;
     }
 
-    .project-last-button {
-        padding: 15px
+    .project-last-button, .buttons-wrapper {
+        padding: 0 15px;
     }
 
     .last {
@@ -281,14 +317,6 @@ main .information-container:nth-child(2) {
         align-items: center;
         width: 100%;
         z-index: 2;
-    }
-
-    .burger-black {
-        margin: 20px 0;
-        height: 300px;
-        width: 100px;
-        background-position: center center;
-        background: url("../../assets/logos/Zrobym_logo_White.svg") no-repeat;
     }
 
     .menu-label-block {
@@ -312,10 +340,11 @@ main .information-container:nth-child(2) {
 }
 
 .video-content {
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 30%);
     padding: 0 10%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #ffffff;
     position: relative;
     z-index: 1;
@@ -323,8 +352,8 @@ main .information-container:nth-child(2) {
 
 .video-content-block {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    position: relative;
-    top: 30vh;
     color: #ffffff !important;
+    justify-content: center;
 }
