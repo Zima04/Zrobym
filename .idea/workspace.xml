@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/furniture/furniture.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/furniture/furniture.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,13 +143,6 @@
       <workItem from="1564477779919" duration="1499000" />
       <workItem from="1564482932225" duration="2615000" />
       <workItem from="1564587956586" duration="12369000" />
-    </task>
-    <task id="LOCAL-00046" summary="Structure fix">
-      <created>1560353111262</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1560353111262</updated>
     </task>
     <task id="LOCAL-00047" summary="Portfolio page adding">
       <created>1561292086847</created>
@@ -492,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564577264428</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="fix">
+      <created>1565129043513</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1565129043513</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView">
@@ -535,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started to write team page" />
     <MESSAGE value="team page" />
     <MESSAGE value="team page fonts checked&#10;see requirements button made rev-button" />
     <MESSAGE value="template (posadochnaya) page fonts checked" />
@@ -560,7 +554,8 @@
     <MESSAGE value="simple list feedback and button fixed" />
     <MESSAGE value="double list feedback and button fixed" />
     <MESSAGE value="Add team members photos and effects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add team members photos and effects" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="masterDetails">
     <states>
