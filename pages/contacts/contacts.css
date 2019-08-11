@@ -68,7 +68,7 @@
 
     .contacts-container {
         flex-direction: column;
-        padding: 0;
+        padding: 0 15px;
     }
 
     .contacts-left-part, .contacts-right-part {

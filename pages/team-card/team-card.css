@@ -14,10 +14,6 @@
     padding: 15px;
 }
 
-.team-card-head-container {
-
-}
-
 .team-card-head-left-part {
     display: flex;
     width: 50%;
@@ -43,27 +39,13 @@
     padding: 100px 15px 200px;
 }
 
-.interests-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-left-part {
-    padding-top: 80px;
-    flex: 1;
-}
-
-.interests-right-part {
-    padding-top: 180px;
-    flex: 1;
+.team-card-right-part{
+    padding: 5px 15px;
 }
 
 .team-card-info > p {
     margin: 0;
+    text-align: justify;
 }
 
 .team-card-info > h4 {
@@ -72,14 +54,18 @@
 
 .direction-container {
     margin-top: 90px;
+    display: flex;
+    flex-direction: column;
 }
 
 .direction-container > h4 {
     margin-bottom: 0;
 }
 
-.direction {
-    margin-right: 185px;
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 50px;
 }
 
 #close-area {
@@ -115,27 +101,29 @@
         width: 100%;
     }
 
-    .team-card-head-left-part, .team-card-head-right-part {
+    .team-card-head-right-part {
         width: 100%;
         padding: 0;
         margin-bottom: 50px;
+    }
+
+    .team-card-head-left-part {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .team-card-info {
         padding: 0 15px 50px;
     }
 
-    .interests-container,
-    .interests-left-part,
-    .interests-right-part,
-    .buttons-container {
-        flex-direction: column;
-        padding: 0 !important;
-    }
-
     .team-card-container {
         padding: 0;
         flex-direction: column-reverse;
+    }
+
+    .team-card-info > h4 {
+        display: none;
     }
 
     .contacts-description {
@@ -180,10 +168,6 @@
     .menu-icon .bar {
         margin-top: 0;
         background: black;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 
     .person-image {

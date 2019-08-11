@@ -12,15 +12,16 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    padding-top: 5vw;
 }
 
 .press-right-part {
-    margin: 200px 0 100px;
+    margin: 14vw 0 100px;
     width: 50%;
 }
 
 .press-header {
-    font-size: 2.9vw;
+    font-size: 3vw;
 }
 
 .press-description {
@@ -55,6 +56,7 @@ ul {
 
 .categories > input[type="radio"]:checked + label {
     color: black;
+    font-weight: bold;
 }
 
 .categories > label {
@@ -77,7 +79,6 @@ ul {
     border-bottom: 1px #c2c2c2 solid;
 }
 
-
 .publication-image {
     display: flex;
     /*flex: 1;*/
@@ -89,7 +90,6 @@ ul {
     height: auto;
     outline: 1px solid #c2c2c2;
 }
-
 
 .publication-description {
     padding: 60px;
@@ -217,7 +217,7 @@ ul {
 }
 
 .youtube-text {
-    font-size: 21px;
+    text-align: justify;
     letter-spacing: 1px;
     color: #000000;
     font-family: "Muller Light";
@@ -297,7 +297,7 @@ ul {
         line-height: 16px;
     }
 
-    .press-container, .youtube-container, .buttons-container {
+    .press-container, .youtube-container {
         padding: 0 !important;
         flex-direction: column;
         border: none;
@@ -365,10 +365,6 @@ ul {
 
     .arrow-block {
         display: none;
-    }
-
-    .buttons-container {
-        align-items: center!important;
     }
 
     .burger-block {

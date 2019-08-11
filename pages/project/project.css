@@ -58,25 +58,6 @@
     z-index: 2;
 }
 
-.interests-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-left-part {
-    padding-top: 80px;
-    flex: 1;
-}
-
-.interests-right-part {
-    padding-top: 300px;
-    flex: 1;
-}
-
 .project-list {
     margin: 40px 0 130px;
 }
@@ -109,11 +90,6 @@
     flex: 2;
     display: flex;
     justify-content: center;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
 }
 
 .icon.facebook-icon-black {
@@ -178,17 +154,5 @@
         padding: 0;
         margin: 15px 0 !important;
         width: 100%;
-    }
-
-    .interests-container,
-    .interests-left-part,
-    .interests-right-part,
-    .buttons-container {
-        flex-direction: column;
-        padding: 0 !important;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 }

@@ -23,12 +23,12 @@ main {
 
 .projection-left-part {
     flex: 1;
-    padding-top: 80px;
+    padding-top: 5vw;
 }
 
 .projection-right-part {
     flex: 1;
-    padding: 180px 0 150px;
+    padding: 14vw 0 150px;
 }
 
 .projection-description {
@@ -52,11 +52,7 @@ main {
 
 .list-content {
     flex: 1;
-    padding-left: 15px;
-}
-
-.list-content > ul {
-    padding-top: 8px;
+    padding: 15px;
 }
 
 .list-content > form > input,
@@ -68,8 +64,13 @@ main {
     line-height: 50px;
     text-transform: uppercase;
     flex: 1;
-    padding-left: 15px;
+    padding: 15px;
     font-family: "Muller Regular";
+}
+
+.list-options{
+    position: relative;
+    top: -10px;
 }
 
 .list-option {
@@ -123,7 +124,7 @@ main {
 
 .input-text-field {
     max-width: 350px;
-    width: calc(100% - 75px);
+    width: calc(100% - 60px);
     height: 50px;
     background-color: lightgray;
     border: none;
@@ -133,13 +134,13 @@ main {
 }
 
 .long-input-field {
-    width: calc(100% - 75px);
+    width: calc(100% - 60px);
     max-width: 450px;
 }
 
 .input-textarea {
     max-width: 450px;
-    width: calc(100% - 75px);
+    width: calc(100% - 60px);
     height: 190px;
     border: none;
     padding: 10px 30px 10px 30px;
@@ -161,7 +162,6 @@ main {
 }
 
 .price {
-    padding-left: 10px;
     font-weight: bolder;
     white-space: nowrap;
     font-family: "Muller ExtraBold";
@@ -223,6 +223,11 @@ main {
     outline: 0;
 }
 
+.buttons-container {
+    width: 100%;
+    max-width: 510px;
+}
+
 @media screen and (max-width: 850px) {
     .welcome-info {
         flex-direction: column;
@@ -259,7 +264,7 @@ main {
         padding: 0;
     }
 
-    .projection-description{
+    .projection-description {
         padding: 15px;
         text-align: justify;
     }
@@ -275,7 +280,7 @@ main {
     }
 
     .list-container {
-        padding: 0 30px;
+        padding: 0 15px;
     }
 
     .list-content {
@@ -329,6 +334,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 50px;
     }
 
     .input-textarea {
@@ -378,7 +384,7 @@ main {
         background: black;
     }
 
-    .gorizontal-line-short-top,.gorizontal-line-short-bottom{
+    .gorizontal-line-short-top, .gorizontal-line-short-bottom {
         display: none;
     }
 }

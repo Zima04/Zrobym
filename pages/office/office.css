@@ -58,25 +58,6 @@
     z-index: 2;
 }
 
-.interests-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10%;
-    justify-content: center;
-    background-color: #ECECEC;
-    z-index: -1;
-}
-
-.interests-left-part {
-    padding-top: 80px;
-    flex: 1;
-}
-
-.interests-right-part {
-    padding-top: 300px;
-    flex: 1;
-}
-
 @media (max-width: 850px) {
     .right-corner-pic {
         display: none;
@@ -121,16 +102,7 @@
         width: 100%;
     }
 
-    .interests-container, .interests-left-part, .interests-right-part, .buttons-container {
-        flex-direction: column;
-        padding: 0 !important;
-    }
-
     .address {
         margin-top: 40px;
-    }
-
-    .buttons-container {
-        align-items: center;
     }
 }
