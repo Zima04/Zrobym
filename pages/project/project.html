@@ -316,15 +316,12 @@
     $(document).ready(function () {
 
         function calcHeight() {
-            let height = $('.project-container:eq(0)').height() +
-                $('.project-container:eq(1)').height() +
-                $('.arrow-block').height() +
-                $('.burger-block').height();
-            return height;
+            return $('.burger-block').height() + $('.project-left-part:eq(0)').height() +
+                $('.arrow-block').height() + $('.project-left-part:eq(1)').height() + 530;
         }
 
         function setHeight(height) {
-            $('.right-corner-pic').height(height);
+            $('.project-page-right-part').height(height);
         }
 
         function resize() {
