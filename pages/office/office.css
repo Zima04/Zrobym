@@ -106,3 +106,36 @@
         margin-top: 40px;
     }
 }
+
+.photo-container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.photo-container > img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+@media (max-width: 450px) {
+    .photo-container {
+        flex-direction: row;
+        height: unset;
+    }
+
+    /*
+        photo is too big
+    */
+    .photo-container > img:nth-child(1) {
+        display: none;
+    }
+}

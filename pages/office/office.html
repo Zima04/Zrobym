@@ -115,10 +115,17 @@
         </div>
     </div>
     <div class="office-page-right-part">
-        <img src="../../assets/images/office-photos.png"
-             style=" position: relative;
-        width: 100%;
-        height: 100%">
+<!--        <img src="../../assets/images/office-photos.png"-->
+<!--             style=" position: relative;-->
+<!--        width: 100%;-->
+<!--        height: 100%">-->
+        <div class="photo-container">
+            <img src="../../assets/images/office-photos.png" alt="no photo" />
+            <img src="../../assets/images/temp/1.jpg" alt="no photo" />
+            <img src="../../assets/images/temp/2.jpg" alt="no photo" />
+            <img src="../../assets/images/temp/3.jpg" alt="no photo" />
+            <img src="../../assets/images/temp/4.jpg" alt="no photo" />
+        </div>
     </div>
 </div>
 <div style="position: relative;top: -110px;">
@@ -265,6 +272,32 @@
         </div>
     </div>
 </div>
+<!--BACKGROUND-PHOTO-HEIGHT-->
+<script>
+    $(document).ready(function () {
+
+        function calcHeight() {
+            return $('.burger-block').height() + $('.office-left-part:eq(0)').height() +
+                $('.arrow-block').height() + $('.office-left-part:eq(1)').height() + 530;
+        }
+
+        function setHeight(height) {
+            $('.office-page-right-part').height(height);
+        }
+
+        function resize() {
+            setHeight(calcHeight());
+        }
+
+        resize();
+
+        $(window).on('resize', () => {
+            resize();
+        });
+
+    });
+</script>
+
 <!--MENU-MORE-TEXT-->
 <script async>
     $('.menu-label-block').modaal({

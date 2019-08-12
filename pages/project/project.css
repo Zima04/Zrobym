@@ -26,11 +26,6 @@
     position: relative;
     display: flex;
     flex: 1;
-    /*height: inherit;*/
-    /*
-        PHOTO-CONTAINER
-    */
-    /*height: 120vw;*/
 }
 
 .project-container {
@@ -168,7 +163,6 @@
 .photo-container {
     width: 100%;
     height: inherit;
-    background: pink;
     display: flex;
     flex-direction: column;
     overflow: auto;
