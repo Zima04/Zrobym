@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="fix from Vlad">
+    <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +20,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>interests-d</find>
-      <find>.burger-block</find>
-      <find>information-left-part</find>
-      <find>bolder</find>
-      <find>.project-description-container div:nth-child(1)</find>
-      <find>bolder</find>
-      <find>left-part-empty</find>
-      <find>.project-description-container, .more-projects-text</find>
-      <find>buttons-wrapper</find>
-      <find>posadochnaya-header</find>
-      <find>projection-left-part</find>
-      <find>.list-container</find>
-      <find>calc(100% - 75px)</find>
-      <find>calc(100% - 60px)</find>
-      <find>buttons-container</find>
-      <find>.list-content &gt; ul</find>
-      <find>.logo-container</find>
-      <find>list-opt</find>
-      <find>.rev-button span</find>
-      <find>list-con</find>
-      <find>butt</find>
-      <find>infor</find>
-      <find>logo</find>
-      <find>empty-left-part</find>
-      <find>inter</find>
-      <find>.interests-container</find>
-      <find>footer</find>
-      <find>you</find>
-      <find>foote</find>
-      <find>project-header</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,13 +150,7 @@
       <workItem from="1565349140976" duration="46000" />
       <workItem from="1565349372669" duration="31000" />
       <workItem from="1565349428688" duration="25802000" />
-    </task>
-    <task id="LOCAL-00049" summary="fix comments from customers">
-      <created>1561308173089</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1561308173089</updated>
+      <workItem from="1565608138466" duration="4129000" />
     </task>
     <task id="LOCAL-00050" summary="fix Igor page">
       <created>1561410117784</created>
@@ -527,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565376849932</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="pagination fix">
+      <created>1565538864051</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1565538864051</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TodoView">
@@ -570,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="template (posadochnaya) page fonts checked" />
     <MESSAGE value="contacts and payment pages checked" />
     <MESSAGE value="list dividers added" />
     <MESSAGE value="fix furniture page" />
@@ -595,7 +562,8 @@
     <MESSAGE value="Merge branch 'igor-fix_payment' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pages/furniture/furniture.css" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix from Vlad" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix from Vlad" />
+    <MESSAGE value="pagination fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination fix" />
   </component>
   <component name="masterDetails">
     <states>

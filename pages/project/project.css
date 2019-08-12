@@ -26,7 +26,11 @@
     position: relative;
     display: flex;
     flex: 1;
-    height: inherit;
+    /*height: inherit;*/
+    /*
+        PHOTO-CONTAINER
+    */
+    height: 320vh;
 }
 
 .project-container {
@@ -155,4 +159,22 @@
         margin: 15px 0 !important;
         width: 100%;
     }
+}
+
+/*
+    PHOTO-CONTAINER
+*/
+
+.photo-container {
+    width: 100%;
+    height: inherit;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.photo-container > img {
+    width: 100%;
+    height: auto;
 }
