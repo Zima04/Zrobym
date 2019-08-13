@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/press/press.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/press/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,14 +153,8 @@
       <workItem from="1565349140976" duration="46000" />
       <workItem from="1565349372669" duration="31000" />
       <workItem from="1565349428688" duration="25802000" />
-      <workItem from="1565608138466" duration="8213000" />
-    </task>
-    <task id="LOCAL-00053" summary="Finish payment pages.">
-      <created>1561486795019</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1561486795020</updated>
+      <workItem from="1565608138466" duration="8944000" />
+      <workItem from="1565699041471" duration="2402000" />
     </task>
     <task id="LOCAL-00054" summary="Finish posadochnaya page">
       <created>1561558391716</created>
@@ -496,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565616711481</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="fix + office page photp-container">
+      <created>1565623508446</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1565623508446</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix furniture page" />
     <MESSAGE value="fix contacts-mobile" />
     <MESSAGE value="fix payment pages" />
     <MESSAGE value="fix portfolio-page" />
@@ -564,7 +566,8 @@
     <MESSAGE value="pagination fix" />
     <MESSAGE value="photo-container" />
     <MESSAGE value="scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="scroll" />
+    <MESSAGE value="fix + office page photp-container" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix + office page photp-container" />
   </component>
   <component name="masterDetails">
     <states>

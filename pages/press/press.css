@@ -135,12 +135,14 @@ ul {
     z-index: 1;
     background-color: #ffffff;
     position: relative;
+    outline: #e5e5e5 1px solid;
 }
 
 .pagination-container > label {
     position: relative;
-    margin-right: 10px;
     cursor: pointer;
+    width: 15px;
+    text-align: center;
 }
 
 .pagination-container > label:last-child {
@@ -149,25 +151,36 @@ ul {
 
 .pagination-container > label > .checkmark {
     position: absolute;
-    top: -17px;
-    width: 10px;
-    height: 10px;
+    top: -16px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
     border-radius: 10px;
     background-color: #C2C2C2;
     transition: 0.3s;
     z-index: 5;
 }
 
+.pagination-container:nth-child(2) {
+    background: blue;
+}
+
+/*.pagination-container:nth-child(1) > label > .checkmark {*/
+/*    top: -4px;*/
+/*    left: 2px;*/
+/*}*/
+
 .pagination-container > input[type="radio"],
 .pagination-container > label > span {
+    margin: 0;
     visibility: hidden;
 }
 
 .pagination-container > input[type="radio"]:checked + label > .checkmark {
-    top: -18px;
-    left: -2.5px;
-    width: 12px;
-    height: 12px;
+    top: -17px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
     background-color: #CDA174;
     z-index: 5;
 }
