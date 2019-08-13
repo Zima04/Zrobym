@@ -68,6 +68,7 @@ ul {
 .categories > label {
     color: #AFAFAF;
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 .year-label {

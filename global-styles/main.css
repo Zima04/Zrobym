@@ -1699,12 +1699,6 @@ textarea {
     }
 }
 
-/*@media screen and (max-width: 1300px) {*/
-/*    .rev-button span {*/
-/*        font-size: 1vw;*/
-/*    }*/
-/*}*/
-
 @media screen and (min-width: 1920px) {
     body {
         font-size: 1vw;
@@ -1716,6 +1710,12 @@ textarea {
     #philosophy-header, #team-block-header, #footer-header, #map-header {
         font-size: 36px;
     }
+}
+
+@media screen and (max-width: 850px) {
+   .interests-description{
+       padding: 0;
+   }
 }
 
 @media screen and (max-width: 450px) {
