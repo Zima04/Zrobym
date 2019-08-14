@@ -113,7 +113,7 @@ main {
     cursor: pointer;
 }
 
-.list-option input[type="checkbox"]:checked + .list-option-title > div:nth-child(1) > img {
+.list-option input:checked + .list-option-title > div:nth-child(1) > img {
     background-image: url(../assets/icons/Black/checked.png);
     background-size: 35px 35px;
 }
