@@ -118,6 +118,11 @@ main {
     background-size: 35px 35px;
 }
 
+.list-option input[type="radio"]:checked + .list-option-title > div:nth-child(1) > img {
+    background-image: url(../assets/icons/Black/checked.png);
+    background-size: 35px 35px;
+}
+
 .checkmark {
     visibility: hidden;
 }
