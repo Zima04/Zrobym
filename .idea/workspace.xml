@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebc8038-552b-4c0b-a3a2-ce17d9a92790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/office/office.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/office/office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/press.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/press/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/press/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-styles/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles/payment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/payment-second/double_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-second/double_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,14 +151,8 @@
       <workItem from="1565349372669" duration="31000" />
       <workItem from="1565349428688" duration="25802000" />
       <workItem from="1565608138466" duration="8944000" />
-      <workItem from="1565699041471" duration="2402000" />
-    </task>
-    <task id="LOCAL-00054" summary="Finish posadochnaya page">
-      <created>1561558391716</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1561558391716</updated>
+      <workItem from="1565699041471" duration="3080000" />
+      <workItem from="1565774153293" duration="393000" />
     </task>
     <task id="LOCAL-00055" summary="Merge branch 'master' of https://github.com/Zima04/zrobym.github.io into igor-fix_payment&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1561714345027</created>
@@ -499,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565623508446</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="pagination fix">
+      <created>1565701514905</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1565701514905</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TodoView">
@@ -563,11 +561,11 @@
     <MESSAGE value="Merge branch 'igor-fix_payment' of https://github.com/Zima04/Zrobym&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pages/furniture/furniture.css" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix from Vlad" />
-    <MESSAGE value="pagination fix" />
     <MESSAGE value="photo-container" />
     <MESSAGE value="scroll" />
     <MESSAGE value="fix + office page photp-container" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix + office page photp-container" />
+    <MESSAGE value="pagination fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination fix" />
   </component>
   <component name="masterDetails">
     <states>
