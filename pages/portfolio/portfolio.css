@@ -179,7 +179,7 @@ ul {
     color: #CDA174;
 }
 
-.buttons-container{
+.buttons-container {
     display: flex;
     flex-direction: column;
     padding: 30px 0 8vw;
@@ -253,6 +253,15 @@ ul {
     .projects-container {
         grid-template-columns: 1fr 1fr;
     }
+
+    .project-title {
+        font-size: 2.2vw;
+    }
+
+    .project-description {
+        font-size: 1.5vw;
+    }
+
 }
 
 @media screen and (max-width: 450px) {

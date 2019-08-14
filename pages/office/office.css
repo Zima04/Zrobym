@@ -7,6 +7,7 @@
 
 .office-header {
     font-size: 3.6vw;
+    margin-bottom: 10px;
 }
 
 .office-page-left-part {
@@ -16,15 +17,18 @@
 }
 
 .office-page-right-part {
+    height: 180vh;
     display: flex;
     flex: 1;
     position: relative;
 }
 
 .office-container {
+    height: 90vh;
     background: #ffffff;
     display: flex;
     flex-direction: row;
+    align-items: center;
     color: #000000;
     position: relative;
     z-index: 1;
@@ -52,11 +56,25 @@
     font-family: "Muller Medium";
 }
 
-.arrow-block {
-    position: absolute;
+.photo-container {
     width: 100%;
-    z-index: 2;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
 }
+
+.photo-container > img {
+    width: auto;
+    height: 70vw;
+}
+
+.photo-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
 
 @media (max-width: 850px) {
     .right-corner-pic {
@@ -76,10 +94,7 @@
 
     .office-page {
         flex-direction: column;
-    }
-
-    .office-page-left-part {
-        padding-top: 110px !important;
+        top: 0;
     }
 
     .office-left-part {
@@ -87,6 +102,8 @@
     }
 
     .office-container {
+        height: auto;
+        padding-top: 20px;
         margin: 0;
         text-align: justify;
     }
@@ -104,38 +121,11 @@
 
     .address {
         margin-top: 40px;
+        text-align: center;
     }
-}
 
-.photo-container {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-}
-
-.photo-container > img {
-    width: 100%;
-    height: auto;
-}
-
-.photo-container::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    background: transparent;
-}
-
-@media (max-width: 450px) {
     .photo-container {
         flex-direction: row;
         height: unset;
-    }
-
-    /*
-        photo is too big
-    */
-    .photo-container > img:nth-child(1) {
-        display: none;
     }
 }
