@@ -62,7 +62,7 @@
 }
 
 .project {
-    height: 55px;
+    padding: 1vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,9 +98,34 @@
     background-position: center;
 }
 
+.photo-container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.photo-container > img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+
 @media (max-width: 450px) {
     body {
         font-size: 16px;
+    }
+
+    .project {
+        height: 55px;
+        padding: 0;
     }
 
     .project-header {
@@ -117,12 +142,12 @@
     }
 
     .project-left-part {
-        padding-top: 0 !important;
+        padding: 15px !important;
     }
 
     .project-left-part > p {
         text-align: justify;
-        padding-bottom: 30px !important;
+        padding: 0 !important;
     }
 
     .project-left-part > img {
@@ -153,41 +178,14 @@
         margin: 15px 0 !important;
         width: 100%;
     }
-}
 
-/*
-    PHOTO-CONTAINER
-*/
-
-.photo-container {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-}
-
-.photo-container > img {
-    width: 100%;
-    height: auto;
-}
-
-.photo-container::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    background: transparent;
-}
-
-@media (max-width: 450px) {
     .photo-container {
         flex-direction: row;
         height: unset;
     }
 
-    /*
-        photo is too big
-    */
-    .photo-container > img:nth-child(1) {
-        display: none;
+    .photo-container > img {
+        width: auto;
+        height: 70vh;
     }
 }

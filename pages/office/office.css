@@ -65,8 +65,8 @@
 }
 
 .photo-container > img {
-    width: auto;
-    height: 70vw;
+    width: 100%;
+    height: auto;
 }
 
 .photo-container::-webkit-scrollbar {
@@ -127,5 +127,10 @@
     .photo-container {
         flex-direction: row;
         height: unset;
+    }
+
+    .photo-container > img {
+        width: auto;
+        height: 70vh;
     }
 }
