@@ -135,7 +135,6 @@ ul {
     z-index: 1;
     background-color: #ffffff;
     position: relative;
-    outline: #e5e5e5 1px solid;
 }
 
 .pagination-container > label {
@@ -362,6 +361,10 @@ ul {
 
     .youtube-image {
         display: none;
+    }
+
+    .youtube-description{
+        padding: 15px;
     }
 
     .empty-left-part{

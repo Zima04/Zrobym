@@ -23,6 +23,7 @@
 }
 
 .project-page-right-part {
+    height: 300vh;
     position: relative;
     display: flex;
     flex: 1;
@@ -91,11 +92,16 @@
     justify-content: center;
 }
 
+.logo-container {
+    justify-content: start;
+}
+
 .icon.facebook-icon-black {
     width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
+    height: 17px;
+    background-size: 20px 17px;
     background-position: center;
+    margin: 0;
 }
 
 .photo-container {
@@ -137,7 +143,6 @@
     }
 
     .project-page-left-part {
-        padding-top: 110px !important;
         margin-top: 0 !important;
     }
 
@@ -187,5 +192,10 @@
     .photo-container > img {
         width: auto;
         height: 70vh;
+    }
+
+    .logo-container {
+        padding: 10px;
+        justify-content: center;
     }
 }

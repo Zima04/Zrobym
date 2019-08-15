@@ -13,7 +13,8 @@
 <hr class="left-line"/>
 <hr class="right-line"/>
 <div class="burger-block" style="position: absolute;z-index: 3;">
-    <div class="burger-black">
+    <div class="logo-container">
+        <img src="../../assets/logos/Zrobym_logo_Black.svg">
     </div>
 </div>
 <a href="#inline" class="menu-label-block">
@@ -259,18 +260,18 @@
     $(document).ready(function () {
 
         function calcHeight() {
-            let height = $('.team-card-container').height() +
+            let height =  +
                 $('.arrow-block').height() +
                 $('.burger-block').height();
             return height;
         }
 
         function setHeight(height) {
-            $('.right-corner-pic').height(height);
+            $('.project-page').height(height);
         }
 
         function resize() {
-            setHeight(calcHeight());
+            $('.team-card-container').height()
         }
 
         resize();
