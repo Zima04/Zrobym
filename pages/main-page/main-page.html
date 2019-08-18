@@ -82,6 +82,17 @@
         </div>
     </div>
 </div>
+<div class="background-image-mobile">
+    <div class="mobile-menu-block">
+    </div>
+    <div class="mobile-logo-block">
+        <div class="burger-white" style="height: 170px;">
+        </div>
+    </div>
+    <div class="mobile-arrow-block">
+        <img class="arrow arrow-animate" src="../../assets/icons/White/arrow.svg" style="height: 50%">
+    </div>
+</div>
 <div class="video-container">
     <video autoplay muted loop class="fullscreen-bg__video">
         <source src="../../assets/video/architecture.mp4" type="video/mp4">
@@ -108,12 +119,10 @@
     </div>
     <hr class="gorizontal-line"/>
     <div class="arrow-block">
-        <!--                <div class="arrow arrow-animate"></div>-->
-        <img class=" arrow arrow-animate" src="../../assets/icons/White/arrow.svg">
+        <img class="arrow arrow-animate" src="../../assets/icons/White/arrow.svg">
         <div class="language">RU</div>
     </div>
 </div>
-
 <div class="about-container">
     <div class="left-part-about" id="about-header-block">
         <h1 class="header-label" id="about-header">
@@ -289,7 +298,7 @@
                 <h4>Профессиональная команда</h4>
                 <p>У нас высокопрофессиональная команда архитекторов, дизайнеров, смежников</p>
                 <div style="padding: 20px 0">
-                    <div class="rev-button white">
+                    <div class="rev-button">
                         <a href="#"><span>Вся команда</span></a>
                     </div>
                 </div>
@@ -804,22 +813,6 @@
             $('#panel-subheader').removeClass('rev-slide');
         }, 1500);
     }
-</script>
-<!--CHANGE COLOR MENU-LABEL-->
-<script async>
-
-    var postion = $('#feedback-container').offset().top - $('body').height() / 2,
-        height = $('#feedback-container').height();
-    $(document).on('scroll', function () {
-        var scroll = $(document).scrollTop();
-        if (scroll > postion && scroll < (postion + height + $('body').height() / 2)) {
-            $('.menu-label').addClass('menu-white-color');
-            $('.bar').addClass('menu-white-bg');
-        } else {
-            $('.menu-label').removeClass('menu-white-color');
-            $('.bar').removeClass('menu-white-bg');
-        }
-    });
 </script>
 <!--START COUNTER OF NUMBERS-->
 <script async>

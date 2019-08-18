@@ -88,7 +88,7 @@ html, body {
 
 .anim-philosophy {
     position: relative;
-    top: 50%;
+    top: 30%;
 }
 
 ul {
@@ -961,10 +961,6 @@ h1, h2, h3, h4, h5, .more-button, .map-header-label {
     margin-left: calc(20% + 20px);
 }
 
-.team-block .rev-button span {
-    background: #000000;
-}
-
 .team-block .rev-block {
     top: 0;
 }
@@ -1753,7 +1749,8 @@ textarea {
     .right-part-chief,
     .feedback-container,
     .language-block,
-    .language {
+    .language,
+    .video-container {
         display: none
     }
 
@@ -1876,6 +1873,7 @@ textarea {
 
     .menu-icon .bar {
         margin-top: 0;
+        background: #ffffff;
     }
 
     .burger {
@@ -2151,7 +2149,7 @@ textarea {
         flex-direction: column;
     }
 
-    .left-part-chief{
+    .left-part-chief {
         padding-top: 0;
     }
 
