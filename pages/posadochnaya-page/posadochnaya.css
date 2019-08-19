@@ -217,6 +217,10 @@ main .information-container:nth-child(2) {
 
 @media (max-width: 450px) {
 
+    .video-container{
+        display: block;
+    }
+
     main {
         padding: 0;
     }

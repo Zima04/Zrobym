@@ -94,7 +94,7 @@
 
     .office-page {
         flex-direction: column;
-        top: 0;
+        top: 0 !important;
     }
 
     .office-left-part {

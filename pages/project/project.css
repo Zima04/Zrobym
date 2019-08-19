@@ -139,6 +139,7 @@
     }
 
     .project-page {
+        top: 0 !important;
         flex-direction: column;
     }
 
@@ -152,7 +153,7 @@
 
     .project-left-part > p {
         text-align: justify;
-        padding: 0 !important;
+        padding: 10px 0 !important;
     }
 
     .project-left-part > img {

@@ -74,7 +74,7 @@ main {
 }
 
 .person-name {
-    font-size: 16px;
+    font-size: 1vw;
     margin-top: 20px;
     margin-bottom: 5px;
     display: flex;
@@ -84,7 +84,7 @@ main {
 }
 
 .person-position {
-    font-size: 14px;
+    font-size: 0.7vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +113,14 @@ main {
 }
 
 @media (max-width: 450px) {
+    .person-name{
+        font-size: 20px;
+    }
+
+    .person-position{
+        font-size: 14px;
+    }
+
     .big-padding-top {
         padding-top: 40px;
     }
