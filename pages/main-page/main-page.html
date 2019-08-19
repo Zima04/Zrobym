@@ -382,9 +382,9 @@
         </div>
         <div class="feedback-right-part">
             <div class="item">
-                <div>
-                    <div class="rev-button">
-                        <span>отправить</span>
+                <div class="buttons-container" style="width: calc(80% + 20px);">
+                    <div class="rev-button black">
+                        <a href="#"><span>отправить</span></a>
                     </div>
                 </div>
             </div>
@@ -926,8 +926,7 @@
         })
     });
 </script>
-
-<script>
+<script async>
     $(document).ready(function () {
 
         function resize() {
@@ -941,6 +940,23 @@
         });
 
     });
+</script>
+<script async>
+    $('.menu-label-block').modaal({
+        fullscreen: true,
+        background: "#000000",
+        overlay_opacity: 0.9,
+        hide_close: true,
+        before_open() {
+            $('.menu-label-block').addClass("click");
+        },
+        after_close() {
+            $('.menu-label-block').removeClass("click");
+        }
+    });
+    $(".close").click(function () {
+        $('.menu-label-block').modaal('close');
+    })
 </script>
 </body>
 </html>
